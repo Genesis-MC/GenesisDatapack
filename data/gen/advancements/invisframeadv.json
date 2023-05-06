@@ -1,0 +1,12 @@
+
+{ "criteria": 
+    {
+    "unlocked": {
+    "trigger": "minecraft:recipe_unlocked",
+    "conditions": { "recipe": "gen:recipes/invisframe" }
+    }
+    },
+    "rewards": {
+    "function": "utils:invisframe"
+    }
+} 
