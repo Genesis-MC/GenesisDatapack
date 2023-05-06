@@ -1,5 +1,5 @@
 
-say Genesis Datapack Reloaded
+say Project Genesis Datapack Reloaded
 
 scoreboard objectives add worldlvl dummy
 scoreboard objectives add playerlvl dummy
