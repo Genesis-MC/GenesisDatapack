@@ -13,5 +13,5 @@ execute as @p[sort=nearest,limit=1] if score @s worldTime matches 1 run function
 #execute as @e[type=armor_stand,tag=DummyBoi] at @s if score @s playerlvl matches 3 run particle soul ~ ~1 ~ 0 0 0 .1 1
 #execute as @e[type=armor_stand,tag=DummyBoi] at @s if score @s playerlvl matches 4 run particle totem_of_undying ~ ~1 ~ 0 0 0 .1 1
 
-execute as @e[tag=!identified,nbt={HurtTime:0s},type=!player] at @s run function gen:misc/setmoblevel
+execute as @e[tag=!identified,nbt={HurtTime:0s},type=!player,type=!armor_stand] at @s run function gen:misc/setmoblevel
 
