@@ -10,5 +10,3 @@ scoreboard objectives add timer1 dummy
 scoreboard objectives add timer2 dummy
 scoreboard players set @e timer1 50
 scoreboard players set @e timer2 0
-
-scoreboard objectives add killshep killed:sheep
