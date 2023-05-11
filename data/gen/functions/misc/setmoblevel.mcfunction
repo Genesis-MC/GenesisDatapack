@@ -24,6 +24,7 @@ scoreboard players operation @s entitylvl += @e[type=armor_stand,tag=GenesisArmo
 #Determines if mob will become custom mob or not, chances increase depending on world level
 execute if score @e[type=armor_stand,tag=GenesisArmorstand,limit=1] worldlvl matches 3..8 if predicate gen:random40 run tag @s add CustomMob
 execute if score @e[type=armor_stand,tag=GenesisArmorstand,limit=1] worldlvl matches 9.. if predicate gen:random50 run tag @s add CustomMob
+execute as @s[tag=CustomMob] function gen:misc/changetocustommob
 
 #Naming
 data modify entity @s CustomNameVisible set value 1b
