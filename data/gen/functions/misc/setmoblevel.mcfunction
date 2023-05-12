@@ -21,13 +21,11 @@ execute if score @s entitylvl > @a[sort=nearest,limit=1] entitylvl run attribute
 #Adds world level
 scoreboard players operation @s entitylvl += @e[type=armor_stand,tag=GenesisArmorstand,limit=1] worldlvl
 
-#Determines if mob will become custom mob or not, chances increase depending on world level
-execute if score @e[type=armor_stand,tag=GenesisArmorstand,limit=1] worldlvl matches 3..8 if predicate gen:random40 run tag @s add CustomMob
-execute if score @e[type=armor_stand,tag=GenesisArmorstand,limit=1] worldlvl matches 9.. if predicate gen:random50 run tag @s add CustomMob
-execute as @s[tag=CustomMob] function gen:misc/changetocustommob
+#Determines if mob will become custom mob or not
+execute if score @e[type=armor_stand,tag=GenesisArmorstand,limit=1] worldlvl matches 3.. if predicate gen:random25 run tag @s add CustomMob
+execute as @s[tag=CustomMob] run function gen:misc/changetocustommob
 
 #Naming
-data modify entity @s CustomNameVisible set value 1b
 #----------------------------------------------------------------------------------------------------------
 execute if score @s entitylvl matches 1 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ¹』"}'
 execute if score @s entitylvl matches 2 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ²』"}'
@@ -69,7 +67,7 @@ execute if score @s entitylvl matches 37 run data modify entity @s CustomName se
 execute if score @s entitylvl matches 38 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³⁸』"}'
 execute if score @s entitylvl matches 39 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³⁹』"}'
 #----------------------------------------------------------------------------------------------------------
-#execute if entity @s[tag=CustomMob] run function 
+#Vanilla Mobs
 execute if entity @s[tag=!CustomMob, type=allay] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Allay"}]'}
 execute if entity @s[tag=!CustomMob, type=axolotl] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Axolotl"}]'}
 execute if entity @s[tag=!CustomMob, type=bat] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Bat"}]'}
@@ -100,6 +98,53 @@ execute if entity @s[tag=!CustomMob, type=tropical_fish] at @e[tag=GenesisArmors
 execute if entity @s[tag=!CustomMob, type=turtle] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Turtle"}]'}
 execute if entity @s[tag=!CustomMob, type=villager] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Villager"}]'}
 execute if entity @s[tag=!CustomMob, type=wandering_trader] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Wandering Trader"}]'}
+execute if entity @s[tag=!CustomMob, type=bee] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Bee"}]'}
+execute if entity @s[tag=!CustomMob, type=cave_spider] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Cave Spider"}]'}
+execute if entity @s[tag=!CustomMob, type=dolphin] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Dolphin"}]'}
+execute if entity @s[tag=!CustomMob, type=enderman] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Enderman"}]'}
+execute if entity @s[tag=!CustomMob, type=goat] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Goat"}]'}
+execute if entity @s[tag=!CustomMob, type=iron_golem] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Iron Golem"}]'}
+execute if entity @s[tag=!CustomMob, type=llama] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Llama"}]'}
+execute if entity @s[tag=!CustomMob, type=panda] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Panda"}]'}
+execute if entity @s[tag=!CustomMob, type=piglin] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Piglin"}]'}
+execute if entity @s[tag=!CustomMob, type=polar_bear] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Polar Bear"}]'}
+execute if entity @s[tag=!CustomMob, type=spider] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Spider"}]'}
+execute if entity @s[tag=!CustomMob, type=trader_llama] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Trader Llama"}]'}
+execute if entity @s[tag=!CustomMob, type=wolf] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Wolf"}]'}
+execute if entity @s[tag=!CustomMob, type=zombified_piglin] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Zombified Piglin"}]'}
+execute if entity @s[tag=!CustomMob, type=blaze] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Blaze"}]'}
+execute if entity @s[tag=!CustomMob, type=creeper] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Creeper"}]'}
+execute if entity @s[tag=!CustomMob, type=drowned] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Drowned"}]'}
+execute if entity @s[tag=!CustomMob, type=elder_guardian] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Elder Guardian"}]'}
+execute if entity @s[tag=!CustomMob, type=endermite] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Endermite"}]'}
+execute if entity @s[tag=!CustomMob, type=evoker] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Evoker"}]'}
+execute if entity @s[tag=!CustomMob, type=ghast] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Ghast"}]'}
+execute if entity @s[tag=!CustomMob, type=guardian] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Guardian"}]'}
+execute if entity @s[tag=!CustomMob, type=hoglin] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Hoglin"}]'}
+execute if entity @s[tag=!CustomMob, type=husk] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Husk"}]'}
+execute if entity @s[tag=!CustomMob, type=magma_cube] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Magma Cube"}]'}
+execute if entity @s[tag=!CustomMob, type=phantom] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Phantom"}]'}
+execute if entity @s[tag=!CustomMob, type=piglin_brute] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Piglin Brute"}]'}
+execute if entity @s[tag=!CustomMob, type=pillager] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Pillager"}]'}
+execute if entity @s[tag=!CustomMob, type=ravager] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Ravager"}]'}
+execute if entity @s[tag=!CustomMob, type=shulker] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Shulker"}]'}
+execute if entity @s[tag=!CustomMob, type=silverfish] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Silverfish"}]'}
+execute if entity @s[tag=!CustomMob, type=skeleton] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Skeleton"}]'}
+execute if entity @s[tag=!CustomMob, type=slime] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Slime"}]'}
+execute if entity @s[tag=!CustomMob, type=stray] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Stray"}]'}
+execute if entity @s[tag=!CustomMob, type=vex] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Vex"}]'}
+execute if entity @s[tag=!CustomMob, type=vindicator] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Vindicator"}]'}
+execute if entity @s[tag=!CustomMob, type=warden] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Warden"}]'}
+execute if entity @s[tag=!CustomMob, type=witch] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Witch"}]'}
+execute if entity @s[tag=!CustomMob, type=wither_skeleton] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Wither Skeleton"}]'}
+execute if entity @s[tag=!CustomMob, type=zoglin] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Zoglin"}]'}
+execute if entity @s[tag=!CustomMob, type=zombie] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Zombie"}]'}
+execute if entity @s[tag=!CustomMob, type=zombie_villager] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Zombie Villager"}]'}
+#execute if entity @s[tag=!CustomMob, type=camel] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Camel"}]'}
+#execute if entity @s[tag=!CustomMob, type=sniffer] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Sniffer"}]'}
+#----------------------------------------------------------------------------------------------------------
+#Custom Mobs
+execute if entity @s[tag=MutatedZombie] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Mutated Zombie"}]'}
 #----------------------------------------------------------------------------------------------------------
 execute at @e[tag=GenesisArmorstand,type=armor_stand] run data modify entity @s CustomName set from block ~ ~-1 ~ Text1
 execute at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ air
