@@ -1,5 +1,5 @@
 #Runs 4 times every second to mitigate lag
-execute as @a run say test
+
 #Gives a mob a level and custom name
 execute as @e[tag=!identified,nbt={HurtTime:0s},type=!player,type=!armor_stand] at @s run function gen:core/internal/setmoblevel
 
