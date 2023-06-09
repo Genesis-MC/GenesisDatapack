@@ -10,7 +10,7 @@ All the custom equipable gear uses [tungsten](https://github.com/PuckiSilver/mc-
 
 For creating such a piece of equipment, this just means that you have to add a specific attribute modifier per slot it should be detected in to it.
 In a give command, it looks like this:
-```mcfunction
+```hs
 give @s warped_fungus_on_a_stick{AttributeModifiers:[{
         AttributeName:"minecraft:generic.luck",
         Name:"tungsten.mainhand",
