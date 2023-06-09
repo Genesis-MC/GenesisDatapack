@@ -1,5 +1,6 @@
 {
 	"values": [
-	"gen:reload"
+		"tungsten:load",
+		"gen:reload"
 	]
 }
