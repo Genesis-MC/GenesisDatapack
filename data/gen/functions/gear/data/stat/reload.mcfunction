@@ -97,3 +97,5 @@ scoreboard objectives add gen.stat.mana_pool.feet dummy
 scoreboard objectives add gen.stat.mana_regen.feet dummy
 scoreboard objectives add gen.stat.ability_haste.feet dummy
 scoreboard objectives add gen.stat.set.feet dummy
+
+tellraw @a[tag=gen.dev.debug] ["",{"text":"Genesis","color":"#DF9DE3"},{"text":" ->","color":"yellow"},{"text":" Sucessfully reloaded","color":"green"},{"text":" gear/","color":"yellow"},{"text":"data/stat","color":"gold"}]
