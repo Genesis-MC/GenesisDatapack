@@ -1,0 +1,1 @@
+give @s minecraft:player_head{SkullOwner:{Name:"genesis.block.crop.seed.foobar"},genesis:{phead:{detect:1b}}}

@@ -1,0 +1,29 @@
+{
+  "parent": "gen:phead/root",
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:player_head"
+              ],
+	      "nbt": "{genesis:{phead:{detect:1b}}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "place"
+    ]
+  ],
+  "rewards": {
+    "function": "gen:phead/internal/place_advancement_triggered"
+  }
+}
