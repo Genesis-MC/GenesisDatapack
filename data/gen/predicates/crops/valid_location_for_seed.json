@@ -1,11 +1,25 @@
 {
-  "condition": "location_check",
-  "offsetY": -1,
-  "predicate": {
-    "block": {
-      "blocks": [
-        "minecraft:farmland"
-      ]
+  "condition": "all_of",
+  "terms": [
+    {
+      "condition": "location_check",
+      "offsetY": -1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:farmland"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetY": 1,
+      "predicate": {
+        "block": {
+          "tag": "minecraft:replaceable"
+        }
+      }
     }
-  }
+  ]
 }
