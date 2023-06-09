@@ -1,0 +1,628 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "location_check",
+      "offsetX": -3,
+      "offsetZ": -3,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": -3,
+      "offsetZ": -2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": -3,
+      "offsetZ": -1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": -3,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": -3,
+      "offsetZ": 1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": -3,
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": -3,
+      "offsetZ": 3,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": -2,
+      "offsetZ": -3,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": -2,
+      "offsetZ": -2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": -2,
+      "offsetZ": -1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": -2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": -2,
+      "offsetZ": 1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": -2,
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": -2,
+      "offsetZ": 3,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": -1,
+      "offsetZ": -3,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": -1,
+      "offsetZ": -2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": -1,
+      "offsetZ": -1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": -1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": -1,
+      "offsetZ": 1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": -1,
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": -1,
+      "offsetZ": 3,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetZ": -3,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetZ": -2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetZ": -1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetZ": 1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetZ": 3,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": 1,
+      "offsetZ": -3,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": 1,
+      "offsetZ": -2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": 1,
+      "offsetZ": -1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": 1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": 1,
+      "offsetZ": 1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": 1,
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": 1,
+      "offsetZ": 3,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": 2,
+      "offsetZ": -3,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": 2,
+      "offsetZ": -2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": 2,
+      "offsetZ": -1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": 2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": 2,
+      "offsetZ": 1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": 2,
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": 2,
+      "offsetZ": 3,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": 3,
+      "offsetZ": -3,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": 3,
+      "offsetZ": -2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": 3,
+      "offsetZ": -1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": 3,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": 3,
+      "offsetZ": 1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": 3,
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetX": 3,
+      "offsetZ": 3,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head",
+            "minecraft:player_wall_head"
+          ]
+        }
+      }
+    }
+  ]
+}
