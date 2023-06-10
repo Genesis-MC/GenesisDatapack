@@ -17,6 +17,6 @@
 #   - array<Item> models : Items to use as display models
 #####################################################################
 
-data modify storage gen:crops to_register append value {id:"genesis:foo",growth:{time:{min:1000,max:2000},stages:7},display:{stages_per_model:1,models:[{Count:1b,id:"minecraft:diamond"}]}}
+data modify storage gen:crops to_register append value {id:"genesis:foo",growth:{time:{min:20,max:40},stages:100000000},display:{stages_per_model:100000000,models:[{Count:1b,id:"minecraft:diamond"}]}}
 
-data modify storage gen:crops to_register append value {id:"genesis:bar",growth:{time:{min:1000,max:2000},stages:7},display:{stages_per_model:1,models:[{Count:1b,id:"minecraft:coal"}]}}
+data modify storage gen:crops to_register append value {id:"genesis:bar",growth:{time:{min:100,max:120},stages:5},display:{stages_per_model:1,models:[{Count:1b,id:"minecraft:oak_pressure_plate"},{Count:1b,id:"minecraft:oak_slab"},{Count:1b,id:"minecraft:oak_stairs"},{Count:1b,id:"minecraft:oak_planks"},{Count:1b,id:"minecraft:oak_log"}]}}
