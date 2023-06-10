@@ -1,0 +1,1 @@
+function gen:core/internal/time/tick
