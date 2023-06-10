@@ -4,7 +4,7 @@
 #
 # Gets the index (int) in the registry of a crop id (string)
 # Returns -1 when not found
-# Index is returned in score gen.crops.calc index
+# Index is returned in score gen.crops.calc .index
 # Storage input :
 # - gen:crops :
 #   - search_string : string to get the index of
