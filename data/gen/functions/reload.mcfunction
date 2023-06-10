@@ -11,9 +11,10 @@ function gen:professions/reload
 function gen:spawning/reload
 
 # add scoreboards
-scoreboard objectives add worldTime dummy
-scoreboard objectives add worldlvl dummy
-scoreboard objectives add entitylvl dummy
+scoreboard objectives add genesis.world_time dummy
+scoreboard objectives add genesis.world_lvl dummy
+scoreboard objectives add genesis.entity_lvl dummy
+scoreboard objectives add gen.temp dummy
 
 # schedule functions
 schedule function gen:core/internal/delay 1s replace

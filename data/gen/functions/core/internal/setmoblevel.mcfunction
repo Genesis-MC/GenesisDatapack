@@ -4,62 +4,62 @@
 tag @s add notYetNamed
 
 #Calculating mob level
-scoreboard players operation @s entitylvl += @p entitylvl
+scoreboard players operation @s genesis.entity_lvl += @p genesis.entity_lvl
 #Adding Randomizer values
-execute if predicate gen:random50 run scoreboard players add @s entitylvl 1
-execute if predicate gen:random50 run scoreboard players add @s entitylvl 1
-execute if predicate gen:random50 run scoreboard players add @s entitylvl 1
-execute if score @s entitylvl matches 2.. if predicate gen:random50 run scoreboard players remove @s entitylvl 1
-execute if score @s entitylvl matches 2.. if predicate gen:random50 run scoreboard players remove @s entitylvl 1
-execute if score @s entitylvl matches 2.. if predicate gen:random50 run scoreboard players remove @s entitylvl 1
+execute if predicate gen:random50 run scoreboard players add @s genesis.entity_lvl 1
+execute if predicate gen:random50 run scoreboard players add @s genesis.entity_lvl 1
+execute if predicate gen:random50 run scoreboard players add @s genesis.entity_lvl 1
+execute if score @s genesis.entity_lvl matches 2.. if predicate gen:random50 run scoreboard players remove @s genesis.entity_lvl 1
+execute if score @s genesis.entity_lvl matches 2.. if predicate gen:random50 run scoreboard players remove @s genesis.entity_lvl 1
+execute if score @s genesis.entity_lvl matches 2.. if predicate gen:random50 run scoreboard players remove @s genesis.entity_lvl 1
 #Adding world level
-scoreboard players operation @s entitylvl += @e[type=armor_stand,tag=GenesisArmorstand,limit=1] worldlvl
+scoreboard players operation @s genesis.entity_lvl += @e[type=armor_stand,tag=GenesisArmorstand,limit=1] genesis.world_lvl
 
 #Determines if mob will become custom mob or not
-execute if score @e[type=armor_stand,tag=GenesisArmorstand,limit=1] worldlvl matches 3.. if predicate gen:random25 run tag @s add CustomMob
+execute if score @e[type=armor_stand,tag=GenesisArmorstand,limit=1] genesis.world_lvl matches 3.. if predicate gen:random25 run tag @s add CustomMob
 execute as @s[tag=CustomMob] run function gen:core/internal/changetocustommob
 
 #Naming
 #----------------------------------------------------------------------------------------------------------
-execute if score @s entitylvl matches 1 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ¹』"}'
-execute if score @s entitylvl matches 2 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ²』"}'
-execute if score @s entitylvl matches 3 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³』"}'
-execute if score @s entitylvl matches 4 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ⁴』"}'
-execute if score @s entitylvl matches 5 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ⁵』"}'
-execute if score @s entitylvl matches 6 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ⁶』"}'
-execute if score @s entitylvl matches 7 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ⁷』"}'
-execute if score @s entitylvl matches 8 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ⁸』"}'
-execute if score @s entitylvl matches 9 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ⁹』"}'
-execute if score @s entitylvl matches 10 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ¹⁰』"}'
-execute if score @s entitylvl matches 11 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ¹¹』"}'
-execute if score @s entitylvl matches 12 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ¹²』"}'
-execute if score @s entitylvl matches 13 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ¹³』"}'
-execute if score @s entitylvl matches 14 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ¹⁴』"}'
-execute if score @s entitylvl matches 15 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ¹⁵』"}'
-execute if score @s entitylvl matches 16 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ¹⁶』"}'
-execute if score @s entitylvl matches 17 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ¹⁷』"}'
-execute if score @s entitylvl matches 18 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ¹⁸』"}'
-execute if score @s entitylvl matches 19 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ¹⁹』"}'
-execute if score @s entitylvl matches 20 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ²⁰』"}'
-execute if score @s entitylvl matches 21 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ²¹』"}'
-execute if score @s entitylvl matches 22 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ²²』"}'
-execute if score @s entitylvl matches 23 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ²³』"}'
-execute if score @s entitylvl matches 24 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ²⁴』"}'
-execute if score @s entitylvl matches 25 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ²⁵』"}'
-execute if score @s entitylvl matches 26 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ²⁶』"}'
-execute if score @s entitylvl matches 27 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ²⁷』"}'
-execute if score @s entitylvl matches 28 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ²⁸』"}'
-execute if score @s entitylvl matches 29 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ²⁹』"}'
-execute if score @s entitylvl matches 30 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³⁰』"}'
-execute if score @s entitylvl matches 31 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³¹』"}'
-execute if score @s entitylvl matches 32 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³²』"}'
-execute if score @s entitylvl matches 33 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³³』"}'
-execute if score @s entitylvl matches 34 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³⁴』"}'
-execute if score @s entitylvl matches 35 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³⁵』"}'
-execute if score @s entitylvl matches 36 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³⁶』"}'
-execute if score @s entitylvl matches 37 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³⁷』"}'
-execute if score @s entitylvl matches 38 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³⁸』"}'
-execute if score @s entitylvl matches 39 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³⁹』"}'
+execute if score @s genesis.entity_lvl matches 1 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ¹』"}'
+execute if score @s genesis.entity_lvl matches 2 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ²』"}'
+execute if score @s genesis.entity_lvl matches 3 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³』"}'
+execute if score @s genesis.entity_lvl matches 4 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ⁴』"}'
+execute if score @s genesis.entity_lvl matches 5 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ⁵』"}'
+execute if score @s genesis.entity_lvl matches 6 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ⁶』"}'
+execute if score @s genesis.entity_lvl matches 7 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ⁷』"}'
+execute if score @s genesis.entity_lvl matches 8 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ⁸』"}'
+execute if score @s genesis.entity_lvl matches 9 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ⁹』"}'
+execute if score @s genesis.entity_lvl matches 10 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ¹⁰』"}'
+execute if score @s genesis.entity_lvl matches 11 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ¹¹』"}'
+execute if score @s genesis.entity_lvl matches 12 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ¹²』"}'
+execute if score @s genesis.entity_lvl matches 13 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ¹³』"}'
+execute if score @s genesis.entity_lvl matches 14 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ¹⁴』"}'
+execute if score @s genesis.entity_lvl matches 15 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ¹⁵』"}'
+execute if score @s genesis.entity_lvl matches 16 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ¹⁶』"}'
+execute if score @s genesis.entity_lvl matches 17 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ¹⁷』"}'
+execute if score @s genesis.entity_lvl matches 18 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ¹⁸』"}'
+execute if score @s genesis.entity_lvl matches 19 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ¹⁹』"}'
+execute if score @s genesis.entity_lvl matches 20 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ²⁰』"}'
+execute if score @s genesis.entity_lvl matches 21 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ²¹』"}'
+execute if score @s genesis.entity_lvl matches 22 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ²²』"}'
+execute if score @s genesis.entity_lvl matches 23 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ²³』"}'
+execute if score @s genesis.entity_lvl matches 24 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ²⁴』"}'
+execute if score @s genesis.entity_lvl matches 25 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ²⁵』"}'
+execute if score @s genesis.entity_lvl matches 26 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ²⁶』"}'
+execute if score @s genesis.entity_lvl matches 27 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ²⁷』"}'
+execute if score @s genesis.entity_lvl matches 28 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ²⁸』"}'
+execute if score @s genesis.entity_lvl matches 29 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ²⁹』"}'
+execute if score @s genesis.entity_lvl matches 30 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³⁰』"}'
+execute if score @s genesis.entity_lvl matches 31 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³¹』"}'
+execute if score @s genesis.entity_lvl matches 32 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³²』"}'
+execute if score @s genesis.entity_lvl matches 33 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³³』"}'
+execute if score @s genesis.entity_lvl matches 34 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³⁴』"}'
+execute if score @s genesis.entity_lvl matches 35 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³⁵』"}'
+execute if score @s genesis.entity_lvl matches 36 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³⁶』"}'
+execute if score @s genesis.entity_lvl matches 37 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³⁷』"}'
+execute if score @s genesis.entity_lvl matches 38 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³⁸』"}'
+execute if score @s genesis.entity_lvl matches 39 run data modify entity @s CustomName set value '{"text":"『ᴸᵛᴸ³⁹』"}'
 #MORE LEVELS WILL BE ADDED
 #----------------------------------------------------------------------------------------------------------
 #Vanilla Mobs
