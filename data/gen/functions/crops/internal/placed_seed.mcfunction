@@ -23,4 +23,4 @@ function gen:crops/api/get_crop_definition
 execute unless data storage gen:crops crop_definition run function gen:crops/internal/cannot_place_seed
 execute unless data storage gen:crops crop_definition run return 0
 
-function gen:crops/internal/place_crop
+function gen:crops/internal/place/place_crop
