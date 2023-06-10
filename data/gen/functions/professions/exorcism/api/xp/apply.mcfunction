@@ -3,9 +3,9 @@ scoreboard players set #1 gen.professions 1
 scoreboard players set #10 gen.professions 10
 scoreboard players set #lvl gen.professions 50
 
-scoreboard players operation @s gen.profession.alchemy.xp += #xp gen.professions
-scoreboard players operation #required_xp gen.professions *= @s gen.profession.alchemy.level
-scoreboard players operation #lvl gen.professions = @s gen.profession.alchemy.level
+scoreboard players operation @s gen.profession.exorcism.xp += #xp gen.professions
+scoreboard players operation #required_xp gen.professions *= @s gen.profession.exorcism.level
+scoreboard players operation #lvl gen.professions = @s gen.profession.exorcism.level
 scoreboard players operation #lvl gen.professions -= #1 gen.professions
 scoreboard players operation #lvl gen.professions *= #10 gen.professions
 scoreboard players operation #required_xp gen.professions += #lvl gen.professions
@@ -13,4 +13,4 @@ scoreboard players operation #required_xp gen.professions /= #10 gen.professions
 scoreboard players operation #required_xp gen.professions *= #10 gen.professions
 
 scoreboard players set #xp gen.professions 0
-execute if score @s gen.profession.alchemy.xp >= #required_xp gen.professions run function gen:professions/alchemy/internal/levelup
+execute if score @s gen.profession.exorcism.xp >= #required_xp gen.professions run function gen:professions/exorcism/internal/levelup
