@@ -1,0 +1,37 @@
+{
+  "condition": "all_of",
+  "terms": [
+    {
+      "condition": "location_check",
+      "offsetY": -1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:farmland"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:sunflower"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "offsetY": 1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:moving_piston"
+          ]
+        }
+      }
+    }
+  ]
+}

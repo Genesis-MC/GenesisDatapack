@@ -1,0 +1,21 @@
+{
+  "condition": "value_check",
+  "range": {
+    "max": {
+      "score": "gen.time",
+      "target": {
+        "name": ".gametime",
+        "type": "fixed"
+      },
+      "type": "score"
+    }
+  },
+  "value": {
+    "score": "gen.time.schedule",
+    "target": {
+      "target": "this",
+      "type": "context"
+    },
+    "type": "score"
+  }
+}

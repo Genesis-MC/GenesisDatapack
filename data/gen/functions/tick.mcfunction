@@ -1,4 +1,1 @@
-
-
-
-
+function gen:core/tick
