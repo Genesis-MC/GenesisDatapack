@@ -1,3 +1,5 @@
+scoreboard players operation @s gen.profession.exorcism.xp += #xp gen.professions
+
 scoreboard players set #required_xp gen.professions 50
 scoreboard players set #12 gen.professions 12
 scoreboard players set #10 gen.professions 10
