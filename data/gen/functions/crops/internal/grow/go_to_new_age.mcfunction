@@ -1,4 +1,6 @@
 execute if score #new_age gen.crops.calc >= #max_age gen.crops.calc run tag @s remove gen.crops.crop_entity.growing
+execute if score #new_age gen.crops.calc >= #max_age gen.crops.calc run tag @s add gen.crops.crop_entity.fully_grown
+execute if score #new_age gen.crops.calc >= #max_age gen.crops.calc run data modify storage gen:crops crop_data.fully_grown set value 1b
 
 execute store result score #stages_per_model gen.crops.calc run data get storage gen:crops crop_definition.display.stages_per_model 1
 execute store result score #old_model gen.crops.calc run data get storage gen:crops crop_data.model 1
