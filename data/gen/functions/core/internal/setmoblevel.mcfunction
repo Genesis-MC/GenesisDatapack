@@ -176,8 +176,8 @@ execute if entity @s[tag=!CustomMob, type=wither_skeleton] at @e[tag=GenesisArmo
 execute if entity @s[tag=!CustomMob, type=zoglin] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Zoglin"}]'}
 execute if entity @s[tag=!CustomMob, type=zombie] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Zombie"}]'}
 execute if entity @s[tag=!CustomMob, type=zombie_villager] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Zombie Villager"}]'}
-#execute if entity @s[tag=!CustomMob, type=camel] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Camel"}]'}
-#execute if entity @s[tag=!CustomMob, type=sniffer] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Sniffer"}]'}
+execute if entity @s[tag=!CustomMob, type=camel] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Camel"}]'}
+execute if entity @s[tag=!CustomMob, type=sniffer] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Sniffer"}]'}
 #----------------------------------------------------------------------------------------------------------
 #Custom Mobs
 execute if entity @s[tag=MutatedZombie] at @e[tag=GenesisArmorstand,type=armor_stand] run setblock ~ ~-1 ~ minecraft:oak_sign{Text1:'[{"nbt":"CustomName","entity":"@e[tag=notYetNamed]","interpret":true},{"text":"Mutated Zombie"}]'}
