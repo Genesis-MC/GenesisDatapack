@@ -1,5 +1,5 @@
 
-#set a non-player entity's level
+#sets a mob's level and name
 
 tag @s add notYetNamed
 
@@ -13,7 +13,7 @@ execute if score @s genesis.entity_lvl matches 2.. if predicate gen:random50 run
 execute if score @s genesis.entity_lvl matches 2.. if predicate gen:random50 run scoreboard players remove @s genesis.entity_lvl 1
 execute if score @s genesis.entity_lvl matches 2.. if predicate gen:random50 run scoreboard players remove @s genesis.entity_lvl 1
 #Adding world level
-scoreboard players operation @s genesis.entity_lvl += @e[type=armor_stand,tag=GenesisArmorstand,limit=1] genesis.world_lvl
+scoreboard players operation @s genesis.entity_lvl += #worldlvltracker genesis.world_lvl
 
 #Determines if mob will become custom mob or not
 execute if score @e[type=armor_stand,tag=GenesisArmorstand,limit=1] genesis.world_lvl matches 3.. if predicate gen:random25 run tag @s add CustomMob
