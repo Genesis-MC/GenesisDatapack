@@ -1,5 +1,8 @@
 particle soul_fire_flame ~ ~0.5 ~ 0 0 0 0 1 normal @a[tag=gen.dev.debug,distance=..32]
 
+execute unless predicate gen:crops/valid_crop_block_configuration run function gen:crops/internal/mine/invalid_block_configuration
+execute unless predicate gen:crops/valid_crop_block_configuration run return 0
+
 data modify storage gen:crops crop_data set from entity @s item.tag.genesis.crops.crop_data
 function gen:crops/internal/grow/get_crop_definition
 
