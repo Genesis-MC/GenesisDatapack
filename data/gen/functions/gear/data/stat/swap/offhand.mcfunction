@@ -11,9 +11,11 @@ scoreboard players operation @s gen.stat.attack_speed -= @s gen.stat.attack_spee
 execute store result score @s gen.stat.attack_speed.offhand run data get storage tungsten:player Item.tag.gen.stat.attack_speed
 scoreboard players operation @s gen.stat.attack_speed += @s gen.stat.attack_speed.offhand
 # health
+scoreboard players operation #last_health gen.math = @s gen.stat.health
 scoreboard players operation @s gen.stat.health -= @s gen.stat.health.offhand
 execute store result score @s gen.stat.health.offhand run data get storage tungsten:player Item.tag.gen.stat.health
 scoreboard players operation @s gen.stat.health += @s gen.stat.health.offhand
+function gen:gear/data/stat/update/health
 # armor
 scoreboard players operation @s gen.stat.armor -= @s gen.stat.armor.offhand
 execute store result score @s gen.stat.armor.offhand run data get storage tungsten:player Item.tag.gen.stat.armor
