@@ -2,6 +2,10 @@
  
  Official GitHub Page for the Project Genesis MCRPG Datapack.
  --Currently in Development--
+ 
+## Custom crops
+
+You can run `/function gen:crops/api/give_all_seeds` to get all seeds. I think the rest is pretty straight-forward, you just place the seeds to plant a new crop and break the block to break it. You can bone-meal them as well, and when you bone-meal a fully grown crop it harvests and replants itself. There's two test seeds `foo` and `bar` which don't really do anything, but you can use them for testing.
 
 ## Gear
 
