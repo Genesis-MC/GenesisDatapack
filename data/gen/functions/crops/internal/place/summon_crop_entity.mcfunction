@@ -1,7 +1,9 @@
 # called on a new item_display
 
 data modify storage gen:crops EntityData set value {Tags:["gen.crops","gen.crops.crop_entity","gen.crops.crop_entity.growing"],item_display:"fixed"}
-data modify storage gen:crops EntityData.item set from storage gen:crops crop_definition.display.models[0]
+scoreboard players set #model gen.crops.calc 0
+function gen:crops/internal/get_model
+data modify storage gen:crops EntityData.item set from storage gen:crops model
 data modify storage gen:crops EntityData.item.tag.genesis.crops.crop_data set value {age:0,model:0,fully_grown:0b}
 data modify storage gen:crops EntityData.item.tag.genesis.crops.crop_data.id set from storage gen:crops crop_definition.id
 execute store result storage gen:crops EntityData.item.tag.genesis.crops.crop_data.numerical_id int 1 run scoreboard players get .index gen.crops.calc
