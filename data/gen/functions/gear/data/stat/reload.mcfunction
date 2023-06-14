@@ -1,3 +1,5 @@
+scoreboard objectives add gen.stat.max_health dummy
+
 scoreboard objectives add gen.stat.physical_power dummy
 scoreboard objectives add gen.stat.physical_power.mainhand dummy
 scoreboard objectives add gen.stat.magic_power dummy
