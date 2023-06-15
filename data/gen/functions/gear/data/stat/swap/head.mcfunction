@@ -2,6 +2,7 @@
 scoreboard players operation @s gen.stat.physical_power -= @s gen.stat.physical_power.head
 execute store result score @s gen.stat.physical_power.head run data get storage tungsten:player Item.tag.gen.stat.physical_power
 scoreboard players operation @s gen.stat.physical_power += @s gen.stat.physical_power.head
+function gen:gear/data/stat/update/physical_power
 # magic_power
 scoreboard players operation @s gen.stat.magic_power -= @s gen.stat.magic_power.head
 execute store result score @s gen.stat.magic_power.head run data get storage tungsten:player Item.tag.gen.stat.magic_power
