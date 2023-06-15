@@ -10,6 +10,7 @@ scoreboard players operation @s gen.stat.magic_power += @s gen.stat.magic_power.
 scoreboard players operation @s gen.stat.attack_speed -= @s gen.stat.attack_speed.chest
 execute store result score @s gen.stat.attack_speed.chest run data get storage tungsten:player Item.tag.gen.stat.attack_speed
 scoreboard players operation @s gen.stat.attack_speed += @s gen.stat.attack_speed.chest
+function gen:gear/data/stat/update/attack_speed
 # health
 scoreboard players operation #last_health gen.math = @s gen.stat.health
 scoreboard players operation @s gen.stat.health -= @s gen.stat.health.chest
