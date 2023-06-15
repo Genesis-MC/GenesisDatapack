@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chiseled_quartz_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Tag:\"CrystalNode\",display:{Name:'{\"text\":\"Crystal Node\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"[]Uncommon Ingredient\",\"color\":\"aqua\",\"italic\":false}']}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
