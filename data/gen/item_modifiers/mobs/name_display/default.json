@@ -1,0 +1,25 @@
+	{
+		"function": "minecraft:set_name",
+		"entity":"this",
+		"name": {
+			"translate": "genesis.mobs.display_name.type.default",
+			"fallback": "ERROR: failed to load mob name",
+			"with": [
+				{
+					"score": {
+						"name": "#currentLevel",
+						"objective": "gen.temp"
+					},
+					"color": "dark_gray",
+					"font": "genesis:utils/convert_to_superscript_digits",
+					"italic": false
+				},
+				{
+					"nbt": "name",
+					"storage": "genesis:temp",
+					"interpret": true,
+					"italic": false
+				}
+			]
+		}
+	}

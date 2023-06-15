@@ -1,2 +1,5 @@
-function gen:core/tick
-function gen:crops/tick
+execute if score Core gen.modules matches 1 run function gen:core/tick
+execute if score Crops gen.modules matches 1 run function gen:crops/tick
+execute if score Mobs gen.modules matches 1 run function gen:mobs/tick
+execute if score Menu gen.modules matches 1 run function gen:menu/tick
+execute if score PlayerEvents gen.modules matches 1 run function gen:player_events/tick

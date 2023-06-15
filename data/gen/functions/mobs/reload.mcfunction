@@ -1,5 +1,4 @@
 tellraw @a[tag=gen.dev.debug] ["",{"text":"Genesis","color":"#DF9DE3"},{"text":" ->","color":"yellow"},{"text":" Reloading ","color":"green"},{"text":"mobs ","color":"yellow"},{"text":"module","color":"green"}]
-
 scoreboard objectives add gen.mobs.level dummy
 scoreboard objectives add gen.mobs.name_display dummy
 # UUID = 0001e4dd-0000-ca49-0002-425300000000 used for resolving text
