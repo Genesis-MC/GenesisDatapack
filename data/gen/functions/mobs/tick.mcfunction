@@ -1,0 +1,1 @@
+#execute as @e[tag=gen.mobs.show_health] run function gen:mobs/internal/is_hurt
