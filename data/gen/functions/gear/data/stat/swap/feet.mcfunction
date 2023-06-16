@@ -26,6 +26,7 @@ scoreboard players operation @s gen.stat.armor += @s gen.stat.armor.feet
 scoreboard players operation @s gen.stat.speed -= @s gen.stat.speed.feet
 execute store result score @s gen.stat.speed.feet run data get storage tungsten:player Item.tag.gen.stat.speed
 scoreboard players operation @s gen.stat.speed += @s gen.stat.speed.feet
+function gen:gear/data/stat/update/speed
 # luck
 scoreboard players operation @s gen.stat.luck -= @s gen.stat.luck.feet
 execute store result score @s gen.stat.luck.feet run data get storage tungsten:player Item.tag.gen.stat.luck
