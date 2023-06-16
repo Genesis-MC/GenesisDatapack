@@ -1,3 +1,7 @@
+scoreboard players set #can_bonemeal gen.crops.calc 0
+execute if score #can_bonemeal gen.crops.calc matches 0 run function gen:crops/internal/bone_meal/cannot_bonemeal
+execute if score #can_bonemeal gen.crops.calc matches 0 run return 0
+
 data modify storage gen:crops crop_data set from entity @s item.tag.genesis.crops.crop_data
 function gen:crops/internal/grow/get_crop_definition
 

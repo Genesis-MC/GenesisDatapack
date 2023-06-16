@@ -1,0 +1,2 @@
+particle minecraft:angry_villager
+function gen:crops/internal/bone_meal/give_back_bone_meal
