@@ -41,6 +41,7 @@ function gen:gear/data/stat/update/armor_toughness
 scoreboard players operation @s gen.stat.knockback_resistance -= @s gen.stat.knockback_resistance.chest
 execute store result score @s gen.stat.knockback_resistance.chest run data get storage tungsten:player Item.tag.gen.stat.knockback_resistance
 scoreboard players operation @s gen.stat.knockback_resistance += @s gen.stat.knockback_resistance.chest
+function gen:gear/data/stat/update/knockback_resistance
 # artifact_power
 scoreboard players operation @s gen.stat.artifact_power -= @s gen.stat.artifact_power.chest
 execute store result score @s gen.stat.artifact_power.chest run data get storage tungsten:player Item.tag.gen.stat.artifact_power
