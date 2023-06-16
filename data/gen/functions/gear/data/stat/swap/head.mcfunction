@@ -22,6 +22,7 @@ function gen:gear/data/stat/update/health
 scoreboard players operation @s gen.stat.armor -= @s gen.stat.armor.head
 execute store result score @s gen.stat.armor.head run data get storage tungsten:player Item.tag.gen.stat.armor
 scoreboard players operation @s gen.stat.armor += @s gen.stat.armor.head
+function gen:gear/data/stat/update/armor
 # speed
 scoreboard players operation @s gen.stat.speed -= @s gen.stat.speed.head
 execute store result score @s gen.stat.speed.head run data get storage tungsten:player Item.tag.gen.stat.speed
