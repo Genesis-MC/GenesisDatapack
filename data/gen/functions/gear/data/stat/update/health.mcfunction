@@ -3,6 +3,8 @@ execute unless score #last_health gen.math matches 0 if score @s gen.stat.health
 execute unless score #last_health gen.math matches 0 if score @s gen.stat.health matches 0 run stopsound @a[distance=..16] player minecraft:entity.player.hurt
 execute if score @s gen.stat.health matches 0 run return -1
 
+scoreboard players set #should_damage gen.math 0
+execute if score #last_health gen.math > @s gen.stat.health run scoreboard players set #should_damage gen.math 1
 scoreboard players operation #stat gen.math = @s gen.stat.health
 # this sets a hard cap, any stat above this is redundant (in this case because any health above 1024 doesn't work anymore, so no need)
 execute if score #stat gen.math matches 10241.. run scoreboard players set #stat gen.math 10240
@@ -34,5 +36,5 @@ execute if score #stat gen.math matches 2.. run attribute @s generic.max_health 
 execute if score #stat gen.math matches 2.. run scoreboard players remove #stat gen.math 2
 execute if score #stat gen.math matches 1.. run attribute @s generic.max_health modifier add f03767ae-ce7a-41ca-1-1 "gen.stat.health.1" 0.1 add
 # damage for 0 to get rid of "fake" hearts
-damage @s 0.00000000000000000000000000000001
-stopsound @a[distance=..16] player minecraft:entity.player.hurt
+execute if score #should_damage gen.math matches 1 run damage @s 0.00000000000000000000000000000001
+execute if score #should_damage gen.math matches 1 run stopsound @a[distance=..16] player minecraft:entity.player.hurt
