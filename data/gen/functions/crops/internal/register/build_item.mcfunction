@@ -1,4 +1,3 @@
-tellraw @a {"nbt":"registry_item","storage":"gen:crops"}
 execute store result score #stages gen.crops.calc run data get storage gen:crops registry_item.growth.stages 1
 scoreboard players remove #stages gen.crops.calc 1
 execute store result score #min_time gen.crops.calc run data get storage gen:crops registry_item.growth.time.min 1

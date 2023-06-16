@@ -8,6 +8,8 @@ data modify storage gen:crops EntityData.item.tag.genesis.crops.crop_data set va
 data modify storage gen:crops EntityData.item.tag.genesis.crops.crop_data.id set from storage gen:crops crop_definition.id
 execute store result storage gen:crops EntityData.item.tag.genesis.crops.crop_data.numerical_id int 1 run scoreboard players get .index gen.crops.calc
 
+execute if data storage gen:crops crop_definition.requirements{soil:["minecraft:farmland"]} run data modify storage gen:crops EntityData.Tags append value "gen.crops.crop_entity.check_for_farmland_trampling"
+
 data modify entity @s {} merge from storage gen:crops EntityData
 execute store result score #random.min gen.math run data get storage gen:crops crop_definition.growth.time.min 1
 execute store result score #random.max gen.math run data get storage gen:crops crop_definition.growth.time.max 1
