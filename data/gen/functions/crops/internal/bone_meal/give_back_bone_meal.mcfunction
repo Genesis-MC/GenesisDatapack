@@ -1,0 +1,2 @@
+loot give @p[distance=..8,tag=gen.crops.context_player,predicate=gen:crops/wants_item_drops] loot gen:crops/bone_meal
+execute unless entity @p[distance=..8,tag=gen.crops.context_player] run loot spawn ~ ~ ~ loot gen:crops/bone_meal
