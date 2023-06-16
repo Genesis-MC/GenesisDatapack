@@ -2,8 +2,10 @@ function gen:gear/data/stat/remove/armor
 execute if score @s gen.stat.armor matches 0 run return -1
 
 scoreboard players operation #stat gen.math = @s gen.stat.armor
-execute if score #stat gen.math matches 201.. run scoreboard players set #stat gen.math 200
+execute if score #stat gen.math matches 301.. run scoreboard players set #stat gen.math 300
 
+execute if score #stat gen.math matches 256.. run attribute @s generic.armor modifier add f03767ae-ce7a-41ca-5-256 "gen.stat.armor.256" 25.6 add
+execute if score #stat gen.math matches 256.. run scoreboard players remove #stat gen.math 256
 execute if score #stat gen.math matches 128.. run attribute @s generic.armor modifier add f03767ae-ce7a-41ca-5-128 "gen.stat.armor.128" 12.8 add
 execute if score #stat gen.math matches 128.. run scoreboard players remove #stat gen.math 128
 execute if score #stat gen.math matches 64.. run attribute @s generic.armor modifier add f03767ae-ce7a-41ca-5-64 "gen.stat.armor.64" 6.4 add
