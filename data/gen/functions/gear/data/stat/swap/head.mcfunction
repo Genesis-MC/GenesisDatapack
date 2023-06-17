@@ -32,6 +32,7 @@ function gen:gear/data/stat/update/speed
 scoreboard players operation @s gen.stat.luck -= @s gen.stat.luck.head
 execute store result score @s gen.stat.luck.head run data get storage tungsten:player Item.tag.gen.stat.luck
 scoreboard players operation @s gen.stat.luck += @s gen.stat.luck.head
+function gen:gear/data/stat/update/luck
 # armor_toughness
 scoreboard players operation @s gen.stat.armor_toughness -= @s gen.stat.armor_toughness.head
 execute store result score @s gen.stat.armor_toughness.head run data get storage tungsten:player Item.tag.gen.stat.armor_toughness
