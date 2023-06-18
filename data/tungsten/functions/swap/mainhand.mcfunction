@@ -5,4 +5,4 @@ execute if score .new tungsten.uid.mainhand matches -1 run function tungsten:ini
 scoreboard players operation @s tungsten.uid.mainhand = .new tungsten.uid.mainhand
 scoreboard players set .modified tungsten 0
 function #tungsten:swap/mainhand
-execute if score .modified tungsten matches 1 run item modify entity @s weapon.mainhand tungsten:replace_tags
+execute if score .modified tungsten matches 1 run item modify entity @s weapon.mainhand tungsten:merge_tags

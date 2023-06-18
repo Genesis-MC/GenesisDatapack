@@ -5,4 +5,4 @@ execute if score .new tungsten.uid.legs matches -1 run function tungsten:init/le
 scoreboard players operation @s tungsten.uid.legs = .new tungsten.uid.legs
 scoreboard players set .modified tungsten 0
 function #tungsten:swap/legs
-execute if score .modified tungsten matches 1 run item modify entity @s armor.legs tungsten:replace_tags
+execute if score .modified tungsten matches 1 run item modify entity @s armor.legs tungsten:merge_tags

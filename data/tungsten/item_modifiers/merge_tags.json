@@ -8,7 +8,7 @@
         {
             "source": "Item.tag",
             "target": "{}",
-            "op": "replace"
+            "op": "merge"
         }
     ]
 }

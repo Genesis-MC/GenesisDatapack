@@ -5,4 +5,4 @@ execute if score .new tungsten.uid.feet matches -1 run function tungsten:init/fe
 scoreboard players operation @s tungsten.uid.feet = .new tungsten.uid.feet
 scoreboard players set .modified tungsten 0
 function #tungsten:swap/feet
-execute if score .modified tungsten matches 1 run item modify entity @s armor.feet tungsten:replace_tags
+execute if score .modified tungsten matches 1 run item modify entity @s armor.feet tungsten:merge_tags
