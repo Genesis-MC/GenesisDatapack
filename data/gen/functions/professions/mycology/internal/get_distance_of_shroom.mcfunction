@@ -1,0 +1,25 @@
+# called by !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+scoreboard players operation #diff gen.math = #compare_shroom gen.profession.mycology.trait.growth_size
+scoreboard players operation #diff gen.math -= @s gen.profession.mycology.trait.growth_size
+scoreboard players operation #diff gen.math = #diff gen.math
+scoreboard players operation #distance gen.profession.mycology = #diff gen.math
+scoreboard players operation #diff gen.math = #compare_shroom gen.profession.mycology.trait.growth_speed
+scoreboard players operation #diff gen.math -= @s gen.profession.mycology.trait.growth_speed
+scoreboard players operation #diff gen.math *= #diff gen.math
+scoreboard players operation #distance gen.profession.mycology += #diff gen.math
+scoreboard players operation #diff gen.math = #compare_shroom gen.profession.mycology.trait.hazard
+scoreboard players operation #diff gen.math -= @s gen.profession.mycology.trait.hazard
+scoreboard players operation #diff gen.math *= #diff gen.math
+scoreboard players operation #distance gen.profession.mycology += #diff gen.math
+scoreboard players operation #diff gen.math = #compare_shroom gen.profession.mycology.trait.moisture
+scoreboard players operation #diff gen.math -= @s gen.profession.mycology.trait.moisture
+scoreboard players operation #diff gen.math *= #diff gen.math
+scoreboard players operation #distance gen.profession.mycology += #diff gen.math
+scoreboard players operation #diff gen.math = #compare_shroom gen.profession.mycology.trait.sunlight
+scoreboard players operation #diff gen.math -= @s gen.profession.mycology.trait.sunlight
+scoreboard players operation #diff gen.math *= #diff gen.math
+scoreboard players operation #distance gen.profession.mycology += #diff gen.math
+scoreboard players operation #diff gen.math = #compare_shroom gen.profession.mycology.trait.differature
+scoreboard players operation #diff gen.math -= @s gen.profession.mycology.trait.differature
+scoreboard players operation #diff gen.math *= #diff gen.math
+scoreboard players operation #distance gen.profession.mycology += #diff gen.math
