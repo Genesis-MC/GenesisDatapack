@@ -5,11 +5,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:chiseled_quartz_block",
+          "name": "minecraft:small_amethyst_bud",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Tag:\"CrystalNode\",display:{Name:'{\"text\":\"Crystal Node\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"[]Uncommon Ingredient\",\"color\":\"aqua\",\"italic\":false}']}}"
+              "tag": "{Tag:\"Crystal Buds\",display:{Name:'{\"text\":\"Crystal Buds\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"[]Uncommon Ingredient\",\"color\":\"aqua\",\"italic\":false}']}}"
             }
           ],
           "conditions": [
