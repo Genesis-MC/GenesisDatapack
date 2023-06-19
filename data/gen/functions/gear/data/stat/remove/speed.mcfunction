@@ -1,13 +1,3 @@
-attribute @s generic.movement_speed modifier remove f03767ae-ce7a-41ca-4-1073741824
-attribute @s generic.movement_speed modifier remove f03767ae-ce7a-41ca-4-536870912
-attribute @s generic.movement_speed modifier remove f03767ae-ce7a-41ca-4-268435456
-attribute @s generic.movement_speed modifier remove f03767ae-ce7a-41ca-4-134217728
-attribute @s generic.movement_speed modifier remove f03767ae-ce7a-41ca-4-67108864
-attribute @s generic.movement_speed modifier remove f03767ae-ce7a-41ca-4-33554432
-attribute @s generic.movement_speed modifier remove f03767ae-ce7a-41ca-4-16777216
-attribute @s generic.movement_speed modifier remove f03767ae-ce7a-41ca-4-8388608
-attribute @s generic.movement_speed modifier remove f03767ae-ce7a-41ca-4-4194304
-attribute @s generic.movement_speed modifier remove f03767ae-ce7a-41ca-4-2097152
 attribute @s generic.movement_speed modifier remove f03767ae-ce7a-41ca-4-1048576
 attribute @s generic.movement_speed modifier remove f03767ae-ce7a-41ca-4-524288
 attribute @s generic.movement_speed modifier remove f03767ae-ce7a-41ca-4-262144

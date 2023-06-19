@@ -21,4 +21,3 @@ execute if score #stat gen.math matches 4.. run scoreboard players remove #stat 
 execute if score #stat gen.math matches 2.. run attribute @s generic.armor modifier add f03767ae-ce7a-41ca-5-2 "gen.stat.armor.2" 0.2 add
 execute if score #stat gen.math matches 2.. run scoreboard players remove #stat gen.math 2
 execute if score #stat gen.math matches 1.. run attribute @s generic.armor modifier add f03767ae-ce7a-41ca-5-1 "gen.stat.armor.1" 0.1 add
-execute if score #stat gen.math matches 1.. run scoreboard players remove #stat gen.math 1
