@@ -24,4 +24,8 @@ execute if score .index gen.crops.calc matches -1 run return 0
 execute unless data storage gen:crops crop_definition run function gen:crops/internal/cannot_place_seed
 execute unless data storage gen:crops crop_definition run return 0
 
+execute if data storage gen:crops crop_definition.requirements run function gen:crops/internal/requirements/check_all
+execute if data storage gen:crops crop_definition.requirements if score #requirements_met gen.crops.calc matches 0 run function gen:crops/internal/cannot_place_seed
+execute if data storage gen:crops crop_definition.requirements if score #requirements_met gen.crops.calc matches 0 run return 0
+
 function gen:crops/internal/place/place_crop

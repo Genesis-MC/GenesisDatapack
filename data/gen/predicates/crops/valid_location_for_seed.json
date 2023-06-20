@@ -6,9 +6,7 @@
       "offsetY": -1,
       "predicate": {
         "block": {
-          "blocks": [
-            "minecraft:farmland"
-          ]
+          "tag": "gen:crops/soil"
         }
       }
     },

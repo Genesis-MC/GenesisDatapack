@@ -1,0 +1,1 @@
+Uses the scoreboard objective `gen.temp`

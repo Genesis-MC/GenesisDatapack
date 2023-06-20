@@ -1,0 +1,16 @@
+{
+  "condition": "all_of",
+  "terms": [
+    {
+      "condition": "location_check",
+      "offsetY": -1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:farmland"
+          ]
+        }
+      }
+    }
+  ]
+}
