@@ -22,22 +22,27 @@ function gen:gear/data/stat/update/health
 scoreboard players operation @s gen.stat.armor -= @s gen.stat.armor.chest
 execute store result score @s gen.stat.armor.chest run data get storage tungsten:player Item.tag.gen.stat.armor
 scoreboard players operation @s gen.stat.armor += @s gen.stat.armor.chest
+function gen:gear/data/stat/update/armor
 # speed
 scoreboard players operation @s gen.stat.speed -= @s gen.stat.speed.chest
 execute store result score @s gen.stat.speed.chest run data get storage tungsten:player Item.tag.gen.stat.speed
 scoreboard players operation @s gen.stat.speed += @s gen.stat.speed.chest
+function gen:gear/data/stat/update/speed
 # luck
 scoreboard players operation @s gen.stat.luck -= @s gen.stat.luck.chest
 execute store result score @s gen.stat.luck.chest run data get storage tungsten:player Item.tag.gen.stat.luck
 scoreboard players operation @s gen.stat.luck += @s gen.stat.luck.chest
+function gen:gear/data/stat/update/luck
 # armor_toughness
 scoreboard players operation @s gen.stat.armor_toughness -= @s gen.stat.armor_toughness.chest
 execute store result score @s gen.stat.armor_toughness.chest run data get storage tungsten:player Item.tag.gen.stat.armor_toughness
 scoreboard players operation @s gen.stat.armor_toughness += @s gen.stat.armor_toughness.chest
+function gen:gear/data/stat/update/armor_toughness
 # knockback_resistance
 scoreboard players operation @s gen.stat.knockback_resistance -= @s gen.stat.knockback_resistance.chest
 execute store result score @s gen.stat.knockback_resistance.chest run data get storage tungsten:player Item.tag.gen.stat.knockback_resistance
 scoreboard players operation @s gen.stat.knockback_resistance += @s gen.stat.knockback_resistance.chest
+function gen:gear/data/stat/update/knockback_resistance
 # artifact_power
 scoreboard players operation @s gen.stat.artifact_power -= @s gen.stat.artifact_power.chest
 execute store result score @s gen.stat.artifact_power.chest run data get storage tungsten:player Item.tag.gen.stat.artifact_power

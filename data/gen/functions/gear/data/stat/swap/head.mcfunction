@@ -22,22 +22,27 @@ function gen:gear/data/stat/update/health
 scoreboard players operation @s gen.stat.armor -= @s gen.stat.armor.head
 execute store result score @s gen.stat.armor.head run data get storage tungsten:player Item.tag.gen.stat.armor
 scoreboard players operation @s gen.stat.armor += @s gen.stat.armor.head
+function gen:gear/data/stat/update/armor
 # speed
 scoreboard players operation @s gen.stat.speed -= @s gen.stat.speed.head
 execute store result score @s gen.stat.speed.head run data get storage tungsten:player Item.tag.gen.stat.speed
 scoreboard players operation @s gen.stat.speed += @s gen.stat.speed.head
+function gen:gear/data/stat/update/speed
 # luck
 scoreboard players operation @s gen.stat.luck -= @s gen.stat.luck.head
 execute store result score @s gen.stat.luck.head run data get storage tungsten:player Item.tag.gen.stat.luck
 scoreboard players operation @s gen.stat.luck += @s gen.stat.luck.head
+function gen:gear/data/stat/update/luck
 # armor_toughness
 scoreboard players operation @s gen.stat.armor_toughness -= @s gen.stat.armor_toughness.head
 execute store result score @s gen.stat.armor_toughness.head run data get storage tungsten:player Item.tag.gen.stat.armor_toughness
 scoreboard players operation @s gen.stat.armor_toughness += @s gen.stat.armor_toughness.head
+function gen:gear/data/stat/update/armor_toughness
 # knockback_resistance
 scoreboard players operation @s gen.stat.knockback_resistance -= @s gen.stat.knockback_resistance.head
 execute store result score @s gen.stat.knockback_resistance.head run data get storage tungsten:player Item.tag.gen.stat.knockback_resistance
 scoreboard players operation @s gen.stat.knockback_resistance += @s gen.stat.knockback_resistance.head
+function gen:gear/data/stat/update/knockback_resistance
 # artifact_power
 scoreboard players operation @s gen.stat.artifact_power -= @s gen.stat.artifact_power.head
 execute store result score @s gen.stat.artifact_power.head run data get storage tungsten:player Item.tag.gen.stat.artifact_power

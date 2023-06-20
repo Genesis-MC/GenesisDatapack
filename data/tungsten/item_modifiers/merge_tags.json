@@ -1,0 +1,14 @@
+{
+    "function": "minecraft:copy_nbt",
+    "source": {
+        "type": "minecraft:storage",
+        "source": "tungsten:player"
+    },
+    "ops": [
+        {
+            "source": "Item.tag",
+            "target": "{}",
+            "op": "merge"
+        }
+    ]
+}

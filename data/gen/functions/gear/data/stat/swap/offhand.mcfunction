@@ -22,22 +22,27 @@ function gen:gear/data/stat/update/health
 scoreboard players operation @s gen.stat.armor -= @s gen.stat.armor.offhand
 execute store result score @s gen.stat.armor.offhand run data get storage tungsten:player Item.tag.gen.stat.armor
 scoreboard players operation @s gen.stat.armor += @s gen.stat.armor.offhand
+function gen:gear/data/stat/update/armor
 # speed
 scoreboard players operation @s gen.stat.speed -= @s gen.stat.speed.offhand
 execute store result score @s gen.stat.speed.offhand run data get storage tungsten:player Item.tag.gen.stat.speed
 scoreboard players operation @s gen.stat.speed += @s gen.stat.speed.offhand
+function gen:gear/data/stat/update/speed
 # luck
 scoreboard players operation @s gen.stat.luck -= @s gen.stat.luck.offhand
 execute store result score @s gen.stat.luck.offhand run data get storage tungsten:player Item.tag.gen.stat.luck
 scoreboard players operation @s gen.stat.luck += @s gen.stat.luck.offhand
+function gen:gear/data/stat/update/luck
 # armor_toughness
 scoreboard players operation @s gen.stat.armor_toughness -= @s gen.stat.armor_toughness.offhand
 execute store result score @s gen.stat.armor_toughness.offhand run data get storage tungsten:player Item.tag.gen.stat.armor_toughness
 scoreboard players operation @s gen.stat.armor_toughness += @s gen.stat.armor_toughness.offhand
+function gen:gear/data/stat/update/armor_toughness
 # knockback_resistance
 scoreboard players operation @s gen.stat.knockback_resistance -= @s gen.stat.knockback_resistance.offhand
 execute store result score @s gen.stat.knockback_resistance.offhand run data get storage tungsten:player Item.tag.gen.stat.knockback_resistance
 scoreboard players operation @s gen.stat.knockback_resistance += @s gen.stat.knockback_resistance.offhand
+function gen:gear/data/stat/update/knockback_resistance
 # artifact_power
 scoreboard players operation @s gen.stat.artifact_power -= @s gen.stat.artifact_power.offhand
 execute store result score @s gen.stat.artifact_power.offhand run data get storage tungsten:player Item.tag.gen.stat.artifact_power

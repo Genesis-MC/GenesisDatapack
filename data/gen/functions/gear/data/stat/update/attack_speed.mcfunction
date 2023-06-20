@@ -12,7 +12,8 @@ scoreboard players operation #stat gen.math /= #2 gen.const
 scoreboard players operation #temp gen.math %= #2 gen.const
 scoreboard players operation #stat gen.math += #temp gen.math
 
-attribute @s generic.attack_speed modifier add f03767ae-ce7a-41ca-2-bace "gen.stat.attack_speed.base" -4 add
+# remove 4 base attack speed if mainhand weapon is custom to have attributes start at 0 but make it still work for vanilla and other weapons
+execute unless score @s gen.stat.attack_speed.mainhand matches 0 run attribute @s generic.attack_speed modifier add f03767ae-ce7a-41ca-2-bace "gen.stat.attack_speed.base" -4 add
 execute if score #stat gen.math matches 1024.. run attribute @s generic.attack_speed modifier add f03767ae-ce7a-41ca-2-1024 "gen.stat.attack_speed.1024" 10.24 add
 execute if score #stat gen.math matches 1024.. run scoreboard players remove #stat gen.math 1024
 execute if score #stat gen.math matches 512.. run attribute @s generic.attack_speed modifier add f03767ae-ce7a-41ca-2-512 "gen.stat.attack_speed.512" 5.12 add

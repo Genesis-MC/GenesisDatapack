@@ -5,8 +5,12 @@
  
 ## Custom crops
 
-You can run `/function gen:crops/api/give_all_seeds` to get all seeds. I think the rest is pretty straight-forward, you just place the seeds to plant a new crop and break the block to break it. You can bone-meal them as well, and when you bone-meal a fully grown crop it harvests and replants itself. There's two test seeds `foo` and `bar` which don't really do anything, but you can use them for testing.
+You can run `/function gen:crops/api/give_all_seeds` to get all seeds, including debug seeds. `/function gen:crops/api/give_seeds` or its alias `/function gen:_/crops/give_seeds` gives all non-debug seeds. I think the rest is pretty straight-forward, you just place the seeds to plant a new crop and break the block to break it. You can bone-meal them as well, and when you bone-meal a fully grown crop it harvests and replants itself. There's two test seeds `foo` and `bar` which don't really do anything, but you can use them for testing.
 If you want to add new crops, you simply add one line to the function `gen:crops/data/registry`. The format of adding a new crop is explained in there and you can also just copy and edit one of the other crops.
+
+Config options (scoreboard `gen.config`):
+
+`crops.bonemeal_harvest_and_replant`: 0 or 1 (default=1): controls whether or not fully grown crops can be bonemealed to harvest and replant them.
 
 ## Gear
 

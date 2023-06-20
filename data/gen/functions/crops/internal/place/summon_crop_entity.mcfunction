@@ -19,3 +19,5 @@ scoreboard players operation @s gen.crops.growth_schedule += #random.value gen.m
 
 execute unless entity @e[type=marker,tag=gen.crops.ticker_entity,distance=..2.2] summon marker run function gen:crops/internal/place/summon_ticker_entity
 execute as @e[type=marker,tag=gen.crops.ticker_entity,distance=..2.2] run scoreboard players operation @s gen.time.schedule = .gametime gen.time
+
+execute if score #is_shroom gen.math matches 1 run function gen:professions/mycology/internal/crop/setup_crop

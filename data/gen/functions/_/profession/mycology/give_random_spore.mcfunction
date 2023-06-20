@@ -1,0 +1,2 @@
+give @s minecraft:player_head{genesis:{phead:{detect:1b}},SkullOwner:{Name:'genesis.block.crop.seed.genesis:mycology/light_shroom'},gen:{mycology:{sunlight:0,hazard:0,growth_speed:0,growth_size:0,temperature:0,moisture:0,mutability:50}}}
+tellraw @s {"text":"Note: Only the Spores PRODUCED by this shroom is a random other shroom"}
