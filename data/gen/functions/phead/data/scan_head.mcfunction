@@ -8,6 +8,7 @@
 #   - scan_head :
 #     - name : the Player Head's SkullOwner.Name
 #     - namespace : "genesis."
+#     - (@Nullable) item_used : item that was used to place this head. Count = 1b and does not know Slot.
 #####################################################################
 
 data modify storage gen:phead scan_head.name_8_24 set string storage gen:phead scan_head.name 8 24

@@ -1,0 +1,25 @@
+{
+  "condition": "all_of",
+  "terms": [
+    {
+      "condition": "inverted",
+      "term": {
+        "condition": "reference",
+        "name": "gen:phead/head_in_mainhand"
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "items": [
+              "minecraft:player_head"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
