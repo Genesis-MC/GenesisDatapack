@@ -8,6 +8,9 @@
 #    weight is self explantory
 #    weight_multiplier (NOT YET IMPLEMENTED) will increase base wieght with the multipler * level 
 #   requirements
+# you can set (min:420) no need to set the max!
+# you can set (max:69) no need to set the min!
+#
 #           moon_phase
 #                       min for the minum moon cycle number
 #                       max is forthe maximum moon cylce number
