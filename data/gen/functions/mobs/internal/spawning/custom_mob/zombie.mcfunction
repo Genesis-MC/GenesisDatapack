@@ -1,3 +1,36 @@
-execute if predicate gen:random25 run data merge entity @s[tag=!gen.mobs.custom_mob] {Tags:["gen.mobs.custom_mob","gen.mobs.mutated_zombie"],DeathLootTable:"gen:entities/mutantzombieloot",CustomName:'{"translate":"genesis.mobs.mutated_zombie","fallback":"Mutated Zombie","color":"green"}',HandItems:[{},{id:"minecraft:stone_button",Count:1b,tag:{CustomModelData:4187132,gen:{mob_base_level:3}}}],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:768564}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:768564}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:768564}}},{}],HandDropChances:[-1000F,-1000F],ArmorDropChances:[-1000F,-1000F,-1000F,-1000F],Attributes:[{Name:generic.max_health,Base:26},{Name:generic.knockback_resistance,Base:.1}]}
+scoreboard players operation #current_total_weight gen.temp = .zombie gen.mobs.weight
 
-execute if predicate gen:random50 run data merge entity @s[tag=!gen.mobs.custom_mob] {Tags:["gen.mobs.custom_mob","gen.mobs.test_zombie"],DeathLootTable:"gen:entities/test_zombie",CustomName:'{"text":"Test!!!!!!!!!","color":"red"}',ArmorItems:[{id:"minecraft:diamond_boots",Count:1b},{id:"minecraft:diamond_leggings",Count:1b},{id:"minecraft:diamond_chestplate",Count:1b},{}],HandDropChances:[-1000F,-1000F],ArmorDropChances:[-1000F,-1000F,-1000F,-1000F],Attributes:[{Name:generic.max_health,Base:68},{Name:generic.knockback_resistance,Base:.5}]}
+#scoreboard players set #random.min gen.math 0
+#scoreboard players operation #random.max gen.math = #current_total_weight gen.temp
+#function gen:math/api/random/uniform_range
+
+data modify storage gen:mobs success set value []
+data modify storage gen:mobs check_requirements set value []
+data modify storage gen:mobs read set from storage gen:mobs registry.zombie
+function gen:mobs/internal/spawning/requirements/check
+#data modify storage gen:mobs read set from storage gen:mobs registry.zombie
+#function gen:mobs/internal/spawning/requirements/level
+
+#data modify storage gen:mobs read set from storage gen:mobs success
+#tellraw @a[tag=gen.dev.debug.all] ["level all success:",{"nbt":"success[].name","storage": "gen:mobs","color":"blue"}]
+#data modify storage gen:mobs success set value []
+
+#function gen:mobs/internal/spawning/requirements/moon_phase
+
+#data modify storage gen:mobs read set from storage gen:mobs success
+#tellraw @a[tag=gen.dev.debug.all] ["moon phase all success:",{"nbt":"success[].name","storage": "gen:mobs","color":"red"}]
+#data modify storage gen:mobs success set value []
+
+#function gen:mobs/internal/spawning/requirements/block
+#data modify storage gen:mobs read set from storage gen:mobs success
+#tellraw @a[tag=gen.dev.debug.all] ["block all success:",{"nbt":"success[].name","storage": "gen:mobs","color":"yellow"}]
+#data modify storage gen:mobs success set value []
+
+scoreboard players set #random.min gen.math 0
+scoreboard players operation #random.max gen.math = #current_total_weight gen.temp
+function gen:math/api/random/uniform_range
+
+scoreboard players set #w_loop gen.temp 1
+execute if data storage gen:mobs success[0] run function gen:mobs/internal/spawning/weight_choosing
+#data modify storage gen:mobs read set from storage gen:mobs registry.zombie
+

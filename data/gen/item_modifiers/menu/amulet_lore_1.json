@@ -1,0 +1,34 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			[
+				{
+					"nbt": "lore.amulet[1][17]",
+					"storage": "gen:menu",
+					"interpret": true
+				}
+			],
+			[
+				{
+					"translate": "genesis.menu.amulet.amulet_way_to_use.line1",
+					"fallback": "§eright-click to navigate"
+				}
+			],
+			[
+			{
+				"translate": "genesis.menu.amulet.amulet_way_to_use.line2",
+				"fallback": "§eshift right-click to select"
+			}
+			],
+			[
+			{
+				"translate": "genesis.menu.amulet.amulet_way_to_use.line3",
+				"fallback": "§ethrow to go up a level"
+			}
+			]
+		],
+		"replace": true
+	}
+]
