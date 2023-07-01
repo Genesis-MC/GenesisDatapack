@@ -78,29 +78,29 @@ In this pack mob spawning is data driven this means that
 
 go into data/gen/functions/mobs/data/registry to add your mobs and see some example
 ### ONLY WORKS FOR NOW FOR ZOMBIES SKELETONS CREPEERS SPIDERS YOU CAN ADD THE OTHERS IF YOU WISH GO TO gen:mobs/internal/spawning/custom_mob/ENTITY THEN FOLLOW THE PATTERN
-#    registry.<ENTITY> will list all the possible values the listed <ENTITY> can be
-#    name is only used for JSON searching and identifying
-#    base_entity (SOON) is what the mob is like if 20% of zombies became piglins you have to set it to minecraft:piglin other wise defaults to the key it is assigned to
-#    name is what used to search for the json key
-#    spawn_pack (SOON) is the amount of mobs it will spawn of that type
-#    spawn_pack_distance (SOON) is the amount of distance the pack mobs will be seperated deaults to 1 block
-#    weight is self explantory
-#    weight_multiplier (SOON) will increase base wieght with the multipler * level 
-#   requirements
-# 
-# Tips !
-# you can set (min:420) no need to set the max!
-# you can set (max:69) no need to set the min!
-#
-#           moon_phase ( 1- 8 ) NOTE:::(for optimiztion reasons please include the correct range dont put min:5000,max:10000)
-#                       min for the minum moon cycle number
-#                       max is forthe maximum moon cylce number
-#                       exact is the exact moon cycle
-#           level
-#                   min is the minum level the mob must be 
-#                   max is the max level the mob must be
-#           block : "minecraft:dirt" the block it must be summoned under (THE NAMESPACE IS REQUIRED YOU CANT JUST PUT 'dirt')
-#           entity_data is the nbt when
+    registry.<ENTITY> will list all the possible values the listed <ENTITY> can be
+    name is only used for JSON searching and identifying
+    base_entity (SOON) is what the mob is like if 20% of zombies became piglins you have to set it to minecraft:piglin other wise defaults to the key it is assigned to
+    name is what used to search for the json key
+    spawn_pack (SOON) is the amount of mobs it will spawn of that type
+    spawn_pack_distance (SOON) is the amount of distance the pack mobs will be seperated deaults to 1 block
+    weight is self explantory
+    weight_multiplier (SOON) will increase base wieght with the multipler * level 
+   requirements
+ 
+ Tips !
+ you can set (min:420) no need to set the max!
+ you can set (max:69) no need to set the min!
+
+           moon_phase ( 1- 8 ) NOTE:::(for optimiztion reasons please include the correct range dont put min:5000,max:10000)
+                       min for the minum moon cycle number
+                       max is forthe maximum moon cylce number
+                       exact is the exact moon cycle
+           level
+                   min is the minum level the mob must be 
+                   max is the max level the mob must be
+           block : "minecraft:dirt" the block it must be summoned under (THE NAMESPACE IS REQUIRED YOU CANT JUST PUT 'dirt')
+           entity_data is the nbt when
 ###Example
-# data modify storage gen:mobs registry.zombie append value {name:"My Custom Mob!",weight:1000,requirements:{moon_phase:{max:7},level:{min:5},block:"minecraft:diamond_block"},entity_data:{CustomName:'"Diamond Man!"'}}
+``` data modify storage gen:mobs registry.zombie append value {name:"My Custom Mob!",weight:1000,requirements:{moon_phase:{max:7},level:{min:5},block:"minecraft:diamond_block"},entity_data:{CustomName:'"Diamond Man!"'}}```
 # IF YOU ADD A NEW REGISTRED ITEM TO THE REGISTRY NOT THROUGH THIS FILE DO THIS /function gen:mobs/internal/registry/changed (this will be changed but when i figure it out)
