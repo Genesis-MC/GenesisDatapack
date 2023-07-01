@@ -27,5 +27,5 @@ function gen:math/api/random/uniform_range
 
 scoreboard players set #w_loop gen.temp 1
 function gen:mobs/internal/spawning/weight_choosing
-#data modify storage gen:mobs read set from storage gen:mobs registry.zombie
+#data modify storage gen:mobs read set from storage gen:mobs can_spawn.zombie
 

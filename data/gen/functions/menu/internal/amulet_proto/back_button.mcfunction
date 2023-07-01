@@ -1,3 +1,0 @@
-say back
-execute if score @s gen.menu.amulet.subpage matches 0 if score @s gen.menu.amulet.page matches 0 as @e[tag=gen.menu.amulet.text_display] if score @s gen.player_id = $search gen.player_id at @s run function gen:menu/internal/amulet_proto/page0
-execute if score @s gen.menu.amulet.subpage matches 1 if score @s gen.menu.amulet.page matches 0 as @e[tag=gen.menu.amulet.text_display] if score @s gen.player_id = $search gen.player_id at @s run function gen:menu/internal/amulet_proto/page0

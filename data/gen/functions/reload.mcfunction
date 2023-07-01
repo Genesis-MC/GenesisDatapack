@@ -9,7 +9,6 @@ scoreboard objectives add gen.config dummy
 
 scoreboard objectives add gen.modules dummy
 tellraw @a {"text":"<Genesis Reloaded Succesfully>","color":"gold","bold":true}
-
 function gen:core/reload
 function gen:crops/reload
 function gen:gear/reload

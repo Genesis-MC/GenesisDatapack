@@ -1,0 +1,1 @@
+function gen:mobs/internal/registry/filter/moon_phase/start

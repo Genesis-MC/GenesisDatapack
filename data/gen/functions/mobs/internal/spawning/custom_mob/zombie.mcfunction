@@ -6,9 +6,9 @@ scoreboard players operation #current_total_weight gen.temp = .zombie gen.mobs.w
 
 data modify storage gen:mobs success set value []
 data modify storage gen:mobs check_requirements set value []
-data modify storage gen:mobs read set from storage gen:mobs registry.zombie
+data modify storage gen:mobs read set from storage gen:mobs can_spawn.zombie
 function gen:mobs/internal/spawning/requirements/check
-#data modify storage gen:mobs read set from storage gen:mobs registry.zombie
+#data modify storage gen:mobs read set from storage gen:mobs can_spawn.zombie
 #function gen:mobs/internal/spawning/requirements/level
 
 #data modify storage gen:mobs read set from storage gen:mobs success
@@ -32,5 +32,5 @@ function gen:math/api/random/uniform_range
 
 scoreboard players set #w_loop gen.temp 1
 execute if data storage gen:mobs success[0] run function gen:mobs/internal/spawning/weight_choosing
-#data modify storage gen:mobs read set from storage gen:mobs registry.zombie
+#data modify storage gen:mobs read set from storage gen:mobs can_spawn.zombie
 
