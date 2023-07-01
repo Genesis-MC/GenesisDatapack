@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:small_amethyst_bud",
+          "name": "minecraft:iron_nugget",
           "functions": [
             {
               "function": "minecraft:set_nbt",
