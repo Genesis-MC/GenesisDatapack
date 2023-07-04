@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Tag:\"Crystal Buds\",display:{Name:'{\"text\":\"Crystal Buds\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Common Mineral\",\"color\":\"white\",\"italic\":false}']},CustomModelData:982001}"
+              "tag": "{Tag:\"CrystalBuds\",display:{Name:'{\"text\":\"Crystal Buds\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Common Mineral\",\"color\":\"white\",\"italic\":false}']},CustomModelData:982001}"
             }
           ],
           "conditions": [
