@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_leggings",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{stat:{armor:55}},AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Name:\"tungsten.legs\",Amount:-0.000000000001,Operation:0,UUID:[I;12,42069,-0,14],Slot:\"legs\"}],display:{Name:'{\"text\":\"Steel Andure Leggings\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['{\"text\":\"Uncommon Leggings\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\"\",\"font\":\"genesis:stats\",\"color\":\"white\",\"italic\":false,\"extra\":[{\"translate\":\"genesis.stats.wrapper.armor.2\",\"with\":[55]}]}','{\"text\":\"\"}']},HideFlags:3}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
