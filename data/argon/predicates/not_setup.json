@@ -1,0 +1,9 @@
+{
+  "condition": "minecraft:value_check",
+  "value": {
+    "type": "minecraft:score",
+    "target": "this",
+    "score": "argon.id"
+  },
+  "range": 0
+}
