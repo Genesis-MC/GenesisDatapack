@@ -1,3 +1,4 @@
+tellraw @a[tag=gen.dev.debug] ["",{"text":"Genesis","color":"#DF9DE3"},{"text":" ->","color":"yellow"},{"text":" /tag @s add gen.dev.debug.all for extra debug!","color":"green"},{"text":"","color":"yellow"},{"text":"","color":"green"}]
 tellraw @a[tag=gen.dev.debug] ["",{"text":"Genesis","color":"#DF9DE3"},{"text":" ->","color":"yellow"},{"text":" Reloading ","color":"green"},{"text":"mobs ","color":"yellow"},{"text":"module","color":"green"}]
 tellraw @a[tag=gen.dev.debug] ["",{"text":"Genesis","color":"#DF9DE3"},{"text":" ->","color":"yellow"},{"text":" please test the data driven mob spawning! ","color":"green"},{"text":"","color":"yellow"},{"text":"","color":"green"}]
 tellraw @a[tag=gen.dev.debug] ["",{"text":"Genesis","color":"#DF9DE3"},{"text":" ->","color":"yellow"},{"text":" go to ","color":"green"},{"text":"gen:mobs/data/registry","color":"yellow"},{"text":"for more info!","color":"green"}]

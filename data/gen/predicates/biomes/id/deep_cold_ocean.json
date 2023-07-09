@@ -1,0 +1,1 @@
+{"condition":"minecraft:value_check","value":{"type":"minecraft:score","target":"this","score":"gen.biome"},"range":2310000}

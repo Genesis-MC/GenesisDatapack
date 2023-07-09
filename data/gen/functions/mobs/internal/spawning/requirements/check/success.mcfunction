@@ -1,1 +1,1 @@
-data modify storage gen:mobs success append from storage gen:mobs current_item
+data modify storage gen:mobs success append from storage gen:mobs check_requirements[-1]

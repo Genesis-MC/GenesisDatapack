@@ -1,0 +1,16 @@
+you could do this in your function
+
+```
+scoreboard players set Ticks Temp 4
+scoreboard players add Timer Temp 1
+execute if score Timer Temp => Ticks Temp run scoreboard players set #changed Temp 1
+execute if score Timer Temp => Ticks Temp run scoreboard players set Timer Temp 0
+execute if score #changed Temp matches 1 if score Timer Temp matches 0 run your changing color command
+execute if score #changed Temp matches 1 if score Timer Temp matches 1 run your changing color command
+execute if score #changed Temp matches 1 if score Timer Temp matches 2 run your changing color command
+execute if score #changed Temp matches 1 if score Timer Temp matches 3 run your changing color command
+execute if score #changed Temp matches 1 if score Timer Temp matches 4 run your changing color command
+execute if score #changed Temp matches 1 if score Timer Temp matches 5 run your changing color command
+execute if score #changed Temp matches 1 if score Timer Temp matches 6 run your changing color command
+
+```
