@@ -27,4 +27,5 @@ function gen:professions/reload
 function gen:spawning/reload
 function gen:menu/reload
 function gen:mobs/reload
+function gen:particles/reload
 function gen:player_events/reload

@@ -11,7 +11,7 @@
         "functions": [
           {
             "function": "minecraft:set_nbt",
-            "tag": "{Tag:\"GildedHilt\",display:{Name:'{\"text\":\"Gilded Hilt\",\"color\":\"gold\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['{\"text\":\"Uncommon Ingredient\",\"color\":\"aqua\",\"italic\":false}']},CustomModelData:982002}"
+            "tag": "{gen:{name:\"GildedHilt\"},display:{Name:'{\"text\":\"Gilded Hilt\",\"color\":\"gold\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['{\"text\":\"Uncommon Ingredient\",\"color\":\"aqua\",\"italic\":false}']},CustomModelData:982002}"
           }
         ]
       }

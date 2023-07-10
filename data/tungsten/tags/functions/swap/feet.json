@@ -1,5 +1,6 @@
 {
   "values": [
-    "gen:gear/data/stat/swap/feet"
+    "gen:gear/data/stat/swap/feet",
+    "gen:gear/internal/addpassives"
   ]
 }
