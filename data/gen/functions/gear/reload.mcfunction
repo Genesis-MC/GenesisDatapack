@@ -8,3 +8,5 @@ scoreboard objectives add gen.passive.ylvl dummy
 schedule function gen:gear/internal/secupdate 1s replace
 schedule function gen:gear/internal/tickupdate 1t replace
 schedule function gen:gear/internal/5tickupdate 5t replace
+scoreboard objectives add gen.ability dummy
+scoreboard objectives add gen.ability.use minecraft.used:minecraft.warped_fungus_on_a_stick

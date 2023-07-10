@@ -5,3 +5,6 @@ execute if score Professions gen.modules matches 1 run function gen:professions/
 execute if score Menu gen.modules matches 1 run function gen:menu/tick
 execute if score Gear gen.modules matches 1 run function gen:gear/tick
 execute if score PlayerEvents gen.modules matches 1 run function gen:player_events/tick
+execute if score Menu gen.modules matches 1 run function gen:menu/tick
+execute if score PlayerEvents gen.modules matches 1 run function gen:player_events/tick
+function gen:gear/tick
