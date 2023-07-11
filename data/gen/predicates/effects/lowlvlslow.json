@@ -4,7 +4,10 @@
   "predicate": {
     "effects": {
       "minecraft:slowness": {
-        "amplifier": 1
+        "amplifier": {
+          "min": 0,
+          "max": 1
+        }
       }
     }
   }
