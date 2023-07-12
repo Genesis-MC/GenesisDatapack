@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stick"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_nbt",
+            "tag": "{gen:{name:\"SteelHilt\"},display:{Name:'{\"text\":\"Steel Hilt\",\"color\":\"gray\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['{\"text\":\"Common Ingredient\",\"color\":\"white\",\"italic\":false}']},CustomModelData:982001}"
+          }
+        ]
+      }
+    ]
+  }
+  

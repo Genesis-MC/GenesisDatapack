@@ -1,0 +1,26 @@
+{
+    "criteria": 
+    {
+        "unfetteredI": {
+            "trigger": "minecraft:impossible"
+        },
+        "unfetteredII": {
+            "trigger": "minecraft:impossible"
+        },
+        "heart_of_the_sea": {
+            "trigger": "minecraft:impossible"
+        },
+        "sea_born": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": 
+    [
+        [
+            "unfetteredI",
+            "unfetteredII",
+            "heart_of_the_sea",
+            "sea_born"
+        ]
+    ]
+}

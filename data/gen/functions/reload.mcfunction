@@ -27,7 +27,5 @@ function gen:professions/reload
 function gen:spawning/reload
 function gen:menu/reload
 function gen:mobs/reload
+function gen:particles/reload
 function gen:player_events/reload
-# schedule functions
-schedule function gen:core/internal/delay 1s replace
-schedule function gen:core/internal/worldtimeupdater 1s replace
