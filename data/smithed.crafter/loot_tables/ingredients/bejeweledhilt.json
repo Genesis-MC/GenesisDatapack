@@ -11,7 +11,7 @@
         "functions": [
           {
             "function": "minecraft:set_nbt",
-            "tag": "{Tag:\"BejeweledHilt\",display:{Name:'{\"text\":\"Bejeweled Hilt\",\"color\":\"aqua\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['{\"text\":\"Rare Ingredient\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:982003}"
+            "tag": "{gen:{name:\"BejeweledHilt\"},display:{Name:'{\"text\":\"Bejeweled Hilt\",\"color\":\"aqua\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['{\"text\":\"Rare Ingredient\",\"color\":\"yellow\",\"italic\":false}']},CustomModelData:982003}"
           }
         ]
       }

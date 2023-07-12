@@ -25,6 +25,7 @@ function gen:menu/reload
 function gen:bossbars/reload
 function gen:items/reload
 function gen:mobs/reload
+function gen:particles/reload
 function gen:player_events/reload
 function gen:events/reload
 function gen:utils/reload

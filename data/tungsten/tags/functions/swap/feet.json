@@ -1,6 +1,7 @@
 {
   "values": [
     "gen:gear/data/stat/swap/feet",
+    "gen:gear/internal/add_passives",
     "gen:menu/internal/amulet/update_lore"
   ]
 }

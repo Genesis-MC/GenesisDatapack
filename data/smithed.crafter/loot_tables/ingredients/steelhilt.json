@@ -11,7 +11,7 @@
         "functions": [
           {
             "function": "minecraft:set_nbt",
-            "tag": "{Tag:\"SteelHilt\",display:{Name:'{\"text\":\"Steel Hilt\",\"color\":\"gray\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['{\"text\":\"Common Ingredient\",\"color\":\"white\",\"italic\":false}']},CustomModelData:982001}"
+            "tag": "{gen:{name:\"SteelHilt\"},display:{Name:'{\"text\":\"Steel Hilt\",\"color\":\"gray\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['{\"text\":\"Common Ingredient\",\"color\":\"white\",\"italic\":false}']},CustomModelData:982001}"
           }
         ]
       }
