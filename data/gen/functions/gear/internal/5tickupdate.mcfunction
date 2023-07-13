@@ -8,7 +8,10 @@ execute as @a[advancements={gen:passive={unfetteredI=true}}] run function gen:ge
 #UnfetteredII
 execute as @a[advancements={gen:passive={unfetteredII=true}}] run function gen:gear/internal/passives/unfettered2
 #Heart of the Sea
-execute as @a[advancements={gen:passive={heart_of_the_sea=true}}] if predicate gen:utils/in_water run effect give @s conduit_power 6 0 false
+execute as @a[advancements={gen:passive={heart_of_the_sea=true}}] at @s if block ~ ~ ~ water run effect give @s conduit_power 6 0 false
 #Sea Born
-execute as @a[advancements={gen:passive={sea_born=true}}] if predicate gen:utils/in_water run effect give @s dolphins_grace 6 0 false
+execute as @a[advancements={gen:passive={sea_born=true}}] at @s if block ~ ~ ~ water run effect give @s dolphins_grace 6 0 false
+#Supreme Speed
+execute as @a[advancements={gen:passive={supreme_speed=true}}] if predicate gen:utils/is_sprinting run effect give @s speed 1 4 false
+
 schedule function gen:gear/internal/5tickupdate 5t replace

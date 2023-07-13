@@ -12,6 +12,9 @@
         },
         "sea_born": {
             "trigger": "minecraft:impossible"
+        },
+        "supreme_speed": {
+            "trigger": "minecraft:impossible"
         }
     },
     "requirements": 
@@ -20,7 +23,8 @@
             "unfetteredI",
             "unfetteredII",
             "heart_of_the_sea",
-            "sea_born"
+            "sea_born",
+            "supreme_speed"
         ]
     ]
 }

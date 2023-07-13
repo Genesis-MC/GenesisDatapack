@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Verdant Twig\",\"color\":\"green\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['{\"text\":\"Uncommon Ingredient\",\"color\":\"aqua\",\"italic\":false}']},CustomModelData:982000,HideFlags:131}"
+                "tag": "{display:{Name:'{\"text\":\"Verdant Twig\",\"color\":\"green\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['{\"text\":\"Uncommon Ingredient\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\"\"}','{\"text\":\"A vibrantly lush twig.\",\"color\":\"gray\"}']},CustomModelData:982000,HideFlags:131}"
               }
             ]
           }
