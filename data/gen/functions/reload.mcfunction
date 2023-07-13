@@ -29,3 +29,6 @@ function gen:menu/reload
 function gen:mobs/reload
 function gen:particles/reload
 function gen:player_events/reload
+
+# start ticking function
+function gen:tick

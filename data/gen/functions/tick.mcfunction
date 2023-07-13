@@ -8,3 +8,6 @@ execute if score PlayerEvents gen.modules matches 1 run function gen:player_even
 execute if score Menu gen.modules matches 1 run function gen:menu/tick
 execute if score PlayerEvents gen.modules matches 1 run function gen:player_events/tick
 function gen:gear/tick
+
+# tick ticking function
+schedule function gen:tick 1t replace
