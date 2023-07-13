@@ -7,11 +7,6 @@ execute if score .hand gen.ability matches -1 run return -1
 # now we have the actual ability in .id gen.ability
 # and the correct .hand gen.ability (1 main, 2 off)
 
-# check for all spells
-# - this should be a function tag
-# - and that should be calling a spell dictionary
-# so if's good for performance and others can easily add to it
-
-tellraw @a [{"selector":"@s","color":"gold"},{"text":" has cast an ability with the id: "},{"score":{"name":".id","objective":"gen.ability"}}]
+execute at @s run function #gen:gear/ability/dictionary
 
 # apply cooldown :)
