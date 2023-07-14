@@ -7,11 +7,13 @@ execute if score .hand gen.ability matches -1 run return -1
 # now we have the actual ability in .id gen.ability
 # and the correct .hand gen.ability (1 main, 2 off)
 
-# check for all spells
-# - this should be a function tag
-# - and that should be calling a spell dictionary
-# so if's good for performance and others can easily add to it
+execute at @s run function #gen:gear/ability/dictionary
+tellraw @a[tag=gen.dev.debug] [{"selector":"@s","color":"#22cc22"},{"text":" has cast an ability - id: ","color":"#aaffaa"},{"score":{"name":".id","objective":"gen.ability"}},{"text":" - cooldown: ","color":"#aaffaa"},{"score":{"name":".cooldown","objective":"gen.ability"}}]
 
-tellraw @a [{"selector":"@s","color":"gold"},{"text":" has cast an ability with the id: "},{"score":{"name":".id","objective":"gen.ability"}}]
-
-# apply cooldown :)
+# cooldown is at .cooldown gen.ability
+scoreboard players operation #new_cooldown gen.math = .gametime gen.time
+execute store result storage gen:temp new_cooldown int 1 run scoreboard players operation #new_cooldown gen.math += .cooldown gen.ability
+execute if score .hand gen.ability matches 1 run item modify entity @s weapon.mainhand gen:gear/ability/apply_cooldown
+execute if score .hand gen.ability matches 1 run scoreboard players operation @s gen.stat.cooldown.mainhand = #new_cooldown gen.math
+execute if score .hand gen.ability matches 2 run item modify entity @s weapon.offhand gen:gear/ability/apply_cooldown
+execute if score .hand gen.ability matches 2 run scoreboard players operation @s gen.stat.cooldown.offhand = #new_cooldown gen.math
