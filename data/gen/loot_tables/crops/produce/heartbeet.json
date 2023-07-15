@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"item.gen.crops.produce.heartbeet\",\"italic\":false}'},CustomModelData:1}"
+            }
+          ],
+          "name": "minecraft:tropical_fish",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}
