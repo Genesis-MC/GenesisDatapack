@@ -16,7 +16,7 @@
               },
               "ops": [
                 {
-                  "source": "seed_item.tag",
+                  "source": "registry.crop_definitions[{id:\"genesis:corn\"}].seed_item.tag",
                   "target": "{}",
                   "op": "merge"
                 }
