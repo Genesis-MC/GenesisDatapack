@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chainmail_boots"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_nbt",
+            "tag": "{gen:{name:\"Mountain-Treader Boots\",stat:{armor:15,speed:90}},AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Name:\"tungsten.feet\",Amount:-0.000000000001,Operation:0,UUID:[I;12,42069,-0,15],Slot:\"feet\"}],display:{Name:'{\"text\":\"Mountain-Treader Boots\",\"color\":\"gray\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['{\"text\":\"Rare Boots\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"\",\"font\":\"genesis:stats\",\"color\":\"white\",\"italic\":false,\"extra\":[{\"translate\":\"genesis.stats.wrapper.armor.2\",\"with\":[15]}]}','{\"text\":\"\"}','{\"text\":\"\",\"font\":\"genesis:stats\",\"color\":\"white\",\"italic\":false,\"extra\":[{\"translate\":\"genesis.stats.wrapper.speed.2\",\"with\":[90]}]}','{\"text\":\"\"}','[{\"text\":\"❂\",\"color\":\"#403303\",\"bold\":true,\"italic\":false},{\"text\":\" Unfettered I\",\"color\":\"gold\",\"bold\":true,\"italic\":false}]','{\"text\":\"Passive Ability\",\"color\":\"dark_gray\"}','{\"text\":\"Grants immunity to Slowness I\",\"color\":\"gray\",\"italic\":false}']},HideFlags:195,Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:silence\"}}"
+          }
+        ]
+      }
+    ]
+  }
+  

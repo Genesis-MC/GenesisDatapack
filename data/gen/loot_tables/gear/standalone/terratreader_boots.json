@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_boots"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_nbt",
+            "tag": "{gen:{name:\"Terra-Treader Boots\",stat:{armor:30,speed:300}},AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Name:\"tungsten.feet\",Amount:-0.000000000001,Operation:0,UUID:[I;12,42069,-0,15],Slot:\"feet\"}],display:{Name:'{\"text\":\"Terra-Treader Boots\",\"color\":\"green\",\"italic\":false,\"bold\":true,\"underlined\":false}',Lore:['{\"text\":\"Mythical Boots\",\"color\":\"#211905\",\"italic\":false}','{\"text\":\"\",\"font\":\"genesis:stats\",\"color\":\"white\",\"italic\":false,\"extra\":[{\"translate\":\"genesis.stats.wrapper.armor.2\",\"with\":[30]}]}','{\"text\":\"\"}','{\"text\":\"\",\"font\":\"genesis:stats\",\"color\":\"white\",\"italic\":false,\"extra\":[{\"translate\":\"genesis.stats.wrapper.speed.3\",\"with\":[300]}]}','{\"text\":\"\"}','[{\"text\":\"❂\",\"color\":\"#403303\",\"bold\":true,\"italic\":false},{\"text\":\" Unfettered II\",\"color\":\"gold\",\"bold\":true,\"italic\":false}]','{\"text\":\"Passive Ability\",\"color\":\"dark_gray\"}','{\"text\":\"Grants immunity up to Slowness II and Blindnes\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"\"}','[{\"text\":\"❂\",\"color\":\"#403303\",\"bold\":true,\"italic\":false},{\"text\":\" Featherweight\",\"color\":\"gold\",\"bold\":true,\"italic\":false}]','{\"text\":\"Passive Ability\",\"color\":\"dark_gray\"}','{\"text\":\"Sneak while in the air to gain Slowfalling\",\"color\":\"gray\",\"italic\":false}']},HideFlags:131,Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:silence\"}}"
+          }
+        ]
+      }
+    ]
+  }
+  

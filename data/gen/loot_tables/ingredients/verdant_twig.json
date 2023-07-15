@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Verdant Twig\",\"color\":\"green\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['{\"text\":\"Uncommon Ingredient\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\"\"}','{\"text\":\"A vibrantly lush twig.\",\"color\":\"gray\"}']},CustomModelData:982002,HideFlags:131}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
