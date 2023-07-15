@@ -1,4 +1,4 @@
-# Argon v1.0.0 by PuckiSilver
+# mc-argon v1.0.2 by PuckiSilver
 scoreboard players add .global argon.id 1
 execute if score .global argon.id matches 65537.. run scoreboard players set .global argon.id 1
 scoreboard players operation @s argon.id = .global argon.id
@@ -34,4 +34,4 @@ execute if score #id argon.id matches 4.. run scoreboard players remove #id argo
 execute if score #id argon.id matches 2.. run scoreboard players set @s argon.bit1 1
 execute if score #id argon.id matches 2.. run scoreboard players remove #id argon.id 2
 execute if score #id argon.id matches 1.. run scoreboard players set @s argon.bit0 1
-# Argon v1.0.0 by PuckiSilver
+# mc-argon v1.0.2 by PuckiSilver

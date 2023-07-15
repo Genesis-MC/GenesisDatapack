@@ -1,4 +1,4 @@
-# Argon v1.0.0 by PuckiSilver
+# mc-argon v1.0.2 by PuckiSilver
 function #argon:entity_hurt_player
 advancement revoke @s only argon:entity_hurt_player
-# Argon v1.0.0 by PuckiSilver
+# mc-argon v1.0.2 by PuckiSilver
