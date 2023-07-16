@@ -1,0 +1,25 @@
+{
+  "condition": "all_of",
+  "terms": [
+    {
+      "condition": "inverted",
+      "term": {
+        "condition": "reference",
+        "name": "gen:core/item/wfoas_in_mainhand"
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
