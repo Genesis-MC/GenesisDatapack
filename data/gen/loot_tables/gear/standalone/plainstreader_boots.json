@@ -11,10 +11,9 @@
         "functions": [
           {
             "function": "minecraft:set_nbt",
-            "tag": "{gen:{name:\"Plains-Treader Boots\",stat:{armor:5,speed:5}},AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Name:\"tungsten.feet\",Amount:-0.000000000001,Operation:0,UUID:[I;12,42069,-0,15],Slot:\"feet\"}],display:{color:8227926,Name:'{\"text\":\"Plains-Treader Boots\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['{\"text\":\"Common Boots\",\"color\":\"white\",\"italic\":false}','{\"text\":\"\",\"font\":\"genesis:stats\",\"color\":\"white\",\"italic\":false,\"extra\":[{\"translate\":\"genesis.stats.wrapper.armor.1\",\"with\":[5]}]}','{\"text\":\"\"}','{\"text\":\"\",\"font\":\"genesis:stats\",\"color\":\"white\",\"italic\":false,\"extra\":[{\"translate\":\"genesis.stats.wrapper.speed.1\",\"with\":[5]}]}','{\"text\":\"\"}']},HideFlags:195,Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:silence\"}}"
+            "tag": "{gen:{name:\"Plains-Treader Boots\",stat:{armor:5,speed:5}},AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Name:\"tungsten.feet\",Amount:-0.000000000001,Operation:0,UUID:[I;12,42069,-0,15],Slot:\"feet\"}],display:{color:8227926,Name:'{\"text\":\"Plains-Treader Boots\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['{\"text\":\"Common Boots\",\"color\":\"white\",\"italic\":false}','{\"text\":\"\",\"font\":\"genesis:stats\",\"color\":\"white\",\"italic\":false,\"extra\":[{\"translate\":\"genesis.stats.wrapper.armor.1\",\"with\":[5]},{\"translate\":\"genesis.stats.wrapper.speed.1\",\"with\":[5]}]}','{\"text\":\"\"}']},HideFlags:195,Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:silence\"}}"
           }
         ]
       }
     ]
   }
-  
