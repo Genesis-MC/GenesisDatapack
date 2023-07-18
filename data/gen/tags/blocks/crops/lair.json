@@ -14,3 +14,7 @@ execute if score #changed Temp matches 1 if score Timer Temp matches 5 run your 
 execute if score #changed Temp matches 1 if score Timer Temp matches 6 run your changing color command
 
 ```
+
+16 % 2 =0
+ 
+ 8..16

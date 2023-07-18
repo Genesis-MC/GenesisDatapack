@@ -1,0 +1,1 @@
+execute if predicate had.bth:has_block_helmet run function had.bth:hurt_by_entity

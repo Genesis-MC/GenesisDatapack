@@ -64,6 +64,70 @@
 				}
 			}
 		}
-    }
+    },
+	{
+		"condition":"inverted",
+		"term":{
+		"condition": "minecraft:value_check",
+		"value": {
+			"type": "minecraft:score",
+			"target": {
+				"type": "minecraft:fixed",
+				"name": ".is_raining"
+			},
+			"score": "gen.world"
+		},
+		"range": {
+			"min": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#old_is_raining"
+				},
+				"score": "gen.world"
+			},
+			"max": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#old_is_raining"
+				},
+				"score": "gen.world"
+			}
+		}
+	}
+	},
+	{
+		"condition":"inverted",
+		"term":{
+		"condition": "minecraft:value_check",
+		"value": {
+			"type": "minecraft:score",
+			"target": {
+				"type": "minecraft:fixed",
+				"name": ".is_thundering"
+			},
+			"score": "gen.world"
+		},
+		"range": {
+			"min": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#old_is_thundering"
+				},
+				"score": "gen.world"
+			},
+			"max": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#old_is_thundering"
+				},
+				"score": "gen.world"
+			}
+		}
+	}
+	}
 	]
 }

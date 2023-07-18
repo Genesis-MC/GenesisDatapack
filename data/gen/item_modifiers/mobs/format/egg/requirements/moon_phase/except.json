@@ -1,0 +1,21 @@
+{
+  "function": "minecraft:set_lore",
+  "entity": "this",
+  "replace":false,
+  "lore": [
+    [
+      {
+        "text": "       Except: ",
+        "color":"aqua",
+        "italic": false
+      },
+      {
+        "score":{
+          "name": "#except",
+          "objective": "gen.temp"
+        },
+        "color":"yellow"
+      }
+    ]
+  ]
+}

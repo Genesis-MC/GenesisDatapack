@@ -1,0 +1,19 @@
+{
+  "function": "minecraft:set_lore",
+  "entity": "this",
+  "replace":false,
+  "lore": [
+    [
+      {
+        "text": "Biome: ",
+        "color":"aqua",
+        "italic": false
+      },
+      {
+        "nbt": "read[-1].requirements.biome",
+        "storage": "gen:mobs",
+        "color":"yellow"
+      }
+    ]
+  ]
+}

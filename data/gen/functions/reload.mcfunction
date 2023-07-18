@@ -20,7 +20,6 @@ function gen:gear/reload
 function gen:math/reload
 function gen:phead/reload
 function gen:professions/reload
-function gen:spawning/reload
 function gen:menu/reload
 function gen:bossbars/reload
 function gen:items/reload

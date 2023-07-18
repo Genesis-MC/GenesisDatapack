@@ -1,0 +1,19 @@
+{
+  "function": "minecraft:set_lore",
+  "entity": "this",
+  "replace":false,
+  "lore": [
+    [
+      {
+        "text": "Dimension: ",
+        "color":"aqua",
+        "italic": false
+      },
+      {
+        "nbt": "read[-1].requirements.dimension",
+        "storage": "gen:mobs",
+        "color":"yellow"
+      }
+    ]
+  ]
+}

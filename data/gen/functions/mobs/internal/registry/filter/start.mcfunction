@@ -319,3 +319,8 @@ data modify storage gen:mobs read set value []
 data modify storage gen:mobs read set from storage gen:mobs registry.zombified_piglin
 execute if data storage gen:mobs registry.zombified_piglin[0] run function gen:mobs/internal/registry/filter/filtering
 data modify storage gen:mobs can_spawn.zombified_piglin set from storage gen:mobs read
+
+
+
+
+function gen:mobs/internal/registry/get_data/start

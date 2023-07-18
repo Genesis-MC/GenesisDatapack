@@ -1,0 +1,152 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dirt",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "nbt": "read[-1].name",
+                  "storage": "gen:mobs",
+                  "color": "yellow",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "nbt": "lore[0]",
+                  "storage": "gen:temp",
+                  "interpret": true
+                },
+                {
+                  "nbt": "lore[1]",
+                  "storage": "gen:temp",
+                  "interpret": true
+                },
+                {
+                  "nbt": "lore[2]",
+                  "storage": "gen:temp",
+                  "interpret": true
+                },
+                {
+                  "nbt": "lore[3]",
+                  "storage": "gen:temp",
+                  "interpret": true
+                },
+                {
+                  "nbt": "lore[4]",
+                  "storage": "gen:temp",
+                  "interpret": true
+                },
+                {
+                  "nbt": "lore[5]",
+                  "storage": "gen:temp",
+                  "interpret": true
+                },
+                {
+                  "nbt": "lore[6]",
+                  "storage": "gen:temp",
+                  "interpret": true
+                },
+                {
+                  "nbt": "lore[7]",
+                  "storage": "gen:temp",
+                  "interpret": true
+                },
+                {
+                  "nbt": "lore[8]",
+                  "storage": "gen:temp",
+                  "interpret": true
+                },
+                {
+                  "nbt": "lore[9]",
+                  "storage": "gen:temp",
+                  "interpret": true
+                },
+                {
+                  "nbt": "lore[10]",
+                  "storage": "gen:temp",
+                  "interpret": true
+                },
+                {
+                  "nbt": "lore[11]",
+                  "storage": "gen:temp",
+                  "interpret": true
+                },
+                {
+                  "nbt": "lore[12]",
+                  "storage": "gen:temp",
+                  "interpret": true
+                },
+                {
+                  "nbt": "lore[13]",
+                  "storage": "gen:temp",
+                  "interpret": true
+                },
+                {
+                  "nbt": "lore[14]",
+                  "storage": "gen:temp",
+                  "interpret": true
+                },
+                {
+                  "nbt": "lore[15]",
+                  "storage": "gen:temp",
+                  "interpret": true
+                },
+                {
+                  "nbt": "lore[16]",
+                  "storage": "gen:temp",
+                  "interpret": true
+                },
+                {
+                  "nbt": "lore[17]",
+                  "storage": "gen:temp",
+                  "interpret": true
+                },
+                {
+                  "nbt": "lore[18]",
+                  "storage": "gen:temp",
+                  "interpret": true
+                },
+                {
+                  "nbt": "lore[19]",
+                  "storage": "gen:temp",
+                  "interpret": true
+                },
+                {
+                  "nbt": "lore[20]",
+                  "storage": "gen:temp",
+                  "interpret": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "gen:mobs"
+              },
+              "ops": [
+                {
+                  "source": "read[-1].entity_data",
+                  "target": "EntityTag",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

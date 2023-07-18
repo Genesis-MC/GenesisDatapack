@@ -1,0 +1,32 @@
+{
+  "function": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "name": "gen.math.binomial",
+      "amount": {
+        "type": "minecraft:binomial",
+        "n": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#n"
+          },
+          "score": "gen.math"
+        },
+        "p": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#p"
+          },
+          "score": "gen.math",
+          "scale": 0.01
+        }
+      },
+      "operation": "addition",
+      "id": "d3757321-078d-4466-bccf-0695f018772f",
+      "slot": "mainhand"
+    }
+  ]
+}

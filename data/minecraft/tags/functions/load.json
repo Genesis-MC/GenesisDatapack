@@ -4,6 +4,7 @@
 		"#smithed.crafter:load",
 		"tungsten:load",
 		"argon:load",
+		"had.bth:reload",
 		"gen:reload"
 	]
 }

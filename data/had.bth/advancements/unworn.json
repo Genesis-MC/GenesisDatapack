@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{isBlockHelmet:1b}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "had.bth:advancements/updater"
+    }
+  }
+  
