@@ -1,3 +1,4 @@
+tag @s add gen.done_giving_lore
 data modify entity @s Item.id set from storage gen:temp id
 data modify entity @s Owner set from storage gen:temp UUID
 data modify entity @s Item.tag.EntityTag set from storage gen:mobs read[-1].entity_data
