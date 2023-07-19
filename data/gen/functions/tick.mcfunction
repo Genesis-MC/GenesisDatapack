@@ -1,5 +1,6 @@
 function gen:core/tick
 function gen:crops/tick
+function gen:gear/tick
 function gen:mobs/tick
 function gen:professions/tick
 function gen:menu/tick

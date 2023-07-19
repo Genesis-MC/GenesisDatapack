@@ -1,78 +1,78 @@
-function gen:mobs/api/give_spawn_egg/allay
-function gen:mobs/api/give_spawn_egg/axolotl
-function gen:mobs/api/give_spawn_egg/bat
-function gen:mobs/api/give_spawn_egg/bee
-function gen:mobs/api/give_spawn_egg/blaze
-function gen:mobs/api/give_spawn_egg/camel
-function gen:mobs/api/give_spawn_egg/cat
-function gen:mobs/api/give_spawn_egg/cave_spider
-function gen:mobs/api/give_spawn_egg/chicken
-function gen:mobs/api/give_spawn_egg/cod
-function gen:mobs/api/give_spawn_egg/cow
-function gen:mobs/api/give_spawn_egg/creeper
-function gen:mobs/api/give_spawn_egg/dolphin
-function gen:mobs/api/give_spawn_egg/donkey
-function gen:mobs/api/give_spawn_egg/drowned
-function gen:mobs/api/give_spawn_egg/elder_guardian
-function gen:mobs/api/give_spawn_egg/ender_dragon
-function gen:mobs/api/give_spawn_egg/enderman
-function gen:mobs/api/give_spawn_egg/endermite
-function gen:mobs/api/give_spawn_egg/evoker
-function gen:mobs/api/give_spawn_egg/fox
-function gen:mobs/api/give_spawn_egg/frog
-function gen:mobs/api/give_spawn_egg/ghast
-function gen:mobs/api/give_spawn_egg/glow_squid
-function gen:mobs/api/give_spawn_egg/goat
-function gen:mobs/api/give_spawn_egg/guardian
-function gen:mobs/api/give_spawn_egg/hoglin
-function gen:mobs/api/give_spawn_egg/horse
-function gen:mobs/api/give_spawn_egg/husk
-function gen:mobs/api/give_spawn_egg/illusioner
-function gen:mobs/api/give_spawn_egg/iron_golem
-function gen:mobs/api/give_spawn_egg/llama
-function gen:mobs/api/give_spawn_egg/magma_cube
-function gen:mobs/api/give_spawn_egg/mooshroom
-function gen:mobs/api/give_spawn_egg/mule
-function gen:mobs/api/give_spawn_egg/ocelot
-function gen:mobs/api/give_spawn_egg/panda
-function gen:mobs/api/give_spawn_egg/parrot
-function gen:mobs/api/give_spawn_egg/phantom
-function gen:mobs/api/give_spawn_egg/pig
-function gen:mobs/api/give_spawn_egg/piglin
-function gen:mobs/api/give_spawn_egg/piglin_brute
-function gen:mobs/api/give_spawn_egg/pillager
-function gen:mobs/api/give_spawn_egg/polar_bear
-function gen:mobs/api/give_spawn_egg/pufferfish
-function gen:mobs/api/give_spawn_egg/rabbit
-function gen:mobs/api/give_spawn_egg/ravager
-function gen:mobs/api/give_spawn_egg/salmon
-function gen:mobs/api/give_spawn_egg/sheep
-function gen:mobs/api/give_spawn_egg/shulker
-function gen:mobs/api/give_spawn_egg/silverfish
-function gen:mobs/api/give_spawn_egg/skeleton
-function gen:mobs/api/give_spawn_egg/skeleton_horse
-function gen:mobs/api/give_spawn_egg/slime
-function gen:mobs/api/give_spawn_egg/sniffer
-function gen:mobs/api/give_spawn_egg/snow_golem
-function gen:mobs/api/give_spawn_egg/spider
-function gen:mobs/api/give_spawn_egg/squid
-function gen:mobs/api/give_spawn_egg/stray
-function gen:mobs/api/give_spawn_egg/strider
-function gen:mobs/api/give_spawn_egg/tadpole
-function gen:mobs/api/give_spawn_egg/trader_llama
-function gen:mobs/api/give_spawn_egg/tropical_fish
-function gen:mobs/api/give_spawn_egg/turtle
-function gen:mobs/api/give_spawn_egg/vex
-function gen:mobs/api/give_spawn_egg/villager
-function gen:mobs/api/give_spawn_egg/vindicator
-function gen:mobs/api/give_spawn_egg/wandering_trader
-function gen:mobs/api/give_spawn_egg/warden
-function gen:mobs/api/give_spawn_egg/witch
-function gen:mobs/api/give_spawn_egg/wither
-function gen:mobs/api/give_spawn_egg/wither_skeleton
-function gen:mobs/api/give_spawn_egg/wolf
-function gen:mobs/api/give_spawn_egg/zoglin
-function gen:mobs/api/give_spawn_egg/zombie
-function gen:mobs/api/give_spawn_egg/zombie_horse
-function gen:mobs/api/give_spawn_egg/zombie_villager
-function gen:mobs/api/give_spawn_egg/zombified_piglin
+execute if data storage gen:mobs registry.allay[0] run function gen:mobs/api/give_spawn_egg/allay
+execute if data storage gen:mobs registry.axolotl[0] run function gen:mobs/api/give_spawn_egg/axolotl
+execute if data storage gen:mobs registry.bat[0] run function gen:mobs/api/give_spawn_egg/bat
+execute if data storage gen:mobs registry.bee[0] run function gen:mobs/api/give_spawn_egg/bee
+execute if data storage gen:mobs registry.blaze[0] run function gen:mobs/api/give_spawn_egg/blaze
+execute if data storage gen:mobs registry.camel[0] run function gen:mobs/api/give_spawn_egg/camel
+execute if data storage gen:mobs registry.cat[0] run function gen:mobs/api/give_spawn_egg/cat
+execute if data storage gen:mobs registry.cave_spider[0] run function gen:mobs/api/give_spawn_egg/cave_spider
+execute if data storage gen:mobs registry.chicken[0] run function gen:mobs/api/give_spawn_egg/chicken
+execute if data storage gen:mobs registry.cod[0] run function gen:mobs/api/give_spawn_egg/cod
+execute if data storage gen:mobs registry.cow[0] run function gen:mobs/api/give_spawn_egg/cow
+execute if data storage gen:mobs registry.creeper[0] run function gen:mobs/api/give_spawn_egg/creeper
+execute if data storage gen:mobs registry.dolphin[0] run function gen:mobs/api/give_spawn_egg/dolphin
+execute if data storage gen:mobs registry.donkey[0] run function gen:mobs/api/give_spawn_egg/donkey
+execute if data storage gen:mobs registry.drowned[0] run function gen:mobs/api/give_spawn_egg/drowned
+execute if data storage gen:mobs registry.elder_guardian[0] run function gen:mobs/api/give_spawn_egg/elder_guardian
+execute if data storage gen:mobs registry.ender_dragon[0] run function gen:mobs/api/give_spawn_egg/ender_dragon
+execute if data storage gen:mobs registry.enderman[0] run function gen:mobs/api/give_spawn_egg/enderman
+execute if data storage gen:mobs registry.endermite[0] run function gen:mobs/api/give_spawn_egg/endermite
+execute if data storage gen:mobs registry.evoker[0] run function gen:mobs/api/give_spawn_egg/evoker
+execute if data storage gen:mobs registry.fox[0] run function gen:mobs/api/give_spawn_egg/fox
+execute if data storage gen:mobs registry.frog[0] run function gen:mobs/api/give_spawn_egg/frog
+execute if data storage gen:mobs registry.ghast[0] run function gen:mobs/api/give_spawn_egg/ghast
+execute if data storage gen:mobs registry.glow_squid[0] run function gen:mobs/api/give_spawn_egg/glow_squid
+execute if data storage gen:mobs registry.goat[0] run function gen:mobs/api/give_spawn_egg/goat
+execute if data storage gen:mobs registry.guardian[0] run function gen:mobs/api/give_spawn_egg/guardian
+execute if data storage gen:mobs registry.hoglin[0] run function gen:mobs/api/give_spawn_egg/hoglin
+execute if data storage gen:mobs registry.horse[0] run function gen:mobs/api/give_spawn_egg/horse
+execute if data storage gen:mobs registry.husk[0] run function gen:mobs/api/give_spawn_egg/husk
+execute if data storage gen:mobs registry.illusioner[0] run function gen:mobs/api/give_spawn_egg/illusioner
+execute if data storage gen:mobs registry.iron_golem[0] run function gen:mobs/api/give_spawn_egg/iron_golem
+execute if data storage gen:mobs registry.llama[0] run function gen:mobs/api/give_spawn_egg/llama
+execute if data storage gen:mobs registry.magma_cube[0] run function gen:mobs/api/give_spawn_egg/magma_cube
+execute if data storage gen:mobs registry.mooshroom[0] run function gen:mobs/api/give_spawn_egg/mooshroom
+execute if data storage gen:mobs registry.mule[0] run function gen:mobs/api/give_spawn_egg/mule
+execute if data storage gen:mobs registry.ocelot[0] run function gen:mobs/api/give_spawn_egg/ocelot
+execute if data storage gen:mobs registry.panda[0] run function gen:mobs/api/give_spawn_egg/panda
+execute if data storage gen:mobs registry.parrot[0] run function gen:mobs/api/give_spawn_egg/parrot
+execute if data storage gen:mobs registry.phantom[0] run function gen:mobs/api/give_spawn_egg/phantom
+execute if data storage gen:mobs registry.pig[0] run function gen:mobs/api/give_spawn_egg/pig
+execute if data storage gen:mobs registry.piglin[0] run function gen:mobs/api/give_spawn_egg/piglin
+execute if data storage gen:mobs registry.piglin_brute[0] run function gen:mobs/api/give_spawn_egg/piglin_brute
+execute if data storage gen:mobs registry.pillager[0] run function gen:mobs/api/give_spawn_egg/pillager
+execute if data storage gen:mobs registry.polar_bear[0] run function gen:mobs/api/give_spawn_egg/polar_bear
+execute if data storage gen:mobs registry.pufferfish[0] run function gen:mobs/api/give_spawn_egg/pufferfish
+execute if data storage gen:mobs registry.rabbit[0] run function gen:mobs/api/give_spawn_egg/rabbit
+execute if data storage gen:mobs registry.ravager[0] run function gen:mobs/api/give_spawn_egg/ravager
+execute if data storage gen:mobs registry.salmon[0] run function gen:mobs/api/give_spawn_egg/salmon
+execute if data storage gen:mobs registry.sheep[0] run function gen:mobs/api/give_spawn_egg/sheep
+execute if data storage gen:mobs registry.shulker[0] run function gen:mobs/api/give_spawn_egg/shulker
+execute if data storage gen:mobs registry.silverfish[0] run function gen:mobs/api/give_spawn_egg/silverfish
+execute if data storage gen:mobs registry.skeleton[0] run function gen:mobs/api/give_spawn_egg/skeleton
+execute if data storage gen:mobs registry.skeleton_horse[0] run function gen:mobs/api/give_spawn_egg/skeleton_horse
+execute if data storage gen:mobs registry.slime[0] run function gen:mobs/api/give_spawn_egg/slime
+execute if data storage gen:mobs registry.sniffer[0] run function gen:mobs/api/give_spawn_egg/sniffer
+execute if data storage gen:mobs registry.snow_golem[0] run function gen:mobs/api/give_spawn_egg/snow_golem
+execute if data storage gen:mobs registry.spider[0] run function gen:mobs/api/give_spawn_egg/spider
+execute if data storage gen:mobs registry.squid[0] run function gen:mobs/api/give_spawn_egg/squid
+execute if data storage gen:mobs registry.stray[0] run function gen:mobs/api/give_spawn_egg/stray
+execute if data storage gen:mobs registry.strider[0] run function gen:mobs/api/give_spawn_egg/strider
+execute if data storage gen:mobs registry.tadpole[0] run function gen:mobs/api/give_spawn_egg/tadpole
+execute if data storage gen:mobs registry.trader_llama[0] run function gen:mobs/api/give_spawn_egg/trader_llama
+execute if data storage gen:mobs registry.tropical_fish[0] run function gen:mobs/api/give_spawn_egg/tropical_fish
+execute if data storage gen:mobs registry.turtle[0] run function gen:mobs/api/give_spawn_egg/turtle
+execute if data storage gen:mobs registry.vex[0] run function gen:mobs/api/give_spawn_egg/vex
+execute if data storage gen:mobs registry.villager[0] run function gen:mobs/api/give_spawn_egg/villager
+execute if data storage gen:mobs registry.vindicator[0] run function gen:mobs/api/give_spawn_egg/vindicator
+execute if data storage gen:mobs registry.wandering_trader[0] run function gen:mobs/api/give_spawn_egg/wandering_trader
+execute if data storage gen:mobs registry.warden[0] run function gen:mobs/api/give_spawn_egg/warden
+execute if data storage gen:mobs registry.witch[0] run function gen:mobs/api/give_spawn_egg/witch
+execute if data storage gen:mobs registry.wither[0] run function gen:mobs/api/give_spawn_egg/wither
+execute if data storage gen:mobs registry.wither_skeleton[0] run function gen:mobs/api/give_spawn_egg/wither_skeleton
+execute if data storage gen:mobs registry.wolf[0] run function gen:mobs/api/give_spawn_egg/wolf
+execute if data storage gen:mobs registry.zoglin[0] run function gen:mobs/api/give_spawn_egg/zoglin
+execute if data storage gen:mobs registry.zombie[0] run function gen:mobs/api/give_spawn_egg/zombie
+execute if data storage gen:mobs registry.zombie_horse[0] run function gen:mobs/api/give_spawn_egg/zombie_horse
+execute if data storage gen:mobs registry.zombie_villager[0] run function gen:mobs/api/give_spawn_egg/zombie_villager
+execute if data storage gen:mobs registry.zombified_piglin[0] run function gen:mobs/api/give_spawn_egg/zombified_piglin

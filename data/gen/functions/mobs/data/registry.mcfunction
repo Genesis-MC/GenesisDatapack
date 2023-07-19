@@ -24,8 +24,8 @@
 data modify storage gen:mobs registry set value {axolotl:[],bat:[],bee:[],blaze:[],camel:[],cat:[],cave_spider:[],chicken:[],cod:[],cow:[],creeper:[],dolphin:[],donkey:[],drowned:[],elder_guardian:[],ender_dragon:[],enderman:[],endermite:[],evoker:[],fox:[],frog:[],ghast:[],giant:[],glow_squid:[],goat:[],guardian:[],hoglin:[],horse:[],husk:[],illusioner:[],iron_golem:[],llama:[],magma_cube:[],mooshroom:[],mule:[],ocelot:[],panda:[],parrot:[],phantom:[],pig:[],piglin:[],piglin_brute:[],pillager:[],polar_bear:[],pufferfish:[],rabbit:[],ravager:[],salmon:[],sheep:[],shulker:[],silverfish:[],skeleton:[],skeleton_horse:[],slime:[],sniffer:[],snow_golem:[],spider:[],squid:[],stray:[],strider:[],tadpole:[],trader_llama:[],tropical_fish:[],turtle:[],vex:[],villager:[],vindicator:[],wandering_trader:[],warden:[],witch:[],wither:[],wither_skeleton:[],wolf:[],zoglin:[],zombie:[],zombie_horse:[],zombie_villager:[],zombified_piglin:[]}
 
 function #gen:mobs/data/registries
-data modify storage gen:mobs registry.zombie append value {name:"vex",weight:1,weight_level_mutliplier:{value:1.500000f},spawn_pack:{min:1,max:5},stat_increases:{flat:{health:{n:10,p:50,b:0.5f}}},spawn_pack_distance:{min:1.000000,max:5.000000},requirements:{level:{min:1,max:5},block:"minecraft:dirt",biome:"minecraft:plains"},entity_data:{CustomName:'{"text":"SSSSSSSS"}',Health:0.5f}}
 
-#data modify storage gen:mobs registry.zombie append value {name:"na",weight:100,stat_increases:{flat:{health:{n:100s,p:50b,b:0.300000f}}},entity_data:{CustomName:'"negative"'}}
+
+data modify storage gen:mobs registry.zombie append value {name:"na",weight:100,stat_increases:{flat:{health:{n:100s,p:50b,b:0.300000f}}},entity_data:{CustomName:'"negative"'}}
 
 function #gen:mobs/data/registry_overriding

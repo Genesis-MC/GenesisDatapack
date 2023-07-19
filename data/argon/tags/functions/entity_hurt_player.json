@@ -1,5 +1,5 @@
 {
     "values": [
-            "had.bth:advancements/hurt_by_entity"
+            "gen:gear/internal/bth/entity_hurt_player"
     ]
 }

@@ -1,0 +1,1 @@
+scoreboard players set #attacker gen.temp 1

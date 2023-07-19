@@ -31,7 +31,7 @@ function gen:utils/reload
 # schedule functions
 
 
-function gen:utils/get_day_values
+function gen:utils/get_world_values
 
 
 schedule function gen:core/internal/delay 1s replace

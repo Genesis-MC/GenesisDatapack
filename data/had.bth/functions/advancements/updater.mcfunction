@@ -1,1 +1,0 @@
-schedule function had.bth:advancements/update 1t replace
