@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_sword"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_nbt",
+            "tag": "{gen:{stat:{physical_power:65,attack_speed:25}},AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Name:\"tungsten.mainhand\",Amount:-0.000000000001,Operation:0,UUID:[I;12,42069,-0,10],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.luck\",Name:\"tungsten.offhand\",Amount:-0.000000000001,Operation:0,UUID:[I;12,42069,-0,11],Slot:\"offhand\"}],display:{Name:'{\"text\":\"Iron Spear\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['{\"text\":\"Common Spear\",\"color\":\"white\",\"italic\":false}','{\"text\":\"\",\"font\":\"genesis:stats\",\"color\":\"white\",\"italic\":false,\"extra\":[{\"translate\":\"genesis.stats.wrapper.physical_power.2\",\"with\":[70]},{\"translate\":\"genesis.stats.wrapper.attack_speed.2\",\"with\":[22]}]}','{\"text\":\"\"}']},HideFlags:131}"
+          }
+        ]
+      }
+    ]
+  }
