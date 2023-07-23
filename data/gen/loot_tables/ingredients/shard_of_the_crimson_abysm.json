@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'[{\"text\":\"Shard of the\",\"color\":\"red\",\"italic\":false},{\"text\":\" Crimson Abysm\",\"color\":\"dark_red\",\"italic\":false}]',Lore:['{\"text\":\"Legendary Ingredient\",\"color\":\"#3b2b06\",\"italic\":false}','{\"text\":\"\"}','{\"text\":\"Through blight and fire we are reborn,\",\"color\":\"gold\"}','{\"text\":\"and through the same we are razed to ashes.\",\"color\":\"gold\"}']},CustomModelData:982009,HideFlags:131}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
