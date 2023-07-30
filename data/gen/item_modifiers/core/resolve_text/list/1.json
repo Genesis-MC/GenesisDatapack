@@ -1,0 +1,6 @@
+{
+  "function": "set_lore",
+  "lore": [{"storage":"gen:core","nbt":"resolve_text_list[0]","interpret":true}],
+  "entity": "this",
+  "replace": false
+}

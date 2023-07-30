@@ -15,6 +15,7 @@ execute unless score Mobs gen.modules matches 0..1 run scoreboard players set Mo
 execute unless score Menu gen.modules matches 0..1 run scoreboard players set Menu gen.modules 1
 execute unless score PlayerEvents gen.modules matches 0..1 run scoreboard players set PlayerEvents gen.modules 1
 execute unless score Core gen.modules matches 0..1 run scoreboard players set Core gen.modules 1
+execute unless score Guidebook gen.modules matches 0..1 run scoreboard players set Guidebook gen.modules 1
 # reload modules
 tellraw @a {"text":"<Genesis Reloaded Succesfully>","color":"gold","bold":true}
 
@@ -29,6 +30,7 @@ function gen:menu/reload
 function gen:mobs/reload
 function gen:particles/reload
 function gen:player_events/reload
+function gen:guidebook/reload
 
 # start ticking function
 function gen:tick

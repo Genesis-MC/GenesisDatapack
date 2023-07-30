@@ -7,7 +7,7 @@ execute if score Gear gen.modules matches 1 run function gen:gear/tick
 execute if score PlayerEvents gen.modules matches 1 run function gen:player_events/tick
 execute if score Menu gen.modules matches 1 run function gen:menu/tick
 execute if score PlayerEvents gen.modules matches 1 run function gen:player_events/tick
-function gen:gear/tick
+execute if score Guidebook gen.modules matches 1 run function gen:guidebook/tick
 
 # tick ticking function
 schedule function gen:tick 1t replace
