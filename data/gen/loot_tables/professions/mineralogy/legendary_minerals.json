@@ -1,0 +1,21 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:professions/mineralogy/minerals/glacial_larimar"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:professions/mineralogy/minerals/fire_opal"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:professions/mineralogy/minerals/dragonscale_calcite"
+          }
+        ]
+      }
+    ]
+  }

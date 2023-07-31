@@ -1,0 +1,29 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:professions/mineralogy/minerals/mithril"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:professions/mineralogy/minerals/agate"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:professions/mineralogy/minerals/peridot"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:professions/mineralogy/minerals/zircon"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:professions/mineralogy/minerals/opal"
+          }
+        ]
+      }
+    ]
+  }

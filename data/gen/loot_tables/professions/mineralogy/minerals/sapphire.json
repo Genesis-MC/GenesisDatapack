@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Sapphire\"},display:{Name:'{\"text\":\"Sapphire\",\"color\":\"blue\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Epic Mineral\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]']},CustomModelData:982018,HideFlags:131,StoredEnchantments:[{id:\"minecraft:looting\",lvl:3s}]}"
+                "tag": "{gen:{name:\"Sapphire\"},display:{Name:'{\"text\":\"Sapphire\",\"color\":\"blue\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Epic Mineral\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]']},CustomModelData:982019,HideFlags:131,StoredEnchantments:[{id:\"minecraft:looting\",lvl:3s}]}"
               }
             ]
           }
