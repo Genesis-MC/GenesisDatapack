@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Glacial Larimar\"},display:{Name:'{\"text\":\"Glacial Larimar\",\"color\":\"aqua\",\"italic\":false,\"bold\":true,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Legendary Mineral\",\"font\":\"minecraft:default\",\"color\":\"#3b2b06\",\"italic\":false}]']},CustomModelData:982020,HideFlags:131,StoredEnchantments:[{id:\"minecraft:frost_walker\",lvl:4s}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
