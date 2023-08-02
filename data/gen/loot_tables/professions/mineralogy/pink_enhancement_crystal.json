@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Pink Enhancement Crystal\",EnhancementCrystal:1b},display:{Name:'{\"text\":\"Pink Enhancement Crystal\",\"color\":\"light_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Mineral\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]']},Enchantments:[{}],HideFlags:131}"
+                "tag": "{gen:{name:\"Pink Enhancement Crystal\",EnhancementCrystal:1b},display:{Name:'{\"text\":\"Pink Enhancement Crystal\",\"color\":\"light_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Mineral\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]']},CustomModelData:982012,Enchantments:[{}],HideFlags:131}"
               }
             ]
           }
