@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Yellow Enhancement Crystal\",EnhancementCrystal:1b},display:{Name:'{\"text\":\"Yellow Enhancement Crystal\",\"color\":\"yellow\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Epic Mineral\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]']},CustomModelData:982013,Enchantments:[{}],HideFlags:131}"
+                "tag": "{gen:{name:\"Yellow Enhancement Crystal\",EnhancementCrystal:1b},display:{Name:'{\"text\":\"Yellow Enhancement Crystal\",\"color\":\"yellow\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Mineral\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"text\":\"\"}','{\"text\":\"Right click on a Tier 1 Crystalarium\",\"color\":\"gray\"}','{\"text\":\"to upgrade it to Tier 2.\",\"color\":\"gray\"}']},CustomModelData:982013,Enchantments:[{}],HideFlags:131}"
               }
             ]
           }
