@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Crystal Scale\"},display:{Name:'{\"text\":\"Crystal Scale\",\"color\":\"aqua\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Epic Ingredient\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"text\":\"\"}','{\"text\":\"Glisteningly beautiful, yet\",\"color\":\"gray\"}','{\"text\":\"sharp enough to draw blood.\",\"color\":\"gray\"}']},CustomModelData:982010,HideFlags:131}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

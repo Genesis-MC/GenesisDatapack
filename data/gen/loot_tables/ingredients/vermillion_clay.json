@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Vermillion Clay\"},display:{Name:'{\"text\":\"Vermillion Clay\",\"color\":\"red\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Common Ingredient\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"text\":\"\"}','{\"text\":\"Vermillion like the vast oceans of red sand.\",\"color\":\"gray\"}','{\"text\":\"Vermillion like dusk sunlight reflected upon water.\",\"color\":\"gray\"}','{\"text\":\"Vermillion like horizons of red sandstone.\",\"color\":\"gray\"}','{\"text\":\"Vermillion like the blood of the desert.\",\"color\":\"gray\"}']},CustomModelData:982016,HideFlags:131}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
