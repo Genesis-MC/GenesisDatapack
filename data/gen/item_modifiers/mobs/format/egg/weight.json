@@ -1,0 +1,20 @@
+{
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "replace":false,
+    "lore": [
+      [
+        {
+          "text": "Weight: ",
+          "color":"aqua",
+          "italic": false
+        },
+        {
+          "nbt": "read[-1].weight",
+          "storage": "gen:mobs",
+          "color":"yellow"
+        }
+      ]
+    ]
+  }
+  

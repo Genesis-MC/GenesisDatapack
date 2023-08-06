@@ -1,0 +1,2 @@
+data modify storage gen:temp mob_data set from entity @s HandItems[].tag.gen.mob_data
+execute if data storage gen:temp mob_data.stat_increase store result score @s gen.mobs.level run data get storage gen:temp mob_data.base_level

@@ -16,7 +16,7 @@
 				},
 				{
 					"nbt": "name",
-					"storage": "genesis:temp",
+					"storage": "gen:temp",
 					"interpret": true,
 					"italic": false
 				}

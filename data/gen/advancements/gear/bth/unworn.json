@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "gen:gear/bth/wore": false
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "gen.bth.wearing_block_helmet": 1
+            }
+          }
+        ],
+        "items": [
+          {
+            "nbt": "{HelmetData:{isBlockHelmet:1b}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "gen:gear/internal/bth/unworn"
+  }
+}

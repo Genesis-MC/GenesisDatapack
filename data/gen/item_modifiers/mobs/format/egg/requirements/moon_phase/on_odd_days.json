@@ -1,0 +1,18 @@
+{
+  "function": "minecraft:set_lore",
+  "entity": "this",
+  "replace":false,
+  "lore": [
+    [
+      {
+        "text": "       On Odd Days: ",
+        "color":"aqua",
+        "italic": false
+      },
+      {
+        "text":"true",
+        "color":"yellow"
+      }
+    ]
+  ]
+}
