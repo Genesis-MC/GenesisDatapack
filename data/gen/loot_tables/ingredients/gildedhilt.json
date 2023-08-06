@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stick"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_nbt",
+            "tag": "{gen:{name:\"GildedHilt\"},display:{Name:'{\"text\":\"Gilded Hilt\",\"color\":\"gold\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Uncommon Ingredient\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]']},CustomModelData:982002}"
+          }
+        ]
+      }
+    ]
+  }
+  

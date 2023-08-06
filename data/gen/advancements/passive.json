@@ -7,10 +7,22 @@
         "unfetteredII": {
             "trigger": "minecraft:impossible"
         },
-        "heart_of_the_sea": {
+        "supreme_speed": {
             "trigger": "minecraft:impossible"
         },
-        "sea_born": {
+        "featherweight": {
+            "trigger": "minecraft:impossible"
+        },
+        "seaborn1": {
+            "trigger": "minecraft:impossible"
+        },
+        "seaborn2": {
+            "trigger": "minecraft:impossible"
+        },
+        "seaborn3": {
+            "trigger": "minecraft:impossible"
+        },
+        "seaborn4": {
             "trigger": "minecraft:impossible"
         }
     },
@@ -19,8 +31,12 @@
         [
             "unfetteredI",
             "unfetteredII",
-            "heart_of_the_sea",
-            "sea_born"
+            "supreme_speed",
+            "featherweight",
+            "seaborn1",
+            "seaborn2",
+            "seaborn3",
+            "seaborn4"
         ]
     ]
 }

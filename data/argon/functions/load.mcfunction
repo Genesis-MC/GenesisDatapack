@@ -1,4 +1,4 @@
-# Argon v1.0.0 by PuckiSilver
+# mc-argon v1.0.2 by PuckiSilver
 scoreboard objectives add argon.id dummy
 scoreboard objectives add argon.bit0 dummy
 scoreboard objectives add argon.bit1 dummy
@@ -16,4 +16,4 @@ scoreboard objectives add argon.bit12 dummy
 scoreboard objectives add argon.bit13 dummy
 scoreboard objectives add argon.bit14 dummy
 scoreboard objectives add argon.bit15 dummy
-# Argon v1.0.0 by PuckiSilver
+# mc-argon v1.0.2 by PuckiSilver

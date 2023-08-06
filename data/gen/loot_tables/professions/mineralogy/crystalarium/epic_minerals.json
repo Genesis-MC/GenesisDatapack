@@ -1,0 +1,29 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:professions/mineralogy/minerals/bedrock_mithril"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:professions/mineralogy/minerals/aquamarine"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:professions/mineralogy/minerals/ruby"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:professions/mineralogy/minerals/kunzite"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:professions/mineralogy/minerals/sapphire"
+          }
+        ]
+      }
+    ]
+  }

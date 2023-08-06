@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stick"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_nbt",
+            "tag": "{gen:{name:\"BejeweledHilt\"},display:{Name:'{\"text\":\"Bejeweled Hilt\",\"color\":\"aqua\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Ingredient\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]']},CustomModelData:982003}"
+          }
+        ]
+      }
+    ]
+  }
+  

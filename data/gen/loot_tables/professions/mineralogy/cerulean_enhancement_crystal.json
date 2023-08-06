@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Cerulean Enhancement Crystal\",EnhancementCrystal:1b},display:{Name:'{\"text\":\"Cerulean Enhancement Crystal\",\"color\":\"blue\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Mythical Mineral\",\"font\":\"minecraft:default\",\"color\":\"#211905\",\"italic\":false}]','{\"text\":\"\"}','{\"text\":\"Right click on a Tier 4 Crystalarium\",\"color\":\"gray\"}','{\"text\":\"to upgrade it to Tier 5.\",\"color\":\"gray\"}']},CustomModelData:982015,Enchantments:[{}],HideFlags:131}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

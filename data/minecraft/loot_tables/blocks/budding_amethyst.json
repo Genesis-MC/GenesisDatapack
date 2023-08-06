@@ -4,20 +4,14 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_nugget",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Tag:\"CrystalBuds\",display:{Name:'{\"text\":\"Crystal Buds\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"Common Mineral\",\"color\":\"white\",\"italic\":false}']},CustomModelData:982001}"
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.2
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "name": "gen:professions/mineralogy/crystal_buds"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
         }
       ]
     }

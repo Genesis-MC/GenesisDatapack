@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:glowstone_dust",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Pure Crystal Dust\"},display:{Name:'{\"text\":\"Pure Crystal Dust\",\"color\":\"light_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Epic Ingredient\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"text\":\"\"}','{\"text\":\"Its time to cook!\",\"color\":\"gray\"}','{\"text\":\"Wait...thats not right...\",\"color\":\"gray\"}']},CustomModelData:982002,Enchantments:[{}],HideFlags:131}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

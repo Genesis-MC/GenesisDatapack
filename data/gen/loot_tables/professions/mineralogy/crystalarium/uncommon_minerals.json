@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gen:professions/mineralogy/minerals/garnet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "gen:professions/mineralogy/minerals/jasper"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "gen:professions/mineralogy/minerals/topaz"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "gen:professions/mineralogy/minerals/tourmaline"
+        }
+      ]
+    }
+  ]
+}

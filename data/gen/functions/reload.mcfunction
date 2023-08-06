@@ -36,3 +36,6 @@ function gen:utils/get_world_values
 
 schedule function gen:core/internal/delay 1s replace
 schedule function gen:core/internal/worldtimeupdater 1s replace
+
+# start ticking function
+function gen:tick

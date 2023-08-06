@@ -7,3 +7,9 @@ function gen:menu/tick
 function gen:player_events/tick
 function gen:events/tick
 function gen:bossbars/tick
+
+# tick ticking function
+schedule function gen:tick 1t replace
+
+# tick ticking function
+schedule function gen:tick 1t replace

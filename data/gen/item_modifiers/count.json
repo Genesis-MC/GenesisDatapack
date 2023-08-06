@@ -1,0 +1,11 @@
+{
+  "function": "set_count",
+  "count": {
+    "type": "score",
+    "score": "gen.temp",
+    "target": {
+      "type": "fixed",
+      "name": "#count"
+    }
+  }
+}

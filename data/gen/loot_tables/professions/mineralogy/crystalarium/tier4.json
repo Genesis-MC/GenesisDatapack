@@ -1,0 +1,34 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 3,
+            "name": "gen:professions/mineralogy/common_minerals"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 6,
+            "name": "gen:professions/mineralogy/uncommon_minerals"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 6,
+            "name": "gen:professions/mineralogy/rare_minerals"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 4,
+            "name": "gen:professions/mineralogy/epic_minerals"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "name": "gen:professions/mineralogy/legendary_minerals"
+          }
+        ]
+      }
+    ]
+  }

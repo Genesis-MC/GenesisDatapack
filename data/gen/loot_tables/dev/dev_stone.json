@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Genesis Dev Stone\",\"italic\":false,\"color\":\"#403303\"}'},CustomModelData:982001,gen:{on_click:{dev:{dev_stone:1b}}}}"
+            }
+          ],
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}
