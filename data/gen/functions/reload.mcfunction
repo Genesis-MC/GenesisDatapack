@@ -1,6 +1,7 @@
 # add scoreboards
 scoreboard objectives add t dummy
 
+
 scoreboard objectives add gen.world_time dummy
 scoreboard objectives add gen.world_lvl dummy
 scoreboard objectives add gen.world dummy
