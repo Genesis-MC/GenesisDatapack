@@ -1,2 +1,1 @@
-$say $(function)
 $function $(function)

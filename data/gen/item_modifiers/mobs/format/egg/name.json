@@ -1,0 +1,21 @@
+{
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "replace":false,
+    "lore": [
+      [
+        {
+          "text": "Technical Name: ",
+          "color":"aqua",
+          "italic": false
+        },
+        {
+          "nbt": "read[-1].name",
+          "storage": "gen:mobs",
+          "interpret": false,
+          "color":"yellow"
+        }
+      ]
+    ]
+  }
+  

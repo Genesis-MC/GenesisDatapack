@@ -2,6 +2,7 @@ function gen:gear/data/stat/remove/physical_power
 execute if score @s gen.stat.physical_power matches 0 run return -1
 
 scoreboard players operation #stat gen.math = @s gen.stat.physical_power
+scoreboard players operation #stat gen.math -= @s gen.stat.physical_power.offhand
 execute if score #stat gen.math matches 20481.. run scoreboard players set #stat gen.math 20480
 
 execute unless score @s gen.stat.physical_power.mainhand matches 0 run attribute @s generic.attack_damage modifier add f03767ae-ce7a-41ca-3-bace "gen.stat.physical_power.base" -1 add

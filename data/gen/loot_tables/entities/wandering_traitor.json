@@ -1,0 +1,25 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:score",
+								"target": "this",
+								"score": "gen.player.stolen_emeralds",
+								"scale": 0.75
+							},
+							"add": false
+						}
+					]
+				}
+			]
+		}
+	]
+}

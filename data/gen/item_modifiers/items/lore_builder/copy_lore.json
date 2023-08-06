@@ -1,0 +1,14 @@
+{
+	"function": "minecraft:copy_nbt",
+	"source": {
+		"type": "minecraft:storage",
+		"source": "gen:lore_builder"
+	},
+	"ops": [
+		{
+			"source": "Item.tag.display.Lore",
+			"target": "tag.display.Lore",
+			"op": "merge"
+		}
+	]
+}

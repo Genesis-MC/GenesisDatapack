@@ -1,0 +1,165 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+            "condition":"inverted",
+            "term":{
+			"condition": "minecraft:value_check",
+			"value": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": ".is_night"
+				},
+				"score": "gen.world"
+			},
+			"range": {
+				"min": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#old_is_night"
+					},
+					"score": "gen.world"
+				},
+				"max": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#old_is_night"
+					},
+					"score": "gen.world"
+				}
+			}
+        }
+		},
+		{
+            "condition":"inverted",
+            "term":{
+			"condition": "minecraft:value_check",
+			"value": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": ".moon_phase"
+				},
+				"score": "gen.world"
+			},
+			"range": {
+				"min": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#old_moon_phase"
+					},
+					"score": "gen.world"
+				},
+				"max": {
+					"type": "minecraft:score",
+					"target": {
+						"type": "minecraft:fixed",
+						"name": "#old_moon_phase"
+					},
+					"score": "gen.world"
+				}
+			}
+		}
+    },
+	{
+		"condition":"inverted",
+		"term":{
+		"condition": "minecraft:value_check",
+		"value": {
+			"type": "minecraft:score",
+			"target": {
+				"type": "minecraft:fixed",
+				"name": ".is_raining"
+			},
+			"score": "gen.world"
+		},
+		"range": {
+			"min": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#old_is_raining"
+				},
+				"score": "gen.world"
+			},
+			"max": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#old_is_raining"
+				},
+				"score": "gen.world"
+			}
+		}
+	}
+	},
+	{
+		"condition":"inverted",
+		"term":{
+		"condition": "minecraft:value_check",
+		"value": {
+			"type": "minecraft:score",
+			"target": {
+				"type": "minecraft:fixed",
+				"name": ".is_thundering"
+			},
+			"score": "gen.world"
+		},
+		"range": {
+			"min": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#old_is_thundering"
+				},
+				"score": "gen.world"
+			},
+			"max": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#old_is_thundering"
+				},
+				"score": "gen.world"
+			}
+		}
+	}
+	},
+	{
+	"condition":"inverted",
+	"term":{
+	"condition": "minecraft:value_check",
+	"value": {
+		"type": "minecraft:score",
+		"target": {
+			"type": "minecraft:fixed",
+			"name": ".player_count"
+		},
+		"score": "gen.world"
+	},
+	"range": {
+		"min": {
+			"type": "minecraft:score",
+			"target": {
+				"type": "minecraft:fixed",
+				"name": "#old_player_count"
+			},
+			"score": "gen.world"
+		},
+		"max": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#old_player_count"
+				},
+				"score": "gen.world"
+			}
+		}
+	}
+	}
+	]
+}

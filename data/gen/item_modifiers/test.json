@@ -1,0 +1,9 @@
+{
+	"function": "minecraft:set_name",
+	"entity": "this",
+	"name": {
+		"nbt": "front_text.messages[0]",
+		"block": "~ ~ ~",
+        "interpret": true
+	}
+}

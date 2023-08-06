@@ -1,0 +1,15 @@
+{
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "replace":false,
+    "lore": [
+      [
+        {
+          "text": "   Moon Phase:",
+          "color":"aqua",
+          "italic": false
+        }
+      ]
+    ]
+  }
+  

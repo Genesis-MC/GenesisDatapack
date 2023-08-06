@@ -1,0 +1,2 @@
+data modify storage gen:mobs success append from storage gen:mobs check_requirements[-1]
+execute if data storage gen:mobs success[-1].weight_level_multiplier run function gen:mobs/internal/spawning/weight_level_multiplier/do

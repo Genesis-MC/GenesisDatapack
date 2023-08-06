@@ -1,0 +1,2 @@
+#execute as @e[tag=gen.bossbars.init] unless score @s gen.bossbars.id matches 0.. run function gen:bossbars/internal/new_id
+#execute as @e[tag=gen.mobs.show_name] run function gen:mobs/internal/is_hurt

@@ -1,0 +1,14 @@
+{
+  "values": [
+    "minecraft:drown",
+    "minecraft:magic",
+    "minecraft:indirect_magic",
+    "minecraft:cramming",
+    "minecraft:out_of_world",
+    "minecraft:dragon_breath",
+    "minecraft:fall",
+    "minecraft:on_fire",
+    "minecraft:freeze",
+    "minecraft:fly_into_wall"
+  ]
+}
