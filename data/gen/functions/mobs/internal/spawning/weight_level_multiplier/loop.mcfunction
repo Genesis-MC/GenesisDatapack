@@ -1,7 +1,7 @@
 execute store result score #wlm gen.temp run data get storage gen:mobs wlm[-1].weight_level_multiplier.value 1000
 # 0.5f * 1000 = 500
 scoreboard players operation #wlm gen.temp *= @s gen.mobs.level
-# l = 2 500 * 2 = 1000
+# Level = 2. 500 * 2 = 1000
 execute store result score #w gen.temp run data get storage gen:mobs wlm[-1].weight
 scoreboard players operation #temp gen.temp = #w gen.temp
 scoreboard players operation #temp gen.temp *= #wlm gen.temp
