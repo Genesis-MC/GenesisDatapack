@@ -29,6 +29,7 @@ function gen:particles/reload
 function gen:player_events/reload
 function gen:events/reload
 function gen:utils/reload
+function gen:raycast/reload
 # schedule functions
 
 
