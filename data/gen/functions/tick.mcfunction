@@ -10,6 +10,3 @@ function gen:bossbars/tick
 
 # tick ticking function
 schedule function gen:tick 1t replace
-
-# tick ticking function
-schedule function gen:tick 1t replace
