@@ -1,0 +1,1 @@
+$data modify storage gen:crops model set from storage gen:crops crop_definition.display.models[$(index)]
