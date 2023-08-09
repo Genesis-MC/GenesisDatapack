@@ -17,3 +17,5 @@ execute if data storage gen:crops registry_item.seed_item.preprocessing{show_gro
 execute if data storage gen:crops registry_item.seed_item.preprocessing{apply_default_skin:1b} run data modify storage gen:crops registry_item.seed_item.tag.SkullOwner merge value {Id:[I;-2117259736,1476084201,-2117594981,-1450309933],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjI0ODQ4OTI4NWVjOTM3MzVmMjNhOGYzNDU2OGFmMTIxMGU2YjViZDlmYjRlZjgwNzViY2Q5MjBiYTBkNTlmOCJ9fX0="}]}}
 
 execute if data storage gen:crops registry_item.seed_item.preprocessing run data remove storage gen:crops registry_item.seed_item.preprocessing
+
+data modify storage gen:crops registry append from storage gen:crops registry_item
