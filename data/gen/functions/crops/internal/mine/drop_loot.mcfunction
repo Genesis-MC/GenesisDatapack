@@ -1,8 +1,3 @@
 execute if entity @p[distance=..8,scores={gen.crops.mined_sunflower=1..},predicate=!gen:crops/wants_item_drops] run return 0
 
-execute positioned ~ -1000 ~ run summon slime ~ ~ ~ {UUID:[I;1737561129,1710313384,-2072930538,-1690262819]}
-data modify entity 67911429-65f1-4fa8-8471-97169b40a2dd DeathLootTable set from storage gen:crops crop_definition.harvest.loot_table
-loot spawn ~ ~ ~ kill 67911429-65f1-4fa8-8471-97169b40a2dd
-
-data modify entity 67911429-65f1-4fa8-8471-97169b40a2dd DeathLootTable set value "minecraft:empty"
-kill 67911429-65f1-4fa8-8471-97169b40a2dd
+function gen:crops/internal/mine/drop_loot_macro with storage gen:crops crop_definition.harvest

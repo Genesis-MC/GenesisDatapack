@@ -6,7 +6,6 @@ function gen:crops/internal/get_model
 data modify storage gen:crops EntityData.item set from storage gen:crops model
 data modify storage gen:crops EntityData.item.tag.genesis.crops.crop_data set value {age:0,model:0,fully_grown:0b}
 data modify storage gen:crops EntityData.item.tag.genesis.crops.crop_data.id set from storage gen:crops crop_definition.id
-execute store result storage gen:crops EntityData.item.tag.genesis.crops.crop_data.numerical_id int 1 run scoreboard players get .index gen.crops.calc
 
 execute if data storage gen:crops crop_definition.requirements{soil:["minecraft:farmland"]} if block ~ ~-1 ~ minecraft:farmland run data modify storage gen:crops EntityData.Tags append value "gen.crops.crop_entity.check_for_farmland_trampling"
 
