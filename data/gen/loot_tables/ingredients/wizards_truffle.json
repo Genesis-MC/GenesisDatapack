@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:baked_potato",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Wizards Truffle\"},display:{Name:'{\"text\":\"Wizards Truffle\",\"color\":\"blue\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Legendary Ingredient\",\"font\":\"minecraft:default\",\"color\":\"#3b2b06\",\"italic\":false}]','{\"text\":\"\"}','{\"text\":\"An extremely rare truffle variant\",\"color\":\"gray\"}','{\"text\":\"said to have mystical properties.\",\"color\":\"gray\"}']},CustomModelData:982002,Enchantments:[{}],HideFlags:131}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
