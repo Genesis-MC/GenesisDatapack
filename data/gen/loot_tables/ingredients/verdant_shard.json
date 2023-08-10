@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Verdant Shard\",\"color\":\"green\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Ingredient\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"text\":\"\"}','{\"text\":\"An ancient shard covered in moss. It\",\"color\":\"gray\"}','{\"text\":\"pulses with the energy of the forest.\",\"color\":\"gray\"}']},CustomModelData:982003,Enchantments:[{}],HideFlags:131}"
+                "tag": "{gen:{name:\"Verdant Shard\"},display:{Name:'{\"text\":\"Verdant Shard\",\"color\":\"green\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Ingredient\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"text\":\"\"}','{\"text\":\"An ancient shard covered in moss. It\",\"color\":\"gray\"}','{\"text\":\"pulses with the energy of the forest.\",\"color\":\"gray\"}']},CustomModelData:982003,Enchantments:[{}],HideFlags:131}"
               }
             ]
           }

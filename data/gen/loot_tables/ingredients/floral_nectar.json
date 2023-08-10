@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Floral Nectar\",\"color\":\"light_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Ingredient\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"text\":\"\"}','{\"text\":\"Smells delicately sweet...\",\"color\":\"gray\"}']},CustomModelData:982001,HideFlags:131}"
+                "tag": "{gen:{name:\"Floral Nectar\"},display:{Name:'{\"text\":\"Floral Nectar\",\"color\":\"light_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Ingredient\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"text\":\"\"}','{\"text\":\"Smells delicately sweet...\",\"color\":\"gray\"}']},CustomModelData:982001,HideFlags:131}"
               }
             ]
           }
