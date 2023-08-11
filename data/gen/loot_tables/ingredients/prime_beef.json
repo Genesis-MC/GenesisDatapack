@@ -5,7 +5,7 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:cooked_beef",
+            "name": "minecraft:beef",
             "functions": [
               {
                 "function": "minecraft:set_nbt",
