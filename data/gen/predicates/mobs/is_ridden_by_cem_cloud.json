@@ -1,0 +1,11 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "passenger": {
+        "type": "minecraft:text_display",
+        "nbt": "{Tags:[\"gen.mobs.name_display_cloud\"]}"
+      }
+    }
+  }
+  

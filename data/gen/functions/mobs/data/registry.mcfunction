@@ -1,12 +1,11 @@
 # registry 
-# ONLY WORKS FOR NOW FOR ZOMBIES SKELETONS CREPEERS SPIDERS YOU CAN ADD THE OTHERS IF YOU WISH GO TO gen:mobs/internal/spawning/custom_mob/ENTITY THEN FOLLOW THE PATTERN
 #    registry.zombie will list all the possible values the zombie can be
-#    base_entity (NOT YET IMPLEMENTED) is what the mob is like if 20% of zombies became piglins you have to set it to minecraft:piglin other wise defaults to the key it is assigned to
+#    base_entity is what the mob is like if 20% of zombies became piglins you have to set it to minecraft:piglin other wise defaults to the key it is assigned to
 #    name is what used to search for the json key
 #    spawn_pack (NOT YET IMPLEMENTED) is the amount of mobs it will spawn of that type
 #    spawn_pack_distance (NOT YET IMPLEMENTED) is the amount of distance the pack mobs will be seperated deaults to 1 block
 #    weight is self explantory
-#    weight_multiplier (NOT YET IMPLEMENTED) will increase base wieght with the multipler * level 
+#    weight_multiplier will increase base wieght with the multipler * level 
 #   requirements
 # you can set (min:420) no need to set the max!
 # you can set (max:69) no need to set the min!
@@ -25,7 +24,9 @@ data modify storage gen:mobs registry set value {axolotl:[],bat:[],bee:[],blaze:
 
 function #gen:mobs/data/registries
 
+data modify storage gen:mobs registry.zombie append value {name:"minecraft:default",weight:100}
 
-data modify storage gen:mobs registry.zombie append value {name:"na",weight:100,stat_increases:{flat:{health:{n:100s,p:50b,b:0.300000f}}},entity_data:{CustomName:'"negative"'}}
+data modify storage gen:mobs registry.zombie append value {name:"nfffffffa",weight:10,summon_function:"summon tnt",entity_data:{CustomName:'"negative"'}}
+
 
 function #gen:mobs/data/registry_overriding

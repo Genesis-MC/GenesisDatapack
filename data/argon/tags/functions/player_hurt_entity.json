@@ -1,1 +1,5 @@
-{"values": []}
+{
+    "values": [
+        "gen:player_events/player_hurt_entity"
+    ]
+}

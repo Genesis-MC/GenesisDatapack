@@ -1,8 +1,5 @@
-function gen:bossbars/internal/new_id
-function gen:bossbars/internal/color/red
-function gen:bossbars/internal/players/local
-function gen:bossbars/internal/visible/true
-function gen:bossbars/internal/name/selector/s
+function gen:bossbars/api/new
+function gen:bossbars/api/create {style:"progress",players:"@a[distance=..16]",visible:"true",name:"\"hFwello\"",color:"red"}
 scoreboard players set @s gen.mobs.phases 0
 function gen:bossbars/internal/max/update_health
 
