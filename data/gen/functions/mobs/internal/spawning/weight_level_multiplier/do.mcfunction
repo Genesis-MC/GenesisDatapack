@@ -11,3 +11,4 @@ execute if score #temp gen.temp matches ..-1 run scoreboard players operation #t
 scoreboard players operation #temp gen.temp /= #100 gen.const
 scoreboard players operation #current_total_weight gen.temp += #temp gen.temp
 execute store result storage gen:mobs success[-1].weight int 1 run scoreboard players operation #temp gen.temp += #w gen.temp
+# 
