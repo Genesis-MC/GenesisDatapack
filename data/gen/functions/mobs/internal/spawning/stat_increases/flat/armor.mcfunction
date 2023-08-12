@@ -1,6 +1,6 @@
-execute store result score #n gen.math run data get storage gen:mobs success[-1].stat_increases.flat.armor.n
-execute store result score #p gen.math run data get storage gen:mobs success[-1].stat_increases.flat.armor.p
-execute store result score #b gen.math run data get storage gen:mobs success[-1].stat_increases.flat.armor.b 100
+execute store result score #n gen.math run data get storage gen:mobs success[-1].stat_increases.flat.armor[0]
+execute store result score #p gen.math run data get storage gen:mobs success[-1].stat_increases.flat.armor[1]
+execute store result score #b gen.math run data get storage gen:mobs success[-1].stat_increases.flat.armor[2]
 function gen:math/api/random/binomial
 scoreboard players operation #b gen.math *= #binomial.rolls gen.math
 execute store result score #base gen.temp run attribute @s minecraft:generic.armor base get 100
