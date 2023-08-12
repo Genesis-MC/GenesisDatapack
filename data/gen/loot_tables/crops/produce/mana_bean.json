@@ -6,7 +6,34 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"item.gen.crops.produce.mana_bean\",\"italic\":false}'},CustomModelData:982004}"
+              "tag": "{CustomModelData:982004}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.gen.crops.produce.tomato",
+                "italic": "false"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "genesis.lore.rarity.2",
+                  "italic": "false",
+                  "color": "yellow",
+                  "with": [
+                    {
+                      "text": "A",
+                      "font": "genesis:icon",
+                      "color": "white"
+                    },
+                    {
+                      "translate": "genesis.lore.type.ingredient"
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "name": "minecraft:tropical_fish",
