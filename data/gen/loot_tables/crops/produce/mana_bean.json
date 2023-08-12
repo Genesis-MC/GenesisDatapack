@@ -11,7 +11,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.gen.crops.produce.tomato",
+                "translate": "item.gen.crops.produce.mana_bean",
                 "italic": "false"
               }
             },
