@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Voided Fragment\",\"color\":\"dark_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Ingredient\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"text\":\"\"}','{\"text\":\"The fragment barely remains corporeal,\",\"color\":\"gray\"}','{\"text\":\"except for the runes carved upon it.\",\"color\":\"gray\"}']},CustomModelData:982005,HideFlags:131}"
+                "tag": "{gen:{name:\"Voided Fragment\"},display:{Name:'{\"text\":\"Voided Fragment\",\"color\":\"dark_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Ingredient\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"text\":\"\"}','{\"text\":\"The fragment barely remains corporeal,\",\"color\":\"gray\"}','{\"text\":\"except for the runes carved upon it.\",\"color\":\"gray\"}']},CustomModelData:982005,HideFlags:131}"
               }
             ]
           }

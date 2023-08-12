@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:beef",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Prime Beef\"},display:{Name:'{\"text\":\"Prime Beef\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Epic Ingredient\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"text\":\"\"}','{\"text\":\"A perfect ratio of fat and tenderness.\",\"color\":\"gray\"}']},CustomModelData:982001,HideFlags:131}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
