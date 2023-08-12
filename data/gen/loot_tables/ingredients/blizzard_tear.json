@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Blizzard Tear\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['{\"text\":\"Rare Ingredient\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"\"}','{\"text\":\"An exceptionally crystallized hailstone.\",\"color\":\"gray\"}']},CustomModelData:982008,HideFlags:131}"
+                "tag": "{gen:{name:\"Blizzard Tear\"},display:{Name:'{\"text\":\"Blizzard Tear\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Ingredient\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"text\":\"\"}','{\"text\":\"An exceptionally crystallized hailstone.\",\"color\":\"gray\"}']},CustomModelData:982008,HideFlags:131}"
               }
             ]
           }

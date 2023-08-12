@@ -1,0 +1,11 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"rewards": {
+		"function": "gen:new_player"
+	},
+	"sends_telemetry_event": false
+}

@@ -1,6 +1,7 @@
 {
   "values": [
     "gen:gear/data/stat/swap/chest",
-    "gen:gear/internal/addpassives"
+    "gen:gear/internal/add_passives",
+    "gen:menu/internal/amulet/update_lore"
   ]
 }

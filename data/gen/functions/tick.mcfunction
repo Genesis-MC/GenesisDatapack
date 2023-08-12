@@ -1,3 +1,4 @@
+
 execute if score Core gen.modules matches 1 run function gen:core/tick
 execute if score Crops gen.modules matches 1 run function gen:crops/tick
 execute if score Mobs gen.modules matches 1 run function gen:mobs/tick

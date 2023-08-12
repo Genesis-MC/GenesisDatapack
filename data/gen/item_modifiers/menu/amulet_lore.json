@@ -1,0 +1,53 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			[
+				{
+					"nbt": "lore.amulet_font",
+					"storage": "gen:menu",
+					"interpret": true
+				},
+				{
+					"nbt": "lore.amulet[0]",
+					"storage": "gen:menu",
+					"interpret": true
+				},
+				{
+					"nbt": "lore.amulet[1]",
+					"storage": "gen:menu",
+					"interpret": true
+				},
+				{
+					"nbt": "lore.amulet[2]",
+					"storage": "gen:menu",
+					"interpret": true
+				}
+			],
+			[
+				{
+					"nbt": "lore.amulet_font",
+					"storage": "gen:menu",
+					"interpret": true
+				},
+				{
+					"nbt": "lore.amulet[0]",
+					"storage": "gen:menu",
+					"interpret": true
+				},
+				{
+					"nbt": "lore.amulet[1]",
+					"storage": "gen:menu",
+					"interpret": true
+				},
+				{
+					"nbt": "lore.amulet[2]",
+					"storage": "gen:menu",
+					"interpret": true
+				}
+			]
+		],
+		"replace": true
+	}
+]

@@ -1,0 +1,1 @@
+data modify storage gen:mobs success append from storage gen:mobs read[-1]

@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:baked_potato",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Truffle\"},display:{Name:'{\"text\":\"Truffle\",\"color\":\"#6e402c\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Epic Ingredient\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"text\":\"\"}','{\"text\":\"An exotic delicacy dug out by pigs.\",\"color\":\"gray\"}']},CustomModelData:982001,HideFlags:131}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

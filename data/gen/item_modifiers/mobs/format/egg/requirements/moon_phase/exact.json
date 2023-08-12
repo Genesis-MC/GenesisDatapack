@@ -1,0 +1,21 @@
+{
+  "function": "minecraft:set_lore",
+  "entity": "this",
+  "replace":false,
+  "lore": [
+    [
+      {
+        "text": "       Exact: ",
+        "color":"aqua",
+        "italic": false
+      },
+      {
+        "score":{
+          "name": "#exact",
+          "objective": "gen.temp"
+        },
+        "color":"yellow"
+      }
+    ]
+  ]
+}

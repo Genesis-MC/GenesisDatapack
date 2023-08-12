@@ -1,0 +1,14 @@
+{
+	"function": "minecraft:copy_nbt",
+	"source": {
+		"type": "minecraft:storage",
+		"source": "gen:menu"
+	},
+	"ops": [
+		{
+			"source": "lore.replace",
+			"target": "display.Lore",
+			"op": "replace"
+		}
+	]
+}

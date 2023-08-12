@@ -1,0 +1,32 @@
+{
+  "function": "minecraft:set_lore",
+  "entity": "this",
+  "lore": [
+    [
+      {
+        "text": "Weight Multiplier: ",
+        "color": "aqua",
+        "italic": false
+      },
+      {
+        "score": {
+          "name": "#wlm",
+          "objective": "gen.temp"
+        },
+        "color": "yellow"
+      },
+      {
+        "text":".",
+        "color":"yellow"
+      },
+      {
+        "score": {
+          "name": "#wlm2",
+          "objective": "gen.temp"
+        },
+        "color": "yellow"
+      }
+    ]
+  ],
+  "replace": false
+}

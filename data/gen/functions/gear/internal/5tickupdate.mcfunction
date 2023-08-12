@@ -8,7 +8,7 @@ execute as @a[advancements={gen:passive={unfetteredI=true}}] run function gen:ge
 #UnfetteredII
 execute as @a[advancements={gen:passive={unfetteredII=true}}] run function gen:gear/internal/passives/unfettered2
 #Featherweight
-execute as @a[advancements={gen:passive={featherweight=true}}] if predicate gen:utils/is_sneaking if block ~ ~ ~ air run effect give @s slow_falling 1 0 true
+execute as @a[advancements={gen:passive={featherweight=true}}] if predicate gen:utils/is_sneaking at @s if block ~ ~-1 ~ air run effect give @s slow_falling 1 0 true
 #Supreme Speed
 execute as @a[advancements={gen:passive={supreme_speed=true}}] if predicate gen:utils/is_sprinting run effect give @s speed 1 4 true
 #Heart of the Sea/Seaborn 2-Set Bonus

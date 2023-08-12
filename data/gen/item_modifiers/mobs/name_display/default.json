@@ -3,7 +3,7 @@
 		"entity":"this",
 		"name": {
 			"translate": "genesis.mobs.display_name.type.default",
-			"fallback": "ERROR: failed to load mob name",
+			"fallback": "ERROR: Failed to load mob name",
 			"with": [
 				{
 					"score": {
@@ -16,7 +16,7 @@
 				},
 				{
 					"nbt": "name",
-					"storage": "genesis:temp",
+					"storage": "gen:temp",
 					"interpret": true,
 					"italic": false
 				}

@@ -1,0 +1,14 @@
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "gen:gear"
+    },
+    "ops": [
+      {
+        "source": "Damage",
+        "target": "HelmetData.Original.tag.HelmetData.Damage",
+        "op": "replace"
+      }
+    ]
+  }

@@ -1,0 +1,13 @@
+{
+    "function": "minecraft:set_damage",
+    "damage": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "#helmet_damage"
+      },
+      "score": "gen.temp",
+      "scale": 0.0027548209366391
+    },
+    "add": false
+  }

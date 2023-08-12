@@ -1,4 +1,3 @@
-data modify entity @s CustomNameVisible set value 1b
 
 execute if data entity @s HandItems[0].tag.gen.SavedMobName run tag @s add gen.mobs.name_in_mainhand
 execute if data entity @s HandItems[1].tag.gen.SavedMobName run tag @s add gen.mobs.name_in_offhand

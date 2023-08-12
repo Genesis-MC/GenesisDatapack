@@ -2,10 +2,12 @@ function gen:gear/data/stat/remove/attack_speed
 execute if score @s gen.stat.attack_speed matches 0 run return -1
 
 # calculate attack_speed from stat
-# (20*x)/(300+x)
-scoreboard players set #denominator gen.math 300
+# (20*x)/(1000+x)
+scoreboard players set #denominator gen.math 1000
 scoreboard players operation #denominator gen.math += @s gen.stat.attack_speed
+scoreboard players operation #denominator gen.math -= @s gen.stat.attack_speed.offhand
 scoreboard players operation #stat gen.math = @s gen.stat.attack_speed
+scoreboard players operation #stat gen.math -= @s gen.stat.attack_speed.offhand
 scoreboard players operation #stat gen.math *= #4000 gen.const
 execute store result score #temp gen.math run scoreboard players operation #stat gen.math /= #denominator gen.math
 scoreboard players operation #stat gen.math /= #2 gen.const

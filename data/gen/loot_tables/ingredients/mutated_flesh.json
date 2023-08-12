@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{Name:'{\"text\":\"Mutated Flesh\",\"color\":\"green\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['{\"text\":\"Uncommon Ingredient\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\"\"}','{\"text\":\"It emits a rancid and foul aroma.\",\"color\":\"gray\"}']},CustomModelData:982006,HideFlags:131}"
+                "tag": "{gen:{name:\"Mutated Flesh\"},display:{Name:'{\"text\":\"Mutated Flesh\",\"color\":\"green\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Uncommon Ingredient\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"text\":\"\"}','{\"text\":\"It emits a rancid and foul aroma.\",\"color\":\"gray\"}']},CustomModelData:982006,HideFlags:131}"
               }
             ]
           }
