@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Crystal Dust\"},display:{Name:'{\"text\":\"Crystal Dust\",\"color\":\"light_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Ingredient\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"text\":\"\"}','{\"text\":\"It appears to have similiar\",\"color\":\"gray\"}','{\"text\":\"properties to glowstone dust.\",\"color\":\"gray\"}']},CustomModelData:982001,HideFlags:131}"
+                "tag": "{gen:{name:\"Crystal Dust\"},display:{Name:'{\"translate\":\"Crystal Dust\",\"color\":\"light_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Rare Ingredient\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"It appears to have similiar\",\"color\":\"gray\"}','{\"translate\":\"properties to glowstone dust.\",\"color\":\"gray\"}']},CustomModelData:982001,HideFlags:131}"
               }
             ]
           }

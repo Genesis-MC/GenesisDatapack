@@ -1,0 +1,13 @@
+scoreboard players set #guidebook.is_bookmarked gen.temp 0
+execute if score #guidebook.is_bookmarked gen.temp matches 0 run data modify storage gen:guidebook macro.bookmark_button set value '{"text":"☆","hoverEvent":{"action":"show_text","contents":[{"text":"Add Bookmark"}]},"clickEvent":{"action":"run_command","value":"/trigger gen.guidebook set 1003"}}'
+execute if score #guidebook.is_bookmarked gen.temp matches 1 run data modify storage gen:guidebook macro.bookmark_button set value '{"text":"☆","hoverEvent":{"action":"show_text","contents":[{"text":"Remove Bookmark"}]},"clickEvent":{"action":"run_command","value":"/trigger gen.guidebook set 1004"}}'
+
+execute store result score #guidebook.backward_history_count gen.temp run data get storage gen:guidebook history.backward
+execute if score #guidebook.backward_history_count gen.temp matches 0 run data modify storage gen:guidebook macro.backward_history_button set value '{"text":"←","color":"#f4e3bd"}'
+execute if score #guidebook.backward_history_count gen.temp matches 1.. run data modify storage gen:guidebook macro.backward_history_button set value '{"text":"←","hoverEvent":{"action":"show_text","contents":[{"text":"Back to Previous Chapter"}]},"clickEvent":{"action":"run_command","value":"/trigger gen.guidebook set 1001"}}'
+
+execute store result score #guidebook.forward_history_count gen.temp run data get storage gen:guidebook history.forward
+execute if score #guidebook.forward_history_count gen.temp matches 0 run data modify storage gen:guidebook macro.forward_history_button set value '{"text":"→","color":"#f4e3bd"}'
+execute if score #guidebook.forward_history_count gen.temp matches 1.. run data modify storage gen:guidebook macro.forward_history_button set value '{"text":"→","hoverEvent":{"action":"show_text","contents":[{"text":"Back to Next Chapter"}]},"clickEvent":{"action":"run_command","value":"/trigger gen.guidebook set 1002"}}'
+
+data modify storage gen:guidebook macro.navbar set value '{"translate":"%s %s %s %s %s\\n","with":[{"text":"#","hoverEvent":{"action":"show_text","contents":[{"text":"To Index Page"}]},"clickEvent":{"action":"run_command","value":"/trigger gen.guidebook set 1000"}},{"storage":"gen:guidebook","nbt":"macro.backward_history_button","interpret":true},{"storage":"gen:guidebook","nbt":"macro.forward_history_button","interpret":true},{"storage":"gen:guidebook","nbt":"macro.bookmark_button","interpret":true},{"storage":"gen:guidebook","nbt":"macro.chapter_name"}],"color":"#aa7c5f"}'

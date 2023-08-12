@@ -11,7 +11,7 @@
         "functions": [
           {
             "function": "minecraft:set_nbt",
-            "tag": "{gen:{name:\"Adventurers Guide Book\"},display:{Name:'{\"text\":\"Adventurers Guide Book\",\"color\":\"gold\",\"italic\":false,\"bold\":false,\"underlined\":true}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Common Book\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]']},CustomModelData:982001,HideFlags:131}"
+            "tag": "{gen:{name:\"Adventurers Guide Book\"},display:{Name:'{\"translate\":\"Adventurers Guide Book\",\"color\":\"gold\",\"italic\":false,\"bold\":false,\"underlined\":true}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Book\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]']},CustomModelData:982001,HideFlags:131}"
           }
         ]
       }
