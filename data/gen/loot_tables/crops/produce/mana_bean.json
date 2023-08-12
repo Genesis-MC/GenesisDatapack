@@ -6,7 +6,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"item.gen.crops.produce.mana_bean\",\"italic\":false}'},CustomModelData:3}"
+              "tag": "{display:{Name:'{\"translate\":\"item.gen.crops.produce.mana_bean\",\"italic\":false}'},CustomModelData:982004}"
             }
           ],
           "name": "minecraft:tropical_fish",
