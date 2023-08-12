@@ -6,12 +6,12 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:982003}"
+              "tag": "{CustomModelData:982005}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.gen.crops.produce.corncob",
+                "translate": "item.gen.crops.produce.tomato",
                 "italic": "false"
               }
             },

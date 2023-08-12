@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "binomial",
+                "n": {
+                  "type": "score",
+                  "score": "gen.crops.calc",
+                  "scale": 1,
+                  "target": {
+                    "type": "fixed",
+                    "name": "#loot_table_bonus"
+                  }
+                },
+                "p": 0.4
+              },
+              "add": true
+            }
+          ],
+          "name": "gen:crops/produce/tomato"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

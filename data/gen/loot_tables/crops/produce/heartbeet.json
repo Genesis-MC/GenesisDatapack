@@ -6,7 +6,34 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"item.gen.crops.produce.heartbeet\",\"italic\":false}'},CustomModelData:1}"
+              "tag": "{CustomModelData:982002}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.gen.crops.produce.heartbeet",
+                "italic": "false"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "genesis.lore.rarity.1",
+                  "italic": "false",
+                  "color": "aqua",
+                  "with": [
+                    {
+                      "text": "A",
+                      "font": "genesis:icon",
+                      "color": "white"
+                    },
+                    {
+                      "translate": "genesis.lore.type.ingredient"
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "name": "minecraft:tropical_fish",
