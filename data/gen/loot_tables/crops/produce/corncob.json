@@ -6,7 +6,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"item.gen.crops.produce.corncob\",\"italic\":false}'},CustomModelData:2}"
+              "tag": "{display:{Name:'{\"translate\":\"item.gen.crops.produce.corncob\",\"italic\":false}'},CustomModelData:982003}"
             }
           ],
           "name": "minecraft:tropical_fish",
