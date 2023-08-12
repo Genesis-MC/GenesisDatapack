@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Petrified Bark\"},display:{Name:'{\"text\":\"Petrified Bark\",\"color\":\"gray\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Epic Ingredient\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"text\":\"\"}','{\"text\":\"Fun fact: These are technically fossils!\",\"color\":\"gray\"}']},CustomModelData:982011,HideFlags:131}"
+                "tag": "{gen:{name:\"Petrified Bark\"},display:{Name:'{\"translate\":\"Petrified Bark\",\"color\":\"gray\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Epic Ingredient\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"Fun fact: These are technically fossils!\",\"color\":\"gray\"}']},CustomModelData:982011,HideFlags:131}"
               }
             ]
           }

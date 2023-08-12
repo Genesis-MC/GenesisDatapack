@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Shade Flux\"},display:{Name:'{\"text\":\"Shade Flux\",\"color\":\"dark_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Uncommon Ingredient\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"text\":\"\"}','{\"text\":\"Mesmerizingly beautiful...\",\"color\":\"gray\"}','{\"text\":\"and beautifully ominous\",\"color\":\"gray\"}']},CustomModelData:982004,HideFlags:131}"
+                "tag": "{gen:{name:\"Shade Flux\"},display:{Name:'{\"translate\":\"Shade Flux\",\"color\":\"dark_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Uncommon Ingredient\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"Mesmerizingly beautiful...\",\"color\":\"gray\"}','{\"translate\":\"and beautifully ominous\",\"color\":\"gray\"}']},CustomModelData:982004,HideFlags:131}"
               }
             ]
           }

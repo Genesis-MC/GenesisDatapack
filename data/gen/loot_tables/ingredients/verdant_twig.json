@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Verdant Twig\"},display:{Name:'{\"text\":\"Verdant Twig\",\"color\":\"green\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Uncommon Ingredient\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"text\":\"\"}','{\"text\":\"A vibrantly lush twig.\",\"color\":\"gray\"}']},CustomModelData:982002,HideFlags:131}"
+                "tag": "{gen:{name:\"Verdant Twig\"},display:{Name:'{\"translate\":\"Verdant Twig\",\"color\":\"green\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Uncommon Ingredient\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A vibrantly lush twig.\",\"color\":\"gray\"}']},CustomModelData:982002,HideFlags:131}"
               }
             ]
           }

@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Pure Crystal Dust\"},display:{Name:'{\"text\":\"Pure Crystal Dust\",\"color\":\"light_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Epic Ingredient\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"text\":\"\"}','{\"text\":\"Its time to cook!\",\"color\":\"gray\"}','{\"text\":\"Wait...thats not right...\",\"color\":\"gray\"}']},CustomModelData:982002,Enchantments:[{}],HideFlags:131}"
+                "tag": "{gen:{name:\"Pure Crystal Dust\"},display:{Name:'{\"translate\":\"Pure Crystal Dust\",\"color\":\"light_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Epic Ingredient\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"Its time to cook!\",\"color\":\"gray\"}','{\"translate\":\"Wait...thats not right...\",\"color\":\"gray\"}']},CustomModelData:982002,Enchantments:[{}],HideFlags:131}"
               }
             ]
           }

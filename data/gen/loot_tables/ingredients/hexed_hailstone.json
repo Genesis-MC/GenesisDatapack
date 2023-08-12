@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Hexed Hailstone\"},display:{Name:'{\"text\":\"Hexed Hailstone\",\"color\":\"light_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Epic Ingredient\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"text\":\"\"}','{\"text\":\"Forcefully crystallized using arcane energy.\",\"color\":\"gray\"}']},CustomModelData:982007,Enchantments:[{}],HideFlags:131}"
+                "tag": "{gen:{name:\"Hexed Hailstone\"},display:{Name:'{\"translate\":\"Hexed Hailstone\",\"color\":\"light_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Epic Ingredient\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"Forcefully crystallized using arcane energy.\",\"color\":\"gray\"}']},CustomModelData:982007,Enchantments:[{}],HideFlags:131}"
               }
             ]
           }
