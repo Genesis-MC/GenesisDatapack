@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Netherite Sediment\"},display:{Name:'{\"translate\":\"Netherite Sediment\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Epic Ingredient\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"Contains trace amounts of netherite.\",\"color\":\"gray\"}']},CustomModelData:982019,HideFlags:131}"
+                "tag": "{gen:{name:\"Netherite Sediment\"},display:{Name:'{\"translate\":\"Netherite Sediment\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Rare Mineral\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"Contains trace amounts of netherite.\",\"color\":\"gray\"}']},CustomModelData:982019,HideFlags:131}"
               }
             ]
           }
