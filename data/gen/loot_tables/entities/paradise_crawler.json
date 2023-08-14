@@ -5,13 +5,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "gen:ingredients/verdant_twig"
-          }
-        ],
-        "conditions": [
-          {
-            "condition": "minecraft:random_chance",
-            "chance": 0.4
+            "name": "gen:ingredients/floral_nectar"
           }
         ]
       },
@@ -20,15 +14,16 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "gen:ingredients/verdant_shard"
+            "name": "gen:ingredients/verdant_twig"
           }
         ],
         "conditions": [
           {
             "condition": "minecraft:random_chance",
-            "chance": 0.4
+            "chance": 0.6
           }
         ]
       }
     ]
   }
+  
