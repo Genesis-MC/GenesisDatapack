@@ -5,13 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:string",
+          "name": "minecraft:rotten_flesh",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3,
-                "max": 4
+                "min": 1,
+                "max": 3
               }
             },
             {
@@ -27,16 +27,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "gen:ingredients/floral_nectar"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "gen:ingredients/verdant_shard",
+          "name": "gen:ingredients/mutated_flesh",
           "conditions": [
             {
               "condition": "minecraft:value_check",
@@ -46,12 +37,35 @@
                 "score": "gen.mobs.level"
               },
               "range": {
-                "min": 35
+                "min": 0,
+                "max": 29
               }
             },
             {
               "condition": "minecraft:random_chance",
               "chance": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gen:ingredients/mutated_flesh",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "gen.mobs.level"
+              },
+              "range": {
+                "min": 30
+              }
             }
           ]
         }
