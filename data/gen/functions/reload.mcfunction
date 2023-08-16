@@ -11,6 +11,8 @@ scoreboard objectives add gen.temp dummy
 scoreboard objectives add gen.player_id dummy
 scoreboard objectives add gen.config dummy
 
+scoreboard objectives add gen.mobs.level dummy
+
 scoreboard objectives add gen.deathCount deathCount
 
 scoreboard objectives add gen.modules dummy
