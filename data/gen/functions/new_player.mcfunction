@@ -3,3 +3,4 @@ tellraw @s {"text":"Welcome To Genesis!"}
 loot give @s loot gen:gear/books/guidebook
 
 #Set player level
+scoreboard players set @s gen.mobs.level 3

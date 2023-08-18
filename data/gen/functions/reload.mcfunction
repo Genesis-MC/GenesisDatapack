@@ -11,7 +11,17 @@ scoreboard objectives add gen.temp dummy
 scoreboard objectives add gen.player_id dummy
 scoreboard objectives add gen.config dummy
 
+#player
 scoreboard objectives add gen.mobs.level dummy
+scoreboard objectives add gen.player.play_time minecraft.custom:play_time
+scoreboard objectives add gen.player.time_alive minecraft.custom:time_since_death
+scoreboard objectives add gen.player.damage_dealt minecraft.custom:damage_dealt
+scoreboard objectives add gen.player.damage_taken minecraft.custom:damage_taken
+scoreboard objectives add gen.player.mobs_killed minecraft.custom:mob_kills
+scoreboard objectives add gen.player.fish_caught minecraft.custom:fish_caught
+scoreboard objectives add gen.player.animals_bred minecraft.custom:animals_bred
+scoreboard objectives add gen.player.raids_won minecraft.custom:raid_win
+scoreboard objectives add gen.player.items_enchanted minecraft.custom:enchant_item
 
 scoreboard objectives add gen.deathCount deathCount
 
@@ -50,6 +60,7 @@ function gen:utils/get_world_values
 # schedule functions
 schedule function gen:core/internal/delay 1s replace
 schedule function gen:core/internal/worldtimeupdater 1s replace
+schedule function gen:increase_levels 1d replace
 
 # start ticking function
 function gen:tick
