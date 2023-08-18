@@ -6,4 +6,3 @@ scoreboard objectives add gen.item.use.warped_fungus_on_a_stick minecraft.used:m
 
 # schedule functions
 schedule function gen:core/internal/delay 1s replace
-schedule function gen:core/internal/worldtimeupdater 1s replace
