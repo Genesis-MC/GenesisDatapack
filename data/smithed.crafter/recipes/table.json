@@ -3,7 +3,7 @@
     "pattern": [
         "###",
         "#C#",
-        "###"
+        "SSS"
     ],
     "key": {
         "#": {
@@ -11,6 +11,9 @@
         },
         "C": {
             "item": "minecraft:crafting_table"
+        },
+        "S": {
+            "item": "minecraft:smooth_stone"
         }
     },
     "result": {
