@@ -24,6 +24,15 @@
         },
         "seaborn4": {
             "trigger": "minecraft:impossible"
+        },
+        "frenzy": {
+            "trigger": "minecraft:impossible"
+        },
+        "venomous1": {
+            "trigger": "minecraft:impossible"
+        },
+        "venomous2": {
+            "trigger": "minecraft:impossible"
         }
     },
     "requirements": 
@@ -36,7 +45,10 @@
             "seaborn1",
             "seaborn2",
             "seaborn3",
-            "seaborn4"
+            "seaborn4",
+            "frenzy",
+            "venomous1",
+            "venomous2"
         ]
     ]
 }

@@ -4,6 +4,7 @@ tellraw @a[tag=gen.dev.debug] ["",{"text":"Genesis","color":"#DF9DE3"},{"text":"
 scoreboard objectives add gen.passive.health dummy
 scoreboard objectives add gen.passive.hunger dummy
 scoreboard objectives add gen.passive.ylvl dummy
+scoreboard objectives add gen.passive.damage_dealt minecraft.custom:damage_dealt
 
 
 scoreboard objectives add gen.bth.damage_absorbed minecraft.custom:minecraft.damage_absorbed
