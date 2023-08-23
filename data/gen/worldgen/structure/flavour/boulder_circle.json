@@ -6,7 +6,6 @@
   "minecraft:sunflower_plains",
   "minecraft:snowy_plains",
   "minecraft:ice_spikes",
-  "minecraft:desert",
   "minecraft:swamp",
   "minecraft:mangrove_swamp",
   "minecraft:forest",
@@ -27,21 +26,14 @@
   "minecraft:jungle",
   "minecraft:sparse_jungle",
   "minecraft:bamboo_jungle",
-  "minecraft:badlands",
-  "minecraft:eroded_badlands",
-  "minecraft:wooded_badlands",
   "minecraft:meadow",
   "minecraft:cherry_grove",
   "minecraft:grove",
   "minecraft:snowy_slopes",
   "minecraft:frozen_peaks",
   "minecraft:jagged_peaks",
-  "minecraft:stony_peaks",
-  "minecraft:river",
-  "minecraft:frozen_river",
+  "minecraft:stony_peaks"
 
-
-  "minecraft:mushroom_fields"
 ],
   "spawn_overrides": {},
   "start_pool": "gen:flavour/boulder_circle",
