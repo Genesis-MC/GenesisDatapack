@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "gen:flavour/boulder_circle",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 20,
+    "separation": 18,
+    "salt": 124059212
+  }
+}
