@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Verdant Shard\"},display:{Name:'{\"translate\":\"Verdant Shard\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Rare Ingredient\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"An ancient shard covered in moss. It\",\"color\":\"gray\"}','{\"translate\":\"pulses with the energy of the forest.\",\"color\":\"gray\"}']},CustomModelData:982003,HideFlags:131}"
+                "tag": "{gen:{name:\"Verdant Shard\"},display:{Name:'{\"translate\":\"Verdant Shard\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Uncommon Ingredient\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"An ancient shard covered in moss. It\",\"color\":\"gray\"}','{\"translate\":\"pulses with the energy of the forest.\",\"color\":\"gray\"}']},CustomModelData:982003,HideFlags:131}"
               }
             ]
           }

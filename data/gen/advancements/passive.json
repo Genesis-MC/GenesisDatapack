@@ -33,6 +33,15 @@
         },
         "venomous2": {
             "trigger": "minecraft:impossible"
+        },
+        "frostbite": {
+            "trigger": "minecraft:impossible"
+        },
+        "crimson_pact": {
+            "trigger": "minecraft:impossible"
+        },
+        "warped_pact": {
+            "trigger": "minecraft:impossible"
         }
     },
     "requirements": 
@@ -48,7 +57,10 @@
             "seaborn4",
             "frenzy",
             "venomous1",
-            "venomous2"
+            "venomous2",
+            "frostbite",
+            "crimson_pact",
+            "warped_pact"
         ]
     ]
 }
