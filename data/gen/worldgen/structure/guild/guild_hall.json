@@ -32,12 +32,8 @@
   "minecraft:snowy_slopes",
   "minecraft:frozen_peaks",
   "minecraft:jagged_peaks",
-  "minecraft:stony_peaks",
-  "minecraft:river",
-  "minecraft:frozen_river",
+  "minecraft:stony_peaks"
 
-
-  "minecraft:mushroom_fields"
 ],
   "spawn_overrides": {},
   "start_pool": "gen:guild/guild_hall",

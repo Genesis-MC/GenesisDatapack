@@ -34,14 +34,8 @@
   "minecraft:snowy_slopes",
   "minecraft:frozen_peaks",
   "minecraft:jagged_peaks",
-  "minecraft:stony_peaks",
-  "minecraft:river",
-  "minecraft:frozen_river",
-  "minecraft:beach",
-  "minecraft:snowy_beach",
-  "minecraft:stony_shore",
+  "minecraft:stony_peaks"
 
-  "minecraft:mushroom_fields"
 ],
   "spawn_overrides": {},
   "start_pool": "gen:carts/cart",

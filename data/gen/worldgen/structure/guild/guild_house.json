@@ -32,12 +32,7 @@
   "minecraft:snowy_slopes",
   "minecraft:frozen_peaks",
   "minecraft:jagged_peaks",
-  "minecraft:stony_peaks",
-  "minecraft:river",
-  "minecraft:frozen_river",
-
-
-  "minecraft:mushroom_fields"
+  "minecraft:stony_peaks"
 ],
   "spawn_overrides": {},
   "start_pool": "gen:guild/guild_house",
