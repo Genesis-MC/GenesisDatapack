@@ -10,5 +10,5 @@ scoreboard players set #1000 gen.const 1000
 scoreboard players set #4000 gen.const 4000
 scoreboard players set #20000 gen.const 20000
 
-# int limits cuz i alwaus forget them
+# int limits cuz i alwaus forget them // by had
 # -2147483648..2147483647

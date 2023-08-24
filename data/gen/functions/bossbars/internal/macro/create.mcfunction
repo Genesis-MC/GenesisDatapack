@@ -1,4 +1,3 @@
-say $(id) $(color) $(name) '$(selector)' $(visible) $(style)
 $bossbar set genesis:bossbar.$(id) color $(color)
 $bossbar set genesis:bossbar.$(id) name $(name)
 $bossbar set genesis:bossbar.$(id) players $(players)

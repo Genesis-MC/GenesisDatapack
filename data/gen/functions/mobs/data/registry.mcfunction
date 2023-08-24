@@ -19,14 +19,13 @@
 #                   max is the max level the mob must be
 #           block : "minecraft:dirt" the block it must be summoned under (THE NAMESPACE IS REQUIRED YOU CANT JUST PUT 'dirt')
 #           entity_data is the nbt
-# IF YOU ADD A NEW REGISTRED ITEM TO THE REGISTRY NOT THROUGH THIS FILE DO THIS /function gen:mobs/internal/registry/changed
+#tldr use the generator lol
 data modify storage gen:mobs registry set value {axolotl:[],bat:[],bee:[],blaze:[],camel:[],cat:[],cave_spider:[],chicken:[],cod:[],cow:[],creeper:[],dolphin:[],donkey:[],drowned:[],elder_guardian:[],ender_dragon:[],enderman:[],endermite:[],evoker:[],fox:[],frog:[],ghast:[],giant:[],glow_squid:[],goat:[],guardian:[],hoglin:[],horse:[],husk:[],illusioner:[],iron_golem:[],llama:[],magma_cube:[],mooshroom:[],mule:[],ocelot:[],panda:[],parrot:[],phantom:[],pig:[],piglin:[],piglin_brute:[],pillager:[],polar_bear:[],pufferfish:[],rabbit:[],ravager:[],salmon:[],sheep:[],shulker:[],silverfish:[],skeleton:[],skeleton_horse:[],slime:[],sniffer:[],snow_golem:[],spider:[],squid:[],stray:[],strider:[],tadpole:[],trader_llama:[],tropical_fish:[],turtle:[],vex:[],villager:[],vindicator:[],wandering_trader:[],warden:[],witch:[],wither:[],wither_skeleton:[],wolf:[],zoglin:[],zombie:[],zombie_horse:[],zombie_villager:[],zombified_piglin:[]}
 
 function #gen:mobs/data/registries
-
+# ADD MOBS BETWEEN HERE
 data modify storage gen:mobs registry.zombie append value {name:"minecraft:default",weight:100}
 
-data modify storage gen:mobs registry.zombie append value {name:"nfffffffa",weight:10,summon_function:"summon tnt",entity_data:{CustomName:'"negative"'}}
-
-
+data modify storage gen:mobs registry.zombie append value {name:"S",weight:10000,summon_function:"function gen:mobs/internal/mobs/demon/test/s"}
+# ADD MOBS BETWEEN HERE
 function #gen:mobs/data/registry_overriding
