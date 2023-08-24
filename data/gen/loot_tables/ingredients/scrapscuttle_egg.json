@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Scrapscuttle Egg\"},display:{Name:'{\"translate\":\"Scrapscuttle Egg\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Epic Ingredient\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"It seems a creature chewed their way\",\"color\":\"gray\"}','{\"translate\":\"through ancient debris to lay their eggs.\",\"color\":\"gray\"}']},CustomModelData:982022,HideFlags:131}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

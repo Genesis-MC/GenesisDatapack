@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:982005}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.gen.crops.produce.tomato",
+                "italic": "false"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "genesis.lore.rarity.0",
+                  "italic": "false",
+                  "color": "white",
+                  "with": [
+                    {
+                      "text": "A",
+                      "font": "genesis:icon",
+                      "color": "white"
+                    },
+                    {
+                      "translate": "genesis.lore.type.ingredient"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:tropical_fish",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

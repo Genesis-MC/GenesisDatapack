@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Mutated Flesh\"},display:{Name:'{\"translate\":\"Mutated Flesh\",\"color\":\"green\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Uncommon Ingredient\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"It emits a rancid and foul aroma.\",\"color\":\"gray\"}']},CustomModelData:982006,HideFlags:131}"
+                "tag": "{gen:{name:\"Mutated Flesh\"},display:{Name:'{\"translate\":\"Mutated Flesh\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Uncommon Ingredient\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"It emits a rancid and foul aroma.\",\"color\":\"gray\"}']},CustomModelData:982006,HideFlags:131}"
               }
             ]
           }

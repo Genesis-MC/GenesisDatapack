@@ -28,7 +28,7 @@ execute if score #biome_diff_percentage gen.temp matches 101.. run scoreboard pl
 #Adding world level 
 scoreboard players set #player_lvl_and_world gen.temp 0
 #tellraw @p ["lv land world ",{"score":{"name": "#player_lvl_and_world","objective": "gen.temp"},"color":"gold"}]
-scoreboard players operation #player_lvl_and_world gen.temp += #worldlvltracker gen.world_lvl
+scoreboard players operation #player_lvl_and_world gen.temp += #world_lvl_tracker gen.world
 scoreboard players operation #player_lvl_and_world gen.temp += @p gen.mobs.level
 #tellraw @p ["lvl and world ",{"score":{"name": "#player_lvl_and_world","objective": "gen.temp"},"color":"yellow"}]
 

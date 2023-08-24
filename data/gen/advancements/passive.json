@@ -24,6 +24,24 @@
         },
         "seaborn4": {
             "trigger": "minecraft:impossible"
+        },
+        "frenzy": {
+            "trigger": "minecraft:impossible"
+        },
+        "venomous1": {
+            "trigger": "minecraft:impossible"
+        },
+        "venomous2": {
+            "trigger": "minecraft:impossible"
+        },
+        "frostbite": {
+            "trigger": "minecraft:impossible"
+        },
+        "crimson_pact": {
+            "trigger": "minecraft:impossible"
+        },
+        "warped_pact": {
+            "trigger": "minecraft:impossible"
         }
     },
     "requirements": 
@@ -36,7 +54,13 @@
             "seaborn1",
             "seaborn2",
             "seaborn3",
-            "seaborn4"
+            "seaborn4",
+            "frenzy",
+            "venomous1",
+            "venomous2",
+            "frostbite",
+            "crimson_pact",
+            "warped_pact"
         ]
     ]
 }

@@ -5,7 +5,6 @@ tellraw @a[tag=gen.dev.debug] ["",{"text":"Genesis","color":"#DF9DE3"},{"text":"
 team add black_outline 
 team modify black_outline color black
 team modify black_outline friendlyFire false
-scoreboard objectives add gen.mobs.level dummy
 scoreboard objectives add gen.player.wandering_traitor_chance dummy
 scoreboard objectives add gen.player.stolen_emeralds dummy
 scoreboard objectives add gen.mobs.name_display dummy

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "gen:desert_ruins/ruined_crypt",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 20,
+    "separation": 18,
+    "salt": 124059212
+  }
+}

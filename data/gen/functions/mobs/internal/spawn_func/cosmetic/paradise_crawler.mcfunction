@@ -1,0 +1,1 @@
+#summon spider ~ ~ ~ {Passengers:[{id:"minecraft:block_display",Rotation:[0F,180F],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.5f,-1f,-0.5f],scale:[1f,1f,1f]},block_state:{Name:"minecraft:spore_blossom"}}]}

@@ -1,2 +1,7 @@
 scoreboard players set @s gen.player.wandering_traitor_chance 20
-tellraw @s {"text":"Welcome To Genesis!"}
+title @s times 50 50 50
+title @s title {"text":"Welcome To Genesis", "color":"#211905"}
+function gen:guidebook/api/give
+
+#Set player level
+scoreboard players set @s gen.mobs.level 3
