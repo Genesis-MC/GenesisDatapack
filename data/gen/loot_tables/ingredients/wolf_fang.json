@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Wolf Fang\"},display:{Name:'{\"translate\":\"Wolf Fang\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Ingredient\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"The tip is razor sharp, perhaps it\",\"color\":\"gray\"}','{\"translate\":\"can be fashioned into a weapon?\",\"color\":\"gray\"}']},CustomModelData:982027,HideFlags:131}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Floral Nectar\"},display:{Name:'{\"translate\":\"Floral Nectar\",\"color\":\"light_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Rare Ingredient\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"Smells delicately sweet...\",\"color\":\"gray\"}']},CustomModelData:982001,HideFlags:131}"
+                "tag": "{gen:{name:\"Floral Nectar\"},display:{Name:'{\"translate\":\"Floral Nectar\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Rare Ingredient\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"Smells delicately sweet...\",\"color\":\"gray\"}']},CustomModelData:982001,HideFlags:131}"
               }
             ]
           }
