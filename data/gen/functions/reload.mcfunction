@@ -1,6 +1,6 @@
 # add scoreboards
 scoreboard objectives add load.status dummy
-scoreboard players reset * load.status
+#scoreboard players reset * load.status
 scoreboard objectives add t dummy
 
 scoreboard objectives add gen.world dummy

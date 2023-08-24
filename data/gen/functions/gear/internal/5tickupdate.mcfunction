@@ -1,6 +1,5 @@
 
 execute as @a store result score @s gen.passive.ylvl run data get entity @s Pos[1]
-execute as @a store result score @s gen.passive.hunger run data get entity @s foodLevel
 execute as @a store result score @s gen.passive.health run data get entity @s Health
 
 #UnfetteredI
@@ -11,6 +10,8 @@ execute as @a[advancements={gen:passive={unfetteredII=true}}] run function gen:g
 execute as @a[advancements={gen:passive={featherweight=true}}] if predicate gen:utils/is_sneaking at @s if block ~ ~-1 ~ air run effect give @s slow_falling 1 0 true
 #Supreme Speed
 execute as @a[advancements={gen:passive={supreme_speed=true}}] if predicate gen:utils/is_sprinting run effect give @s speed 1 4 true
+#Frenzy
+execute as @a[advancements={gen:passive={frenzy=true}}] run function gen:gear/internal/passives/frenzy
 #Heart of the Sea/Seaborn 2-Set Bonus
 execute as @a[advancements={gen:passive={seaborn2=true}}] at @s if block ~ ~ ~ water run effect give @s conduit_power 6 0 true
 #Sea Born/Seaborn 4-Set Bonus

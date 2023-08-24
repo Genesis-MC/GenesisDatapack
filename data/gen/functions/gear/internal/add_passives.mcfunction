@@ -23,7 +23,7 @@ execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"7-League Boots"}
 
 ##Mainhand Items - Use Predicates
 #Recluse Fang
-execute if predicate gen:gear/mainhand/recluse_fang run advancement grant @s only gen:passive venomous1
+execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Recluse Fang"}}}}] run advancement grant @s only gen:passive venomous1
 #Venomlash Fang
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Venomlash Fang"}}}}] run advancement grant @s only gen:passive venomous2
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Venomlash Fang"}}}}] run advancement grant @s only gen:passive frenzy
