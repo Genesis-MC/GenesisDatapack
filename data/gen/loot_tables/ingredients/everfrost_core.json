@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Everfrost Core\"},display:{Name:'{\"translate\":\"Everfrost Core\",\"color\":\"aqua\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Legendary Ingredient\",\"font\":\"minecraft:default\",\"color\":\"#3b2b06\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"Icy coolness radiates from the\",\"color\":\"aqua\"}','{\"translate\":\"core and down to your very bones.\",\"color\":\"aqua\"}']},CustomModelData:982025,HideFlags:131}"
+                "tag": "{gen:{name:\"Everfrost Core\"},display:{Name:'{\"translate\":\"Everfrost Core\",\"color\":\"aqua\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Legendary Ingredient\",\"font\":\"minecraft:default\",\"color\":\"#3b2b06\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A perfect sphere of unmeltable ice\",\"color\":\"aqua\"}','{\"translate\":\"that radiates a chilling cold.\",\"color\":\"aqua\"}']},CustomModelData:982025,HideFlags:131}"
               }
             ]
           }
