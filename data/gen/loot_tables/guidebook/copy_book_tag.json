@@ -16,7 +16,7 @@
               },
               "ops": [
                 {
-                  "source": "preface",
+                  "source": "book_tag",
                   "target": "{}",
                   "op": "merge"
                 }
