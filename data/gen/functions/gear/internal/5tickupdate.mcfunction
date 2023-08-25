@@ -13,9 +13,9 @@ execute as @a[advancements={gen:passive={supreme_speed=true}}] if predicate gen:
 #Frenzy
 execute as @a[advancements={gen:passive={frenzy=true}}] if score .percenthp gen.math matches ..30 run effect give @s speed 1 1 true
 #Crimson Pact
-execute as @a[advancements={gen:passive={crimson_pact=true}}] if score .percenthp gen.math matches ..50 if entity @s[tag=!gen.stat_increase.health] run function gen:gear/data/stat/increase/health {val:140}
-execute as @a[advancements={gen:passive={crimson_pact=true}}] if score .percenthp gen.math matches 51.. if entity @s[tag=gen.stat_increase.health] run function gen:gear/data/stat/decrease/health {val:140}
-#execute as @a[advancements={gen:passive={crimson_pact=false}}] if entity @s[tag=gen.stat_increase.health] run function gen:gear/data/stat/decrease/health {val:140}
+execute as @a[advancements={gen:passive={crimson_pact=true}}] if score .percenthp gen.math matches ..30 if entity @s[tag=!gen.passive.crimson_pact] run function gen:gear/internal/passives/increase/crimson_pact {val:20} 
+execute as @a[advancements={gen:passive={crimson_pact=true}}] if score .percenthp gen.math matches 31.. if entity @s[tag=gen.passive.crimson_pact] run function gen:gear/internal/passives/decrease/crimson_pact {val:20} 
+execute as @a[advancements={gen:passive={crimson_pact=false}}] if entity @s[tag=gen.passive.crimson_pact] run function gen:gear/internal/passives/decrease/crimson_pact {val:20}
 
 #Heart of the Sea/Seaborn 2-Set Bonus
 execute as @a[advancements={gen:passive={seaborn2=true}}] at @s if block ~ ~ ~ water run effect give @s conduit_power 6 0 true
