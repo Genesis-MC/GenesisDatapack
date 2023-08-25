@@ -6,4 +6,4 @@ scoreboard players operation .percenthp gen.math = @s gen.passive.health
 scoreboard players operation .percenthp gen.math *= #mult gen.math
 scoreboard players operation .percenthp gen.math /= .maxhp gen.math
 
-scoreboard players reset @s gen.passive.damage_taken
+#tellraw @p {"score":{"name":".percenthp","objective":"gen.math"}}
