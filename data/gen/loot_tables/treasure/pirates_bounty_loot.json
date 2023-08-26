@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 10,
+        "bonus_rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 6,
+            "quality": 1,
+            "name": "gen:gear/standalone/heartguard"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 15,
+            "quality": 1,
+            "name": "gen:ingredients/scrapscuttle_egg"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 40,
+            "name": "minecraft:gold_block"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 70,
+            "name": "minecraft:gold_ingot"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 70,
+            "name": "gen:ingredients/calimari"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 70,
+            "name": "minecraft:gold_nugget"
+          }
+        ]
+      }
+    ]
+  }
+  
