@@ -3,12 +3,12 @@
       "function": "minecraft:copy_nbt",
       "source": {
         "type": "minecraft:storage",
-        "source": "gen:enchants"
+        "source": "gen:enchant_toggle"
       },
       "ops": [
         {
-          "source": "temp",
-          "target": "Count",
+          "source": "hide_gen",
+          "target": "HideFlags",
           "op": "replace"
         }
       ]

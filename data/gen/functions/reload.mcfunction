@@ -26,6 +26,12 @@ scoreboard objectives add gen.deathCount deathCount
 
 scoreboard objectives add gen.modules dummy
 
+#Enchant toggle system
+data modify storage gen:enchant_toggle hide set value 1
+data modify storage gen:enchant_toggle show set value 0
+data modify storage gen:enchant_toggle hide_gen set value 131
+data modify storage gen:enchant_toggle show_gen set value 130
+
 execute unless score Crops gen.modules matches 0..1 run scoreboard players set Crops gen.modules 1
 execute unless score Gear gen.modules matches 0..1 run scoreboard players set Gear gen.modules 1
 execute unless score Professions gen.modules matches 0..1 run scoreboard players set Professions gen.modules 1
