@@ -9,7 +9,7 @@ advancement revoke @s only gen:passive
 #Mountain-Treader Boots
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"Mountain-Treader Boots"}}}]}] run advancement grant @s only gen:passive unfetteredI
 #Dungeon-Treader Boots
-execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"Dungeon-Treader Boots"}}}]}] run advancement grant @s only gen:passive unfetteredI
+execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"Phantom-Treader Boots"}}}]}] run advancement grant @s only gen:passive unfetteredI
 #Cloud-Treader Boots
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"Cloud-Treader Boots"}}}]}] run advancement grant @s only gen:passive unfetteredI
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"Cloud-Treader Boots"}}}]}] run advancement grant @s only gen:passive featherweight
@@ -27,6 +27,8 @@ execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Recluse Fang"}}}}] run a
 #Venomlash Fang
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Venomlash Fang"}}}}] run advancement grant @s only gen:passive venomous2
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Venomlash Fang"}}}}] run advancement grant @s only gen:passive frenzy
+#Frostfang
+execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Frostfang"}}}}] run advancement grant @s only gen:passive frostbite
 #Saber Crimson
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Saber Crimson"}}}}] run advancement grant @s only gen:passive crimson_pact
 #Saber Warped

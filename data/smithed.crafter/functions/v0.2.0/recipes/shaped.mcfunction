@@ -63,5 +63,7 @@ execute store result score @s smithed.data if entity @s[scores={smithed.data=0}]
 execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:input recipe{0:[{Slot:0b,id:"minecraft:air"},{Slot:1b,id:"minecraft:air"},{Slot:2b,id:"minecraft:iron_nugget",tag:{gen:{name:"Warped Alloy"}}}],1:[{Slot:0b,id:"minecraft:air"},{Slot:1b,id:"minecraft:iron_nugget",tag:{gen:{name:"Warped Alloy"}}},{Slot:2b,id:"minecraft:air"}],2:[{Slot:0b,id:"minecraft:stick",tag:{gen:{name:"Bejeweled Hilt"}}},{Slot:1b,id:"minecraft:air"},{Slot:2b,id:"minecraft:air"}]} run loot replace block ~ ~ ~ container.16 loot gen:gear/weapons/saber_warped
 #Frostfang
 execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:input recipe{0:[{Slot:0b,id:"minecraft:iron_nugget",tag:{gen:{name:"Blizzard Tear"}}},{Slot:1b,id:"minecraft:iron_nugget",tag:{gen:{name:"Blizzard Tear"}}},{Slot:2b,id:"minecraft:iron_nugget",tag:{gen:{name:"Blizzard Tear"}}}],1:[{Slot:0b,id:"minecraft:iron_nugget",tag:{gen:{name:"Blizzard Tear"}}},{Slot:1b,id:"minecraft:iron_nugget",tag:{gen:{name:"Wolf Fang"}}},{Slot:2b,id:"minecraft:iron_nugget",tag:{gen:{name:"Blizzard Tear"}}}],2:[{Slot:0b,id:"minecraft:iron_nugget",tag:{gen:{name:"Blizzard Tear"}}},{Slot:1b,id:"minecraft:iron_nugget",tag:{gen:{name:"Blizzard Tear"}}},{Slot:2b,id:"minecraft:iron_nugget",tag:{gen:{name:"Blizzard Tear"}}}]} run loot replace block ~ ~ ~ container.16 loot gen:gear/weapons/frostfang
-#Hailstone Greatblade
+#Harbinger of Winter
+#Hailstone Blade
 #Frostbite Titanblade
+#Polar Vortex
