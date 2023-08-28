@@ -1,85 +1,8 @@
 {
-  "type": null,
+  "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 10,
-      "bonus_rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "weight": 8,
-          "name": "gen:ingredients/worn_gold_coin",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "loot_table",
-          "weight": 70,
-          "name": "gen:ingredients/calimari",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "quality": 1,
-          "name": "minecraft:diamond",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 50,
-          "name": "minecraft:emerald",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        },
-
-        {
-          "type": "item",
-          "weight": 70,
-          "name": "minecraft:gold_ingot",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 70,
-          "name": "minecraft:gold_nugget",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 10,
+      "rolls": 12,
       "bonus_rolls": 1,
       "entries": [
         {
@@ -91,6 +14,21 @@
             {
               "function": "set_count",
               "count": 1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 10,
+          "quality": 1,
+          "name": "gen:ingredients/ancient_gold_coin",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
             }
           ]
         },
@@ -119,7 +57,18 @@
         },
         {
           "type": "item",
-          "weight": 70,
+          "weight": 50,
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 60,
           "name": "minecraft:gold_ingot",
           "functions": [
             {
@@ -130,7 +79,7 @@
         },
         {
           "type": "loot_table",
-          "weight": 70,
+          "weight": 60,
           "name": "gen:ingredients/calimari",
           "functions": [
             {
@@ -141,7 +90,7 @@
         },
         {
           "type": "item",
-          "weight": 70,
+          "weight": 60,
           "name": "minecraft:gold_nugget",
           "functions": [
             {
