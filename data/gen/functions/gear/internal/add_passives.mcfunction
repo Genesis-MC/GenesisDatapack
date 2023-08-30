@@ -29,6 +29,8 @@ execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Venomlash Fang"}}}}] run
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Venomlash Fang"}}}}] run advancement grant @s only gen:passive frenzy
 #Frostfang
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Frostfang"}}}}] run advancement grant @s only gen:passive frostbite
+#Harbinger of Winter
+execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Harbinger of Winter"}}}}] run advancement grant @s only gen:passive frostbite
 #Saber Crimson
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Saber Crimson"}}}}] run advancement grant @s only gen:passive crimson_pact
 #Saber Warped
