@@ -1,0 +1,57 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:ingredients/shade_flux",
+            "conditions": [
+              {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": "this",
+                  "score": "gen.mobs.level"
+                },
+                "range": {
+                  "min": 0,
+                  "max": 24
+                }
+              },
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:ingredients/verdant_twig",
+            "conditions": [
+              {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": "this",
+                  "score": "gen.mobs.level"
+                },
+                "range": {
+                  "min": 25
+                }
+              },
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.9
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
