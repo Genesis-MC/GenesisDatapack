@@ -67,3 +67,7 @@ execute store result score @s smithed.data if entity @s[scores={smithed.data=0}]
 #Hailstone Blade
 #Frostbite Titanblade
 #Polar Vortex
+#Shaded Ender Pearl
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:input recipe{0:[{Slot:0b,id:"minecraft:air"},{Slot:1b,id:"minecraft:iron_nugget",tag:{gen:{name:"Shade Flux"}}},{Slot:2b,id:"minecraft:air"}],1:[{Slot:0b,id:"minecraft:iron_nugget",tag:{gen:{name:"Shade Flux"}}},{Slot:1b,id:"minecraft:ender_pearl"},{Slot:2b,id:"minecraft:iron_nugget",tag:{gen:{name:"Shade Flux"}}}],2:[{Slot:0b,id:"minecraft:air"},{Slot:1b,id:"minecraft:iron_nugget",tag:{gen:{name:"Shade Flux"}}},{Slot:2b,id:"minecraft:air"}]} run loot replace block ~ ~ ~ container.16 loot gen:ingredients/shaded_ender_pearl
+#Voided Ender Pearl
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:input recipe{0:[{Slot:0b,id:"minecraft:air"},{Slot:1b,id:"minecraft:iron_nugget",tag:{gen:{name:"Voided Fragment"}}},{Slot:2b,id:"minecraft:air"}],1:[{Slot:0b,id:"minecraft:iron_nugget",tag:{gen:{name:"Voided Fragment"}}},{Slot:1b,id:"minecraft:ender_pearl",tag:{gen:{name:"Shaded Ender Pearl"}}},{Slot:2b,id:"minecraft:iron_nugget",tag:{gen:{name:"Voided Fragment"}}}],2:[{Slot:0b,id:"minecraft:air"},{Slot:1b,id:"minecraft:iron_nugget",tag:{gen:{name:"Voided Fragment"}}},{Slot:2b,id:"minecraft:air"}]} run loot replace block ~ ~ ~ container.16 loot gen:ingredients/voided_ender_pearl

@@ -42,6 +42,15 @@
         },
         "warped_pact": {
             "trigger": "minecraft:impossible"
+        },
+        "hoarfrost": {
+            "trigger": "minecraft:impossible"
+        },
+        "awakened_shadow": {
+            "trigger": "minecraft:impossible"
+        },
+        "ferrous_shadow": {
+            "trigger": "minecraft:impossible"
         }
     },
     "requirements": 
@@ -60,7 +69,10 @@
             "venomous2",
             "frostbite",
             "crimson_pact",
-            "warped_pact"
+            "warped_pact",
+            "hoarfrost",
+            "awakened_shadow",
+            "ferrous_shadow"
         ]
     ]
 }

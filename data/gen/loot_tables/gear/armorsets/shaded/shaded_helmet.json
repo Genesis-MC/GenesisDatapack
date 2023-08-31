@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_helmet",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Shaded Helmet\",type:\"Helmet\",stat:{physical_power:5,armor:25,artifact_power:20}},AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Name:\"tungsten.head\",Amount:-0.000000000001,Operation:0,UUID:[I;12,42069,-0,12],Slot:\"head\"}],display:{color:0,Name:'{\"translate\":\"Shaded Helmet\",\"color\":\"dark_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Rare Helmet\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"\",\"font\":\"genesis:stats\",\"color\":\"white\",\"italic\":false,\"extra\":[{\"translate\":\"genesis.stats.wrapper.physical_power.1\",\"with\":[5]},{\"translate\":\"genesis.stats.wrapper.armor.2\",\"with\":[25]},{\"translate\":\"genesis.stats.wrapper.artifact_power.2\",\"with\":[20]}]}','{\"translate\":\"\"}']},HideFlags:195,Trim:{material:\"minecraft:netherite\",pattern:\"minecraft:snout\"}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
