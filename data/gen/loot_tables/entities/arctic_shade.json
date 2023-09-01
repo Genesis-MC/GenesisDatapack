@@ -1,57 +1,44 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:loot_table",
-            "name": "gen:ingredients/shade_flux",
-            "conditions": [
-              {
-                "condition": "minecraft:value_check",
-                "value": {
-                  "type": "minecraft:score",
-                  "target": "this",
-                  "score": "gen.mobs.level"
-                },
-                "range": {
-                  "min": 0,
-                  "max": 24
-                }
-              },
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.8
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gen:ingredients/shade_flux",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 2
               }
-            ]
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:loot_table",
-            "name": "gen:ingredients/verdant_twig",
-            "conditions": [
-              {
-                "condition": "minecraft:value_check",
-                "value": {
-                  "type": "minecraft:score",
-                  "target": "this",
-                  "score": "gen.mobs.level"
-                },
-                "range": {
-                  "min": 25
-                }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gen:ingredients/shade_flux",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "gen.mobs.level"
               },
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.9
+              "range": {
+                "min": 25
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

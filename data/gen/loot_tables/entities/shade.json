@@ -6,22 +6,13 @@
           {
             "type": "minecraft:loot_table",
             "name": "gen:ingredients/shade_flux",
-            "conditions": [
+            "functions": [
               {
-                "condition": "minecraft:value_check",
-                "value": {
-                  "type": "minecraft:score",
-                  "target": "this",
-                  "score": "gen.mobs.level"
-                },
-                "range": {
+                "function": "minecraft:set_count",
+                "count": {
                   "min": 0,
-                  "max": 24
+                  "max": 2
                 }
-              },
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.6
               }
             ]
           }
@@ -32,7 +23,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "gen:ingredients/verdant_twig",
+            "name": "gen:ingredients/shade_flux",
             "conditions": [
               {
                 "condition": "minecraft:value_check",
@@ -44,10 +35,6 @@
                 "range": {
                   "min": 25
                 }
-              },
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.9
               }
             ]
           }
