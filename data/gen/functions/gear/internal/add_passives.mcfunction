@@ -2,9 +2,6 @@
 #First remove all passives
 advancement revoke @s only gen:passive
 
-#Add passives for each gear
-# use a predicate since it doesnt serilaze all the NBT of the inventory when checking armor slots or hand slots
-
 ##Armor
 #Mountain-Treader Boots
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"Mountain-Treader Boots"}}}]}] run advancement grant @s only gen:passive unfetteredI
@@ -35,3 +32,14 @@ execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Harbinger of Winter"}}}}
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Saber Crimson"}}}}] run advancement grant @s only gen:passive crimson_pact
 #Saber Warped
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Saber Warped"}}}}] run advancement grant @s only gen:passive warped_pact
+
+##Armorsets
+execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"Shaded Helmet"}}}]}] run function gen:gear/internal/set_bonus/shaded
+execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gen:{name:"Shaded Chestplate"}}}]}] run function gen:gear/internal/set_bonus/shaded
+execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{gen:{name:"Shaded Leggings"}}}]}] run function gen:gear/internal/set_bonus/shaded
+execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"Shaded Boots"}}}]}] run function gen:gear/internal/set_bonus/shaded
+
+execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"Voidbreach Helmet"}}}]}] run function gen:gear/internal/set_bonus/voidbreach
+execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gen:{name:"Voidbreach Chestplate"}}}]}] run function gen:gear/internal/set_bonus/voidbreach
+execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{gen:{name:"Voidbreach Leggings"}}}]}] run function gen:gear/internal/set_bonus/voidbreach
+execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"Voidbreach Boots"}}}]}] run function gen:gear/internal/set_bonus/voidbreach

@@ -46,10 +46,22 @@
         "hoarfrost": {
             "trigger": "minecraft:impossible"
         },
-        "awakened_shadow": {
+        "shaded1": {
             "trigger": "minecraft:impossible"
         },
-        "ferrous_shadow": {
+        "shaded2": {
+            "trigger": "minecraft:impossible"
+        },
+        "voidbreach1": {
+            "trigger": "minecraft:impossible"
+        },
+        "voidbreach2": {
+            "trigger": "minecraft:impossible"
+        },
+        "voidbreach3": {
+            "trigger": "minecraft:impossible"
+        },
+        "voidbreach4": {
             "trigger": "minecraft:impossible"
         }
     },
@@ -71,8 +83,12 @@
             "crimson_pact",
             "warped_pact",
             "hoarfrost",
-            "awakened_shadow",
-            "ferrous_shadow"
+            "shaded1",
+            "shaded2",
+            "voidbreach1",
+            "voidbreach2",
+            "voidbreach3",
+            "voidbreach4"
         ]
     ]
 }

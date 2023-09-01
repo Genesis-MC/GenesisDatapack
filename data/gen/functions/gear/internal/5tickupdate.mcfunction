@@ -22,4 +22,10 @@ execute as @a[advancements={gen:passive={seaborn2=true}}] at @s if block ~ ~ ~ w
 #Sea Born/Seaborn 4-Set Bonus
 execute as @a[advancements={gen:passive={seaborn4=true}}] at @s if block ~ ~ ~ water run effect give @s dolphins_grace 6 0 true
 
+#Awakened Shadow
+execute as @a[advancements={gen:passive={shaded2=true}},nbt={SelectedItem:{tag:{gen:{type:["Dagger","Void"]}}}}] run say true
+execute as @a[advancements={gen:passive={voidbreach2=true}},nbt={SelectedItem:{tag:{gen:{type:["Dagger","Void"]}}}}] run say 
+#Ferrous Shadow
+#execute as @a[advancements={gen:passive={voidbreach4=true}},nbt={SelectedItem:{tag:{gen:{type:["Dagger","Void"]}}}}] run say 
+
 schedule function gen:gear/internal/5tickupdate 5t replace
