@@ -25,6 +25,7 @@ tag @s remove this
 function gen:mobs/internal/calc/biome_difficulty_scaling/root_number
 function gen:mobs/internal/calc/biome_difficulty_scaling/root_percentage
 # diff = difficulty
+
 #tellraw @p ["world diff v ",{"score":{"name": "#biome_diff","objective": "gen.temp"},"color":"red"}]
 #tellraw @p ["world diff % ",{"score":{"name": "#biome_diff_percentage","objective": "gen.temp"},"color":"yellow"}]
 

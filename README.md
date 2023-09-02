@@ -2,6 +2,17 @@
  
  Official GitHub Page for the Project Genesis MCRPG Datapack.
  --Currently in Development--
+
+
+## Guide Book
+
+You can add chapters in `guidebook/data/load_chapters.mcfunction`. A quick explanation on how to link chapters:
+- Each chapter has an `id`, `name`, `actions` and `pages`
+- `id` is the unique id of the chapter, used to find it
+- `name` is a short name that will be displayed in the navigation bar up top
+- `actions` is a list of actions that can be taken from that chapter by triggering the `gen.guidebook` objective. Triggering this with value 1 will select the first action, value 2 the second action etc. These action can be "go to chapter `genesis:test/iron_ingot` for example. but later down the road we can maybe add other actions like showing a hologram of how to build a multiblock structure
+- `pages`: The same pages tag of the written book, which is an array of JSON text components. These text components will get resolved before being put on the written book, so you can add nbt and score components.
+- `requirement`: (optional) Any command that must return a success in order for the player to gain permission to open the chapter
  
 ## Custom crops
 

@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gen:ingredients/shade_flux",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gen:ingredients/shade_flux",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "gen.mobs.level"
+              },
+              "range": {
+                "min": 25
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_chestplate"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_nbt",
+            "tag": "{gen:{name:\"Heartguard\",stat:{health:100}},AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Name:\"tungsten.chest\",Amount:-0.000000000001,Operation:0,UUID:[I;12,42069,-0,13],Slot:\"chest\"}],display:{Name:'{\"translate\":\"Heartguard\",\"color\":\"red\",\"italic\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Legendary Chestplate\",\"font\":\"minecraft:default\",\"color\":\"#3b2b06\",\"italic\":false}]','{\"translate\":\"\",\"font\":\"genesis:stats\",\"color\":\"white\",\"italic\":false,\"extra\":[{\"translate\":\"genesis.stats.wrapper.health.3\",\"with\":[100]}]}','{\"translate\":\"\"}']},HideFlags:131,Trim:{material:\"minecraft:redstone\",pattern:\"minecraft:eye\"}}"
+          }
+        ]
+      }
+    ]
+  }

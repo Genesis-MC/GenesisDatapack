@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ender_pearl",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Shaded Ender Pearl\"},display:{Name:'{\"translate\":\"Shaded Ender Pearl\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Rare Ingredient\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"The pearl vibrantly pulses in your hand.\",\"color\":\"gray\"}']},CustomModelData:982001,HideFlags:131}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

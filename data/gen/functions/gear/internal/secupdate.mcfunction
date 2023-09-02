@@ -1,2 +1,9 @@
+execute as @a run function gen:gear/internal/passives/calc_percenthp
+
+#Heart of the Sea/Seaborn 2-Set Bonus
+execute as @a[advancements={gen:passive={seaborn2=true}}] at @s if block ~ ~ ~ water run effect give @s conduit_power 6 0 true
+#Sea Born/Seaborn 4-Set Bonus
+execute as @a[advancements={gen:passive={seaborn4=true}}] at @s if block ~ ~ ~ water run effect give @s dolphins_grace 6 0 true
+
 
 schedule function gen:gear/internal/secupdate 1s replace

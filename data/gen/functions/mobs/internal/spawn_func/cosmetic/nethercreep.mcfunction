@@ -1,1 +1,0 @@
-#summon spider ~ ~ ~ {Passengers:[{id:"minecraft:armor_stand",Small:1b,Marker:1b,Invisible:1b,Pose:{Head:[0f,180f,0f]},ArmorItems:[{},{},{},{id:"minecraft:red_glazed_terracotta",Count:1b}]}]}

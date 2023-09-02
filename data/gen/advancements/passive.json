@@ -42,6 +42,30 @@
         },
         "warped_pact": {
             "trigger": "minecraft:impossible"
+        },
+        "hoarfrost": {
+            "trigger": "minecraft:impossible"
+        },
+        "shaded1": {
+            "trigger": "minecraft:impossible"
+        },
+        "shaded2": {
+            "trigger": "minecraft:impossible"
+        },
+        "voidbreach1": {
+            "trigger": "minecraft:impossible"
+        },
+        "voidbreach2": {
+            "trigger": "minecraft:impossible"
+        },
+        "voidbreach3": {
+            "trigger": "minecraft:impossible"
+        },
+        "voidbreach4": {
+            "trigger": "minecraft:impossible"
+        },
+        "time_dilation": {
+            "trigger": "minecraft:impossible"
         }
     },
     "requirements": 
@@ -60,7 +84,15 @@
             "venomous2",
             "frostbite",
             "crimson_pact",
-            "warped_pact"
+            "warped_pact",
+            "hoarfrost",
+            "shaded1",
+            "shaded2",
+            "voidbreach1",
+            "voidbreach2",
+            "voidbreach3",
+            "voidbreach4",
+            "time_dilation"
         ]
     ]
 }

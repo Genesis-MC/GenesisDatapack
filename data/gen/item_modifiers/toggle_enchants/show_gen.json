@@ -1,0 +1,17 @@
+[
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "gen:enchant_toggle"
+      },
+      "ops": [
+        {
+          "source": "show_gen",
+          "target": "HideFlags",
+          "op": "replace"
+        }
+      ]
+    }
+  ]
+  

@@ -1,0 +1,109 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chicken",
+            "functions": [
+              {
+                "function": "minecraft:looting_enchant",
+                "count": 1
+              },
+              {
+                "function": "minecraft:furnace_smelt",
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "flags": {
+                        "is_on_fire": true
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:feather",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 2
+                }
+              },
+              {
+                "function": "minecraft:looting_enchant",
+                "count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:ingredients/drumstick",
+            "conditions": [
+              {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": "this",
+                  "score": "gen.mobs.level"
+                },
+                "range": {
+                  "min": 15,
+                  "max": 34
+                }
+              },
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:ingredients/drumstick",
+            "conditions": [
+              {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": "this",
+                  "score": "gen.mobs.level"
+                },
+                "range": {
+                  "min": 35
+                }
+              },
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
