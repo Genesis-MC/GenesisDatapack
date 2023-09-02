@@ -32,6 +32,9 @@ execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Harbinger of Winter"}}}}
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Saber Crimson"}}}}] run advancement grant @s only gen:passive crimson_pact
 #Saber Warped
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Saber Warped"}}}}] run advancement grant @s only gen:passive warped_pact
+#Vorpol
+execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Vorpol"}}}}] run advancement grant @s only gen:passive time_dilation
+execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Vorpol"}}}},tag=!gen.passive.time_dilation] run function gen:gear/internal/passives/increase/time_dilation {val:400} 
 
 ##Armorsets
 execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"Shaded Helmet"}}}]}] run function gen:gear/internal/set_bonus/shaded

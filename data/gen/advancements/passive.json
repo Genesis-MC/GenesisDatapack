@@ -63,6 +63,9 @@
         },
         "voidbreach4": {
             "trigger": "minecraft:impossible"
+        },
+        "time_dilation": {
+            "trigger": "minecraft:impossible"
         }
     },
     "requirements": 
@@ -88,7 +91,8 @@
             "voidbreach1",
             "voidbreach2",
             "voidbreach3",
-            "voidbreach4"
+            "voidbreach4",
+            "time_dilation"
         ]
     ]
 }
