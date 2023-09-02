@@ -1,6 +1,7 @@
 # add scoreboards
 scoreboard objectives add load.status dummy
 #scoreboard players reset * load.status
+# t for temp only use for really temporary varaibles
 scoreboard objectives add t dummy
 
 scoreboard objectives add gen.world dummy
@@ -37,6 +38,7 @@ execute unless score Core gen.modules matches 0..1 run scoreboard players set Co
 execute unless score Guidebook gen.modules matches 0..1 run scoreboard players set Guidebook gen.modules 1
 # reload modules
 tellraw @a {"text":"Genesis Reloaded Succesfully","color":"light_purple"}
+function gen:data/reload
 
 function gen:core/reload
 function gen:crops/reload
@@ -47,18 +49,16 @@ function gen:professions/reload
 function gen:menu/reload
 function gen:bossbars/reload
 function gen:items/reload
-function gen:mobs/reload
 function gen:particles/reload
 function gen:player_events/reload
 function gen:guidebook/reload
 function gen:events/reload
 function gen:utils/reload
 function gen:raycast/reload
-
 function gen:utils/get_world_values
+function gen:mobs/reload
 # schedule functions
 schedule function gen:core/internal/delay 1s replace
 schedule function gen:increase_levels 1s replace
-
 # start ticking function
 function gen:tick
