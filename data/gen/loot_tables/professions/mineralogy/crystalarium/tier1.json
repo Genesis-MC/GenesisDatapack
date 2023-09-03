@@ -6,17 +6,17 @@
           {
             "type": "minecraft:loot_table",
             "weight": 7,
-            "name": "gen:professions/mineralogy/common_minerals"
+            "name": "gen:professions/mineralogy/crystalarium/common_minerals"
           },
           {
             "type": "minecraft:loot_table",
             "weight": 2,
-            "name": "gen:professions/mineralogy/uncommon_minerals"
+            "name": "gen:professions/mineralogy/crystalarium/uncommon_minerals"
           },
           {
             "type": "minecraft:loot_table",
             "weight": 1,
-            "name": "gen:professions/mineralogy/rare_minerals"
+            "name": "gen:professions/mineralogy/crystalarium/rare_minerals"
           }
         ]
       }
