@@ -11,7 +11,7 @@
         "functions": [
           {
             "function": "minecraft:set_nbt",
-            "tag": "{gen:{name:\"Novice's Mallet\"},display:{Name:'{\"translate\":\"Novice\\'s Mallet\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Tool\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A novice mineralogist\\'s go-to\",\"color\":\"gray\"}','{\"translate\":\"tool for shattering minerals.\",\"color\":\"gray\"}']},CustomModelData:982001,HideFlags:131}"
+            "tag": "{gen:{name:\"Novice's Mallet\"},display:{Name:'{\"translate\":\"Novice\\'s Mallet\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Tool\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A novice mineralogist\\'s go-to\",\"color\":\"gray\"}','{\"translate\":\"tool for breaking minerals.\",\"color\":\"gray\"}']},CustomModelData:982001,HideFlags:131}"
           }
         ]
       }
