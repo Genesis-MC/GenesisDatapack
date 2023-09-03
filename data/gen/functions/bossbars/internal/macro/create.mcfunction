@@ -1,0 +1,5 @@
+$bossbar set genesis:bossbar.$(id) color $(color)
+$bossbar set genesis:bossbar.$(id) name $(name)
+$bossbar set genesis:bossbar.$(id) players $(players)
+$bossbar set genesis:bossbar.$(id) visible $(visible)
+$bossbar set genesis:bossbar.$(id) style $(style)

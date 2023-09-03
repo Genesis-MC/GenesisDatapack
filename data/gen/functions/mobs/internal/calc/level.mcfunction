@@ -4,6 +4,7 @@ tag @s add this
 
 scoreboard players operation @s gen.biome = @e[tag=!this,distance=..4,limit=1,type=#gen:alive_no_player,scores={gen.biome=-2147483648..}] gen.biome
 scoreboard players operation @s gen.biome_difficulty = @e[tag=!this,distance=..4,limit=1,type=#gen:alive_no_player,scores={gen.biome=-2147483648..}] gen.biome_difficulty
+
 execute unless score @s gen.biome matches -2147483648..2147483647 run function gen:mobs/data/biomes/root
 
 tag @s remove this
@@ -23,6 +24,7 @@ tag @s remove this
 # calls a function so we can return early and more readable
 function gen:mobs/internal/calc/biome_difficulty_scaling/root_number
 function gen:mobs/internal/calc/biome_difficulty_scaling/root_percentage
+# diff = difficulty
 
 #tellraw @p ["world diff v ",{"score":{"name": "#biome_diff","objective": "gen.temp"},"color":"red"}]
 #tellraw @p ["world diff % ",{"score":{"name": "#biome_diff_percentage","objective": "gen.temp"},"color":"yellow"}]

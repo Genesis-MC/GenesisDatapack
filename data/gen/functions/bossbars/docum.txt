@@ -1,8 +1,0 @@
-Tags
-        INCOMPLETE
-    gen.bossbars.local_16 or 32 or 64 or 128 for configureable distance for the boss bar to show 
-    function gen:bossbars/internal/new_id for getting an bossbar (32 is the max) (MUST BE FIRST FUNCTION RAN)
-    function gen:bossbars/internal/color/red to makethe bossbar of theselectedentity red
-    function gen:bossbars/internal/players/global to makethe bossbar of theselectedentity red
-    function gen:bossbars/internal/visible/true to make it visible (off by default mustrun it )
-    function gen:bossbars/internal/name/selector/s to to make thename @s
