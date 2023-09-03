@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wooden_axe"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_nbt",
+            "tag": "{gen:{name:\"Apprentice's Mallet\"},display:{Name:'{\"translate\":\"Apprentice\\'s Mallet\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Uncommon Tool\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"An apprentice mineralogist\\'s go-to\",\"color\":\"gray\"}','{\"translate\":\"tool for shattering minerals.\",\"color\":\"gray\"}']},CustomModelData:982002,HideFlags:131}"
+          }
+        ]
+      }
+    ]
+  }
