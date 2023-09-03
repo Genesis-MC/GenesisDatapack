@@ -1,2 +1,2 @@
 summon tnt
-scoreboard players set .cooldown gen.ability 200
+scoreboard players set .cooldown gen.ability 20
