@@ -1,4 +1,4 @@
-function gen:gear/internal/passives/decrease/time_dilation
+scoreboard players operation @s gen.stat.ability_haste -= @s gen.passive.time_dilation_statboost
 #Ability haste bonus -> gen.stat.speed * 0.7
 scoreboard players set #mult gen.math 7
 scoreboard players set #div gen.math 10
