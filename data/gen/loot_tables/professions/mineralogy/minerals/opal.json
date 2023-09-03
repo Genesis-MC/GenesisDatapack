@@ -5,11 +5,11 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:enchanted_book",
+            "name": "minecraft:amethyst_shard",
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Opal\"},display:{Name:'{\"text\":\"Opal\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Mineral\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]']},CustomModelData:982014,HideFlags:131,StoredEnchantments:[{id:\"minecraft:respiration\",lvl:3s},{id:\"minecraft:aqua_affinity\",lvl:1s}]}"
+                "tag": "{gen:{name:\"Opal\",type:[\"Rare\",\"Mineral\"]},display:{Name:'{\"text\":\"Opal\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Mineral\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]']},CustomModelData:982014,HideFlags:131,StoredEnchantments:[{id:\"minecraft:respiration\",lvl:3s},{id:\"minecraft:aqua_affinity\",lvl:1s}]}"
               }
             ]
           }

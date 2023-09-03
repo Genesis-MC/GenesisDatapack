@@ -5,11 +5,11 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:enchanted_book",
+            "name": "minecraft:amethyst_shard",
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Tourmaline\"},display:{Name:'{\"text\":\"Tourmaline\",\"color\":\"gold\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Uncommon Mineral\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]']},CustomModelData:982009,HideFlags:131,StoredEnchantments:[{id:\"minecraft:fire_protection\",lvl:2s},{id:\"minecraft:blast_protection\",lvl:2s}]}"
+                "tag": "{gen:{name:\"Tourmaline\",type:[\"Uncommon\",\"Mineral\"]},display:{Name:'{\"text\":\"Tourmaline\",\"color\":\"gold\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Uncommon Mineral\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]']},CustomModelData:982009,HideFlags:131,StoredEnchantments:[{id:\"minecraft:fire_protection\",lvl:2s},{id:\"minecraft:blast_protection\",lvl:2s}]}"
               }
             ]
           }
