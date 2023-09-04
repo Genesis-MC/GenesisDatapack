@@ -1,2 +1,2 @@
 
-#execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if score count smithed.data matches 2 if data storage smithed.crafter:input {recipe:[{id:"minecraft:copper_ingot",Count:1b},{id:"minecraft:flint",Count:1b}]} run loot replace block ~ ~ ~ container.16 loot gen:gear/weapons/frostfang
+#execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if score count smithed.data matches 2 if data storage smithed.crafter:input {recipe:[{id:"minecraft:amethyst_crystal",tag:{gen:{type:["Common","Mineral"]}}},{id:"minecraft:wooden_axe",tag:{gen:{name:"Novice's Mallet"}}}]} run loot replace block ~ ~ ~ container.16 loot gen:gear/weapons/frostfang
