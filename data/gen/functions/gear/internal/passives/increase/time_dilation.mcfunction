@@ -7,5 +7,4 @@ scoreboard players operation @s gen.passive.time_dilation_statboost *= #mult gen
 scoreboard players operation @s gen.passive.time_dilation_statboost /= #div gen.math
 
 scoreboard players operation @s gen.stat.ability_haste += @s gen.passive.time_dilation_statboost
-function gen:gear/data/stat/swap/mainhand
 tag @s add gen.passive.time_dilation

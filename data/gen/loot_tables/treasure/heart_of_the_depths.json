@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:barrel",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Heart of the Depths\"},display:{Name:'{\"translate\":\"Heart of the Depths\",\"color\":\"dark_purple\",\"italic\":false,\"bold\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Mythical Treasure\",\"font\":\"minecraft:default\",\"color\":\"#211905\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A motherload of exotic minerals!\",\"color\":\"gray\"}','{\"translate\":\"Unfortunately no Divan\\'s alloy here.\",\"color\":\"gray\"}']},Enchantments:[{}],HideFlags:131,BlockEntityTag:{LootTable:\"gen:treasure/heart_of_the_depths_loot\"}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
