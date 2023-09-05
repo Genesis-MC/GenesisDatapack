@@ -5,6 +5,6 @@ execute anchored eyes positioned ^ ^-1 ^3 as @e[distance=..1.5,tag=!ally,type=#g
 execute anchored eyes positioned ^ ^-1 ^5 as @e[distance=..1.5,tag=!ally,type=#gen:alive] run damage @s 5 player_explosion
 
 #Ferrous Shadows
-execute if entity @s[advancements={gen:passive={voidbreach4=true}}] run say ferrous shadows
+execute if entity @s[advancements={gen:passive={voidbreach4=true}},tag=!gen.passive.ferrous_shadows,scores={gen.passive.ferrshadow_cd=0}] run function gen:gear/internal/passives/increase/ferrous_shadows
 #7 sec cooldown
 scoreboard players set .cooldown gen.ability 140

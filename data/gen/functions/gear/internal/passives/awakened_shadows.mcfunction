@@ -6,6 +6,5 @@ execute if score @s gen.passive.awakened_shadows matches 4.. run scoreboard play
 execute if score @s gen.passive.awakened_shadows matches 4.. store result storage gen:ability awakened_shadows.dmg int 1 run scoreboard players get #awakened_shadows_dmg gen.math
 
 execute if score @s gen.passive.awakened_shadows matches 4.. at @s run particle smoke ~ ~1 ~ 0 0 0 0.1 20
-execute if score @s gen.passive.awakened_shadows matches 4.. at @s run playsound entity.enderman.teleport player @a ~ ~ ~ 0.1 0
 execute if score @s gen.passive.awakened_shadows matches 4.. at @s as @e[distance=..5,limit=1,nbt={HurtTime:10s}] run function gen:ability/data/macros/single_target with storage gen:ability awakened_shadows
 execute if score @s gen.passive.awakened_shadows matches 4.. run scoreboard players reset @s gen.passive.awakened_shadows

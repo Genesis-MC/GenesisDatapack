@@ -4,7 +4,10 @@ tellraw @a[tag=gen.dev.debug] ["",{"text":"Genesis","color":"#DF9DE3"},{"text":"
 #Passives
 scoreboard objectives add gen.passive.frostbite dummy
 scoreboard objectives add gen.passive.awakened_shadows dummy
+scoreboard objectives add gen.passive.ferrshadow_cd dummy
 scoreboard objectives add gen.passive.time_dilation_statboost dummy
+
+scoreboard players set @a gen.passive.ferrshadow_cd 0
 
 scoreboard objectives add gen.passive.health dummy
 scoreboard objectives add gen.passive.ylvl dummy
