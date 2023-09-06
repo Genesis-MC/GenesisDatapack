@@ -11,7 +11,7 @@
         "functions": [
           {
             "function": "minecraft:set_nbt",
-            "tag": "{gen:{name:\"Master's Mallet\"},display:{Name:'{\"translate\":\"Master\\'s Mallet\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Legendary Tool\",\"font\":\"minecraft:default\",\"color\":\"#3b2b06\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"Man you sure love rocks!\",\"color\":\"gray\"}']},CustomModelData:982005,HideFlags:131}"
+            "tag": "{gen:{name:\"Master's Mallet\",type:\"Mallet\"},display:{Name:'{\"translate\":\"Master\\'s Mallet\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Legendary Tool\",\"font\":\"minecraft:default\",\"color\":\"#3b2b06\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"Man you sure love rocks!\",\"color\":\"gray\"}']},CustomModelData:982005,HideFlags:131}"
           }
         ]
       }
