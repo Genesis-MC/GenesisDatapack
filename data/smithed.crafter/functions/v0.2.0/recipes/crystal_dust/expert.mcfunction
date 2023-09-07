@@ -1,2 +1,1 @@
-scoreboard players set @s gen.temp 4
-loot replace block ~ ~ ~ container.16 loot gen:ingredients/crystal_dust
+loot replace block ~ ~ ~ container.16 loot gen:gear/tools/expert_mallet

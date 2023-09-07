@@ -11,7 +11,7 @@
         "functions": [
           {
             "function": "minecraft:set_nbt",
-            "tag": "{gen:{name:\"Journeyman's Mallet\",type:\"Mallet\"},display:{Name:'{\"translate\":\"Journeyman\\'s Mallet\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Rare Tool\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A journeyman mineralogist\\'s go-to\",\"color\":\"gray\"}','{\"translate\":\"tool for breaking minerals.\",\"color\":\"gray\"}']},CustomModelData:982003,HideFlags:131}"
+            "tag": "{gen:{name:\"Journeyman's Mallet\",type:\"Mallet\"},display:{Name:'{\"translate\":\"Journeyman\\'s Mallet\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Rare Tool\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A journeyman mineralogist\\'s go-to\",\"color\":\"gray\"}','{\"translate\":\"tool for breaking minerals.\",\"color\":\"gray\"}']},CustomModelData:982003,HideFlags:131,Unbreakable:1b}"
           }
         ]
       }

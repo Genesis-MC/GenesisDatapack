@@ -1,3 +1,2 @@
-scoreboard players set @s gen.temp 1
-loot replace block ~ ~ ~ container.16 loot gen:ingredients/crystal_dust
-#execute if data storage smithed.crafter:input {recipe:[{id:"minecraft:amethyst_shard",Count:1b,tag:{gen:{type:["Common"]}}}]} run 
+loot replace block ~ ~ ~ container.16 loot gen:gear/tools/novice_mallet
+execute if data storage smithed.crafter:input {recipe:[{id:"minecraft:amethyst_shard",Count:1b,tag:{gen:{type:["Common"]}}}]} at @s run loot spawn ~ ~1 ~ loot gen:professions/mineralogy/crystal_dust/crystal_dust
