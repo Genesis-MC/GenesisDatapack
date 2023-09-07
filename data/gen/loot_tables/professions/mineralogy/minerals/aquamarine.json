@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Aquamarine\",type:[\"Epic\",\"Mineral\"]},display:{Name:'{\"text\":\"Aquamarine\",\"color\":\"aqua\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Epic Mineral\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]']},CustomModelData:982016,HideFlags:131,StoredEnchantments:[{id:\"minecraft:depth_strider\",lvl:3s}]}"
+                "tag": "{gen:{name:\"Aquamarine\",type:[\"Epic\",\"Mineral\"]},display:{Name:'{\"text\":\"Aquamarine\",\"color\":\"aqua\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Epic Mineral\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]']},CustomModelData:982016,HideFlags:0,StoredEnchantments:[{id:\"minecraft:depth_strider\",lvl:3s}]}"
               }
             ]
           }

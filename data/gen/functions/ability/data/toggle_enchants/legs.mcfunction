@@ -1,7 +1,7 @@
 scoreboard players set #temp_for_toggling gen.temp 0
 execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{HideFlags:1}}]}] run scoreboard players set #temp_for_toggling gen.temp 1
-execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{HideFlags:131}}]}] run scoreboard players set #temp_for_toggling gen.temp 2
-execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{HideFlags:130}}]}] run scoreboard players set #temp_for_toggling gen.temp 3
+execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{HideFlags:195}}]}] run scoreboard players set #temp_for_toggling gen.temp 2
+execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{HideFlags:194}}]}] run scoreboard players set #temp_for_toggling gen.temp 3
 
 #if vanilla item & enchants are hidden
 execute if score #temp_for_toggling gen.temp matches 1 run item modify entity @s armor.legs gen:toggle_enchants/show

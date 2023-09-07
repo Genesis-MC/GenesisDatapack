@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Beryl\",type:[\"Common\",\"Mineral\"]},display:{Name:'{\"text\":\"Beryl\",\"color\":\"aqua\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Common Mineral\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]']},CustomModelData:982005,HideFlags:131,StoredEnchantments:[{id:\"minecraft:smite\",lvl:2s}]}"
+                "tag": "{gen:{name:\"Beryl\",type:[\"Common\",\"Mineral\"]},display:{Name:'{\"text\":\"Beryl\",\"color\":\"aqua\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Common Mineral\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]']},CustomModelData:982005,HideFlags:0,StoredEnchantments:[{id:\"minecraft:smite\",lvl:2s}]}"
               }
             ]
           }

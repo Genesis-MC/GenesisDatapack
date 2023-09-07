@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Peridot\",type:[\"Rare\",\"Mineral\"]},display:{Name:'{\"text\":\"Peridot\",\"color\":\"gray\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Mineral\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]']},CustomModelData:982012,HideFlags:131,StoredEnchantments:[{id:\"minecraft:looting\",lvl:2s}]}"
+                "tag": "{gen:{name:\"Peridot\",type:[\"Rare\",\"Mineral\"]},display:{Name:'{\"text\":\"Peridot\",\"color\":\"gray\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Mineral\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]']},CustomModelData:982012,HideFlags:0,StoredEnchantments:[{id:\"minecraft:looting\",lvl:2s}]}"
               }
             ]
           }
