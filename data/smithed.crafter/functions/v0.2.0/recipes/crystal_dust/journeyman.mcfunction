@@ -1,1 +1,7 @@
-loot replace block ~ ~ ~ container.16 loot gen:gear/tools/journeyman_mallet
+
+execute if data storage smithed.crafter:input {recipe:[{id:"minecraft:amethyst_shard",Count:1b,tag:{gen:{type:["Common"]}}}]} at @s run loot replace block ~ ~ ~ container.16 loot gen:professions/mineralogy/crystal_dust/crystal_dust3
+execute if data storage smithed.crafter:input {recipe:[{id:"minecraft:amethyst_shard",Count:1b,tag:{gen:{type:["Uncommon"]}}}]} at @s run loot replace block ~ ~ ~ container.16 loot gen:professions/mineralogy/crystal_dust/crystal_dust4
+execute if data storage smithed.crafter:input {recipe:[{id:"minecraft:amethyst_shard",Count:1b,tag:{gen:{type:["Rare"]}}}]} at @s run loot replace block ~ ~ ~ container.16 loot gen:professions/mineralogy/crystal_dust/crystal_dust8
+execute if data storage smithed.crafter:input {recipe:[{id:"minecraft:amethyst_shard",Count:1b,tag:{gen:{type:["Epic"]}}}]} at @s run loot replace block ~ ~ ~ container.16 loot gen:professions/mineralogy/crystal_dust/crystal_dust12
+execute if data storage smithed.crafter:input {recipe:[{id:"minecraft:amethyst_shard",Count:1b,tag:{gen:{type:["Legendary"]}}}]} at @s run loot replace block ~ ~ ~ container.16 loot gen:professions/mineralogy/crystal_dust/pure_crystal_dust4
+execute if data storage smithed.crafter:input {recipe:[{id:"minecraft:amethyst_shard",Count:1b,tag:{gen:{type:["Mythical"]}}}]} at @s run loot replace block ~ ~ ~ container.16 loot gen:professions/mineralogy/crystal_dust/pure_crystal_dust10
