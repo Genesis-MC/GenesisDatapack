@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ender_pearl",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Voided Ender Pearl\"},display:{Name:'{\"translate\":\"Voided Ender Pearl\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Epic Ingredient\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"Disconfigured and corrupted\",\"color\":\"gray\"}','{\"translate\":\"beyond its original form.\",\"color\":\"gray\"}']},CustomModelData:982002,HideFlags:131}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

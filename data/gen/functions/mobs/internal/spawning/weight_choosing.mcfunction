@@ -10,4 +10,5 @@ execute store result score #weight gen.temp run data get storage gen:mobs succes
 execute if score #weight gen.temp >= #random.value gen.math run function gen:mobs/internal/spawning/success
 scoreboard players operation #random.value gen.math -= #weight gen.temp
 data remove storage gen:mobs success[-1]
+#execute if data storage gen:mobs success[0] run function gen:mobs/internal/spawning/weight_choosing
 execute if score #w_loop gen.temp matches 1 if score #random.value gen.math matches 1.. run function gen:mobs/internal/spawning/weight_choosing

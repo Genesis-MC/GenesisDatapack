@@ -1,5 +1,0 @@
-data modify storage gen:mobs read set from storage gen:mobs registry.fox
-data modify storage gen:temp id set value "minecraft:fox_spawn_egg"
-data modify storage gen:temp registry set value '{"text":"Fox","color":"yellow"}'
-function gen:mobs/internal/registry/api/give_eggs/start
-return 0

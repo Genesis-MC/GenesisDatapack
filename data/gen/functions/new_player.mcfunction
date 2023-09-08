@@ -1,6 +1,5 @@
 scoreboard players set @s gen.player.wandering_traitor_chance 20
-title @s times 50 50 50
-title @s title {"text":"Welcome To Genesis", "color":"#211905"}
+loot give @s loot gen:gear/tools/lapis_prism
 function gen:guidebook/api/give_preface
 tag @s add ally
 

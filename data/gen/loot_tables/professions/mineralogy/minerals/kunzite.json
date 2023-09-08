@@ -5,11 +5,11 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:enchanted_book",
+            "name": "minecraft:amethyst_shard",
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Kunzite\"},display:{Name:'{\"text\":\"Kunzite\",\"color\":\"light_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Epic Mineral\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]']},CustomModelData:982018,HideFlags:131,StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:4s}]}"
+                "tag": "{gen:{name:\"Kunzite\",type:[\"Epic\",\"Mineral\"]},display:{Name:'{\"text\":\"Kunzite\",\"color\":\"light_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Epic Mineral\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"Sharpness IV\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982018,StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:4s}]}"
               }
             ]
           }

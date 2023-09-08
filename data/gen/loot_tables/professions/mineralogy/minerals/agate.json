@@ -5,11 +5,11 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:enchanted_book",
+            "name": "minecraft:amethyst_shard",
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Agate\"},display:{Name:'{\"text\":\"Agate\",\"color\":\"dark_red\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Mineral\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]']},CustomModelData:982011,HideFlags:131,StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:4s}]}"
+                "tag": "{gen:{name:\"Agate\",type:[\"Rare\",\"Mineral\"]},display:{Name:'{\"text\":\"Agate\",\"color\":\"dark_red\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Mineral\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"Efficiency IV\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982011,StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:4s}]}"
               }
             ]
           }

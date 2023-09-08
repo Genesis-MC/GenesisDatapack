@@ -1,0 +1,1 @@
+$execute unless data storage gen:mobs cache.biome_ids[{Key:"$(biome)"}] run data modify storage gen:mobs cache.biome_ids append value {Key:"$(biome)",Value:$(value)}

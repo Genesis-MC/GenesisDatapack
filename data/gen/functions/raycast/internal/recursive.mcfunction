@@ -1,6 +1,6 @@
 scoreboard players remove #dist gen.raycast 1
 
-# I could use run return run instead of the boolean score ... but thats bugged in this snapshot -_-
+# I could use run return run instead of the boolean score ... but thats bugged in this snapshot -_- <--- this aged poorly
 
 execute unless block ~ ~ ~ #gen:pass_through \
         run function gen:raycast/internal/hit/block
