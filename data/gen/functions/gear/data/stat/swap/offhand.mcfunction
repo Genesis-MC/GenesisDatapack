@@ -51,6 +51,8 @@ scoreboard players operation @s gen.stat.artifact_power += @s gen.stat.artifact_
 scoreboard players operation @s gen.stat.mana_pool -= @s gen.stat.mana_pool.offhand
 execute store result score @s gen.stat.mana_pool.offhand run data get storage tungsten:player Item.tag.gen.stat.mana_pool
 scoreboard players operation @s gen.stat.mana_pool += @s gen.stat.mana_pool.offhand
+scoreboard players operation @s gen.mana.max = @s gen.stat.mana_pool
+scoreboard players operation @s gen.mana.max *= #10 gen.const
 # mana_regen
 scoreboard players operation @s gen.stat.mana_regen -= @s gen.stat.mana_regen.offhand
 execute store result score @s gen.stat.mana_regen.offhand run data get storage tungsten:player Item.tag.gen.stat.mana_regen
