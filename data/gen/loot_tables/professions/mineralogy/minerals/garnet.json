@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Garnet\",type:[\"Uncommon\",\"Mineral\"]},display:{Name:'{\"text\":\"Garnet\",\"color\":\"red\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Uncommon Mineral\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]']},CustomModelData:982006,HideFlags:0,StoredEnchantments:[{id:\"minecraft:fire_protection\",lvl:3s}]}"
+                "tag": "{gen:{name:\"Garnet\",type:[\"Uncommon\",\"Mineral\"]},display:{Name:'{\"text\":\"Garnet\",\"color\":\"red\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Uncommon Mineral\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"Fire Protection III\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982006,StoredEnchantments:[{id:\"minecraft:fire_protection\",lvl:3s}]}"
               }
             ]
           }

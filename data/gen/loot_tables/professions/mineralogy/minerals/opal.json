@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Opal\",type:[\"Rare\",\"Mineral\"]},display:{Name:'{\"text\":\"Opal\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Mineral\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]']},CustomModelData:982014,HideFlags:0,StoredEnchantments:[{id:\"minecraft:respiration\",lvl:3s},{id:\"minecraft:aqua_affinity\",lvl:1s}]}"
+                "tag": "{gen:{name:\"Opal\",type:[\"Rare\",\"Mineral\"]},display:{Name:'{\"text\":\"Opal\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Mineral\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"Respiration III\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"Aqua Affinity I\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982014,StoredEnchantments:[{id:\"minecraft:respiration\",lvl:3s},{id:\"minecraft:aqua_affinity\",lvl:1s}]}"
               }
             ]
           }

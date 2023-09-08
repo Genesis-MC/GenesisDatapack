@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Zircon\",type:[\"Rare\",\"Mineral\"]},display:{Name:'{\"text\":\"Zircon\",\"color\":\"dark_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Mineral\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]']},CustomModelData:982013,HideFlags:0,StoredEnchantments:[{id:\"minecraft:sweeping\",lvl:2s}]}"
+                "tag": "{gen:{name:\"Zircon\",type:[\"Rare\",\"Mineral\"]},display:{Name:'{\"text\":\"Zircon\",\"color\":\"dark_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Mineral\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"Sweeping Edge II\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982013,StoredEnchantments:[{id:\"minecraft:sweeping\",lvl:2s}]}"
               }
             ]
           }

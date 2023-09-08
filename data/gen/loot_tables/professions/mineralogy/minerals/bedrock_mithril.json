@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Bedrock Mithril\",type:[\"Epic\",\"Mineral\"]},display:{Name:'{\"text\":\"Bedrock Mithril\",\"color\":\"dark_gray\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Epic Mineral\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]']},CustomModelData:982015,HideFlags:0,StoredEnchantments:[{id:\"minecraft:protection\",lvl:4s}]}"
+                "tag": "{gen:{name:\"Bedrock Mithril\",type:[\"Epic\",\"Mineral\"]},display:{Name:'{\"text\":\"Bedrock Mithril\",\"color\":\"dark_gray\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Epic Mineral\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"Protection IV\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982015,StoredEnchantments:[{id:\"minecraft:protection\",lvl:4s}]}"
               }
             ]
           }

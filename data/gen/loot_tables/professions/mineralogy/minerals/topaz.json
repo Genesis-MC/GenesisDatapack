@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Topaz\",type:[\"Uncommon\",\"Mineral\"]},display:{Name:'{\"text\":\"Topaz\",\"color\":\"gold\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Uncommon Mineral\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]']},CustomModelData:982008,HideFlags:0,StoredEnchantments:[{id:\"minecraft:fire_aspect\",lvl:1s}]}"
+                "tag": "{gen:{name:\"Topaz\",type:[\"Uncommon\",\"Mineral\"]},display:{Name:'{\"text\":\"Topaz\",\"color\":\"gold\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Uncommon Mineral\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"Fire Aspect I\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982008,StoredEnchantments:[{id:\"minecraft:fire_aspect\",lvl:1s}]}"
               }
             ]
           }

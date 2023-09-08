@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Mithril\",type:[\"Rare\",\"Mineral\"]},display:{Name:'{\"text\":\"Mithril\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Mineral\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]']},CustomModelData:982010,HideFlags:0,StoredEnchantments:[{id:\"minecraft:protection\",lvl:3s}]}"
+                "tag": "{gen:{name:\"Mithril\",type:[\"Rare\",\"Mineral\"]},display:{Name:'{\"text\":\"Mithril\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Rare Mineral\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"Protection III\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982010,StoredEnchantments:[{id:\"minecraft:protection\",lvl:3s}]}"
               }
             ]
           }
