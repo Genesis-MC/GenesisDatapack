@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Crystal Quartz\",type:[\"Common\",\"Mineral\"]},display:{Name:'{\"text\":\"Crystal Quartz\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Common Mineral\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"Unbreaking I\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982001,StoredEnchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+                "tag": "{gen:{name:\"Crystal Quartz\",type:[\"Common\"],mineral:1b},display:{Name:'{\"text\":\"Crystal Quartz\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Common Mineral\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"Unbreaking I\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982001,StoredEnchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
               }
             ]
           }

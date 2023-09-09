@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Mica\",type:[\"Common\",\"Mineral\"]},display:{Name:'{\"text\":\"Mica\",\"color\":\"gray\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Common Mineral\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"Sharpness I\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982002,StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:1s}]}"
+                "tag": "{gen:{name:\"Mica\",type:[\"Common\"],mineral:1b},display:{Name:'{\"text\":\"Mica\",\"color\":\"gray\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Common Mineral\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"Sharpness I\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982002,StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:1s}]}"
               }
             ]
           }
