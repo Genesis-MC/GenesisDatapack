@@ -22,6 +22,4 @@ scoreboard objectives add gen.bth.wearing_block_helmet dummy
 
 schedule function gen:gear/internal/secupdate 1s replace
 schedule function gen:gear/internal/5tickupdate 5t replace
-scoreboard objectives add gen.ability dummy
-scoreboard objectives add gen.ability.use minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add gen.ability.trigger_wfoas minecraft.used:minecraft.warped_fungus_on_a_stick

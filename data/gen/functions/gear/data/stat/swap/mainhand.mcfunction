@@ -59,7 +59,3 @@ scoreboard players operation @s gen.stat.mana_regen += @s gen.stat.mana_regen.ma
 scoreboard players operation @s gen.stat.ability_haste -= @s gen.stat.ability_haste.mainhand
 execute store result score @s gen.stat.ability_haste.mainhand run data get storage tungsten:player Item.tag.gen.stat.ability_haste
 scoreboard players operation @s gen.stat.ability_haste += @s gen.stat.ability_haste.mainhand
-# ability
-execute store result score @s gen.stat.ability.mainhand run data get storage tungsten:player Item.tag.gen.stat.ability
-# cooldown
-execute store result score @s gen.stat.cooldown.mainhand run data get storage tungsten:player Item.tag.gen.stat.cooldown
