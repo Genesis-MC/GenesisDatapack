@@ -11,3 +11,4 @@ execute if score PlayerEvents gen.modules matches 1 run function gen:player_even
 execute if score Menu gen.modules matches 1 run function gen:menu/tick
 execute if score PlayerEvents gen.modules matches 1 run function gen:player_events/tick
 execute if score Guidebook gen.modules matches 1 run function gen:guidebook/tick
+execute if score Ability gen.modules matches 1 run function gen:ability/tick
