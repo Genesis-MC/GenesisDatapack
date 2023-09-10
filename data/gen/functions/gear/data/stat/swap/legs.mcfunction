@@ -52,7 +52,7 @@ scoreboard players operation @s gen.stat.mana_pool -= @s gen.stat.mana_pool.legs
 execute store result score @s gen.stat.mana_pool.legs run data get storage tungsten:player Item.tag.gen.stat.mana_pool
 scoreboard players operation @s gen.stat.mana_pool += @s gen.stat.mana_pool.legs
 scoreboard players operation @s gen.mana.max = @s gen.stat.mana_pool
-scoreboard players operation @s gen.mana.max *= #10 gen.const
+scoreboard players operation @s gen.mana.max *= #100 gen.const
 # mana_regen
 scoreboard players operation @s gen.stat.mana_regen -= @s gen.stat.mana_regen.legs
 execute store result score @s gen.stat.mana_regen.legs run data get storage tungsten:player Item.tag.gen.stat.mana_regen

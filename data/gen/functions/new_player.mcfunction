@@ -7,5 +7,8 @@ tag @s add ally
 scoreboard players set @s gen.mobs.level 3
 
 # initialize mana
+scoreboard players set @s gen.stat.mana_regen 5
 scoreboard players set @s gen.stat.mana_pool 100
+scoreboard players set @s gen.mana.current.real 100
+scoreboard players set @s gen.mana.current 10000
 scoreboard players set @s gen.mana.max 10000
