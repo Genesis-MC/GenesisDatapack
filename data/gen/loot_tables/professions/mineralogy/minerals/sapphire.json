@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Sapphire\",type:[\"Epic\",\"Mineral\"]},display:{Name:'{\"text\":\"Sapphire\",\"color\":\"blue\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Epic Mineral\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"Looting III\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982019,StoredEnchantments:[{id:\"minecraft:looting\",lvl:3s}]}"
+                "tag": "{gen:{name:\"Sapphire\",type:[\"Epic\"],mineral:1b},display:{Name:'{\"text\":\"Sapphire\",\"color\":\"blue\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Epic Mineral\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"Looting III\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982019,StoredEnchantments:[{id:\"minecraft:looting\",lvl:3s}]}"
               }
             ]
           }

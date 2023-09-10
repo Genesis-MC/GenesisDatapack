@@ -13,6 +13,20 @@
           "condition": "minecraft:random_chance",
           "chance": 0.2
         }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 5,
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "nbt": "{gen:{name:\"Prismatic Pickaxe\"}}"
+              }
+            }
+          ]
+        }
       ]
     }
   ]

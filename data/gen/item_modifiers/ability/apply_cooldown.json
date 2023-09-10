@@ -7,8 +7,8 @@
         },
         "ops": [
             {
-                "source": "new_cooldown",
-                "target": "gen.stat.cooldown",
+                "source": "cooldown",
+                "target": "gen.ability.cooldown",
                 "op": "replace"
             }
         ]
