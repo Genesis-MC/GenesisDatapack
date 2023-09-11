@@ -1,3 +1,8 @@
+
+#25 mana cost
+execute if score @s gen.mana.current matches ..2499 run return 0
+scoreboard players remove @s gen.mana.current 2500
+
 #4% of Phys Pow as AOE Short Dmg
 scoreboard players set #div gen.math 25
 scoreboard players operation #voidrend_dmg gen.math = @s gen.stat.physical_power

@@ -1,3 +1,8 @@
+
+#20 mana cost
+execute if score @s gen.mana.current matches ..1999 run return 0
+scoreboard players remove @s gen.mana.current 2000
+
 execute anchored eyes run function gen:particles/line/blitz
 playsound entity.lightning_bolt.impact player @a ~ ~ ~ 0.5 1.5
 execute anchored eyes positioned ^ ^-1 ^1 as @e[distance=..1.5,tag=!ally,type=#gen:alive] run damage @s 5 player_explosion
