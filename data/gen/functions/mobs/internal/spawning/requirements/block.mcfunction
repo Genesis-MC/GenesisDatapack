@@ -1,5 +1,3 @@
-# most wonky fix i had in mind
-
 
 execute store result score . t run data get storage gen:mobs check_requirements[-1].requirements.block
 scoreboard players set #success gen.temp 0

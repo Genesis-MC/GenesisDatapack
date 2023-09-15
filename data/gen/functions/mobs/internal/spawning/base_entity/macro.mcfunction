@@ -1,2 +1,2 @@
-$summon minecraft:$(base_entity) ~ ~ ~ {$(entity_data)}
-$execute as @e[type=minecraft:$(base_entity,limit=1,distance=..0.01)] run say @s 
+#$say summon minecraft:$(base_entity) ~ ~ ~ $(entity_data)
+$execute summon minecraft:$(base_entity) run function gen:mobs/internal/spawning/base_entity/do

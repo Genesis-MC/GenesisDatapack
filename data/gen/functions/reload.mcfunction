@@ -44,7 +44,7 @@ execute unless score Core gen.modules matches 0..1 run scoreboard players set Co
 execute unless score Guidebook gen.modules matches 0..1 run scoreboard players set Guidebook gen.modules 1
 # reload modules
 tellraw @a {"text":"Genesis Reloaded Succesfully","color":"light_purple"}
-function gen:data/reload
+function gen:add_tags/reload
 
 function gen:core/reload
 function gen:crops/reload

@@ -43,4 +43,3 @@ execute if score .moon_phase gen.world matches 7.. run data remove storage gen:m
 execute if score .moon_phase gen.world matches 8.. run data remove storage gen:mobs read[{requirements:{moon_phase:{max:7b}}}]
 execute if score .moon_phase gen.world matches 9.. run data remove storage gen:mobs read[{requirements:{moon_phase:{max:8b}}}]
 tellraw @a[tag=gen.dev.debug.all] {"nbt":"read[].requirements.moon_phase","storage": "gen:mobs","color":"gray"}
-data remove storage gen:mobs read[].requirements.moon_phase

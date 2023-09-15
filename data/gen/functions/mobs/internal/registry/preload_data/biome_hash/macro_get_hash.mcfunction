@@ -1,0 +1,1 @@
+$data modify storage gen:temp macro_result.hash set from storage gen:data biome_hashes[{key:"$(biome)"}].value

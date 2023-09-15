@@ -3,4 +3,4 @@ scoreboard players set #w_loop gen.temp 0
 # just a quick bool state no need for long name
 execute store success score # t if data storage gen:mobs success[-1].base_entity
 execute if score # t matches 0 run function gen:mobs/internal/spawning/summon_data
-#execute if score # t matches 1 run function gen:mobs/internal/spawning/base_entity/root
+execute if score # t matches 1 run function gen:mobs/internal/spawning/base_entity/root
