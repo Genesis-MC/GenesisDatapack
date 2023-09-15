@@ -1,2 +1,2 @@
 ## deals (dmg) amount of damage to enemies in a 3 block radius; called by other abilities after calculations are done to find (dmg)
-$execute as @e[distance=..3,tag=!ally,type=#gen:alive] run damage @s $(dmg) minecraft:player_attack
+$execute as @e[distance=..3,tag=!gen.ally,type=#gen:alive] run damage @s $(dmg) minecraft:player_attack

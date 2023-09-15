@@ -42,6 +42,8 @@ execute unless score Menu gen.modules matches 0..1 run scoreboard players set Me
 execute unless score PlayerEvents gen.modules matches 0..1 run scoreboard players set PlayerEvents gen.modules 1
 execute unless score Core gen.modules matches 0..1 run scoreboard players set Core gen.modules 1
 execute unless score Guidebook gen.modules matches 0..1 run scoreboard players set Guidebook gen.modules 1
+execute unless score Ability gen.modules matches 0..1 run scoreboard players set Ability gen.modules 1
+execute unless score Manabar gen.modules matches 0..1 run scoreboard players set Manabar gen.modules 1
 # reload modules
 tellraw @a {"text":"Genesis Reloaded Succesfully","color":"light_purple"}
 function gen:add_tags/reload
@@ -63,6 +65,8 @@ function gen:utils/reload
 function gen:raycast/reload
 function gen:utils/get_world_values
 function gen:mobs/reload
+function gen:ability/reload
+function gen:mana/reload
 # schedule functions
 schedule function gen:core/internal/delay 1s replace
 schedule function gen:increase_levels 1s replace

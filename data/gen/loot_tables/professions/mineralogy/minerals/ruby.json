@@ -5,11 +5,11 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:enchanted_book",
+            "name": "minecraft:amethyst_shard",
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Ruby\"},display:{Name:'{\"text\":\"Ruby\",\"color\":\"red\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Epic Mineral\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]']},CustomModelData:982017,HideFlags:131,StoredEnchantments:[{id:\"minecraft:fire_aspect\",lvl:2s}]}"
+                "tag": "{gen:{name:\"Ruby\",type:[\"Epic\"],mineral:1b},display:{Name:'{\"text\":\"Ruby\",\"color\":\"red\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Epic Mineral\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"Fire Aspect II\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982017,StoredEnchantments:[{id:\"minecraft:fire_aspect\",lvl:2s}]}"
               }
             ]
           }

@@ -6,6 +6,7 @@ scoreboard players set #8 gen.const 8
 scoreboard players set #9 gen.const 9
 scoreboard players set #10 gen.const 10
 scoreboard players set #16 gen.const 16
+scoreboard players set #20 gen.const 20
 scoreboard players set #100 gen.const 100
 scoreboard players set #363 gen.const 363
 scoreboard players set #1000 gen.const 1000
