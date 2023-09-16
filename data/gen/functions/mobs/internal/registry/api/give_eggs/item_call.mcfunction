@@ -3,6 +3,7 @@ data modify entity @s Item.id set from storage gen:temp id
 data modify entity @s Owner set from storage gen:temp UUID
 data modify entity @s Item.tag.EntityTag set from storage gen:mobs read[-1].entity_data
 data modify entity @s PickupDelay set value 0s
+data modify entity @s Item.tag.EntityTag.Tags append value "gen.mobs.spawn_egg"
 data modify entity @s Item.tag.EntityTag.Tags append value "gen.tracked"
 data modify storage gen:temp temp set value []
 data modify storage gen:temp temp set from entity @s Item.tag.display.Lore

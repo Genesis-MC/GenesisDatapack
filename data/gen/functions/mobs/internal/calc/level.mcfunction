@@ -51,4 +51,4 @@ scoreboard players operation @s gen.mobs.level = #player_lvl_and_world gen.temp
 # making sure it is not negative
 scoreboard players set @s[scores={gen.mobs.level=..0}] gen.mobs.level 1
 # make it do the spawning algorithm
-tag @s add gen.try_spawn
+tag @s[tag=!gen.mobs.spawn_egg] add gen.try_spawn
