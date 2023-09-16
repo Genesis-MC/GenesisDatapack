@@ -1,5 +1,6 @@
-execute as @a[tag=!gen.mana.drowning] at @s anchored eyes if block ^ ^ ^ water run tag @s add gen.mana.drowning
-execute as @a[tag=gen.mana.drowning] at @s anchored eyes unless block ^ ^ ^ water if data entity @s {Air:300s} run tag @s remove gen.mana.drowning
+execute as @a[tag=!gen.mana.drowning] at @s anchored eyes if block ^ ^ ^ #gen:water run tag @s add gen.mana.drowning
+execute as @a[tag=!gen.mana.drowning] at @s anchored eyes if block ^ ^ ^ #gen:waterloggable[waterlogged=true] run tag @s add gen.mana.drowning
+execute as @a[tag=gen.mana.drowning] at @s anchored eyes unless block ^ ^ ^ #gen:water unless block ^ ^ ^ #gen:waterloggable[waterlogged=true] if data entity @s {Air:300s} run tag @s remove gen.mana.drowning
 
 execute as @a unless score @s gen.mana.current = @s gen.mana.max run function gen:mana/internal/regenerate
 data modify storage smithed.actionbar:input message set value {\
