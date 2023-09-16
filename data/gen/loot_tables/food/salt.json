@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Salt\"},display:{Name:'{\"translate\":\"Salt\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Ingredient\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]']},CustomModelData:982029,HideFlags:131}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
