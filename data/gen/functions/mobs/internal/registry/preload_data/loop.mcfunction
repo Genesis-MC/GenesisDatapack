@@ -10,7 +10,7 @@ data modify storage gen:mobs preloaded_data append from storage gen:mobs current
 #execute if data storage gen:temp biomes[0] run function gen:mobs/internal/registry/preload_data/biome_id/start//
 
 
-tellraw @p {"storage":"gen:mobs","nbt":"current_entity.name"}
+#tellraw @p {"storage":"gen:mobs","nbt":"current_entity.name"}
 
 #execute if data storage gen:mobs read2[-1].requirements.biomes[0] run say CHANGED
 
