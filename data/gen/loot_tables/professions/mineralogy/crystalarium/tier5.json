@@ -5,7 +5,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "weight": 25,
+            "weight": 20,
             "name": "gen:professions/mineralogy/crystalarium/uncommon_minerals"
           },
           {
@@ -20,12 +20,12 @@
           },
           {
             "type": "minecraft:loot_table",
-            "weight": 8,
+            "weight": 12,
             "name": "gen:professions/mineralogy/crystalarium/legendary_minerals"
           },
           {
             "type": "minecraft:loot_table",
-            "weight": 2,
+            "weight": 3,
             "name": "gen:professions/mineralogy/crystalarium/mythical_minerals"
           }
         ]

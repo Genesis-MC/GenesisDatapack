@@ -11,7 +11,7 @@
         "functions": [
           {
             "function": "minecraft:set_nbt",
-            "tag": "{gen:{name:\"Prismatic Pickaxe\"},display:{Name:'{\"translate\":\"Prismatic Pickaxe\",\"color\":\"#403303\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Mythical Pickaxe\",\"font\":\"minecraft:default\",\"color\":\"#211905\",\"italic\":false}]','{\"text\":\" \"}','{\"text\":\"Budding Amethyst blocks will\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"drop x5 Crystal Buds.\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982001,HideFlags:195}"
+            "tag": "{gen:{name:\"Prismatic Pickaxe\"},display:{Name:'{\"translate\":\"Prismatic Pickaxe\",\"color\":\"#403303\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Legendary Pickaxe\",\"font\":\"minecraft:default\",\"color\":\"#3b2b06\",\"italic\":false}]','{\"text\":\" \"}','{\"text\":\"Budding Amethyst blocks will\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"drop x5 Crystal Buds.\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982001,HideFlags:195}"
           }
         ]
       }
