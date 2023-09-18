@@ -11,4 +11,4 @@ scoreboard objectives add gen.profession.mineralogy.broke_amethyst2 mined:medium
 scoreboard objectives add gen.profession.mineralogy.broke_amethyst1 mined:small_amethyst_bud
 
 schedule function gen:professions/mineralogy/internal/sectick 1s replace
-schedule function gen:professions/mineralogy/internal/mintick 2s replace
+schedule function gen:professions/mineralogy/internal/mintick 360s replace
