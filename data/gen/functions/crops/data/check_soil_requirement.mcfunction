@@ -7,7 +7,6 @@
 # Returns 0 when all requirements fail
 # Storage context:
 # - gen:crops :
-#     templates ooh no f**** c++ infested everything!!!!!!!!!!!!!!!!1
 #   - List -> <string> <- requirements : list of soil requirements to test for
 #####################################################################
 

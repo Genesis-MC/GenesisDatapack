@@ -1,5 +1,4 @@
 
-#execute at @s run particle electric_spark ~ ~ ~ 1 1 1 0 100
 
 execute if entity @s[nbt={HandItems:[{tag:{gen:{EnhancementCrystal:1b}}},{}]}] run function gen:professions/mineralogy/internal/crystalarium/upgrade_tier
 
