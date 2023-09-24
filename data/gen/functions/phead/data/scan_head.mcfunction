@@ -14,3 +14,4 @@
 data modify storage gen:phead scan_head.name_8_24 set string storage gen:phead scan_head.name 8 24
 execute if data storage gen:phead scan_head{name_8_24:"block.crop.seed."} run function gen:crops/api/call_on_placed_head
 execute if data storage gen:phead scan_head{name_8_24:"block.mineralogy"} run function gen:professions/mineralogy/internal/crystalarium/spawncrystalarium
+execute if data storage gen:phead scan_head{name_8_24:"block.gear.helm."} run function gen:phead/api/cannot_place

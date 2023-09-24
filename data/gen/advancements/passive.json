@@ -66,6 +66,15 @@
         },
         "time_dilation": {
             "trigger": "minecraft:impossible"
+        },
+        "frostveil1": {
+            "trigger": "minecraft:impossible"
+        },
+        "frostveil2": {
+            "trigger": "minecraft:impossible"
+        },
+        "frostveil3": {
+            "trigger": "minecraft:impossible"
         }
     },
     "requirements": 
@@ -92,7 +101,10 @@
             "voidbreach2",
             "voidbreach3",
             "voidbreach4",
-            "time_dilation"
+            "time_dilation",
+            "frostveil1",
+            "frostveil2",
+            "frostveil3"
         ]
     ]
 }

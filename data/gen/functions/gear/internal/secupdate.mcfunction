@@ -6,6 +6,7 @@ execute as @a[scores={gen.passive.ferrshadow_cd=0},tag=gen.passive.ferrous_shado
 execute as @a[advancements={gen:passive={seaborn2=true}}] at @s if block ~ ~ ~ water run effect give @s conduit_power 6 0 true
 #Sea Born/Seaborn 4-Set Bonus
 execute as @a[advancements={gen:passive={seaborn4=true}}] at @s if block ~ ~ ~ water run effect give @s dolphins_grace 6 0 true
-
+#Frostveil 3-Set Bonus
+execute as @a[advancements={gen:passive={frostveil3=true}}] at @s as @e[distance=..8,tag=!gen.ally,type=#gen:alive] if score @s gen.passive.frostbite matches 1.. run effect give @s weakness 2 1
 
 schedule function gen:gear/internal/secupdate 1s replace

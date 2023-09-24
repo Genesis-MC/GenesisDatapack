@@ -46,3 +46,8 @@ execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"Voidbreach Helme
 execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gen:{name:"Voidbreach Chestplate"}}}]}] run function gen:gear/internal/set_bonus/voidbreach
 execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{gen:{name:"Voidbreach Leggings"}}}]}] run function gen:gear/internal/set_bonus/voidbreach
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"Voidbreach Boots"}}}]}] run function gen:gear/internal/set_bonus/voidbreach
+
+execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"Frostveil Helmet"}}}]}] run function gen:gear/internal/set_bonus/frostveil
+execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gen:{name:"Frostveil Chestplate"}}}]}] run function gen:gear/internal/set_bonus/frostveil
+execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{gen:{name:"Frostveil Leggings"}}}]}] run function gen:gear/internal/set_bonus/frostveil
+execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"Frostveil Boots"}}}]}] run function gen:gear/internal/set_bonus/frostveil
