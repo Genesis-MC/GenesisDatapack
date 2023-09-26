@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_nbt",
+            "tag": "{gen:{name:\"Prisma Nova\",core:0f,key:0f,heart:0f},display:{Name:'{\"translate\":\"Broken Prisma Nova\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"[❁]\",\"color\":\"gray\",\"italic\":false},{\"text\":\"[❂]\",\"color\":\"gray\",\"italic\":false},{\"text\":\"[❂]\",\"color\":\"gray\",\"italic\":false}]','[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Epic Artifact\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','[{\"text\":\"[❁]\",\"color\":\"gray\",\"italic\":false},{\"text\":\" Chromaburst\",\"color\":\"gray\",\"italic\":false}]','{\"translate\":\"Corestone Ability\",\"color\":\"dark_gray\"}','[{\"translate\":\"J\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Cooldown: \",\"font\":\"minecraft:default\",\"color\":\"dark_gray\"},{\"translate\":\"50s\",\"font\":\"minecraft:default\",\"color\":\"white\"}]','[{\"translate\":\"I\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Mana: \",\"font\":\"minecraft:default\",\"color\":\"dark_gray\"},{\"translate\":\"200\",\"font\":\"minecraft:default\",\"color\":\"blue\"}]','{\"translate\":\"description\",\"color\":\"gray\",\"bold\":false,\"italic\":false}','{\"translate\":\"\"}','[{\"text\":\"[❂]\",\"color\":\"gray\",\"italic\":false},{\"text\":\" Radiance\",\"color\":\"gray\",\"italic\":false}]','{\"translate\":\"Keystone Ability\",\"color\":\"dark_gray\"}','{\"translate\":\"increases range\",\"color\":\"gray\",\"bold\":false,\"italic\":false}','{\"translate\":\"\"}','[{\"text\":\"[❂]\",\"color\":\"gray\",\"italic\":false},{\"text\":\" Chromaspark\",\"color\":\"gray\",\"italic\":false}]','{\"translate\":\"Heartstone Ability\",\"color\":\"dark_gray\"}','{\"translate\":\"description\",\"color\":\"gray\",\"bold\":false,\"italic\":false}']},CustomModelData:982000,HideFlags:195}"
+          }
+        ]
+      }
+    ]
+  }
