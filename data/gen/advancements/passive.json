@@ -75,6 +75,9 @@
         },
         "frostveil3": {
             "trigger": "minecraft:impossible"
+        },
+        "swiftblade": {
+            "trigger": "minecraft:impossible"
         }
     },
     "requirements": 
@@ -104,7 +107,8 @@
             "time_dilation",
             "frostveil1",
             "frostveil2",
-            "frostveil3"
+            "frostveil3",
+            "swiftblade"
         ]
     ]
 }

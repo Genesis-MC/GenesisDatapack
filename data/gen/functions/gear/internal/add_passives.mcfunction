@@ -17,6 +17,10 @@ execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"Terra-Treader Bo
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"7-League Boots"}}}]}] run advancement grant @s only gen:passive unfetteredII
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"7-League Boots"}}}]}] run advancement grant @s only gen:passive featherweight
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"7-League Boots"}}}]}] run advancement grant @s only gen:passive supreme_speed
+#Hunter's Vest
+execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gen:{name:"Hunter's Vest"}}}]}] run advancement grant @s only gen:passive swiftblade
+#Ranger's Vest
+execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gen:{name:"Ranger's Vest"}}}]}] run advancement grant @s only gen:passive swiftblade
 
 ##Mainhand Items
 #Recluse Fang

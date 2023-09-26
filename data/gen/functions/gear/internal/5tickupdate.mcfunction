@@ -14,6 +14,11 @@ execute as @a[advancements={gen:passive={supreme_speed=true}}] if predicate gen:
 execute as @a[advancements={gen:passive={frenzy=true}},tag=!gen.passive.frenzy] if score .percenthp gen.math matches ..30 run function gen:gear/internal/passives/increase/frenzy
 execute as @a[tag=gen.passive.frenzy,advancements={gen:passive={frenzy=true}}] if score .percenthp gen.math matches 31.. run function gen:gear/internal/passives/decrease/frenzy
 execute as @a[tag=gen.passive.frenzy,advancements={gen:passive={frenzy=false}}] run function gen:gear/internal/passives/decrease/frenzy
+#Swiftblade
+execute as @a[advancements={gen:passive={swiftblade=true}},tag=!gen.passive.swiftblade,nbt={SelectedItem:{tag:{gen:{type:["Dagger"]}}}}] run function gen:gear/internal/passives/increase/swiftblade
+execute as @a[tag=gen.passive.swiftblade,advancements={gen:passive={swiftblade=true}},nbt=!{SelectedItem:{tag:{gen:{type:["Dagger"]}}}}] run function gen:gear/internal/passives/decrease/swiftblade
+execute as @a[tag=gen.passive.swiftblade,advancements={gen:passive={swiftblade=false}}] run function gen:gear/internal/passives/decrease/swiftblade
+
 #Crimson Pact
 execute as @a[advancements={gen:passive={crimson_pact=true}},tag=!gen.passive.crimson_pact] if score .percenthp gen.math matches ..30 run function gen:gear/internal/passives/increase/crimson_pact 
 execute as @a[tag=gen.passive.crimson_pact,advancements={gen:passive={crimson_pact=true}}] if score .percenthp gen.math matches 31.. run function gen:gear/internal/passives/decrease/crimson_pact
