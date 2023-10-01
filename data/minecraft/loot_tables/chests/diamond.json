@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "quality": 1,
+          "name": "minecraft:diamond_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 99,
+          "name": "minecraft:diamond"
+        }
+      ]
+    }
+  ]
+}

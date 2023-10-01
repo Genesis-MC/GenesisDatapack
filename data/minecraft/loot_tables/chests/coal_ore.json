@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 11,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "quality": 1,
+          "name": "minecraft:coal_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "minecraft:coal"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 19,
+          "name": "minecraft:coal_ore"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "rolls": 7,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:big_dripleaf"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:small_dripleaf"
+        }
+      ]
+    }
+  ]
+}

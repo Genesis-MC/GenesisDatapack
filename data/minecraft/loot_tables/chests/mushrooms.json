@@ -1,0 +1,18 @@
+{
+  "pools": [
+    {
+      "rolls": 9,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_mushroom"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_mushroom"
+        }
+      ]
+    }
+  ]
+}

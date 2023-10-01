@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 7,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "quality": 1,
+          "name": "minecraft:raw_iron_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "minecraft:raw_iron"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 19,
+          "name": "minecraft:iron_ore"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "pools": [
+    {
+      "rolls": 4,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flowering_azalea"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:azalea"
+        }
+      ]
+    }
+  ]
+}

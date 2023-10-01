@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 8,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:lapis_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 95,
+          "name": "minecraft:lapis_lazuli"
+        }
+      ]
+    }
+  ]
+}
