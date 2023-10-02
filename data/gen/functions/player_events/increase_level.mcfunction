@@ -1,5 +1,5 @@
 
-### Function is called every Minecraft day by gen:increase_levels; Checks conditions and increases player level
+### Function is called every Minecraft day by gen:increase_level; Checks conditions and increases player level
 
 scoreboard players set #div gen.math 24000
 
