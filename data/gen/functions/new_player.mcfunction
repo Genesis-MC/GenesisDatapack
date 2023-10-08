@@ -12,3 +12,4 @@ scoreboard players set @s gen.stat.mana_pool 100
 scoreboard players set @s gen.mana.current.real 100
 scoreboard players set @s gen.mana.current 10000
 scoreboard players set @s gen.mana.max 10000
+scoreboard players set @s gen.mana.display 1565656565
