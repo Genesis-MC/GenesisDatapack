@@ -7,6 +7,9 @@ scoreboard objectives add gen.passive.awakenwaed_shadows dummy
 scoreboard objectives add gen.passive.ferrshadow_cd dummy
 scoreboard objectives add gen.passive.time_dilation_statboost dummy
 
+#Item Classes
+scoreboard objectives add gen.class.elemental dummy
+
 scoreboard players set @a gen.passive.ferrshadow_cd 0
 
 scoreboard objectives add gen.passive.health dummy

@@ -1,6 +1,8 @@
 
 #First remove all passives
 advancement revoke @s only gen:passive
+#Also set gear class counters to 0
+scoreboard players set @s gen.class.elemental 0
 
 ##Armor
 #Mountain-Treader Boots
@@ -39,6 +41,8 @@ execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Saber Warped"}}}}] run a
 #Vorpol
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Vorpol"}}}}] run advancement grant @s only gen:passive time_dilation
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Vorpol"}}}}] run function gen:gear/internal/passives/increase/time_dilation 
+#Riptide
+execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Riptide"}}}}] run scoreboard players add @s gen.class.elemental 1
 
 ##Armorsets
 execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"Shaded Helmet"}}}]}] run function gen:gear/internal/set_bonus/shaded

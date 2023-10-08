@@ -56,9 +56,6 @@ function gen:phead/reload
 function gen:professions/reload
 function gen:menu/reload
 function gen:bossbars/reload
-function gen:items/reload
-function gen:particles/reload
-function gen:player_events/reload
 function gen:guidebook/reload
 function gen:events/reload
 function gen:utils/reload
