@@ -13,6 +13,7 @@ scoreboard objectives add gen.mobs.weight dummy
 scoreboard objectives add gen.mobs.demon.animation dummy
 scoreboard objectives add gen.mobs.phases dummy
 scoreboard objectives add gen.mobs.name_display_timer dummy
+scoreboard objectives add gen.mobs.charge.countdown dummy
 # UUID = 0001e4dd-0000-ca49-0002-425300000000 used for resolving text
 function gen:mobs/internal/registry/register
 execute in minecraft:overworld run summon minecraft:item_display ~ ~ ~ {UUID:[I;124125,51785,148051,0],view_range:0.0f,item:{id:"minecraft:dirt",Count:1b}}
