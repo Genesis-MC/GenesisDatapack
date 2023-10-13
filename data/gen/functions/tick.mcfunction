@@ -13,3 +13,4 @@ execute if score PlayerEvents gen.modules matches 1 run function gen:player_even
 execute if score Guidebook gen.modules matches 1 run function gen:guidebook/tick
 execute if score Ability gen.modules matches 1 run function gen:ability/tick
 execute if score Manabar gen.modules matches 1 run function gen:mana/tick
+execute if score Workstation gen.modules matches 1 run function gen:workstation/tick
