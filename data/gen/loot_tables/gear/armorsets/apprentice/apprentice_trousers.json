@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_leggings",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Apprentice Trousers\",type:\"Leggings\",stat:{armor:20,mana_pool:20}},AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Name:\"tungsten.legs\",Amount:-0.000000000001,Operation:0,UUID:[I;12,42069,-0,14],Slot:\"legs\"}],display:{color:60159,Name:'{\"translate\":\"Apprentice Trousers\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Uncommon Leggings\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"\",\"font\":\"genesis:stats\",\"color\":\"white\",\"italic\":false,\"extra\":[{\"translate\":\"genesis.stats.wrapper.armor.2\",\"with\":[20]},{\"translate\":\"genesis.stats.wrapper.mana_pool.2\",\"with\":[20]}]}','{\"translate\":\"\"}']},Unbreakable:1b,HideFlags:195,Trim:{material:\"minecraft:diamond\",pattern:\"minecraft:tide\"}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
