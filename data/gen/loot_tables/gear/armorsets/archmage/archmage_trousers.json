@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_leggings",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Archmage Trousers\",type:\"Leggings\",stat:{magic_power:25,armor:60,mana_pool:50,mana_regen:8}},AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Name:\"tungsten.legs\",Amount:-0.000000000001,Operation:0,UUID:[I;12,42069,-0,14],Slot:\"legs\"}],display:{color:6949271,Name:'{\"translate\":\"Archmage Trousers\",\"color\":\"dark_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Epic Leggings\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"\",\"font\":\"genesis:stats\",\"color\":\"white\",\"italic\":false,\"extra\":[{\"translate\":\"genesis.stats.wrapper.magic_power.2\",\"with\":[25]},{\"translate\":\"genesis.stats.wrapper.armor.2\",\"with\":[60]},{\"translate\":\"genesis.stats.wrapper.mana_pool.2\",\"with\":[50]},{\"translate\":\"genesis.stats.wrapper.mana_regen.1\",\"with\":[8]}]}','{\"translate\":\"\"}','[{\"translate\":\"❂\",\"color\":\"#403303\",\"bold\":true,\"italic\":false},{\"translate\":\" 2-Set Bonus: Arcanist\",\"color\":\"gold\",\"bold\":false,\"italic\":false}]','{\"translate\":\"Passive Ability\",\"color\":\"dark_gray\"}','{\"translate\":\"Gain +40 Magic Power.\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"\"}','[{\"translate\":\"❂\",\"color\":\"#403303\",\"bold\":true,\"italic\":false},{\"translate\":\" 4-Set Bonus: Transcendence\",\"color\":\"gold\",\"bold\":false,\"italic\":false}]','{\"translate\":\"Passive Ability\",\"color\":\"dark_gray\"}','{\"translate\":\"Gain +40 Ability Haste while\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"above 200 mana.\",\"color\":\"gray\",\"italic\":false}']},Unbreakable:1b,HideFlags:195,Trim:{material:\"minecraft:lapis\",pattern:\"minecraft:tide\"}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
