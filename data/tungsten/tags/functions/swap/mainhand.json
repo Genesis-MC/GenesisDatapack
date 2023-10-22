@@ -2,6 +2,7 @@
   "values": [
     "gen:gear/data/stat/swap/mainhand",
     "gen:gear/internal/add_passives",
-    "gen:menu/internal/amulet/update_lore"
+    "gen:menu/internal/amulet/update_lore",
+    "gen:mana/internal/swap/mainhand"
   ]
 }

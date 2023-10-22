@@ -25,5 +25,5 @@ tellraw @a[tag=gen.dev.debug] [\
     {"text":" > ","color":"#aaffaa"},{"score":{"name":"#new","objective":"gen.math"}}\
     ]
 # apply new cooldown to item as `new += gametime`
-execute store result storage gen:temp cooldown int 1 run scoreboard players operation #new gen.math += .gametime gen.time
+execute store result storage gen:temp cooldown int 1 store result score @s gen.cooldown.main store result score @s gen.cooldown.off run scoreboard players operation #new gen.math += .gametime gen.time
 item modify entity @s weapon.offhand gen:ability/apply_cooldown
