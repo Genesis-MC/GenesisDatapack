@@ -11,6 +11,7 @@
 #     - bool show_growth_time: adds a line with min and max growth time to the lore
 #     - bool apply_default_skin: applies a skin with leaves to the SkullOwner
 # - obj growth :
+#   - string run_command : command to be run on every growth tick
 #   - obj time :
 #     - int min : minimum time to grow 1 stage
 #     - int max : maximum time to grow 1 stage
@@ -46,4 +47,8 @@ data modify storage gen:crops to_register append value {id:"genesis:corn",growth
 data modify storage gen:crops to_register append value {id:"genesis:mana_bean",growth:{time:{min:30000,max:36000},stages:4},display:{stages_per_model:1,models:{id:"minecraft:sunflower",custom_model_data_start:26}},seed_item:{preprocessing:{show_growth_time:1b,apply_default_skin:1b},Count:1b,id:"minecraft:player_head",tag:{SkullOwner:{Name:"genesis.block.crop.seed.genesis:mana_bean"},genesis:{phead:{detect:1b}},CustomModelData:982005,display:{Name:'{"translate":"item.gen.crops.seed.mana_bean","italic":false}'}}},harvest:{loot_table:"gen:crops/harvest/mana_bean",xp:5},bone_meal:{stages:{min:0,max:1}},requirements:{soil:["minecraft:farmland"]}}
 
 data modify storage gen:crops to_register append value {id:"genesis:tomato",growth:{time:{min:5143,max:6858},stages:8},display:{stages_per_model:1,models:{id:"minecraft:sunflower",custom_model_data_start:30}},seed_item:{preprocessing:{show_growth_time:1b,apply_default_skin:1b},Count:1b,id:"minecraft:player_head",tag:{SkullOwner:{Name:"genesis.block.crop.seed.genesis:tomato"},genesis:{phead:{detect:1b}},CustomModelData:982006,display:{Name:'{"translate":"item.gen.crops.seed.tomato","italic":false}'}}},harvest:{loot_table:"gen:crops/harvest/tomato",xp:5},bone_meal:{stages:{min:2,max:4}},requirements:{soil:["minecraft:farmland"]}}
+
+data modify storage gen:crops to_register append value {id:"genesis:violentil",growth:{time:{min:12000,max:16000},stages:4},display:{stages_per_model:1,models:{id:"minecraft:sunflower",custom_model_data_start:38}},seed_item:{preprocessing:{show_growth_time:1b,apply_default_skin:1b},Count:1b,id:"minecraft:player_head",tag:{SkullOwner:{Name:"genesis.block.crop.seed.genesis:violentil"},genesis:{phead:{detect:1b}},CustomModelData:982007,display:{Name:'{"translate":"item.gen.crops.seed.violentil","italic":false}'}}},harvest:{loot_table:"gen:crops/harvest/violentil",xp:5},bone_meal:{stages:{min:1,max:1}},requirements:{soil:["minecraft:farmland"]}}
+
+data modify storage gen:crops to_register append value {id:"genesis:desert_cattleya",growth:{run_command:"function gen:crops/data/special_crops/desert_cattleya_grow",time:{min:1200,max:1440},stages:1801},display:{stages_per_model:450,models:{id:"minecraft:sunflower",custom_model_data_start:42}},seed_item:{preprocessing:{show_growth_time:1b,apply_default_skin:1b},Count:1b,id:"minecraft:player_head",tag:{SkullOwner:{Name:"genesis.block.crop.seed.genesis:desert_cattleya"},genesis:{phead:{detect:1b}},CustomModelData:982008,display:{Name:'{"translate":"item.gen.crops.seed.desert_cattleya","italic":false}',Lore:['{"italic":false,"color":"gray","translate":"item.gen.crops.seed.desert_cattleya.lore.0"}']}}},harvest:{loot_table:"gen:crops/harvest/desert_cattleya",xp:500},bone_meal:{stages:{min:10,max:20}},requirements:{soil:["minecraft:farmland"]}}
 

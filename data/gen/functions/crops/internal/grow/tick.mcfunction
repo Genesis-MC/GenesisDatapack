@@ -6,6 +6,8 @@ execute unless predicate gen:crops/valid_crop_block_configuration run return 0
 data modify storage gen:crops crop_data set from entity @s item.tag.genesis.crops.crop_data
 function gen:crops/internal/grow/get_crop_definition
 
+execute if data storage gen:crops crop_definition.growth.run_command run function gen:crops/internal/grow/run_command with storage gen:crops crop_definition.growth
+
 execute store result score #age gen.crops.calc run data get storage gen:crops crop_data.age 1
 execute store result score #max_age gen.crops.calc run data get storage gen:crops crop_definition.growth.stages 1
 scoreboard players remove #max_age gen.crops.calc 1

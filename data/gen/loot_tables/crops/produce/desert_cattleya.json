@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:982002,gen:{name:\"Desert Cattleya\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.gen.crops.produce.desert_cattleya",
+                "italic": "false"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "genesis.lore.rarity.3",
+                  "italic": "false",
+                  "color": "light_purple",
+                  "with": [
+                    {
+                      "text": "A",
+                      "font": "genesis:icon",
+                      "color": "white"
+                    },
+                    {
+                      "translate": "genesis.lore.type.ingredient"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:jigsaw",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}
