@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Livingwood Core\"},display:{Name:'{\"translate\":\"Livingwood Core\",\"color\":\"green\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Legendary Ingredient\",\"font\":\"minecraft:default\",\"color\":\"#3b2b06\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A perfect sphere of living heartwood\",\"color\":\"green\"}','{\"translate\":\"pulsing with runes of vibrant vitality.\",\"color\":\"green\"}']},CustomModelData:982024,HideFlags:131}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

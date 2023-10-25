@@ -1,4 +1,4 @@
-scoreboard players operation #current_total_weight gen.temp = .zombie gen.mobs.weight
+scoreboard players operation #current_total_weight gen.temp = zombie gen.mobs.weight
 data modify storage gen:mobs success set value []
 data modify storage gen:mobs read set from storage gen:mobs registry.zombie
 function gen:mobs/internal/spawning/requirements_old/check
@@ -21,9 +21,8 @@ data modify storage gen:mobs read set from storage gen:mobs success
 #tellraw @a[tag=gen.dev.debug.all] ["block all success:",{"nbt":"success[].name","storage": "gen:mobs","color":"yellow"}]
 #data modify storage gen:mobs success set value []
 
-scoreboard players set #random.min gen.math 0
-scoreboard players operation #random.max gen.math = #current_total_weight gen.temp
-function gen:math/api/random/uniform_range
+execute store result storage gen:temp macro.max int 1 run scoreboard players get #current_total_weight gen.temp
+function gen:math/api/random/macro_random_min_0 with storage gen:temp macro
 
 scoreboard players set #w_loop gen.temp 1
 function gen:mobs/internal/spawning/weight_choosing

@@ -1,0 +1,1 @@
+$execute unless data storage gen:mobs {biome_hashes:[$(hash)]} run data modify storage gen:mobs biome_hashes append value $(hash)

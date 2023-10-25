@@ -5,11 +5,11 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:enchanted_book",
+            "name": "minecraft:amethyst_shard",
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Tear of God\"},display:{Name:'{\"text\":\"Tear of God\",\"color\":\"gold\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Mythical Mineral\",\"font\":\"minecraft:default\",\"color\":\"#211905\",\"italic\":false}]']},CustomModelData:982023,HideFlags:131,StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:6s}]}"
+                "tag": "{gen:{name:\"Tear of God\",type:[\"Mythical\"],mineral:1b},display:{Name:'{\"text\":\"Tear of God\",\"color\":\"gold\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Mythical Mineral\",\"font\":\"minecraft:default\",\"color\":\"#211905\",\"italic\":false}]','{\"translate\":\"Sharpness VI\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982023,StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:6s}]}"
               }
             ]
           }

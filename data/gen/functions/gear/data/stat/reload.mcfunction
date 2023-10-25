@@ -1,6 +1,3 @@
-# ability
-scoreboard objectives add gen.stat.ability.mainhand dummy
-scoreboard objectives add gen.stat.ability.offhand dummy
 # ability_haste
 scoreboard objectives add gen.stat.ability_haste dummy
 scoreboard objectives add gen.stat.ability_haste.chest dummy
@@ -41,9 +38,6 @@ scoreboard objectives add gen.stat.attack_speed.head dummy
 scoreboard objectives add gen.stat.attack_speed.legs dummy
 scoreboard objectives add gen.stat.attack_speed.mainhand dummy
 scoreboard objectives add gen.stat.attack_speed.offhand dummy
-# cooldown
-scoreboard objectives add gen.stat.cooldown.mainhand dummy
-scoreboard objectives add gen.stat.cooldown.offhand dummy
 # health
 scoreboard objectives add gen.stat.health dummy
 scoreboard objectives add gen.stat.health.chest dummy

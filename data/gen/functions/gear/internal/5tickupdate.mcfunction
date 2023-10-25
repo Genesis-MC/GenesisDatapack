@@ -1,6 +1,5 @@
 
 execute as @a store result score @s gen.passive.ylvl run data get entity @s Pos[1]
-execute as @a store result score @s gen.passive.hunger run data get entity @s foodLevel
 execute as @a store result score @s gen.passive.health run data get entity @s Health
 
 #UnfetteredI
@@ -11,9 +10,18 @@ execute as @a[advancements={gen:passive={unfetteredII=true}}] run function gen:g
 execute as @a[advancements={gen:passive={featherweight=true}}] if predicate gen:utils/is_sneaking at @s if block ~ ~-1 ~ air run effect give @s slow_falling 1 0 true
 #Supreme Speed
 execute as @a[advancements={gen:passive={supreme_speed=true}}] if predicate gen:utils/is_sprinting run effect give @s speed 1 4 true
-#Heart of the Sea/Seaborn 2-Set Bonus
-execute as @a[advancements={gen:passive={seaborn2=true}}] at @s if block ~ ~ ~ water run effect give @s conduit_power 6 0 true
-#Sea Born/Seaborn 4-Set Bonus
-execute as @a[advancements={gen:passive={seaborn4=true}}] at @s if block ~ ~ ~ water run effect give @s dolphins_grace 6 0 true
+#Frenzy
+execute as @a[advancements={gen:passive={frenzy=true}},tag=!gen.passive.frenzy] if score .percenthp gen.math matches ..30 run function gen:gear/internal/passives/increase/frenzy
+execute as @a[tag=gen.passive.frenzy,advancements={gen:passive={frenzy=true}}] if score .percenthp gen.math matches 31.. run function gen:gear/internal/passives/decrease/frenzy
+execute as @a[tag=gen.passive.frenzy,advancements={gen:passive={frenzy=false}}] run function gen:gear/internal/passives/decrease/frenzy
+#Swiftblade
+execute as @a[advancements={gen:passive={swiftblade=true}},tag=!gen.passive.swiftblade,nbt={SelectedItem:{tag:{gen:{type:["Dagger"]}}}}] run function gen:gear/internal/passives/increase/swiftblade
+execute as @a[tag=gen.passive.swiftblade,advancements={gen:passive={swiftblade=true}},nbt=!{SelectedItem:{tag:{gen:{type:["Dagger"]}}}}] run function gen:gear/internal/passives/decrease/swiftblade
+execute as @a[tag=gen.passive.swiftblade,advancements={gen:passive={swiftblade=false}}] run function gen:gear/internal/passives/decrease/swiftblade
+
+#Crimson Pact
+execute as @a[advancements={gen:passive={crimson_pact=true}},tag=!gen.passive.crimson_pact] if score .percenthp gen.math matches ..30 run function gen:gear/internal/passives/increase/crimson_pact 
+execute as @a[tag=gen.passive.crimson_pact,advancements={gen:passive={crimson_pact=true}}] if score .percenthp gen.math matches 31.. run function gen:gear/internal/passives/decrease/crimson_pact
+execute as @a[tag=gen.passive.crimson_pact,advancements={gen:passive={crimson_pact=false}}] run function gen:gear/internal/passives/decrease/crimson_pact
 
 schedule function gen:gear/internal/5tickupdate 5t replace

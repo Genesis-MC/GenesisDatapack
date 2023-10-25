@@ -1,0 +1,3 @@
+execute as @a at @s anchored eyes positioned ^ ^ ^4 if entity @e[type=interaction,tag=gen.interaction,distance=..8,predicate=gen:core/interaction/lclicked,limit=1] run function gen:core/internal/interaction/player_lclick_search
+
+execute as @a at @s anchored eyes positioned ^ ^ ^4 if entity @e[type=interaction,tag=gen.interaction,distance=..8,predicate=gen:core/interaction/rclicked,limit=1] run function gen:core/internal/interaction/player_rclick_search

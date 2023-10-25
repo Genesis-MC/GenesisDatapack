@@ -1,0 +1,56 @@
+{
+    "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobblestone",
+          "functions": [
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:food/salt",
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "offsetY": 1,
+                "predicate": {
+                  "biome": "minecraft:deep_ocean",
+                  "fluid": {
+                    "tag": "minecraft:water"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

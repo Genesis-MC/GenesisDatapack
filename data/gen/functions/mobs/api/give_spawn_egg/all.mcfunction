@@ -1,78 +1,78 @@
-execute if data storage gen:mobs registry.allay[0] run function gen:mobs/api/give_spawn_egg/allay
-execute if data storage gen:mobs registry.axolotl[0] run function gen:mobs/api/give_spawn_egg/axolotl
-execute if data storage gen:mobs registry.bat[0] run function gen:mobs/api/give_spawn_egg/bat
-execute if data storage gen:mobs registry.bee[0] run function gen:mobs/api/give_spawn_egg/bee
-execute if data storage gen:mobs registry.blaze[0] run function gen:mobs/api/give_spawn_egg/blaze
-execute if data storage gen:mobs registry.camel[0] run function gen:mobs/api/give_spawn_egg/camel
-execute if data storage gen:mobs registry.cat[0] run function gen:mobs/api/give_spawn_egg/cat
-execute if data storage gen:mobs registry.cave_spider[0] run function gen:mobs/api/give_spawn_egg/cave_spider
-execute if data storage gen:mobs registry.chicken[0] run function gen:mobs/api/give_spawn_egg/chicken
-execute if data storage gen:mobs registry.cod[0] run function gen:mobs/api/give_spawn_egg/cod
-execute if data storage gen:mobs registry.cow[0] run function gen:mobs/api/give_spawn_egg/cow
-execute if data storage gen:mobs registry.creeper[0] run function gen:mobs/api/give_spawn_egg/creeper
-execute if data storage gen:mobs registry.dolphin[0] run function gen:mobs/api/give_spawn_egg/dolphin
-execute if data storage gen:mobs registry.donkey[0] run function gen:mobs/api/give_spawn_egg/donkey
-execute if data storage gen:mobs registry.drowned[0] run function gen:mobs/api/give_spawn_egg/drowned
-execute if data storage gen:mobs registry.elder_guardian[0] run function gen:mobs/api/give_spawn_egg/elder_guardian
-execute if data storage gen:mobs registry.ender_dragon[0] run function gen:mobs/api/give_spawn_egg/ender_dragon
-execute if data storage gen:mobs registry.enderman[0] run function gen:mobs/api/give_spawn_egg/enderman
-execute if data storage gen:mobs registry.endermite[0] run function gen:mobs/api/give_spawn_egg/endermite
-execute if data storage gen:mobs registry.evoker[0] run function gen:mobs/api/give_spawn_egg/evoker
-execute if data storage gen:mobs registry.fox[0] run function gen:mobs/api/give_spawn_egg/fox
-execute if data storage gen:mobs registry.frog[0] run function gen:mobs/api/give_spawn_egg/frog
-execute if data storage gen:mobs registry.ghast[0] run function gen:mobs/api/give_spawn_egg/ghast
-execute if data storage gen:mobs registry.glow_squid[0] run function gen:mobs/api/give_spawn_egg/glow_squid
-execute if data storage gen:mobs registry.goat[0] run function gen:mobs/api/give_spawn_egg/goat
-execute if data storage gen:mobs registry.guardian[0] run function gen:mobs/api/give_spawn_egg/guardian
-execute if data storage gen:mobs registry.hoglin[0] run function gen:mobs/api/give_spawn_egg/hoglin
-execute if data storage gen:mobs registry.horse[0] run function gen:mobs/api/give_spawn_egg/horse
-execute if data storage gen:mobs registry.husk[0] run function gen:mobs/api/give_spawn_egg/husk
-execute if data storage gen:mobs registry.illusioner[0] run function gen:mobs/api/give_spawn_egg/illusioner
-execute if data storage gen:mobs registry.iron_golem[0] run function gen:mobs/api/give_spawn_egg/iron_golem
-execute if data storage gen:mobs registry.llama[0] run function gen:mobs/api/give_spawn_egg/llama
-execute if data storage gen:mobs registry.magma_cube[0] run function gen:mobs/api/give_spawn_egg/magma_cube
-execute if data storage gen:mobs registry.mooshroom[0] run function gen:mobs/api/give_spawn_egg/mooshroom
-execute if data storage gen:mobs registry.mule[0] run function gen:mobs/api/give_spawn_egg/mule
-execute if data storage gen:mobs registry.ocelot[0] run function gen:mobs/api/give_spawn_egg/ocelot
-execute if data storage gen:mobs registry.panda[0] run function gen:mobs/api/give_spawn_egg/panda
-execute if data storage gen:mobs registry.parrot[0] run function gen:mobs/api/give_spawn_egg/parrot
-execute if data storage gen:mobs registry.phantom[0] run function gen:mobs/api/give_spawn_egg/phantom
-execute if data storage gen:mobs registry.pig[0] run function gen:mobs/api/give_spawn_egg/pig
-execute if data storage gen:mobs registry.piglin[0] run function gen:mobs/api/give_spawn_egg/piglin
-execute if data storage gen:mobs registry.piglin_brute[0] run function gen:mobs/api/give_spawn_egg/piglin_brute
-execute if data storage gen:mobs registry.pillager[0] run function gen:mobs/api/give_spawn_egg/pillager
-execute if data storage gen:mobs registry.polar_bear[0] run function gen:mobs/api/give_spawn_egg/polar_bear
-execute if data storage gen:mobs registry.pufferfish[0] run function gen:mobs/api/give_spawn_egg/pufferfish
-execute if data storage gen:mobs registry.rabbit[0] run function gen:mobs/api/give_spawn_egg/rabbit
-execute if data storage gen:mobs registry.ravager[0] run function gen:mobs/api/give_spawn_egg/ravager
-execute if data storage gen:mobs registry.salmon[0] run function gen:mobs/api/give_spawn_egg/salmon
-execute if data storage gen:mobs registry.sheep[0] run function gen:mobs/api/give_spawn_egg/sheep
-execute if data storage gen:mobs registry.shulker[0] run function gen:mobs/api/give_spawn_egg/shulker
-execute if data storage gen:mobs registry.silverfish[0] run function gen:mobs/api/give_spawn_egg/silverfish
-execute if data storage gen:mobs registry.skeleton[0] run function gen:mobs/api/give_spawn_egg/skeleton
-execute if data storage gen:mobs registry.skeleton_horse[0] run function gen:mobs/api/give_spawn_egg/skeleton_horse
-execute if data storage gen:mobs registry.slime[0] run function gen:mobs/api/give_spawn_egg/slime
-execute if data storage gen:mobs registry.sniffer[0] run function gen:mobs/api/give_spawn_egg/sniffer
-execute if data storage gen:mobs registry.snow_golem[0] run function gen:mobs/api/give_spawn_egg/snow_golem
-execute if data storage gen:mobs registry.spider[0] run function gen:mobs/api/give_spawn_egg/spider
-execute if data storage gen:mobs registry.squid[0] run function gen:mobs/api/give_spawn_egg/squid
-execute if data storage gen:mobs registry.stray[0] run function gen:mobs/api/give_spawn_egg/stray
-execute if data storage gen:mobs registry.strider[0] run function gen:mobs/api/give_spawn_egg/strider
-execute if data storage gen:mobs registry.tadpole[0] run function gen:mobs/api/give_spawn_egg/tadpole
-execute if data storage gen:mobs registry.trader_llama[0] run function gen:mobs/api/give_spawn_egg/trader_llama
-execute if data storage gen:mobs registry.tropical_fish[0] run function gen:mobs/api/give_spawn_egg/tropical_fish
-execute if data storage gen:mobs registry.turtle[0] run function gen:mobs/api/give_spawn_egg/turtle
-execute if data storage gen:mobs registry.vex[0] run function gen:mobs/api/give_spawn_egg/vex
-execute if data storage gen:mobs registry.villager[0] run function gen:mobs/api/give_spawn_egg/villager
-execute if data storage gen:mobs registry.vindicator[0] run function gen:mobs/api/give_spawn_egg/vindicator
-execute if data storage gen:mobs registry.wandering_trader[0] run function gen:mobs/api/give_spawn_egg/wandering_trader
-execute if data storage gen:mobs registry.warden[0] run function gen:mobs/api/give_spawn_egg/warden
-execute if data storage gen:mobs registry.witch[0] run function gen:mobs/api/give_spawn_egg/witch
-execute if data storage gen:mobs registry.wither[0] run function gen:mobs/api/give_spawn_egg/wither
-execute if data storage gen:mobs registry.wither_skeleton[0] run function gen:mobs/api/give_spawn_egg/wither_skeleton
-execute if data storage gen:mobs registry.wolf[0] run function gen:mobs/api/give_spawn_egg/wolf
-execute if data storage gen:mobs registry.zoglin[0] run function gen:mobs/api/give_spawn_egg/zoglin
-execute if data storage gen:mobs registry.zombie[0] run function gen:mobs/api/give_spawn_egg/zombie
-execute if data storage gen:mobs registry.zombie_horse[0] run function gen:mobs/api/give_spawn_egg/zombie_horse
-execute if data storage gen:mobs registry.zombie_villager[0] run function gen:mobs/api/give_spawn_egg/zombie_villager
-execute if data storage gen:mobs registry.zombified_piglin[0] run function gen:mobs/api/give_spawn_egg/zombified_piglin
+function gen:mobs/api/give_spawn_egg/macro {id:"allay_spawn_egg",registry:"allay",registry_name:'{"text":"Allay","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"axolotl_spawn_egg",registry:"axolotl",registry_name:'{"text":"Axolotl","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"bat_spawn_egg",registry:"bat",registry_name:'{"text":"Bat","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"bee_spawn_egg",registry:"bee",registry_name:'{"text":"Bee","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"blaze_spawn_egg",registry:"blaze",registry_name:'{"text":"Blaze","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"camel_spawn_egg",registry:"camel",registry_name:'{"text":"Camel","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"cat_spawn_egg",registry:"cat",registry_name:'{"text":"Cat","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"cave_spider_spawn_egg",registry:"cave_spider",registry_name:'{"text":"Cave_spider","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"chicken_spawn_egg",registry:"chicken",registry_name:'{"text":"Chicken","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"cod_spawn_egg",registry:"cod",registry_name:'{"text":"Cod","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"cow_spawn_egg",registry:"cow",registry_name:'{"text":"Cow","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"creeper_spawn_egg",registry:"creeper",registry_name:'{"text":"Creeper","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"dolphin_spawn_egg",registry:"dolphin",registry_name:'{"text":"Dolphin","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"donkey_spawn_egg",registry:"donkey",registry_name:'{"text":"Donkey","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"drowned_spawn_egg",registry:"drowned",registry_name:'{"text":"Drowned","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"elder_guardian_spawn_egg",registry:"elder_guardian",registry_name:'{"text":"Elder_guardian","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"ender_dragon_spawn_egg",registry:"ender_dragon",registry_name:'{"text":"Ender_dragon","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"enderman_spawn_egg",registry:"enderman",registry_name:'{"text":"Enderman","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"endermite_spawn_egg",registry:"endermite",registry_name:'{"text":"Endermite","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"evoker_spawn_egg",registry:"evoker",registry_name:'{"text":"Evoker","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"fox_spawn_egg",registry:"fox",registry_name:'{"text":"Fox","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"frog_spawn_egg",registry:"frog",registry_name:'{"text":"Frog","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"ghast_spawn_egg",registry:"ghast",registry_name:'{"text":"Ghast","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"glow_squid_spawn_egg",registry:"glow_squid",registry_name:'{"text":"Glow_squid","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"goat_spawn_egg",registry:"goat",registry_name:'{"text":"Goat","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"guardian_spawn_egg",registry:"guardian",registry_name:'{"text":"Guardian","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"hoglin_spawn_egg",registry:"hoglin",registry_name:'{"text":"Hoglin","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"horse_spawn_egg",registry:"horse",registry_name:'{"text":"Horse","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"husk_spawn_egg",registry:"husk",registry_name:'{"text":"Husk","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"illusioner_spawn_egg",registry:"illusioner",registry_name:'{"text":"Illusioner","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"iron_golem_spawn_egg",registry:"iron_golem",registry_name:'{"text":"Iron_golem","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"llama_spawn_egg",registry:"llama",registry_name:'{"text":"Llama","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"magma_cube_spawn_egg",registry:"magma_cube",registry_name:'{"text":"Magma_cube","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"mooshroom_spawn_egg",registry:"mooshroom",registry_name:'{"text":"Mooshroom","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"mule_spawn_egg",registry:"mule",registry_name:'{"text":"Mule","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"ocelot_spawn_egg",registry:"ocelot",registry_name:'{"text":"Ocelot","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"panda_spawn_egg",registry:"panda",registry_name:'{"text":"Panda","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"parrot_spawn_egg",registry:"parrot",registry_name:'{"text":"Parrot","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"phantom_spawn_egg",registry:"phantom",registry_name:'{"text":"Phantom","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"pig_spawn_egg",registry:"pig",registry_name:'{"text":"Pig","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"piglin_spawn_egg",registry:"piglin",registry_name:'{"text":"Piglin","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"piglin_brute_spawn_egg",registry:"piglin_brute",registry_name:'{"text":"Piglin_brute","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"pillager_spawn_egg",registry:"pillager",registry_name:'{"text":"Pillager","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"polar_bear_spawn_egg",registry:"polar_bear",registry_name:'{"text":"Polar_bear","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"pufferfish_spawn_egg",registry:"pufferfish",registry_name:'{"text":"Pufferfish","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"rabbit_spawn_egg",registry:"rabbit",registry_name:'{"text":"Rabbit","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"ravager_spawn_egg",registry:"ravager",registry_name:'{"text":"Ravager","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"salmon_spawn_egg",registry:"salmon",registry_name:'{"text":"Salmon","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"sheep_spawn_egg",registry:"sheep",registry_name:'{"text":"Sheep","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"shulker_spawn_egg",registry:"shulker",registry_name:'{"text":"Shulker","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"silverfish_spawn_egg",registry:"silverfish",registry_name:'{"text":"Silverfish","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"skeleton_spawn_egg",registry:"skeleton",registry_name:'{"text":"Skeleton","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"skeleton_horse_spawn_egg",registry:"skeleton_horse",registry_name:'{"text":"Skeleton_horse","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"slime_spawn_egg",registry:"slime",registry_name:'{"text":"Slime","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"sniffer_spawn_egg",registry:"sniffer",registry_name:'{"text":"Sniffer","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"snow_golem_spawn_egg",registry:"snow_golem",registry_name:'{"text":"Snow_golem","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"spider_spawn_egg",registry:"spider",registry_name:'{"text":"Spider","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"squid_spawn_egg",registry:"squid",registry_name:'{"text":"Squid","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"stray_spawn_egg",registry:"stray",registry_name:'{"text":"Stray","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"strider_spawn_egg",registry:"strider",registry_name:'{"text":"Strider","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"tadpole_spawn_egg",registry:"tadpole",registry_name:'{"text":"Tadpole","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"trader_llama_spawn_egg",registry:"trader_llama",registry_name:'{"text":"Trader_llama","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"tropical_fish_spawn_egg",registry:"tropical_fish",registry_name:'{"text":"Tropical_fish","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"turtle_spawn_egg",registry:"turtle",registry_name:'{"text":"Turtle","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"vex_spawn_egg",registry:"vex",registry_name:'{"text":"Vex","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"villager_spawn_egg",registry:"villager",registry_name:'{"text":"Villager","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"vindicator_spawn_egg",registry:"vindicator",registry_name:'{"text":"Vindicator","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"wandering_trader_spawn_egg",registry:"wandering_trader",registry_name:'{"text":"Wandering_trader","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"warden_spawn_egg",registry:"warden",registry_name:'{"text":"Warden","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"witch_spawn_egg",registry:"witch",registry_name:'{"text":"Witch","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"wither_spawn_egg",registry:"wither",registry_name:'{"text":"Wither","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"wither_skeleton_spawn_egg",registry:"wither_skeleton",registry_name:'{"text":"Wither_skeleton","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"wolf_spawn_egg",registry:"wolf",registry_name:'{"text":"Wolf","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"zoglin_spawn_egg",registry:"zoglin",registry_name:'{"text":"Zoglin","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"zombie_spawn_egg",registry:"zombie",registry_name:'{"text":"Zombie","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"zombie_horse_spawn_egg",registry:"zombie_horse",registry_name:'{"text":"Zombie_horse","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"zombie_villager_spawn_egg",registry:"zombie_villager",registry_name:'{"text":"Zombie_villager","color":"yellow"}'}
+function gen:mobs/api/give_spawn_egg/macro {id:"zombified_piglin_spawn_egg",registry:"zombified_piglin",registry_name:'{"text":"Zombified_piglin","color":"yellow"}'}

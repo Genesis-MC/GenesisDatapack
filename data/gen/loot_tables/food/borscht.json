@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:rabbit_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Borscht\"},display:{Name:'{\"translate\":\"Borscht\",\"color\":\"red\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Rare Food\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A hearty vegetable stew\",\"color\":\"gray\"}','{\"translate\":\"featuring beetroots.\",\"color\":\"gray\"}']},CustomModelData:982001,HideFlags:195}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

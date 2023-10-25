@@ -1,0 +1,13 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:ingredients/shard_of_the_warped_empyrean"
+          }
+        ]
+      }
+    ]
+  }

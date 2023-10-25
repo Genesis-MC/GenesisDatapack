@@ -1,6 +1,6 @@
-execute store result score #n gen.math run data get storage gen:mobs success[-1].stat_increases[1]ercentage.health[0]
-execute store result score #p gen.math run data get storage gen:mobs success[-1].stat_increases[1]ercentage.health[1]
-execute store result score #b gen.math run data get storage gen:mobs success[-1].stat_increases[1]ercentage.health[2]
+execute store result score #n gen.math run data get storage gen:mobs success[-1].stat_increases.percentage.health[0]
+execute store result score #p gen.math run data get storage gen:mobs success[-1].stat_increases.percentage.health[1]
+execute store result score #b gen.math run data get storage gen:mobs success[-1].stat_increases.percentage.health[2]
 function gen:math/api/random/binomial
 scoreboard players operation #b gen.math *= #binomial.rolls gen.math
 execute store result score #base gen.temp run attribute @s minecraft:generic.max_health base get 100

@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Shard of the Crimson Abyss\"},display:{Name:'[{\"translate\":\"Shard of the\",\"color\":\"red\",\"italic\":false},{\"translate\":\" Crimson Abyss\",\"color\":\"dark_red\",\"italic\":false}]',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Legendary Ingredient\",\"font\":\"minecraft:default\",\"color\":\"#3b2b06\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"Legends say the crimson forests weeping vines\",\"color\":\"gold\"}','{\"translate\":\"reach downwards towards the crimson abyss.\",\"color\":\"gold\"}']},CustomModelData:982009,HideFlags:131}"
+                "tag": "{gen:{name:\"Shard of the Crimson Abyss\"},display:{Name:'[{\"translate\":\"Shard of the\",\"color\":\"red\",\"italic\":false},{\"translate\":\" Crimson Abyss\",\"color\":\"dark_red\",\"italic\":false}]',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Legendary Ingredient\",\"font\":\"minecraft:default\",\"color\":\"#3b2b06\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"Legends say the crimson forests weeping vines\",\"color\":\"red\"}','{\"translate\":\"reach downwards towards the crimson abyss.\",\"color\":\"red\"}']},CustomModelData:982009,HideFlags:131}"
               }
             ]
           }

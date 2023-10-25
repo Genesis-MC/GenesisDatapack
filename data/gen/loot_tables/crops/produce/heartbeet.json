@@ -6,7 +6,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:982002}"
+              "tag": "{CustomModelData:982002,gen:{name:\"Heartbeet\"}}"
             },
             {
               "function": "minecraft:set_name",

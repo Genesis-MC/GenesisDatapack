@@ -1,0 +1,1 @@
+data merge entity @s[tag=gen.workstation.shake_on_suffer] {transformation:{right_rotation:[0f,0.044f,0f,0.999f]},interpolation_duration:2,start_interpolation:0}

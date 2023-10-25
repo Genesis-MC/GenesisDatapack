@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:player_head",
+            "functions": [
+              {
+                "function": "copy_nbt",
+                "source": {
+                  "type": "storage",
+                  "source": "gen:crops"
+                },
+                "ops": [
+                  {
+                    "source": "registry[2].seed_item.tag",
+                    "target": "{}",
+                    "op": "merge"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

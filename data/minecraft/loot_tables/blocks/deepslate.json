@@ -1,0 +1,58 @@
+{
+    "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobbled_deepslate",
+          "functions": [
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },  
+    {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:treasure/deepslate_mineral_cache",
+            "weight": 9,
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.002
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:treasure/heart_of_the_depths",
+            "weight": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.0005
+              }
+            ]
+          }
+        ]
+    }
+    ]
+  }
+  

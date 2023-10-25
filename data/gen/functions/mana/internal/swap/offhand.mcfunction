@@ -1,0 +1,1 @@
+execute store result score @s gen.cooldown.off run data get storage tungsten:player Item.tag.gen.ability.cooldown

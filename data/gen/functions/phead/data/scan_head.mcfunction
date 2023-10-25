@@ -12,4 +12,10 @@
 #####################################################################
 
 data modify storage gen:phead scan_head.name_8_24 set string storage gen:phead scan_head.name 8 24
+data modify storage gen:phead scan_head.name_8_26 set string storage gen:phead scan_head.name 8 26
+
 execute if data storage gen:phead scan_head{name_8_24:"block.crop.seed."} run function gen:crops/api/call_on_placed_head
+execute if data storage gen:phead scan_head{name_8_24:"block.mineralogy"} run function gen:professions/mineralogy/internal/crystalarium/spawncrystalarium
+execute if data storage gen:phead scan_head{name_8_24:"block.gear.helm."} run function gen:phead/api/cannot_place
+
+execute if data storage gen:phead scan_head{name_8_26:"block.workstation."} run function gen:workstation/api/call_on_placed_head

@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:barrel",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Pirates Bounty\"},display:{Name:'{\"translate\":\"Pirates Bounty\",\"color\":\"gold\",\"italic\":false,\"bold\":false,\"underlined\":true}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Rare Treasure\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]']},Enchantments:[{}],HideFlags:131,BlockEntityTag:{LootTable:\"gen:treasure/pirates_bounty_loot\"}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,18 @@
+{
+  "pools": [
+    {
+      "rolls": 14,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:moss_carpet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:moss_block"
+        }
+      ]
+    }
+  ]
+}

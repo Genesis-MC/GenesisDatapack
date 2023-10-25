@@ -1,5 +1,0 @@
-hey electross here
-
-the purpose of this folder is to convert warped fungus on a stick (AKA weapons with abilities)
-to wooden swords and back depending on if the player is holding the item, in order for vanilla constructs
-such as the enchanting table or anvil to work.

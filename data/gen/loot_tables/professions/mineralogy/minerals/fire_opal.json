@@ -5,11 +5,11 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:enchanted_book",
+            "name": "minecraft:amethyst_shard",
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Fire Opal\"},display:{Name:'{\"text\":\"Fire Opal\",\"color\":\"red\",\"italic\":false,\"bold\":true,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Legendary Mineral\",\"font\":\"minecraft:default\",\"color\":\"#3b2b06\",\"italic\":false}]']},CustomModelData:982021,HideFlags:131,StoredEnchantments:[{id:\"minecraft:fire_protection\",lvl:4s},{id:\"minecraft:blast_protection\",lvl:4s}]}"
+                "tag": "{gen:{name:\"Fire Opal\",type:[\"Legendary\"],mineral:1b},display:{Name:'{\"text\":\"Fire Opal\",\"color\":\"red\",\"italic\":false,\"bold\":true,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Legendary Mineral\",\"font\":\"minecraft:default\",\"color\":\"#3b2b06\",\"italic\":false}]','{\"translate\":\"Fire Protection IV\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"Blast Protection IV\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982021,StoredEnchantments:[{id:\"minecraft:fire_protection\",lvl:4s},{id:\"minecraft:blast_protection\",lvl:4s}]}"
               }
             ]
           }

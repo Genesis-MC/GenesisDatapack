@@ -1,1 +1,0 @@
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:wooden_sword",Count:1b,tag:{gen:{stat:{ability:{}}}}}}]

@@ -1,0 +1,1 @@
+$execute store result score #random.value gen.math run random value 0..$(max)

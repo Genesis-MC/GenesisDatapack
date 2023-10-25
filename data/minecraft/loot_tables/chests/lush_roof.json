@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 4,
+      "bonus_rolls": 0.5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 9,
+          "name": "minecraft:glow_berries"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "quality": 1,
+          "name": "minecraft:spore_blossom"
+        }
+      ]
+    }
+  ]
+}

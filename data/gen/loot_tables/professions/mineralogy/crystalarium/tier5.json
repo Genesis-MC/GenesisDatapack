@@ -5,28 +5,28 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "weight": 25,
-            "name": "gen:professions/mineralogy/uncommon_minerals"
+            "weight": 20,
+            "name": "gen:professions/mineralogy/crystalarium/uncommon_minerals"
           },
           {
             "type": "minecraft:loot_table",
             "weight": 40,
-            "name": "gen:professions/mineralogy/rare_minerals"
+            "name": "gen:professions/mineralogy/crystalarium/rare_minerals"
           },
           {
             "type": "minecraft:loot_table",
             "weight": 25,
-            "name": "gen:professions/mineralogy/epic_minerals"
+            "name": "gen:professions/mineralogy/crystalarium/epic_minerals"
           },
           {
             "type": "minecraft:loot_table",
-            "weight": 8,
-            "name": "gen:professions/mineralogy/legendary_minerals"
+            "weight": 12,
+            "name": "gen:professions/mineralogy/crystalarium/legendary_minerals"
           },
           {
             "type": "minecraft:loot_table",
-            "weight": 2,
-            "name": "gen:professions/mineralogy/mythical_minerals"
+            "weight": 3,
+            "name": "gen:professions/mineralogy/crystalarium/mythical_minerals"
           }
         ]
       }

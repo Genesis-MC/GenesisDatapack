@@ -7,7 +7,7 @@
 # Returns 0 when all requirements fail
 # Storage context:
 # - gen:crops :
-#   - List<string> requirements : list of soil requirements to test for
+#   - List -> <string> <- requirements : list of soil requirements to test for
 #####################################################################
 
 execute if data storage gen:crops {requirements:["minecraft:farmland"]} if block ~ ~-1 ~ minecraft:farmland run return 1

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "gen:guild/guild_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 94,
+    "separation": 50,
+    "salt": 12409212
+  }
+}

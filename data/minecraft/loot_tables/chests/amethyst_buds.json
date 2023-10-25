@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 8,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:large_amethyst_bud"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:medium_amethyst_bud"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:small_amethyst_bud"
+        }
+      ]
+    }
+  ]
+}

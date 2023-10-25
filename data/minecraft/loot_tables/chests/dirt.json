@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 12,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:hanging_roots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "quality": 1,
+          "name": "minecraft:clay"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:rooted_dirt"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:coarse_dirt"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dirt"
+        }
+      ]
+    }
+  ]
+}

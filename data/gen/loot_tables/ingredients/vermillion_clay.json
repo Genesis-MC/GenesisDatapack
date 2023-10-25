@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Vermillion Clay\"},display:{Name:'{\"translate\":\"Vermillion Clay\",\"color\":\"red\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Ingredient\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"Vermillion like the vast oceans of red sand.\",\"color\":\"gray\"}','{\"translate\":\"Vermillion like dusk sunlight reflected upon water.\",\"color\":\"gray\"}','{\"translate\":\"Vermillion like horizons of red sandstone.\",\"color\":\"gray\"}','{\"translate\":\"Vermillion like the blood of the desert.\",\"color\":\"gray\"}']},CustomModelData:982016,HideFlags:131}"
+                "tag": "{gen:{name:\"Vermillion Clay\"},display:{Name:'{\"translate\":\"Vermillion Clay\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Ingredient\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"Vermillion like the vast oceans of red sand.\",\"color\":\"gray\"}','{\"translate\":\"Vermillion like dusk sunlight reflected upon water.\",\"color\":\"gray\"}','{\"translate\":\"Vermillion like horizons of red sandstone.\",\"color\":\"gray\"}','{\"translate\":\"Vermillion like the blood of the desert.\",\"color\":\"gray\"}']},CustomModelData:982016,HideFlags:131}"
               }
             ]
           }

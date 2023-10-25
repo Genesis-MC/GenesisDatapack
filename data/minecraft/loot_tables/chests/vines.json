@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 7,
+      "bonus_rolls": 0.5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:vine"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "quality": 1,
+          "name": "minecraft:glow_lichen"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+$loot spawn ~ ~ ~ loot $(drop_loot)

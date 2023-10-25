@@ -1,0 +1,83 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:ingredients/verdant_twig",
+            "conditions": [
+              {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": "this",
+                  "score": "gen.mobs.level"
+                },
+                "range": {
+                  "min": 0,
+                  "max": 19
+                }
+              },
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:ingredients/verdant_twig",
+            "conditions": [
+              {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": "this",
+                  "score": "gen.mobs.level"
+                },
+                "range": {
+                  "min": 20
+                }
+              },
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:ingredients/verdant_shard",
+            "conditions": [
+              {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": "this",
+                  "score": "gen.mobs.level"
+                },
+                "range": {
+                  "min": 25
+                }
+              },
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

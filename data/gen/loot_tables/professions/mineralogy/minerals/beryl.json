@@ -5,11 +5,11 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:enchanted_book",
+            "name": "minecraft:amethyst_shard",
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Beryl\"},display:{Name:'{\"text\":\"Beryl\",\"color\":\"aqua\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Common Mineral\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]']},CustomModelData:982005,HideFlags:131,StoredEnchantments:[{id:\"minecraft:smite\",lvl:2s}]}"
+                "tag": "{gen:{name:\"Beryl\",type:[\"Common\"],mineral:1b},display:{Name:'{\"text\":\"Beryl\",\"color\":\"aqua\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Common Mineral\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"Smite II\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982005,StoredEnchantments:[{id:\"minecraft:smite\",lvl:2s}]}"
               }
             ]
           }

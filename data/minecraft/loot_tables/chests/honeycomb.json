@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 5,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "quality": 1,
+          "name": "minecraft:shears",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0,
+                "max": 0.9
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "quality": 2,
+          "name": "minecraft:honeycomb_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 70,
+          "name": "minecraft:honeycomb"
+        }
+      ]
+    }
+  ]
+}

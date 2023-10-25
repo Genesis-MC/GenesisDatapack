@@ -1,0 +1,29 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:basalt"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:professions/mineralogy/minerals/netherite_sediment",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.01
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cookie",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Cake Slice\"},display:{Name:'{\"translate\":\"Cake Slice\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Confectionary\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A delightful slice of cake!\",\"color\":\"gray\"}','{\"translate\":\"Don\\'t feed it to a parrot though...\",\"color\":\"gray\"}']},CustomModelData:982001,HideFlags:131}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

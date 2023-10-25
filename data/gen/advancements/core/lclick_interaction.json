@@ -1,0 +1,24 @@
+{
+  "parent": "gen:core/root",
+  "criteria": {
+    "interact": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+	  "nbt": "{
+            Tags:[\"gen.interaction\"]
+	  }"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "interact"
+    ]
+  ],
+  "rewards": {
+    "function": "gen:core/internal/interaction/lclick_advancement"
+  }
+}
