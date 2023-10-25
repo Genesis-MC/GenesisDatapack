@@ -39,7 +39,7 @@ data modify storage smithed.actionbar:input message set value {\
     {"font":"genesis:mana/cooldown_numbers_n",     "score":{"objective":"gen.cooldown.decimal","name":"@s"}},\
     {"font":"genesis:mana/cooldown_visuals_n",     "text":"<"}\
     ]'}
-execute as @a[tag=!gen.mana.drowning] run function #smithed.actionbar:message
+execute as @a[tag=!gen.mana.drowning,predicate=!gen:mana/hide_mana_display] run function #smithed.actionbar:message
 
 execute if entity @a[tag=gen.mana.drowning,limit=1] run data modify storage smithed.actionbar:input message set value {\
     priority: "persistent",\
@@ -69,4 +69,4 @@ execute if entity @a[tag=gen.mana.drowning,limit=1] run data modify storage smit
     {"font":"genesis:mana/cooldown_numbers_n",     "score":{"objective":"gen.cooldown.decimal","name":"@s"}},\
     {"font":"genesis:mana/cooldown_visuals_n",     "text":"<"}\
     ]'}
-execute as @a[tag=gen.mana.drowning] run function #smithed.actionbar:message
+execute as @a[tag=gen.mana.drowning,predicate=!gen:mana/hide_mana_display] run function #smithed.actionbar:message
