@@ -15,7 +15,7 @@ execute store result score #random.max gen.math run data get storage gen:crops c
 function gen:math/api/random/uniform_range
 execute if score #random.value gen.math matches ..-1 run scoreboard players set #random.value gen.math 0
 
-
+execute if data storage gen:crops crop_definition.growth.run_command run function gen:crops/internal/grow/run_command with storage gen:crops crop_definition.growth
 
 scoreboard players operation #new_age gen.crops.calc = #age gen.crops.calc
 scoreboard players operation #new_age gen.crops.calc += #random.value gen.math
