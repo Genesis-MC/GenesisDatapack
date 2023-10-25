@@ -13,6 +13,7 @@ scoreboard objectives add gen.config dummy
 
 #player
 scoreboard objectives add gen.mobs.level dummy
+scoreboard objectives add gen.player.sneak_time minecraft.custom:minecraft.sneak_time
 scoreboard objectives add gen.player.play_time minecraft.custom:play_time
 scoreboard objectives add gen.player.time_alive minecraft.custom:time_since_death
 scoreboard objectives add gen.player.damage_dealt minecraft.custom:damage_dealt
