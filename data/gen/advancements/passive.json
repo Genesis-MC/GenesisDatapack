@@ -78,6 +78,39 @@
         },
         "swiftblade": {
             "trigger": "minecraft:impossible"
+        },
+        "apprentice1": {
+            "trigger": "minecraft:impossible"
+        },
+        "apprentice2": {
+            "trigger": "minecraft:impossible"
+        },
+        "apprentice3": {
+            "trigger": "minecraft:impossible"
+        },
+        "apprentice4": {
+            "trigger": "minecraft:impossible"
+        },
+        "mage1": {
+            "trigger": "minecraft:impossible"
+        },
+        "mage2": {
+            "trigger": "minecraft:impossible"
+        },
+        "mage3": {
+            "trigger": "minecraft:impossible"
+        },
+        "archmage1": {
+            "trigger": "minecraft:impossible"
+        },
+        "archmage2": {
+            "trigger": "minecraft:impossible"
+        },
+        "archmage3": {
+            "trigger": "minecraft:impossible"
+        },
+        "archmage4": {
+            "trigger": "minecraft:impossible"
         }
     },
     "requirements": 
@@ -108,7 +141,18 @@
             "frostveil1",
             "frostveil2",
             "frostveil3",
-            "swiftblade"
+            "swiftblade",
+            "apprentice1",
+            "apprentice2",
+            "apprentice3",
+            "apprentice4",
+            "mage1",
+            "mage2",
+            "mage3",
+            "archmage1",
+            "archmage2",
+            "archmage3",
+            "archmage4"
         ]
     ]
 }
