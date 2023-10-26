@@ -1,6 +1,6 @@
 {
   "values": [
-    "gen:gear/data/stat/swap/offhand",
-    "gen:menu/internal/amulet/update_lore"
+    "gen:menu/internal/amulet/update_lore",
+    "gen:mana/internal/swap/offhand"
   ]
 }

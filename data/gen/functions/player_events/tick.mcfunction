@@ -1,0 +1,1 @@
+scoreboard players reset @a[scores={gen.player.sneak_time=1..}] gen.player.sneak_time
