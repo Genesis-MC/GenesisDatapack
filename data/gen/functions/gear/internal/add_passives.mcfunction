@@ -59,3 +59,26 @@ execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"Frostveil Helmet
 execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gen:{name:"Frostveil Chestplate"}}}]}] run function gen:gear/internal/set_bonus/frostveil
 execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{gen:{name:"Frostveil Leggings"}}}]}] run function gen:gear/internal/set_bonus/frostveil
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"Frostveil Boots"}}}]}] run function gen:gear/internal/set_bonus/frostveil
+
+execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"Apprentice Hat"}}}]}] run function gen:gear/internal/set_bonus/apprentice
+execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gen:{name:"Apprentice Robe"}}}]}] run function gen:gear/internal/set_bonus/apprentice
+execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{gen:{name:"Apprentice Trousers"}}}]}] run function gen:gear/internal/set_bonus/apprentice
+execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"Apprentice Boots"}}}]}] run function gen:gear/internal/set_bonus/apprentice
+
+execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"Mage Hat"}}}]}] run function gen:gear/internal/set_bonus/mage
+execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gen:{name:"Mage Robe"}}}]}] run function gen:gear/internal/set_bonus/mage
+execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{gen:{name:"Mage Trousers"}}}]}] run function gen:gear/internal/set_bonus/mage
+execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"Mage Boots"}}}]}] run function gen:gear/internal/set_bonus/mage
+
+execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"Archmage Hat"}}}]}] run function gen:gear/internal/set_bonus/archmage
+execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gen:{name:"Archmage Robe"}}}]}] run function gen:gear/internal/set_bonus/archmage
+execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{gen:{name:"Archmage Trousers"}}}]}] run function gen:gear/internal/set_bonus/archmage
+execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"Archmage Boots"}}}]}] run function gen:gear/internal/set_bonus/archmage
+
+#Arcanist
+execute as @a[advancements={gen:passive={apprentice4=true}},tag=!gen.passive.arcanist_apprentice] run function gen:gear/internal/passives/increase/arcanist_apprentice
+execute as @a[tag=gen.passive.arcanist_apprentice,advancements={gen:passive={apprentice4=false}}] run function gen:gear/internal/passives/decrease/arcanist_apprentice
+execute as @a[advancements={gen:passive={mage3=true}},tag=!gen.passive.arcanist_mage] run function gen:gear/internal/passives/increase/arcanist_mage
+execute as @a[tag=gen.passive.arcanist_mage,advancements={gen:passive={mage3=false}}] run function gen:gear/internal/passives/decrease/arcanist_mage
+execute as @a[advancements={gen:passive={archmage2=true}},tag=!gen.passive.arcanist_archmage] run function gen:gear/internal/passives/increase/arcanist_archmage
+execute as @a[tag=gen.passive.arcanist_archmage,advancements={gen:passive={archmage2=false}}] run function gen:gear/internal/passives/decrease/arcanist_archmage
