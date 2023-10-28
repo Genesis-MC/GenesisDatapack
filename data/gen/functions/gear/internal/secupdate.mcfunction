@@ -8,5 +8,7 @@ execute as @a[advancements={gen:passive={seaborn2=true}}] at @s if block ~ ~ ~ w
 execute as @a[advancements={gen:passive={seaborn4=true}}] at @s if block ~ ~ ~ water run effect give @s dolphins_grace 6 0 true
 #Frostveil 3-Set Bonus
 execute as @a[advancements={gen:passive={frostveil3=true}}] at @s as @e[distance=..8,tag=!gen.ally,type=#gen:alive] if score @s gen.passive.frostbite matches 1.. run effect give @s weakness 2 1
+#Suspicious Presence
+execute as @a[advancements={gen:passive={suspicious_presence=true}}] if predicate gen:gear/only_helmet run effect give @s invisibility 2 0 true
 
 schedule function gen:gear/internal/secupdate 1s replace

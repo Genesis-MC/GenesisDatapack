@@ -111,6 +111,9 @@
         },
         "archmage4": {
             "trigger": "minecraft:impossible"
+        },
+        "suspicious_presence": {
+            "trigger": "minecraft:impossible"
         }
     },
     "requirements": 
@@ -152,7 +155,8 @@
             "archmage1",
             "archmage2",
             "archmage3",
-            "archmage4"
+            "archmage4",
+            "suspicious_presence"
         ]
     ]
 }

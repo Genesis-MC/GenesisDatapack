@@ -23,6 +23,13 @@ execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"7-League Boots"}
 execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gen:{name:"Hunter's Vest"}}}]}] run advancement grant @s only gen:passive swiftblade
 #Ranger's Vest
 execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gen:{name:"Ranger's Vest"}}}]}] run advancement grant @s only gen:passive swiftblade
+#Space Helmets
+execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"Blue Space Helmet"}}}]}] run advancement grant @s only gen:passive suspicious_presence
+execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"Red Space Helmet"}}}]}] run advancement grant @s only gen:passive suspicious_presence
+execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"Greed Space Helmet"}}}]}] run advancement grant @s only gen:passive suspicious_presence
+execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"Yellow Space Helmet"}}}]}] run advancement grant @s only gen:passive suspicious_presence
+execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"Pink Space Helmet"}}}]}] run advancement grant @s only gen:passive suspicious_presence
+
 
 ##Mainhand Items
 #Recluse Fang
@@ -41,8 +48,6 @@ execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Saber Warped"}}}}] run a
 #Vorpol
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Vorpol"}}}}] run advancement grant @s only gen:passive time_dilation
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Vorpol"}}}}] run function gen:gear/internal/passives/increase/time_dilation 
-#Riptide
-execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Riptide"}}}}] run scoreboard players add @s gen.class.elemental 1
 
 ##Armorsets
 execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"Shaded Helmet"}}}]}] run function gen:gear/internal/set_bonus/shaded
@@ -82,3 +87,5 @@ execute as @a[advancements={gen:passive={mage3=true}},tag=!gen.passive.arcanist_
 execute as @a[tag=gen.passive.arcanist_mage,advancements={gen:passive={mage3=false}}] run function gen:gear/internal/passives/decrease/arcanist_mage
 execute as @a[advancements={gen:passive={archmage2=true}},tag=!gen.passive.arcanist_archmage] run function gen:gear/internal/passives/increase/arcanist_archmage
 execute as @a[tag=gen.passive.arcanist_archmage,advancements={gen:passive={archmage2=false}}] run function gen:gear/internal/passives/decrease/arcanist_archmage
+#Riptide
+execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Riptide"}}}}] run scoreboard players add @s gen.class.elemental 1
