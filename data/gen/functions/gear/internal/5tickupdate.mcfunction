@@ -19,11 +19,9 @@ execute as @a[advancements={gen:passive={swiftblade=true}},tag=!gen.passive.swif
 execute as @a[tag=gen.passive.swiftblade,advancements={gen:passive={swiftblade=true}},nbt=!{SelectedItem:{tag:{gen:{type:["Dagger"]}}}}] run function gen:gear/internal/passives/decrease/swiftblade
 execute as @a[tag=gen.passive.swiftblade,advancements={gen:passive={swiftblade=false}}] run function gen:gear/internal/passives/decrease/swiftblade
 
-#Transcendence
-
 #Crimson Pact
-execute as @a[advancements={gen:passive={crimson_pact=true}},tag=!gen.passive.crimson_pact] if score .percenthp gen.math matches ..30 run function gen:gear/internal/passives/increase/crimson_pact 
-execute as @a[tag=gen.passive.crimson_pact,advancements={gen:passive={crimson_pact=true}}] if score .percenthp gen.math matches 31.. run function gen:gear/internal/passives/decrease/crimson_pact
+execute as @a[advancements={gen:passive={crimson_pact=true}},tag=!gen.passive.crimson_pact] if score .percenthp gen.math matches ..60 run function gen:gear/internal/passives/increase/crimson_pact 
+execute as @a[tag=gen.passive.crimson_pact,advancements={gen:passive={crimson_pact=true}}] if score .percenthp gen.math matches 61.. run function gen:gear/internal/passives/decrease/crimson_pact
 execute as @a[tag=gen.passive.crimson_pact,advancements={gen:passive={crimson_pact=false}}] run function gen:gear/internal/passives/decrease/crimson_pact
 
 schedule function gen:gear/internal/5tickupdate 5t replace
