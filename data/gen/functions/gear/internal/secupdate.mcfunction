@@ -1,4 +1,4 @@
-execute as @a run function gen:gear/internal/passives/calc_percenthp
+
 execute as @a[scores={gen.passive.ferrshadow_cd=1..}] run scoreboard players remove @s gen.passive.ferrshadow_cd 1
 execute as @a[scores={gen.passive.ferrshadow_cd=0},tag=gen.passive.ferrous_shadows] run function gen:gear/internal/passives/decrease/ferrous_shadows
 
