@@ -1,6 +1,5 @@
 
 execute as @a store result score @s gen.passive.ylvl run data get entity @s Pos[1]
-execute as @a store result score @s gen.passive.health run data get entity @s Health
 
 execute as @a run function gen:gear/internal/percenthp_passives
 

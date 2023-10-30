@@ -1,3 +1,5 @@
+
+execute store result score @s gen.passive.health run data get entity @s Health
 scoreboard players set #mult gen.math 1000
 
 scoreboard players set .maxhp gen.math 200
