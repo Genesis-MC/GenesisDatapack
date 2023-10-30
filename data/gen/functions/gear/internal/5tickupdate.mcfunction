@@ -17,8 +17,8 @@ execute as @a[advancements={gen:passive={swiftblade=true}},tag=!gen.passive.swif
 execute as @a[tag=gen.passive.swiftblade,advancements={gen:passive={swiftblade=true}},nbt=!{SelectedItem:{tag:{gen:{type:["Dagger"]}}}}] run function gen:gear/internal/passives/decrease/swiftblade
 execute as @a[tag=gen.passive.swiftblade,advancements={gen:passive={swiftblade=false}}] run function gen:gear/internal/passives/decrease/swiftblade
 #Warped Pact
-execute as @a[advancements={gen:passive={warped_pact=true}},tag=!gen.passive.warped_pact] if score .percenthp gen.math matches ..60 run function gen:gear/internal/passives/increase/warped_pact 
-execute as @a[tag=gen.passive.warped_pact,advancements={gen:passive={warped_pact=true}}] if score .percenthp gen.math matches 61.. run function gen:gear/internal/passives/decrease/warped_pact
+execute as @a[advancements={gen:passive={warped_pact=true}},tag=!gen.passive.warped_pact] if score @s gen.mana.current matches ..3999 run function gen:gear/internal/passives/increase/warped_pact 
+execute as @a[tag=gen.passive.warped_pact,advancements={gen:passive={warped_pact=true}}] if score @s gen.mana.current matches 4000.. run function gen:gear/internal/passives/decrease/warped_pact
 execute as @a[tag=gen.passive.warped_pact,advancements={gen:passive={warped_pact=false}}] run function gen:gear/internal/passives/decrease/warped_pact
 
 schedule function gen:gear/internal/5tickupdate 5t replace
