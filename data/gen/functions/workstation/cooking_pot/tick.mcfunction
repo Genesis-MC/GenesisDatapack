@@ -1,0 +1,1 @@
+execute as @e[scores={gen.workstation.cooking_pot.ticking_time=1..}] at @s run function gen:workstation/cooking_pot/actions/tick_down

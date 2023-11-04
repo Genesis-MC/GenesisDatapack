@@ -1,0 +1,1 @@
+$kill $(item_display_uuid)

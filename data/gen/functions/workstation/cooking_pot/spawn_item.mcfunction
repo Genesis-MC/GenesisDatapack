@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Item:{id:"dirt",Count:1b},Age:0s,Tags:["new"]}

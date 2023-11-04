@@ -7,6 +7,8 @@
 
 execute on passengers if entity @s[type=marker,tag=gen.workstation.data] if data entity @s data.workstation.destroy.drop_loot run function gen:workstation/internal/drop_loot with entity @s data.workstation.destroy
 
+execute on passengers if entity @s[type=marker,tag=gen.workstation.data] if data entity @s data.workstation.destroy.command run function gen:workstation/internal/destroy_command with entity @s data.workstation.destroy
+
 execute on passengers run kill @s
 kill @s
 
