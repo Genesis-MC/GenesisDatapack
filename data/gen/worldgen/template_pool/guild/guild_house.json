@@ -7,7 +7,7 @@
       "element": {
         "location": "gen:guild/guild_house",
         "processors": "minecraft:empty",
-        "projection": "terrain_matching",
+        "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
     }
