@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon_bucket",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": "Barray"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sniffer_egg"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/sherds"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/templates"
+        }
+      ]
+    }
+  ]
+}
