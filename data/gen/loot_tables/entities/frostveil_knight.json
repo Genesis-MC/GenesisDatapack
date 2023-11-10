@@ -68,6 +68,17 @@
                 "chance": 0.1
               }
             ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "name": "gen:gear/weapons/hailstone_blade",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.04
+              }
+            ]
           }
         ]
       }
