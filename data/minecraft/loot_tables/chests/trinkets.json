@@ -80,7 +80,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 50,
-          "name": "minecraft:chests/sherd"
+          "name": "minecraft:chests/sherds"
         }
       ]
     },

@@ -1,148 +1,148 @@
 {
-  "type": null,
+  "type": "minecraft:chest",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
+          "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "chests/cherry_blossom",
+          "name": "minecraft:chests/cherry_blossom",
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": 1
             }
           ]
         },
         {
-          "type": "loot_table",
+          "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "chests/saplings",
+          "name": "minecraft:chests/saplings",
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": 1
             }
           ]
         },
         {
-          "type": "loot_table",
+          "type": "minecraft:loot_table",
           "weight": 1,
           "name": "minecraft:chests/tall_flowers",
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": 1
             }
           ]
         },
         {
-          "type": "loot_table",
+          "type": "minecraft:loot_table",
           "weight": 1,
           "name": "minecraft:chests/other_flowers",
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": 1
             }
           ]
         },
         {
-          "type": "loot_table",
+          "type": "minecraft:loot_table",
           "weight": 1,
           "name": "minecraft:chests/basic_flowers",
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": 1
             }
           ]
         },
         {
-          "type": "loot_table",
+          "type": "minecraft:loot_table",
           "weight": 1,
           "name": "minecraft:chests/tulips",
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": 1
             }
           ]
         },
         {
-          "type": "loot_table",
+          "type": "minecraft:loot_table",
           "weight": 3,
           "name": "minecraft:chests/mushrooms",
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": 1
             }
           ]
         },
         {
-          "type": "loot_table",
+          "type": "minecraft:loot_table",
           "weight": 2,
           "name": "minecraft:chests/dirt",
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": 1
             }
           ]
         },
         {
-          "type": "loot_table",
+          "type": "minecraft:loot_table",
           "weight": 2,
           "name": "minecraft:chests/vines",
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": 1
             }
           ]
         },
         {
-          "type": "loot_table",
+          "type": "minecraft:loot_table",
           "weight": 3,
           "name": "minecraft:chests/lush_floor",
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": 1
             }
           ]
         },
         {
-          "type": "loot_table",
+          "type": "minecraft:loot_table",
           "weight": 3,
           "name": "minecraft:chests/lush_roof",
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": 1
             }
           ]
         },
         {
-          "type": "loot_table",
+          "type": "minecraft:loot_table",
           "weight": 3,
           "name": "minecraft:chests/azalea",
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": 1
             }
           ]
         },
         {
-          "type": "loot_table",
+          "type": "minecraft:loot_table",
           "weight": 4,
           "name": "minecraft:chests/moss",
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": 1
             }
           ]

@@ -1,20 +1,20 @@
 {
-  "type": "chest",
+  "type": "minecraft:chest",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
-          "type": "empty",
+          "type": "minecraft:empty",
           "weight": 1
         },
         {
-          "type": "item",
+          "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:spyglass",
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": 1
             }
           ]
@@ -25,13 +25,15 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "weight": 1,
-          "name": "chests/archery",
+          "type": "minecraft:loot_table",
+          "name": "minecraft:chests/archery",
           "functions": [
             {
-              "function": "set_count",
-              "count": 1
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 32
+              }
             }
           ]
         }
