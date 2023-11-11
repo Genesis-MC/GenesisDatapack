@@ -12,3 +12,17 @@ attribute @s generic.luck modifier remove f03767ae-ce7a-41ca-8-8
 attribute @s generic.luck modifier remove f03767ae-ce7a-41ca-8-4
 attribute @s generic.luck modifier remove f03767ae-ce7a-41ca-8-2
 attribute @s generic.luck modifier remove f03767ae-ce7a-41ca-8-1
+attribute @s generic.luck modifier remove f03767ae-ce7a-41ca-8-b8192
+attribute @s generic.luck modifier remove f03767ae-ce7a-41ca-8-b4096
+attribute @s generic.luck modifier remove f03767ae-ce7a-41ca-8-b2048
+attribute @s generic.luck modifier remove f03767ae-ce7a-41ca-8-b1024
+attribute @s generic.luck modifier remove f03767ae-ce7a-41ca-8-b512
+attribute @s generic.luck modifier remove f03767ae-ce7a-41ca-8-b256
+attribute @s generic.luck modifier remove f03767ae-ce7a-41ca-8-b128
+attribute @s generic.luck modifier remove f03767ae-ce7a-41ca-8-b64
+attribute @s generic.luck modifier remove f03767ae-ce7a-41ca-8-b32
+attribute @s generic.luck modifier remove f03767ae-ce7a-41ca-8-b16
+attribute @s generic.luck modifier remove f03767ae-ce7a-41ca-8-b8
+attribute @s generic.luck modifier remove f03767ae-ce7a-41ca-8-b4
+attribute @s generic.luck modifier remove f03767ae-ce7a-41ca-8-b2
+attribute @s generic.luck modifier remove f03767ae-ce7a-41ca-8-b1

@@ -10,3 +10,14 @@ attribute @s generic.attack_speed modifier remove f03767ae-ce7a-41ca-2-8
 attribute @s generic.attack_speed modifier remove f03767ae-ce7a-41ca-2-4
 attribute @s generic.attack_speed modifier remove f03767ae-ce7a-41ca-2-2
 attribute @s generic.attack_speed modifier remove f03767ae-ce7a-41ca-2-1
+attribute @s generic.attack_speed modifier remove f03767ae-ce7a-41ca-2-b1024
+attribute @s generic.attack_speed modifier remove f03767ae-ce7a-41ca-2-b512
+attribute @s generic.attack_speed modifier remove f03767ae-ce7a-41ca-2-b256
+attribute @s generic.attack_speed modifier remove f03767ae-ce7a-41ca-2-b128
+attribute @s generic.attack_speed modifier remove f03767ae-ce7a-41ca-2-b64
+attribute @s generic.attack_speed modifier remove f03767ae-ce7a-41ca-2-b32
+attribute @s generic.attack_speed modifier remove f03767ae-ce7a-41ca-2-b16
+attribute @s generic.attack_speed modifier remove f03767ae-ce7a-41ca-2-b8
+attribute @s generic.attack_speed modifier remove f03767ae-ce7a-41ca-2-b4
+attribute @s generic.attack_speed modifier remove f03767ae-ce7a-41ca-2-b2
+attribute @s generic.attack_speed modifier remove f03767ae-ce7a-41ca-2-b1

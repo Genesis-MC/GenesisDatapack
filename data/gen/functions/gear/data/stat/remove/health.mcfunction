@@ -12,3 +12,17 @@ attribute @s generic.max_health modifier remove f03767ae-ce7a-41ca-1-8
 attribute @s generic.max_health modifier remove f03767ae-ce7a-41ca-1-4
 attribute @s generic.max_health modifier remove f03767ae-ce7a-41ca-1-2
 attribute @s generic.max_health modifier remove f03767ae-ce7a-41ca-1-1
+attribute @s generic.max_health modifier remove f03767ae-ce7a-41ca-1-b8192
+attribute @s generic.max_health modifier remove f03767ae-ce7a-41ca-1-b4096
+attribute @s generic.max_health modifier remove f03767ae-ce7a-41ca-1-b2048
+attribute @s generic.max_health modifier remove f03767ae-ce7a-41ca-1-b1024
+attribute @s generic.max_health modifier remove f03767ae-ce7a-41ca-1-b512
+attribute @s generic.max_health modifier remove f03767ae-ce7a-41ca-1-b256
+attribute @s generic.max_health modifier remove f03767ae-ce7a-41ca-1-b128
+attribute @s generic.max_health modifier remove f03767ae-ce7a-41ca-1-b64
+attribute @s generic.max_health modifier remove f03767ae-ce7a-41ca-1-b32
+attribute @s generic.max_health modifier remove f03767ae-ce7a-41ca-1-b16
+attribute @s generic.max_health modifier remove f03767ae-ce7a-41ca-1-b8
+attribute @s generic.max_health modifier remove f03767ae-ce7a-41ca-1-b4
+attribute @s generic.max_health modifier remove f03767ae-ce7a-41ca-1-b2
+attribute @s generic.max_health modifier remove f03767ae-ce7a-41ca-1-b1

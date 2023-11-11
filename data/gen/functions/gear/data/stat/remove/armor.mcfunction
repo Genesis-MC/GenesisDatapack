@@ -6,3 +6,11 @@ attribute @s generic.armor modifier remove f03767ae-ce7a-41ca-5-8
 attribute @s generic.armor modifier remove f03767ae-ce7a-41ca-5-4
 attribute @s generic.armor modifier remove f03767ae-ce7a-41ca-5-2
 attribute @s generic.armor modifier remove f03767ae-ce7a-41ca-5-1
+attribute @s generic.armor modifier remove f03767ae-ce7a-41ca-5-b128
+attribute @s generic.armor modifier remove f03767ae-ce7a-41ca-5-b64
+attribute @s generic.armor modifier remove f03767ae-ce7a-41ca-5-b32
+attribute @s generic.armor modifier remove f03767ae-ce7a-41ca-5-b16
+attribute @s generic.armor modifier remove f03767ae-ce7a-41ca-5-b8
+attribute @s generic.armor modifier remove f03767ae-ce7a-41ca-5-b4
+attribute @s generic.armor modifier remove f03767ae-ce7a-41ca-5-b2
+attribute @s generic.armor modifier remove f03767ae-ce7a-41ca-5-b1

@@ -12,3 +12,17 @@ attribute @s generic.knockback_resistance modifier remove f03767ae-ce7a-41ca-7-8
 attribute @s generic.knockback_resistance modifier remove f03767ae-ce7a-41ca-7-4
 attribute @s generic.knockback_resistance modifier remove f03767ae-ce7a-41ca-7-2
 attribute @s generic.knockback_resistance modifier remove f03767ae-ce7a-41ca-7-1
+attribute @s generic.knockback_resistance modifier remove f03767ae-ce7a-41ca-7-b8192
+attribute @s generic.knockback_resistance modifier remove f03767ae-ce7a-41ca-7-b4096
+attribute @s generic.knockback_resistance modifier remove f03767ae-ce7a-41ca-7-b2048
+attribute @s generic.knockback_resistance modifier remove f03767ae-ce7a-41ca-7-b1024
+attribute @s generic.knockback_resistance modifier remove f03767ae-ce7a-41ca-7-b512
+attribute @s generic.knockback_resistance modifier remove f03767ae-ce7a-41ca-7-b256
+attribute @s generic.knockback_resistance modifier remove f03767ae-ce7a-41ca-7-b128
+attribute @s generic.knockback_resistance modifier remove f03767ae-ce7a-41ca-7-b64
+attribute @s generic.knockback_resistance modifier remove f03767ae-ce7a-41ca-7-b32
+attribute @s generic.knockback_resistance modifier remove f03767ae-ce7a-41ca-7-b16
+attribute @s generic.knockback_resistance modifier remove f03767ae-ce7a-41ca-7-b8
+attribute @s generic.knockback_resistance modifier remove f03767ae-ce7a-41ca-7-b4
+attribute @s generic.knockback_resistance modifier remove f03767ae-ce7a-41ca-7-b2
+attribute @s generic.knockback_resistance modifier remove f03767ae-ce7a-41ca-7-b1

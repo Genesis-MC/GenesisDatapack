@@ -37,3 +37,25 @@ execute if score #stat gen.math matches 4.. run scoreboard players remove #stat 
 execute if score #stat gen.math matches 2.. run attribute @s generic.attack_speed modifier add f03767ae-ce7a-41ca-2-2 "gen.stat.attack_speed.2" 0.02 add
 execute if score #stat gen.math matches 2.. run scoreboard players remove #stat gen.math 2
 execute if score #stat gen.math matches 1.. run attribute @s generic.attack_speed modifier add f03767ae-ce7a-41ca-2-1 "gen.stat.attack_speed.1" 0.01 add
+
+execute if score #stat gen.math matches ..-1024 run attribute @s generic.attack_speed modifier add f03767ae-ce7a-41ca-2-b1024 "gen.stat.attack_speed.-1024" -10.24 add
+execute if score #stat gen.math matches ..-1024 run scoreboard players add #stat gen.math 1024
+execute if score #stat gen.math matches ..-512 run attribute @s generic.attack_speed modifier add f03767ae-ce7a-41ca-2-b512 "gen.stat.attack_speed.-512" -5.12 add
+execute if score #stat gen.math matches ..-512 run scoreboard players add #stat gen.math 512
+execute if score #stat gen.math matches ..-256 run attribute @s generic.attack_speed modifier add f03767ae-ce7a-41ca-2-b256 "gen.stat.attack_speed.-256" -2.56 add
+execute if score #stat gen.math matches ..-256 run scoreboard players add #stat gen.math 256
+execute if score #stat gen.math matches ..-128 run attribute @s generic.attack_speed modifier add f03767ae-ce7a-41ca-2-b128 "gen.stat.attack_speed.-128" -1.28 add
+execute if score #stat gen.math matches ..-128 run scoreboard players add #stat gen.math 128
+execute if score #stat gen.math matches ..-64 run attribute @s generic.attack_speed modifier add f03767ae-ce7a-41ca-2-b64 "gen.stat.attack_speed.-64" -0.64 add
+execute if score #stat gen.math matches ..-64 run scoreboard players add #stat gen.math 64
+execute if score #stat gen.math matches ..-32 run attribute @s generic.attack_speed modifier add f03767ae-ce7a-41ca-2-b32 "gen.stat.attack_speed.-32" -0.32 add
+execute if score #stat gen.math matches ..-32 run scoreboard players add #stat gen.math 32
+execute if score #stat gen.math matches ..-16 run attribute @s generic.attack_speed modifier add f03767ae-ce7a-41ca-2-b16 "gen.stat.attack_speed.-16" -0.16 add
+execute if score #stat gen.math matches ..-16 run scoreboard players add #stat gen.math 16
+execute if score #stat gen.math matches ..-8 run attribute @s generic.attack_speed modifier add f03767ae-ce7a-41ca-2-b8 "gen.stat.attack_speed.-8" -0.08 add
+execute if score #stat gen.math matches ..-8 run scoreboard players add #stat gen.math 8
+execute if score #stat gen.math matches ..-4 run attribute @s generic.attack_speed modifier add f03767ae-ce7a-41ca-2-b4 "gen.stat.attack_speed.-4" -0.04 add
+execute if score #stat gen.math matches ..-4 run scoreboard players add #stat gen.math 4
+execute if score #stat gen.math matches ..-2 run attribute @s generic.attack_speed modifier add f03767ae-ce7a-41ca-2-b2 "gen.stat.attack_speed.-2" -0.02 add
+execute if score #stat gen.math matches ..-2 run scoreboard players add #stat gen.math 2
+execute if score #stat gen.math matches ..-1 run attribute @s generic.attack_speed modifier add f03767ae-ce7a-41ca-2-b1 "gen.stat.attack_speed.-1" -0.01 add

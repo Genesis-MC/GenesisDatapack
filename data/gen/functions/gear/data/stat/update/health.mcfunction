@@ -35,6 +35,34 @@ execute if score #stat gen.math matches 4.. run scoreboard players remove #stat 
 execute if score #stat gen.math matches 2.. run attribute @s generic.max_health modifier add f03767ae-ce7a-41ca-1-2 "gen.stat.health.2" 0.2 add
 execute if score #stat gen.math matches 2.. run scoreboard players remove #stat gen.math 2
 execute if score #stat gen.math matches 1.. run attribute @s generic.max_health modifier add f03767ae-ce7a-41ca-1-1 "gen.stat.health.1" 0.1 add
+
+execute if score #stat gen.math matches ..-8192 run attribute @s generic.max_health modifier add f03767ae-ce7a-41ca-1-b8192 "gen.stat.health.-8192" -819.2 add
+execute if score #stat gen.math matches ..-8192 run scoreboard players add #stat gen.math 8192
+execute if score #stat gen.math matches ..-4096 run attribute @s generic.max_health modifier add f03767ae-ce7a-41ca-1-b4096 "gen.stat.health.-4096" -409.6 add
+execute if score #stat gen.math matches ..-4096 run scoreboard players add #stat gen.math 4096
+execute if score #stat gen.math matches ..-2048 run attribute @s generic.max_health modifier add f03767ae-ce7a-41ca-1-b2048 "gen.stat.health.-2048" -204.8 add
+execute if score #stat gen.math matches ..-2048 run scoreboard players add #stat gen.math 2048
+execute if score #stat gen.math matches ..-1024 run attribute @s generic.max_health modifier add f03767ae-ce7a-41ca-1-b1024 "gen.stat.health.-1024" -102.4 add
+execute if score #stat gen.math matches ..-1024 run scoreboard players add #stat gen.math 1024
+execute if score #stat gen.math matches ..-512 run attribute @s generic.max_health modifier add f03767ae-ce7a-41ca-1-b512 "gen.stat.health.-512" -51.2 add
+execute if score #stat gen.math matches ..-512 run scoreboard players add #stat gen.math 512
+execute if score #stat gen.math matches ..-256 run attribute @s generic.max_health modifier add f03767ae-ce7a-41ca-1-b256 "gen.stat.health.-256" -25.6 add
+execute if score #stat gen.math matches ..-256 run scoreboard players add #stat gen.math 256
+execute if score #stat gen.math matches ..-128 run attribute @s generic.max_health modifier add f03767ae-ce7a-41ca-1-b128 "gen.stat.health.-128" -12.8 add
+execute if score #stat gen.math matches ..-128 run scoreboard players add #stat gen.math 128
+execute if score #stat gen.math matches ..-64 run attribute @s generic.max_health modifier add f03767ae-ce7a-41ca-1-b64 "gen.stat.health.-64" -6.4 add
+execute if score #stat gen.math matches ..-64 run scoreboard players add #stat gen.math 64
+execute if score #stat gen.math matches ..-32 run attribute @s generic.max_health modifier add f03767ae-ce7a-41ca-1-b32 "gen.stat.health.-32" -3.2 add
+execute if score #stat gen.math matches ..-32 run scoreboard players add #stat gen.math 32
+execute if score #stat gen.math matches ..-16 run attribute @s generic.max_health modifier add f03767ae-ce7a-41ca-1-b16 "gen.stat.health.-16" -1.6 add
+execute if score #stat gen.math matches ..-16 run scoreboard players add #stat gen.math 16
+execute if score #stat gen.math matches ..-8 run attribute @s generic.max_health modifier add f03767ae-ce7a-41ca-1-b8 "gen.stat.health.-8" -0.8 add
+execute if score #stat gen.math matches ..-8 run scoreboard players add #stat gen.math 8
+execute if score #stat gen.math matches ..-4 run attribute @s generic.max_health modifier add f03767ae-ce7a-41ca-1-b4 "gen.stat.health.-4" -0.4 add
+execute if score #stat gen.math matches ..-4 run scoreboard players add #stat gen.math 4
+execute if score #stat gen.math matches ..-2 run attribute @s generic.max_health modifier add f03767ae-ce7a-41ca-1-b2 "gen.stat.health.-2" -0.2 add
+execute if score #stat gen.math matches ..-2 run scoreboard players add #stat gen.math 2
+execute if score #stat gen.math matches ..-1 run attribute @s generic.max_health modifier add f03767ae-ce7a-41ca-1-b1 "gen.stat.health.-1" -0.1 add
 # damage for 0 to get rid of "fake" hearts
 execute if score #should_damage gen.math matches 1 run damage @s 0.00000000000000000000000000000001 minecraft:indirect_magic
 execute if score #should_damage gen.math matches 1 run stopsound @a[distance=..16] player minecraft:entity.player.hurt

@@ -6,3 +6,11 @@ attribute @s generic.armor_toughness modifier remove f03767ae-ce7a-41ca-6-8
 attribute @s generic.armor_toughness modifier remove f03767ae-ce7a-41ca-6-4
 attribute @s generic.armor_toughness modifier remove f03767ae-ce7a-41ca-6-2
 attribute @s generic.armor_toughness modifier remove f03767ae-ce7a-41ca-6-1
+attribute @s generic.armor_toughness modifier remove f03767ae-ce7a-41ca-6-b128
+attribute @s generic.armor_toughness modifier remove f03767ae-ce7a-41ca-6-b64
+attribute @s generic.armor_toughness modifier remove f03767ae-ce7a-41ca-6-b32
+attribute @s generic.armor_toughness modifier remove f03767ae-ce7a-41ca-6-b16
+attribute @s generic.armor_toughness modifier remove f03767ae-ce7a-41ca-6-b8
+attribute @s generic.armor_toughness modifier remove f03767ae-ce7a-41ca-6-b4
+attribute @s generic.armor_toughness modifier remove f03767ae-ce7a-41ca-6-b2
+attribute @s generic.armor_toughness modifier remove f03767ae-ce7a-41ca-6-b1
