@@ -7,6 +7,9 @@ scoreboard objectives add gen.passive.awakenwaed_shadows dummy
 scoreboard objectives add gen.passive.ferrshadow_cd dummy
 scoreboard objectives add gen.passive.time_dilation_statboost dummy
 
+#Activated Abilities
+scoreboard objectives add gen.active.polar_vortex_timer dummy
+
 #Item Classes
 scoreboard objectives add gen.class.elemental dummy
 
@@ -24,5 +27,6 @@ scoreboard objectives add gen.bth.wearing_block_helmet dummy
 
 
 schedule function gen:gear/internal/secupdate 1s replace
-schedule function gen:gear/internal/5tickupdate 5t replace
+schedule function gen:gear/internal/5tickupdate 1s replace
+schedule function gen:gear/internal/10tickupdate 1s replace
 scoreboard objectives add gen.ability.trigger_wfoas minecraft.used:minecraft.warped_fungus_on_a_stick

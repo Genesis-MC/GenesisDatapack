@@ -11,4 +11,7 @@ execute as @a[advancements={gen:passive={frostveil3=true}}] at @s as @e[distance
 #Suspicious Presence
 execute as @a[advancements={gen:passive={suspicious_presence=true}}] if predicate gen:gear/only_helmet run effect give @s invisibility 2 0 true
 
+#Polar Vortex
+execute as @a[tag=gen.ability.polar_vortex] run function gen:ability/data/helper_functions/polar_vortex
+
 schedule function gen:gear/internal/secupdate 1s replace
