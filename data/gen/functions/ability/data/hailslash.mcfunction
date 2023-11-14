@@ -14,5 +14,5 @@ execute as @e[distance=..5,tag=!gen.ally,type=#gen:alive] run function gen:gear/
 function gen:particles/circles/snowflake
 particle sweep_attack ~ ~1 ~ 0.6 0 0.6 0 25
 
-#7 sec cooldown
-scoreboard players set .cooldown gen.ability 140
+#8.5 sec cooldown
+scoreboard players set .cooldown gen.ability 170
