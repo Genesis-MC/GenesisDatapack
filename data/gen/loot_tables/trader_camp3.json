@@ -1,0 +1,66 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 12,
+        "bonus_rolls": 1,
+        "entries": [
+            {
+            "type": "loot_table",
+            "weight": 30,
+            "name": "gen:ingredients/wolf_fang",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "loot_table",
+            "weight": 30,
+            "name": "gen:ingredients/boar_hide",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 50,
+            "name": "minecraft:porkchop",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "loot_table",
+            "weight": 50,
+            "name": "gen:ingredients/cloth",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 50,
+            "name": "minecraft:leather",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

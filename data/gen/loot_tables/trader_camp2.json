@@ -1,0 +1,77 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 11,
+        "bonus_rolls": 1,
+        "entries": [
+          {
+            "type": "loot_table",
+            "weight": 1,
+            "name": "gen:gear/standalone/hunter_vest",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "loot_table",
+            "weight": 4,
+            "name": "gen:crops/harvest/corn",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "loot_table",
+            "weight": 3,
+            "name": "gen:crops/seeds/corn",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 7,
+            "name": "minecraft:chicken",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "loot_table",
+            "weight": 6,
+            "name": "gen:ingredients/cloth",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 8,
+            "name": "minecraft:feather",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

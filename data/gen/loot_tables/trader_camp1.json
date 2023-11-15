@@ -1,0 +1,78 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 14,
+        "bonus_rolls": 1,
+        "entries": [
+          {
+            "type": "loot_table",
+            "weight": 1,
+            "quality": 1,
+            "name": "gen:ingredients/mana_cloth",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "loot_table",
+            "weight": 3,
+            "name": "gen:crops/harvest/tomato",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "loot_table",
+            "weight": 3,
+            "name": "gen:crops/seeds/tomato",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 6,
+            "name": "minecraft:chicken",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "loot_table",
+            "weight": 6,
+            "name": "gen:ingredients/cloth",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 6,
+            "name": "minecraft:feather",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
