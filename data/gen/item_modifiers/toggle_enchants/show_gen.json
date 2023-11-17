@@ -7,6 +7,11 @@
       },
       "ops": [
         {
+          "source": "item_nbt",
+          "target": "{}",
+          "op": "merge"
+        },
+        {
           "source": "show_gen",
           "target": "HideFlags",
           "op": "replace"
