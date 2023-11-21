@@ -13,6 +13,6 @@ execute if entity @s[advancements={gen:passive={voidbreach2=true}},nbt={Selected
 
 ## Active Abilities
 #Sanctify
-execute at @s if entity @e[distance=..6,type=area_effect_cloud,tag=gen.ability.sanctify] run function gen:ability/data/macros/heal/main {val:7}
+execute at @s if entity @e[distance=..6,type=area_effect_cloud,tag=gen.ability.sanctify] run effect give @s regeneration 2 2 false
 
 scoreboard players reset @s gen.passive.damage_dealt
