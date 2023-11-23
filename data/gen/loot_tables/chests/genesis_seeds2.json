@@ -1,0 +1,18 @@
+{
+  "pools": [
+    {
+      "rolls": 5,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type":  "loot_table",
+          "name": "gen:crops/seeds/corn",
+        },
+        {
+          "type":  "loot_table",
+          "name": "gen:crops/seeds/desert_cattleya"
+        }
+      ]
+    }
+  ]
+}
