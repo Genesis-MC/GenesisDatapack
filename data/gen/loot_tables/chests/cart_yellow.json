@@ -7,7 +7,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/yellow_wool",
+          "name": "gen:chests/yellow_wool",
           "functions": [
             {
               "function": "set_count",
@@ -18,7 +18,7 @@
         {
           "type": "loot_table",
           "weight": 2,
-          "name": "chests/honeycomb",
+          "name": "gen:chests/honeycomb",
           "functions": [
             {
               "function": "set_count",
@@ -29,7 +29,7 @@
         {
           "type": "loot_table",
           "weight": 2,
-          "name": "chests/honey",
+          "name": "gen:chests/honey",
           "functions": [
             {
               "function": "set_count",
@@ -40,7 +40,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/beehive",
+          "name": "gen:chests/beehive",
           "functions": [
             {
               "function": "set_count",
@@ -51,7 +51,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/tall_flowers",
+          "name": "gen:chests/tall_flowers",
           "functions": [
             {
               "function": "set_count",
@@ -62,7 +62,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/other_flowers",
+          "name": "gen:chests/other_flowers",
           "functions": [
             {
               "function": "set_count",
@@ -73,7 +73,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/basic_flowers",
+          "name": "gen:chests/basic_flowers",
           "functions": [
             {
               "function": "set_count",
@@ -84,7 +84,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/tulips",
+          "name": "gen:chests/tulips",
           "functions": [
             {
               "function": "set_count",

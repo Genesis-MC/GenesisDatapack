@@ -7,7 +7,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "minecraft:chests/cherry_blossom",
+          "name": "gen:chests/cherry_blossom",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -18,7 +18,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "minecraft:chests/saplings",
+          "name": "gen:chests/saplings",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -29,7 +29,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "minecraft:chests/tall_flowers",
+          "name": "gen:chests/tall_flowers",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -40,7 +40,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "minecraft:chests/other_flowers",
+          "name": "gen:chests/other_flowers",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -51,7 +51,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "minecraft:chests/basic_flowers",
+          "name": "gen:chests/basic_flowers",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -62,7 +62,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "minecraft:chests/tulips",
+          "name": "gen:chests/tulips",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -73,7 +73,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 3,
-          "name": "minecraft:chests/mushrooms",
+          "name": "gen:chests/mushrooms",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -84,7 +84,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 2,
-          "name": "minecraft:chests/dirt",
+          "name": "gen:chests/dirt",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -95,7 +95,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 2,
-          "name": "minecraft:chests/vines",
+          "name": "gen:chests/vines",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -106,7 +106,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 3,
-          "name": "minecraft:chests/lush_floor",
+          "name": "gen:chests/lush_floor",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -117,7 +117,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 3,
-          "name": "minecraft:chests/lush_roof",
+          "name": "gen:chests/lush_roof",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -128,7 +128,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 3,
-          "name": "minecraft:chests/azalea",
+          "name": "gen:chests/azalea",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -139,7 +139,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 4,
-          "name": "minecraft:chests/moss",
+          "name": "gen:chests/moss",
           "functions": [
             {
               "function": "minecraft:set_count",

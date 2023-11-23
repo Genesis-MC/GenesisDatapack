@@ -7,7 +7,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/cart_red",
+          "name": "gen:chests/cart_red",
           "functions": [
             {
               "function": "set_count",
@@ -18,7 +18,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/food",
+          "name": "gen:chests/food",
           "functions": [
             {
               "function": "set_count",

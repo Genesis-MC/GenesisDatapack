@@ -7,7 +7,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/notes",
+          "name": "gen:chests/notes",
           "functions": [
             {
               "function": "set_count",

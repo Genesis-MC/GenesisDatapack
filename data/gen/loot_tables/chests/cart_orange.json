@@ -6,7 +6,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/orange_wool",
+          "name": "gen:chests/orange_wool",
           "functions": [
             {
               "function": "set_count",
@@ -17,7 +17,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/copper_bits",
+          "name": "gen:chests/copper_bits",
           "functions": [
             {
               "function": "set_count",
@@ -28,7 +28,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/copper_blocks",
+          "name": "gen:chests/copper_blocks",
           "functions": [
             {
               "function": "set_count",
@@ -39,7 +39,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/copper_ore",
+          "name": "gen:chests/copper_ore",
           "functions": [
             {
               "function": "set_count",

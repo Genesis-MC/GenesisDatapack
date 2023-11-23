@@ -6,7 +6,7 @@
         {
           "type": "loot_table",
           "weight": 2,
-          "name": "chests/blue_wool",
+          "name": "gen:chests/blue_wool",
           "functions": [
             {
               "function": "set_count",
@@ -17,7 +17,7 @@
         {
           "type": "loot_table",
           "weight": 3,
-          "name": "chests/experience",
+          "name": "gen:chests/experience",
           "functions": [
             {
               "function": "set_count",
@@ -29,7 +29,7 @@
           "type": "loot_table",
           "weight": 1,
           "quality": 0,
-          "name": "chests/enchanted_books",
+          "name": "gen:chests/enchanted_books",
           "functions": [
             {
               "function": "set_count",
@@ -41,7 +41,7 @@
           "type": "loot_table",
           "weight": 1,
           "quality": 0,
-          "name": "chests/lapis",
+          "name": "gen:chests/lapis",
           "functions": [
             {
               "function": "set_count",
@@ -52,7 +52,7 @@
         {
           "type": "loot_table",
           "weight": 3,
-          "name": "chests/notes",
+          "name": "gen:chests/notes",
           "functions": [
             {
               "function": "set_count",

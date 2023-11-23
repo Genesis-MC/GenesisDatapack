@@ -8,7 +8,7 @@
         {
           "type": "loot_table",
           "weight": 3,
-          "name": "chests/misc",
+          "name": "gen:chests/misc",
           "functions": [
             {
               "function": "set_count",
@@ -19,7 +19,7 @@
         {
           "type": "loot_table",
           "weight": 3,
-          "name": "chests/rarities",
+          "name": "gen:chests/rarities",
           "functions": [
             {
               "function": "set_count",
@@ -30,7 +30,7 @@
         {
           "type": "loot_table",
           "weight": 3,
-          "name": "chests/enchanted_weapons",
+          "name": "gen:chests/enchanted_weapons",
           "functions": [
             {
               "function": "set_count",
@@ -41,7 +41,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/disks",
+          "name": "gen:chests/disks",
           "functions": [
             {
               "function": "set_count",

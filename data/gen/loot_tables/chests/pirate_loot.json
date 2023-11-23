@@ -49,11 +49,11 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:chests/sherds"
+          "name": "gen:chests/sherds"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:chests/templates"
+          "name": "gen:chests/templates"
         }
       ]
     }

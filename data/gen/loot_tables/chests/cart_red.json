@@ -7,7 +7,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/redstone_traps",
+          "name": "gen:chests/redstone_traps",
           "functions": [
             {
               "function": "set_count",
@@ -18,7 +18,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/redstone_blocks",
+          "name": "gen:chests/redstone_blocks",
           "functions": [
             {
               "function": "set_count",
@@ -29,7 +29,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/redstone_components",
+          "name": "gen:chests/redstone_components",
           "functions": [
             {
               "function": "set_count",
@@ -40,7 +40,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/rails",
+          "name": "gen:chests/rails",
           "functions": [
             {
               "function": "set_count",
@@ -51,7 +51,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/red_wool",
+          "name": "gen:chests/red_wool",
           "functions": [
             {
               "function": "set_count",
@@ -62,7 +62,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/redstone",
+          "name": "gen:chests/redstone",
           "functions": [
             {
               "function": "set_count",
