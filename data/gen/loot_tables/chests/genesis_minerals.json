@@ -7,8 +7,8 @@
       "entries": [
         {
           "type": "loot_table",
-          "weight": 3,
-          "name": "gen:chests/misc",
+          "weight": 35,
+          "name": "gen:professions/mineralogy/crystalarium/common_minerals",
           "functions": [
             {
               "function": "set_count",
@@ -18,8 +18,9 @@
         },
         {
           "type": "loot_table",
-          "weight": 3,
-          "name": "gen:chests/rarities",
+          "weight": 25,
+          "quality": 1,
+          "name": "gen:professions/mineralogy/crystalarium/uncommon_minerals",
           "functions": [
             {
               "function": "set_count",
@@ -29,18 +30,9 @@
         },
         {
           "type": "loot_table",
-          "weight": 3,
-          "name": "gen:chests/enchanted_weapons",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        },        {
-          "type": "loot_table",
-          "weight": 1,
-          "name": "gen:chests/chests/disks",
+          "weight": 15,
+          "quality": 2,
+          "name": "gen:professions/mineralogy/crystalarium/rare_minerals",
           "functions": [
             {
               "function": "set_count",
@@ -50,13 +42,37 @@
         },
         {
           "type": "loot_table",
-          "weight": 1,
-          "name": "gen:chests/genesis_minerals",
+          "weight": 13,
+          "quality": 5,
+          "name": "gen:professions/mineralogy/crystalarium/epic_minerals",
           "functions": [
             {
               "function": "set_count",
-              "count": 2
-
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 7,
+          "quality": 7,
+          "name": "gen:professions/mineralogy/crystalarium/legendary_minerals",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 5,
+          "quality": 10,
+          "name": "gen:professions/mineralogy/crystalarium/mythic_minerals",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
             }
           ]
         }

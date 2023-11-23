@@ -8,7 +8,7 @@
           "type": "loot_table",
           "weight": 8,
           "quality": 1,
-          "name": "chests/blackmarket",
+          "name": "gen:chests/blackmarket",
           "functions": [
             {
               "function": "set_count",
@@ -19,7 +19,7 @@
         {
           "type": "loot_table",
           "weight": 2,
-          "name": "chests/black_wool",
+          "name": "gen:chests/black_wool",
           "functions": [
             {
               "function": "set_count",

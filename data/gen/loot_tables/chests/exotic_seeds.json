@@ -1,0 +1,19 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 5,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torchflower_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pitcher_pod"
+        }
+      ]
+    }
+  ]
+}

@@ -1,12 +1,13 @@
 {
+  "type": "chest",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
           "type": "loot_table",
-          "weight": 2,
-          "name": "gen:chests/blue_wool",
+          "weight": 5,
+          "name": "gen: chests/crop_seeds",
           "functions": [
             {
               "function": "set_count",
@@ -16,8 +17,8 @@
         },
         {
           "type": "loot_table",
-          "weight": 3,
-          "name": "gen:chests/experience",
+          "weight": 5,
+          "name": "gen: chests/curcubit_seeds",
           "functions": [
             {
               "function": "set_count",
@@ -27,9 +28,8 @@
         },
         {
           "type": "loot_table",
-          "weight": 1,
-          "quality": 0,
-          "name": "gen:chests/enchanted_books",
+          "weight": 5,
+          "name": "gen: chests/exotic_seeds",
           "functions": [
             {
               "function": "set_count",
@@ -39,9 +39,9 @@
         },
         {
           "type": "loot_table",
-          "weight": 1,
-          "quality": 0,
-          "name": "gen:chests/lapis",
+          "weight": 5,
+          "quality": 1,
+          "name": "gen: chests/genesis_seeds1",
           "functions": [
             {
               "function": "set_count",
@@ -51,8 +51,21 @@
         },
         {
           "type": "loot_table",
-          "weight": 3,
-          "name": "gen:chests/notes",
+          "weight": 5,
+          "quality": 1,
+          "name": "gen: chests/genesis_seeds2",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 5,
+          "quality": 1,
+          "name": "gen: chests/genesis_seeds3",
           "functions": [
             {
               "function": "set_count",

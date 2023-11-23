@@ -7,7 +7,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/golden_food",
+          "name": "gen:chests/golden_food",
           "functions": [
             {
               "function": "set_count",
@@ -18,7 +18,7 @@
         {
           "type": "loot_table",
           "weight": 2,
-          "name": "chests/cooked_meat",
+          "name": "gen:chests/cooked_meat",
           "functions": [
             {
               "function": "set_count",
@@ -29,7 +29,7 @@
         {
           "type": "loot_table",
           "weight": 2,
-          "name": "chests/stew",
+          "name": "gen:chests/stew",
           "functions": [
             {
               "function": "set_count",
@@ -40,7 +40,7 @@
         {
           "type": "loot_table",
           "weight": 2,
-          "name": "chests/fruit_salad",
+          "name": "gen:chests/fruit_salad",
           "functions": [
             {
               "function": "set_count",
@@ -51,7 +51,7 @@
         {
           "type": "loot_table",
           "weight": 2,
-          "name": "chests/baked_savory",
+          "name": "gen:chests/baked_savory",
           "functions": [
             {
               "function": "set_count",
@@ -62,7 +62,7 @@
         {
           "type": "loot_table",
           "weight": 2,
-          "name": "chests/baked_sweets",
+          "name": "gen:chests/baked_sweets",
           "functions": [
             {
               "function": "set_count",
@@ -73,7 +73,7 @@
         {
           "type": "loot_table",
           "weight": 2,
-          "name": "chests/cooked_fish_2",
+          "name": "gen:chests/cooked_fish_2",
           "functions": [
             {
               "function": "set_count",
@@ -84,7 +84,7 @@
         {
           "type": "loot_table",
           "weight": 2,
-          "name": "chests/cooked_fish_1",
+          "name": "gen:chests/cooked_fish_1",
           "functions": [
             {
               "function": "set_count",

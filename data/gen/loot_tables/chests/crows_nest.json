@@ -26,7 +26,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:chests/archery",
+          "name": "gen:chests/archery",
           "functions": [
             {
               "function": "minecraft:set_count",

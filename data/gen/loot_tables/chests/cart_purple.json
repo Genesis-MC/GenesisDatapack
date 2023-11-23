@@ -6,7 +6,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/purple_wool",
+          "name": "gen:chests/purple_wool",
           "functions": [
             {
               "function": "set_count",
@@ -17,7 +17,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/amethyst_buds",
+          "name": "gen:chests/amethyst_buds",
           "functions": [
             {
               "function": "set_count",
@@ -28,7 +28,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/amethyst",
+          "name": "gen:chests/amethyst",
           "functions": [
             {
               "function": "set_count",
@@ -39,7 +39,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/enchanted_books",
+          "name": "gen:chests/enchanted_books",
           "functions": [
             {
               "function": "set_count",

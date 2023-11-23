@@ -7,7 +7,7 @@
         {
           "type": "loot_table",
           "weight": 3,
-          "name": "chests/green_wool",
+          "name": "gen:chests/green_wool",
           "functions": [
             {
               "function": "set_count",
@@ -18,7 +18,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/tall_flowers",
+          "name": "gen:chests/tall_flowers",
           "functions": [
             {
               "function": "set_count",
@@ -29,7 +29,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/other_flowers",
+          "name": "gen:chests/other_flowers",
           "functions": [
             {
               "function": "set_count",
@@ -40,7 +40,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/basic_flowers",
+          "name": "gen:chests/basic_flowers",
           "functions": [
             {
               "function": "set_count",
@@ -51,7 +51,7 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "name": "chests/tulips",
+          "name": "gen:chests/tulips",
           "functions": [
             {
               "function": "set_count",
@@ -62,7 +62,7 @@
         {
           "type": "loot_table",
           "weight": 3,
-          "name": "chests/mushrooms",
+          "name": "gen:chests/mushrooms",
           "functions": [
             {
               "function": "set_count",
@@ -73,7 +73,7 @@
         {
           "type": "loot_table",
           "weight": 2,
-          "name": "chests/dirt",
+          "name": "gen:chests/dirt",
           "functions": [
             {
               "function": "set_count",
@@ -84,7 +84,7 @@
         {
           "type": "loot_table",
           "weight": 2,
-          "name": "chests/vines",
+          "name": "gen:chests/vines",
           "functions": [
             {
               "function": "set_count",
@@ -95,7 +95,7 @@
         {
           "type": "loot_table",
           "weight": 3,
-          "name": "chests/lush_floor",
+          "name": "gen:chests/lush_floor",
           "functions": [
             {
               "function": "set_count",
@@ -106,7 +106,7 @@
         {
           "type": "loot_table",
           "weight": 3,
-          "name": "chests/lush_roof",
+          "name": "gen:chests/lush_roof",
           "functions": [
             {
               "function": "set_count",
@@ -117,7 +117,7 @@
         {
           "type": "loot_table",
           "weight": 3,
-          "name": "chests/azalea",
+          "name": "gen:chests/azalea",
           "functions": [
             {
               "function": "set_count",
@@ -128,7 +128,7 @@
         {
           "type": "loot_table",
           "weight": 4,
-          "name": "chests/moss",
+          "name": "gen:chests/moss",
           "functions": [
             {
               "function": "set_count",
