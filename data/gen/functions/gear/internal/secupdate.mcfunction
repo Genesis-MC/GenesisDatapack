@@ -2,9 +2,15 @@
 #Ferrous Shadows
 execute as @a[scores={gen.passive.ferrshadow_cd=1..}] run scoreboard players remove @s gen.passive.ferrshadow_cd 1
 execute as @a[scores={gen.passive.ferrshadow_cd=0},tag=gen.passive.ferrous_shadows] run function gen:gear/internal/passives/decrease/ferrous_shadows
-#Revitalize I
+#Revitalize 1
 execute as @a[scores={gen.active.revitalize1_cd=1..}] run scoreboard players remove @s gen.active.revitalize1_cd 1
 execute as @a[scores={gen.active.revitalize1_cd=0},tag=gen.active.revitalize1] run function gen:gear/internal/passives/decrease/revitalize1
+#Revitalize 2
+execute as @a[scores={gen.active.revitalize2_cd=1..}] run scoreboard players remove @s gen.active.revitalize2_cd 1
+execute as @a[scores={gen.active.revitalize2_cd=0},tag=gen.active.revitalize2] run function gen:gear/internal/passives/decrease/revitalize2
+#Revitalize 3
+execute as @a[scores={gen.active.revitalize3_cd=1..}] run scoreboard players remove @s gen.active.revitalize3_cd 1
+execute as @a[scores={gen.active.revitalize3_cd=0},tag=gen.active.revitalize3] run function gen:gear/internal/passives/decrease/revitalize3
 
 
 #Heart of the Sea/Seaborn 2-Set Bonus

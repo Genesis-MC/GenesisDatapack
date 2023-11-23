@@ -1,4 +1,4 @@
-say increase
+
 scoreboard players add @s gen.stat.speed 20
 function gen:gear/data/stat/update/speed
 

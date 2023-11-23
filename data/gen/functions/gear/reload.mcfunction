@@ -10,6 +10,8 @@ scoreboard objectives add gen.passive.time_dilation_statboost dummy
 #Activated Abilities
 scoreboard objectives add gen.active.polar_vortex_timer dummy
 scoreboard objectives add gen.active.revitalize1_cd dummy
+scoreboard objectives add gen.active.revitalize2_cd dummy
+scoreboard objectives add gen.active.revitalize3_cd dummy
 
 #Item Classes
 scoreboard objectives add gen.class.elemental dummy
