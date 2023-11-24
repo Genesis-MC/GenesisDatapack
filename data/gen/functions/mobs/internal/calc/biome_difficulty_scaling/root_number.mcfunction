@@ -1,3 +1,13 @@
+#1 : -5 -20%
+#2 : -4 -15%
+#3 : -2 -10%
+#4 : -1 -5%
+#5 : 0
+#6 : +3 +5%
+#7 : +5 +10%
+#8 : +7 +15%
+#9 : +9 +20%
+#10 : +10 +25%
 
 execute if score @s gen.biome_difficulty matches 1 run scoreboard players set #biome_diff gen.temp -5
 execute if score @s gen.biome_difficulty matches 2 run scoreboard players set #biome_diff gen.temp -4
