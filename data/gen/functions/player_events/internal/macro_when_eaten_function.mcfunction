@@ -1,0 +1,1 @@
+$$(when_eaten_function)

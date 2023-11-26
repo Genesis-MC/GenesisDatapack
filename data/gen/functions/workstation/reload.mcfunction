@@ -3,3 +3,5 @@ tellraw @a[tag=gen.dev.debug] ["",{"text":"Genesis","color":"#DF9DE3"},{"text":"
 scoreboard objectives add gen.workstation dummy
 scoreboard objectives add gen.workstation.shake dummy
 scoreboard objectives add gen.workstation.anguish dummy
+
+function gen:workstation/cooking_pot/reload
