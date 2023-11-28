@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Metal Alloy\"},display:{Name:'{\"translate\":\"Metal Alloy\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Uncommon Ingredient\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A mixture of common metals,\",\"color\":\"red\"}','{\"translate\":\"forged into a single ingot.\",\"color\":\"red\"}']},HideFlags:195}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
