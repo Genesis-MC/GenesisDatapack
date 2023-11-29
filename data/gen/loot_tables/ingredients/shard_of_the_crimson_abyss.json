@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Shard of the Crimson Abyss\"},display:{Name:'[{\"translate\":\"Shard of the\",\"color\":\"red\",\"italic\":false},{\"translate\":\" Crimson Abyss\",\"color\":\"dark_red\",\"italic\":false}]',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Epic Ingredient\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"The crimson forest\\'s weeping vines\",\"color\":\"red\"}','{\"translate\":\"reach downwards towards the abyss.\",\"color\":\"red\"}']},CustomModelData:982009,HideFlags:131}"
+                "tag": "{gen:{name:\"Shard of the Crimson Abyss\"},display:{Name:'[{\"translate\":\"Shard of the\",\"color\":\"red\",\"italic\":false},{\"translate\":\" Crimson Abyss\",\"color\":\"dark_red\",\"italic\":false}]',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Epic Ingredient\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A shard with a peculiar heaviness. It feels like\",\"color\":\"red\"}','{\"translate\":\"it is dragging you down to the abyss below.\",\"color\":\"red\"}']},CustomModelData:982009,HideFlags:131}"
               }
             ]
           }

@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Shard of the Warped Empyrean\"},display:{Name:'[{\"translate\":\"Shard of the\",\"color\":\"aqua\",\"italic\":false},{\"translate\":\" Warped Empyrean\",\"color\":\"dark_aqua\",\"italic\":false}]',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Epic Ingredient\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"The warped forest\\'s twisting vines\",\"color\":\"aqua\"}','{\"translate\":\"spiral upwards towards the empyrean.\",\"color\":\"aqua\"}']},CustomModelData:982018,HideFlags:131}"
+                "tag": "{gen:{name:\"Shard of the Warped Empyrean\"},display:{Name:'[{\"translate\":\"Shard of the\",\"color\":\"aqua\",\"italic\":false},{\"translate\":\" Warped Empyrean\",\"color\":\"dark_aqua\",\"italic\":false}]',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Epic Ingredient\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A shard with an odd weightlessness. It feels\",\"color\":\"aqua\"}','{\"translate\":\"like it will float right out of your hands.\",\"color\":\"aqua\"}']},CustomModelData:982018,HideFlags:131}"
               }
             ]
           }
