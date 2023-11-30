@@ -114,6 +114,18 @@
         },
         "suspicious_presence": {
             "trigger": "minecraft:impossible"
+        },
+        "steelandure1": {
+            "trigger": "minecraft:impossible"
+        },
+        "steelandure2": {
+            "trigger": "minecraft:impossible"
+        },
+        "steelandure3": {
+            "trigger": "minecraft:impossible"
+        },
+        "steelandure4": {
+            "trigger": "minecraft:impossible"
         }
     },
     "requirements": 
@@ -156,7 +168,11 @@
             "archmage2",
             "archmage3",
             "archmage4",
-            "suspicious_presence"
+            "suspicious_presence",
+            "steelandure1",
+            "steelandure2",
+            "steelandure3",
+            "steelandure4"
         ]
     ]
 }

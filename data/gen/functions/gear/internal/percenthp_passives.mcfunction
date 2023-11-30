@@ -18,3 +18,7 @@ execute if entity @s[tag=gen.passive.crimson_pact,advancements={gen:passive={cri
 execute if entity @s[advancements={gen:passive={frenzy=true}},tag=!gen.passive.frenzy] if score .percenthp gen.math matches ..30 run function gen:gear/internal/passives/increase/frenzy
 execute if entity @s[tag=gen.passive.frenzy,advancements={gen:passive={frenzy=true}}] if score .percenthp gen.math matches 31.. run function gen:gear/internal/passives/decrease/frenzy
 execute if entity @s[tag=gen.passive.frenzy,advancements={gen:passive={frenzy=false}}] run function gen:gear/internal/passives/decrease/frenzy
+#Steel Shell
+execute if entity @s[advancements={gen:passive={steelandure4=true}},tag=!gen.passive.steel_shell] if score .percenthp gen.math matches 100.. run function gen:gear/internal/passives/increase/steel_shell
+execute if entity @s[tag=gen.passive.steel_shell,advancements={gen:passive={steelandure4=true}}] if score .percenthp gen.math matches ..99 run function gen:gear/internal/passives/decrease/steel_shell
+execute if entity @s[tag=gen.passive.steel_shell,advancements={gen:passive={steelandure4=false}}] run function gen:gear/internal/passives/decrease/steel_shell

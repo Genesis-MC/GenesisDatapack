@@ -52,6 +52,15 @@ execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Vorpol"}}}}] run advance
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Vorpol"}}}}] run function gen:gear/internal/passives/increase/time_dilation 
 
 ##Armorsets
+execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"Steel Andure Helmet"}}}]}] run function gen:gear/internal/set_bonus/steelandure
+execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gen:{name:"Steel Andure Chestplate"}}}]}] run function gen:gear/internal/set_bonus/steelandure
+execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{gen:{name:"Steel Andure Leggings"}}}]}] run function gen:gear/internal/set_bonus/steelandure
+execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"Steel Andure Boots"}}}]}] run function gen:gear/internal/set_bonus/steelandure
+execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"Reinforced Steel Andure Helmet"}}}]}] run function gen:gear/internal/set_bonus/steelandure
+execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gen:{name:"Reinforced Steel Andure Chestplate"}}}]}] run function gen:gear/internal/set_bonus/steelandure
+execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{gen:{name:"Reinforced Steel Andure Leggings"}}}]}] run function gen:gear/internal/set_bonus/steelandure
+execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"Reinforced Steel Andure Boots"}}}]}] run function gen:gear/internal/set_bonus/steelandure
+
 execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"Shaded Helmet"}}}]}] run function gen:gear/internal/set_bonus/shaded
 execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gen:{name:"Shaded Chestplate"}}}]}] run function gen:gear/internal/set_bonus/shaded
 execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{gen:{name:"Shaded Leggings"}}}]}] run function gen:gear/internal/set_bonus/shaded
