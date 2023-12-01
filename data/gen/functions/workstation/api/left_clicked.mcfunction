@@ -8,10 +8,4 @@
 # use if entity @s[type=...] to select specific entity
 #####################################################################
 
-#scoreboard players set .suffering_exists gen.workstation 1
-#tag @s add gen.workstation.suffering
-#scoreboard players add @s gen.workstation.anguish 15
-#function gen:workstation/internal/suffer/shake1
-#scoreboard players set @s gen.workstation.shake 5
-#execute if score @s gen.workstation.anguish matches 25.. run function gen:workstation/api/destroy
-function gen:workstation/cooking_pot/clicked_left
+execute if entity @s[tag=gen.workstation.type.cooking_pot] run function gen:workstation/cooking_pot/api/left_clicked

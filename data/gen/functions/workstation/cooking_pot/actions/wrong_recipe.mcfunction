@@ -11,5 +11,5 @@
 execute store result score @s gen.workstation.cooking_pot.ticking_time run random value 0..500
 scoreboard players operation @s gen.workstation.cooking_pot.total_time = @s gen.workstation.cooking_pot.ticking_time
 
-execute on passengers if entity @s[type=marker] run data modify entity @s data.current_recipe set from storage gen:workstation cooking_pot.current_recipe
+data modify entity @s data.current_recipe set from storage gen:workstation cooking_pot.current_recipe
 function gen:workstation/cooking_pot/internal/clear_pot

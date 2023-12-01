@@ -1,0 +1,7 @@
+{
+  "condition": "inverted",
+  "term": {
+    "condition": "reference",
+    "name": "gen:core/item/main_or_offhand"
+  }
+}

@@ -8,4 +8,4 @@
 # use if entity @s[type=...] to select specific entity
 #####################################################################
 
-execute if entity @s[tag=gen.workstation.type.cooking_pot] run function gen:workstation/cooking_pot/clicked_right
+execute if entity @s[tag=gen.workstation.type.cooking_pot] run function gen:workstation/cooking_pot/api/right_clicked

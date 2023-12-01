@@ -9,5 +9,5 @@
 # SINCE THIS IS R-CLICK USE ```on attacker``` not ``` on target``
 
 scoreboard players remove @s gen.workstation.cooking_pot.ticking_time 1
-particle flame ~ ~1 ~ 0 0 0 1 10 force @a
+function gen:workstation/cooking_pot/internal/effect/cook
 execute if score @s gen.workstation.cooking_pot.ticking_time matches ..0 run function gen:workstation/cooking_pot/actions/finished_cooking

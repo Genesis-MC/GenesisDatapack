@@ -19,4 +19,4 @@ execute if entity @s[y_rotation=45..135] run data modify storage gen:workstation
 execute if entity @s[y_rotation=135..225] run data modify storage gen:workstation placement_info merge value {cardinal_direction:180f,inverse_cardinal_direction:0f}
 execute if entity @s[y_rotation=-135..-45] run data modify storage gen:workstation placement_info merge value {cardinal_direction:-90f,inverse_cardinal_direction:90f}
 
-execute if data storage gen:workstation placement_info{name:"cooking_pot"} run function gen:workstation/cooking_pot/place with storage gen:workstation placement_info
+execute if data storage gen:workstation placement_info{name:"cooking_pot"} run function gen:workstation/cooking_pot/api/place with storage gen:workstation placement_info

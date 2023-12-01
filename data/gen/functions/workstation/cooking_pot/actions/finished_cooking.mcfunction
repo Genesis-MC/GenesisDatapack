@@ -1,20 +1,15 @@
-
-execute on passengers if entity @s[type=marker] run data modify storage gen:temp current_recipe set from entity @s data.output_item
-
-execute on passengers if entity @s[type=marker] run data modify storage gen:temp macro.uuid set from storage gen:temp current_recipe.cooker_uuid
+data modify storage gen:temp current_recipe set from entity @s data.current_recipe
 execute store result score #xp gen.professions run data get storage gen:temp current_recipe.xp
-tellraw @p {"score":{"name": "#xp","objective": "gen.professions"}}
-data modify storage gen:temp macro.command set value "function gen:professions/cooking/api/xp/apply"
-function gen:macros/do_as_uuid with storage gen:temp macro
+execute if data storage gen:temp current_recipe.xp as @p[distance=..32] run function gen:professions/cooking/api/xp/apply
 
-data modify storage gen:temp macro.command set from storage gen:temp current_recipe.success_function
-execute if data storage gen:temp current_recipe.success_function run function gen:macros/do_as_uuid with storage gen:temp macro
+execute if data storage gen:temp current_recipe.output_item run data modify storage gen:core drop_item set from storage gen:temp current_recipe.output_item
+execute if data storage gen:temp current_recipe.output_item run function gen:core/api/item/drop
 
+execute if data storage gen:temp {current_recipe:"null"} run loot spawn ~ ~ ~ loot gen:workstation/cooking_pot/failure
+execute if data storage gen:temp current_recipe.loot_table run function gen:workstation/cooking_pot/internal/drop_loot_table
 
-summon item ~ ~0.5 ~ {Item:{id:"tnt",Count:1b},Tags:["new"],NoGravity:1b}
-data modify entity @e[tag=new,limit=1] Item set from storage gen:workstation cooking_pot.current_recipe.output_item
+execute if data entity @s data{current_recipe:"null"} run playsound minecraft:entity.cat.death block @a[distance=..32] ~ ~ ~ 10 0
+execute unless data entity @s data{current_recipe:"null"} run playsound block.note_block.bell block @a[distance=..32] ~ ~ ~ 1 1.2
+execute unless data entity @s data{current_recipe:"null"} run playsound entity.player.levelup block @a[distance=..32] ~ ~ ~ 1 0.5
 
-playsound block.note_block.bell block @a[distance=..32] ~ ~ ~ 1 1.2
-playsound entity.player.levelup block @a[distance=..32] ~ ~ ~ 1 0.5
-
-execute on passengers if entity @s[type=marker] run data remove entity @s data.output_item
+data remove entity @s data.current_recipe
