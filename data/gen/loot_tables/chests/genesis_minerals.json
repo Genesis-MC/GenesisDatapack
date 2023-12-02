@@ -43,7 +43,7 @@
         {
           "type": "loot_table",
           "weight": 13,
-          "quality": 5,
+          "quality": 3,
           "name": "gen:professions/mineralogy/crystalarium/epic_minerals",
           "functions": [
             {
@@ -55,20 +55,8 @@
         {
           "type": "loot_table",
           "weight": 7,
-          "quality": 7,
+          "quality": 3,
           "name": "gen:professions/mineralogy/crystalarium/legendary_minerals",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "type": "loot_table",
-          "weight": 5,
-          "quality": 10,
-          "name": "gen:professions/mineralogy/crystalarium/mythic_minerals",
           "functions": [
             {
               "function": "set_count",

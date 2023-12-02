@@ -40,7 +40,7 @@
         },        {
           "type": "loot_table",
           "weight": 1,
-          "name": "gen:chests/chests/disks",
+          "name": "gen:chests/disks",
           "functions": [
             {
               "function": "set_count",

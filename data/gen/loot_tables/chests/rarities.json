@@ -61,6 +61,16 @@
           "type": "minecraft:item",
           "weight": 10000,
           "name": "minecraft:gold_ingot"
+        },
+        {
+          "type": "loot_table",
+          "weight": 500,
+          "name": "gen:ingredients/shard_of_the_crimson_abyss"
+        },
+        {
+          "type": "loot_table",
+          "weight": 500,
+          "name": "gen:ingredients/shard_of_the_warped_empyrean"
         }
       ]
     }
