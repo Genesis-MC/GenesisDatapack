@@ -9,7 +9,9 @@ execute if data storage gen:temp {current_recipe:"null"} run loot spawn ~ ~ ~ lo
 execute if data storage gen:temp current_recipe.loot_table run function gen:workstation/cooking_pot/internal/drop_loot_table
 
 execute if data entity @s data{current_recipe:"null"} run playsound minecraft:entity.cat.death block @a[distance=..32] ~ ~ ~ 10 0
+execute if data entity @s data{current_recipe:"null"} run particle damage_indicator ~ ~1 ~ 0 0 0 0 5
 execute unless data entity @s data{current_recipe:"null"} run playsound block.note_block.bell block @a[distance=..32] ~ ~ ~ 1 1.2
 execute unless data entity @s data{current_recipe:"null"} run playsound entity.player.levelup block @a[distance=..32] ~ ~ ~ 1 0.5
+execute unless data entity @s data{current_recipe:"null"} run particle heart ~ ~1 ~ 0 0 0 0 5
 
 data remove entity @s data.current_recipe

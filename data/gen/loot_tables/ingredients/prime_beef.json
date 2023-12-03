@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Prime Beef\"},display:{Name:'{\"translate\":\"Raw Prime Beef\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Epic Ingredient\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A perfect ratio of fat and tenderness.\",\"color\":\"gray\"}']},CustomModelData:982001,HideFlags:131}"
+                "tag": "{gen:{name:\"Prime Beef\"},display:{Name:'{\"translate\":\"Raw Prime Beef\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Rare Ingredient\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A perfect ratio of fat and tenderness.\",\"color\":\"gray\"}']},CustomModelData:982001,HideFlags:131}"
               }
             ]
           }
