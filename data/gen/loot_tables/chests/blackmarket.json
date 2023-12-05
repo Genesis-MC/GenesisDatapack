@@ -59,6 +59,17 @@
 
             }
           ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "name": "gen:gear/standalone/black_market_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
         }
       ]
     }

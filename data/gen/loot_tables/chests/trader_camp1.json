@@ -40,6 +40,17 @@
             ]
           },
           {
+            "type": "loot_table",
+            "weight": 4,
+            "name": "gen:gear/standalone/nomadic_shawl",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
             "type": "item",
             "weight": 6,
             "name": "minecraft:chicken",

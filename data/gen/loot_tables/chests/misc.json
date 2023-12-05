@@ -35,6 +35,17 @@
           "name": "minecraft:brush"
         },
         {
+          "type": "loot_table",
+          "weight": 3,
+          "name": "gen:gear/standalone/patched_trousers",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
           "type": "minecraft:item",
           "weight": 5,
           "name": "minecraft:nautilus_shell"

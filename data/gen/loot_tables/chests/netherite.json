@@ -5,13 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 25,
+          "weight": 4,
           "quality": 1,
           "name": "minecraft:netherite_ingot"
         },
         {
           "type": "minecraft:item",
-          "weight": 70,
+          "weight": 14,
           "name": "minecraft:netherite_scrap"
         }
       ]
