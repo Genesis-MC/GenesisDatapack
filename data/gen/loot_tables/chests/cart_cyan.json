@@ -36,6 +36,17 @@
               "count": 1
             }
           ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "name": "gen:gear/standalone/prairie_guards_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
         }
       ]
     }

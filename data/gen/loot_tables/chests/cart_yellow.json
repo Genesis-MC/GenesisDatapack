@@ -91,6 +91,17 @@
               "count": 1
             }
           ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "name": "gen:ingredients/floral_nectar",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
         }
       ]
     }
