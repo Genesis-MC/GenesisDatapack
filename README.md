@@ -74,7 +74,7 @@ To add a stat, you have to
 - add the commands to the `gen:gear/data/stat/<SLOT>` function, following the scheme present
 
 The current stats are:<br>
-`physical_power`, `magic_power`, `attack_speed`, `health`, `armor`, `speed`, `luck`, `armor_toughness`, `knockback_resistance`, `artifact_power`, `mana_pool`, `mana_regen`, `ability_haste`
+`physical_power`, `magic_power`, `attack_speed`, `health`, `armor`, `speed`, `luck`, `armor_toughness`, `knockback_resistance`, `relic_power`, `mana_pool`, `mana_regen`, `ability_haste`
 
 The stats that don't get added together, but use the same system are:<br>
 `ability`, `cooldown`, `set`

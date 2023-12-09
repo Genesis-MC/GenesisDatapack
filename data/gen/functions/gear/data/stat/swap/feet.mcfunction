@@ -43,10 +43,10 @@ scoreboard players operation @s gen.stat.knockback_resistance -= @s gen.stat.kno
 execute store result score @s gen.stat.knockback_resistance.feet run data get storage tungsten:player Item.tag.gen.stat.knockback_resistance
 scoreboard players operation @s gen.stat.knockback_resistance += @s gen.stat.knockback_resistance.feet
 function gen:gear/data/stat/update/knockback_resistance
-# artifact_power
-scoreboard players operation @s gen.stat.artifact_power -= @s gen.stat.artifact_power.feet
-execute store result score @s gen.stat.artifact_power.feet run data get storage tungsten:player Item.tag.gen.stat.artifact_power
-scoreboard players operation @s gen.stat.artifact_power += @s gen.stat.artifact_power.feet
+# relic_power
+scoreboard players operation @s gen.stat.relic_power -= @s gen.stat.relic_power.feet
+execute store result score @s gen.stat.relic_power.feet run data get storage tungsten:player Item.tag.gen.stat.relic_power
+scoreboard players operation @s gen.stat.relic_power += @s gen.stat.relic_power.feet
 # mana_pool
 scoreboard players operation @s gen.stat.mana_pool -= @s gen.stat.mana_pool.feet
 execute store result score @s gen.stat.mana_pool.feet run data get storage tungsten:player Item.tag.gen.stat.mana_pool
