@@ -22,14 +22,14 @@ scoreboard objectives add gen.stat.armor_toughness.head dummy
 scoreboard objectives add gen.stat.armor_toughness.legs dummy
 scoreboard objectives add gen.stat.armor_toughness.mainhand dummy
 scoreboard objectives add gen.stat.armor_toughness.offhand dummy
-# artifact_power
-scoreboard objectives add gen.stat.artifact_power dummy
-scoreboard objectives add gen.stat.artifact_power.chest dummy
-scoreboard objectives add gen.stat.artifact_power.feet dummy
-scoreboard objectives add gen.stat.artifact_power.head dummy
-scoreboard objectives add gen.stat.artifact_power.legs dummy
-scoreboard objectives add gen.stat.artifact_power.mainhand dummy
-scoreboard objectives add gen.stat.artifact_power.offhand dummy
+# relic_power
+scoreboard objectives add gen.stat.relic_power dummy
+scoreboard objectives add gen.stat.relic_power.chest dummy
+scoreboard objectives add gen.stat.relic_power.feet dummy
+scoreboard objectives add gen.stat.relic_power.head dummy
+scoreboard objectives add gen.stat.relic_power.legs dummy
+scoreboard objectives add gen.stat.relic_power.mainhand dummy
+scoreboard objectives add gen.stat.relic_power.offhand dummy
 # attack_speed
 scoreboard objectives add gen.stat.attack_speed dummy
 scoreboard objectives add gen.stat.attack_speed.chest dummy
