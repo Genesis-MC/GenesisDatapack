@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:player_head",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Dreadnaught Helmet\",type:\"Helmet\",stat:{attack_speed:-4,armor:40,armor_toughness:40,speed:-5,relic_power:15}},AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Name:\"tungsten.head\",Amount:-0.000000000001,Operation:0,UUID:[I;12,42069,-0,12],Slot:\"head\"}],display:{Name:'{\"translate\":\"Dreadnaught Helmet\",\"color\":\"dark_gray\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Legendary Helmet\",\"font\":\"minecraft:default\",\"color\":\"#3b2b06\",\"italic\":false}]','{\"translate\":\"\",\"font\":\"genesis:stats\",\"color\":\"white\",\"italic\":false,\"extra\":[{\"translate\":\"genesis.stats.wrapper.armor.2\",\"with\":[40]},{\"translate\":\"genesis.stats.wrapper.armor_toughness.2\",\"with\":[40]},{\"translate\":\"genesis.stats.wrapper.relic_power.2\",\"with\":[15]},{\"translate\":\"genesis.stats.wrapper.attack_speed.2\",\"with\":[-4],\"color\":\"red\"},{\"translate\":\"genesis.stats.wrapper.speed.2\",\"with\":[-5],\"color\":\"red\"}]}','{\"translate\":\"\"}','[{\"translate\":\"❂\",\"color\":\"#403303\",\"bold\":true,\"italic\":false},{\"translate\":\" 2-Set Bonus: Heavy Metal\",\"color\":\"gold\",\"bold\":false,\"italic\":false}]','{\"translate\":\"Passive Ability\",\"color\":\"dark_gray\"}','{\"translate\":\"Gain +1 Knockback Resistance\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"for every 2 points of armor.\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"\"}','[{\"translate\":\"❂\",\"color\":\"#403303\",\"bold\":true,\"italic\":false},{\"translate\":\" 4-Set Bonus: Fortitude of the Undying\",\"color\":\"gold\",\"bold\":false,\"italic\":false}]','{\"translate\":\"Passive Ability\",\"color\":\"dark_gray\"}','{\"translate\":\"While above 30% of your max health, gain\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"1 stack of \",\"color\":\"gray\",\"italic\":false},{\"translate\":\"Fortitude\",\"color\":\"white\",\"italic\":false},{\"translate\":\" every second. When you\",\"color\":\"gray\",\"italic\":false}]','{\"translate\":\"drop below 30% health, convert each point of\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"Fortitude\",\"color\":\"white\",\"italic\":false},{\"translate\":\" into +1 Armor for 15 seconds. This\",\"color\":\"gray\",\"italic\":false}]','{\"translate\":\"passive doesn\\'t stack and caps at +50 Armor.\",\"color\":\"gray\",\"italic\":false}']},HideFlags:195,genesis:{phead:{detect:1b}},SkullOwner:{Name:\"genesis.block.gear.helm.\",Id:[I;1125458324,807159673,-2026250668,-2103472979],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjkzNDAzMDFhNjAxZjc0OTJhNjEwYzEwOWM0NTBjNDhhNDFjZjVlZTUwNTNmNWFiNzIxZTYxMmFiYTg0YWIyNiJ9fX0=\"}]}}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
