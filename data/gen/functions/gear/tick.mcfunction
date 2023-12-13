@@ -4,6 +4,8 @@ execute as @a[advancements={gen:gear/bth/wore=true}] in minecraft:overworld run 
 
 #Time Dilation
 execute as @a[tag=gen.passive.time_dilation,advancements={gen:passive={time_dilation=false}}] run function gen:gear/internal/passives/decrease/time_dilation
+#Heavy Metal
+execute as @a[tag=gen.passive.heavy_metal,advancements={gen:passive={dreadnaught2=false}}] run function gen:gear/internal/passives/decrease/heavy_metal
 #Swiftblade
 execute as @a[advancements={gen:passive={archmage4=true}},tag=!gen.passive.transcendence] if score @s gen.mana.current matches 20000.. run function gen:gear/internal/passives/increase/transcendence
 execute as @a[tag=gen.passive.transcendence,advancements={gen:passive={archmage4=true}}] if score @s gen.mana.current matches ..19999 run function gen:gear/internal/passives/decrease/transcendence

@@ -91,6 +91,11 @@ execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gen:{name:"Archmage Robe"}}
 execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{gen:{name:"Archmage Trousers"}}}]}] run function gen:gear/internal/set_bonus/archmage
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"Archmage Boots"}}}]}] run function gen:gear/internal/set_bonus/archmage
 
+execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"Dreadnaught Helmet"}}}]}] run function gen:gear/internal/set_bonus/dreadnaught
+execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gen:{name:"Dreadnaught Chestplate"}}}]}] run function gen:gear/internal/set_bonus/dreadnaught
+execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{gen:{name:"Dreadnaught Leggings"}}}]}] run function gen:gear/internal/set_bonus/dreadnaught
+execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"Dreadnaught Boots"}}}]}] run function gen:gear/internal/set_bonus/dreadnaught
+
 #Arcanist
 execute as @a[advancements={gen:passive={apprentice4=true}},tag=!gen.passive.arcanist_apprentice] run function gen:gear/internal/passives/increase/arcanist_apprentice
 execute as @a[tag=gen.passive.arcanist_apprentice,advancements={gen:passive={apprentice4=false}}] run function gen:gear/internal/passives/decrease/arcanist_apprentice

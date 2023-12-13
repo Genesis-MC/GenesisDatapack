@@ -126,6 +126,18 @@
         },
         "steelandure4": {
             "trigger": "minecraft:impossible"
+        },
+        "dreadnaught1": {
+            "trigger": "minecraft:impossible"
+        },
+        "dreadnaught2": {
+            "trigger": "minecraft:impossible"
+        },
+        "dreadnaught3": {
+            "trigger": "minecraft:impossible"
+        },
+        "dreadnaught4": {
+            "trigger": "minecraft:impossible"
         }
     },
     "requirements": 
@@ -172,7 +184,11 @@
             "steelandure1",
             "steelandure2",
             "steelandure3",
-            "steelandure4"
+            "steelandure4",
+            "dreadnaught1",
+            "dreadnaught2",
+            "dreadnaught3",
+            "dreadnaught4"
         ]
     ]
 }
