@@ -8,7 +8,10 @@ scoreboard objectives add gen.passive.ferrshadow_cd dummy
 scoreboard players set @a gen.passive.ferrshadow_cd 0
 scoreboard objectives add gen.passive.time_dilation_statboost dummy
 scoreboard objectives add gen.passive.heavy_metal_statboost dummy
+scoreboard objectives add gen.passive.fortitude_of_the_undying_statboost dummy
+scoreboard objectives add gen.passive.fortitude_of_the_undying_cd dummy
 scoreboard objectives add gen.passive.fortitude dummy
+scoreboard players set @a gen.passive.fortitude 0
 
 #Activated Abilities
 scoreboard objectives add gen.active.polar_vortex_timer dummy
