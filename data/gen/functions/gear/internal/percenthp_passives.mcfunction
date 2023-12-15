@@ -25,4 +25,4 @@ execute if entity @s[tag=gen.passive.steel_shell,advancements={gen:passive={stee
 execute if entity @s[tag=gen.passive.steel_shell,advancements={gen:passive={steelandure4=false}}] run function gen:gear/internal/passives/decrease/steel_shell
 #Fortitude of the Undying
 execute if entity @s[advancements={gen:passive={dreadnaught4=true}},tag=!gen.passive.fortitude_of_the_undying] if score .percenthp gen.math matches ..30 at @s run function gen:gear/internal/passives/increase/fortitude_of_the_undying
-execute if entity @s[tag=gen.passive.fortitude_of_the_undying,advancements={gen:passive={dreadnaught4=false}}] run function gen:gear/internal/passives/decrease/frenzy
+execute if entity @s[tag=gen.passive.fortitude_of_the_undying,advancements={gen:passive={dreadnaught4=false}}] run function gen:gear/internal/passives/decrease/fortitude_of_the_undying
