@@ -2,4 +2,4 @@ data modify storage gen:guidebook default_book_tag set value {gen:{amulet:1b},ti
 
 data modify storage gen:guidebook preface set from storage gen:guidebook default_book_tag
 data modify storage gen:guidebook preface.genesis.guidebook.chapter_id set value ""
-data modify storage gen:guidebook preface.pages set value ['{"text":"Open Index Page","color":"blue","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger gen.guidebook set 1000"}}']
+data modify storage gen:guidebook preface.pages set value ['[{"text":"Greetings Adventurer! This book will act as your guide in the world of Genesis RPG. In order to navigate around the book, click "},{"text":"blue underlined text","color":"blue","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger gen.guidebook set 1000"}},{"text":" and reopen your book. Best of luck on your journey!"}]']
