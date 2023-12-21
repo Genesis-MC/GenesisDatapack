@@ -6,7 +6,7 @@ execute if data storage gen:temp current_recipe.output_item run data modify stor
 execute if data storage gen:temp current_recipe.output_item run function gen:core/api/item/drop
 
 execute if data storage gen:temp {current_recipe:"null"} run loot spawn ~ ~ ~ loot gen:workstation/cooking_pot/failure
-execute if data storage gen:temp current_recipe.loot_table run function gen:workstation/cooking_pot/internal/drop_loot_table
+execute if data storage gen:temp current_recipe.loot_table run function gen:workstation/cooking_pot/internal/drop_loot_table with storage gen:temp current_recipe
 
 execute if data entity @s data{current_recipe:"null"} run playsound minecraft:entity.cat.death block @a[distance=..32] ~ ~ ~ 10 0
 execute if data entity @s data{current_recipe:"null"} run particle damage_indicator ~ ~1 ~ 0 0 0 0 5

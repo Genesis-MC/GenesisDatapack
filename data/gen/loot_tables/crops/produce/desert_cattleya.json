@@ -12,7 +12,7 @@
               "function": "minecraft:set_name",
               "name": {
                 "translate": "item.gen.crops.produce.desert_cattleya",
-                "italic": "false"
+                "italic": false
               }
             },
             {
@@ -20,7 +20,7 @@
               "lore": [
                 {
                   "translate": "genesis.lore.rarity.3",
-                  "italic": "false",
+                  "italic": false,
                   "color": "light_purple",
                   "with": [
                     {

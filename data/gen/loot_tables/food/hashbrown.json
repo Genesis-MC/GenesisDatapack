@@ -6,12 +6,12 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:982004,gen:{name:\"Mana Bean\"}}"
+              "tag": "{CustomModelData:982102,gen:{name:\"Hashbrown\",on_eat:{saturation:5}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.gen.crops.produce.mana_bean",
+                "translate": "item.gen.food.hashbrown",
                 "italic": false
               }
             },
@@ -19,9 +19,9 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "genesis.lore.rarity.2",
+                  "translate": "genesis.lore.rarity.0",
                   "italic": false,
-                  "color": "yellow",
+                  "color": "white",
                   "with": [
                     {
                       "text": "A",
@@ -29,9 +29,15 @@
                       "color": "white"
                     },
                     {
-                      "translate": "genesis.lore.type.ingredient"
+                      "translate": "genesis.lore.type.meal"
                     }
                   ]
+                },
+                {
+                  "translate": "genesis.lore.saturation.5",
+                  "font": "genesis:icon",
+                  "italic": false,
+                  "color": "white"
                 }
               ]
             }

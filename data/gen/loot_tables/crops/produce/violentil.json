@@ -12,7 +12,7 @@
               "function": "minecraft:set_name",
               "name": {
                 "translate": "item.gen.crops.produce.violentil",
-                "italic": "false"
+                "italic": false
               }
             },
             {
@@ -20,7 +20,7 @@
               "lore": [
                 {
                   "translate": "genesis.lore.rarity.0",
-                  "italic": "false",
+                  "italic": false,
                   "color": "white",
                   "with": [
                     {

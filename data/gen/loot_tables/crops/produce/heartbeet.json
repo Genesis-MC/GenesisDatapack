@@ -12,7 +12,7 @@
               "function": "minecraft:set_name",
               "name": {
                 "translate": "item.gen.crops.produce.heartbeet",
-                "italic": "false"
+                "italic": false
               }
             },
             {
@@ -20,7 +20,7 @@
               "lore": [
                 {
                   "translate": "genesis.lore.rarity.1",
-                  "italic": "false",
+                  "italic": false,
                   "color": "aqua",
                   "with": [
                     {
