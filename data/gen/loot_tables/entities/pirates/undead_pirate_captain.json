@@ -1,0 +1,47 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:treasure/pirates_bounty"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:ingredients/ancient_gold_coin",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 5,
+                  "max": 8
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:gear/weapons/lady_luck",
+            "conditions": 
+            [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.06
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
