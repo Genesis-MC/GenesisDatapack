@@ -16,7 +16,7 @@
                 },
                 "ops": [
                   {
-                    "source": "registry[7].seed_item.tag",
+                    "source": "registry[{id:'genesis:tomato'}].seed_item.tag",
                     "target": "{}",
                     "op": "merge"
                   }

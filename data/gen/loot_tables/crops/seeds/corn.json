@@ -16,7 +16,7 @@
                 },
                 "ops": [
                   {
-                    "source": "registry[5].seed_item.tag",
+                    "source": "registry[{id:'genesis:corn'}].seed_item.tag",
                     "target": "{}",
                     "op": "merge"
                   }

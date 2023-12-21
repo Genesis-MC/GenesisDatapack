@@ -16,7 +16,7 @@
                 },
                 "ops": [
                   {
-                    "source": "registry[{id:'genesis:heartbeet'}].seed_item.tag",
+                    "source": "registry[{id:'genesis:violentil'}].seed_item.tag",
                     "target": "{}",
                     "op": "merge"
                   }

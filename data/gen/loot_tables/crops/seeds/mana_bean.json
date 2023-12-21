@@ -16,7 +16,7 @@
                 },
                 "ops": [
                   {
-                    "source": "registry[6].seed_item.tag",
+                    "source": "registry[{id:'genesis:mana_bean'}].seed_item.tag",
                     "target": "{}",
                     "op": "merge"
                   }
