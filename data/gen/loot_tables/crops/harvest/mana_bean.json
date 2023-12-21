@@ -36,6 +36,22 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gen:crops/seeds/manabean"
+        }
+      ],
+      "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.2
+          }
+      ]
     }
   ]
 }
