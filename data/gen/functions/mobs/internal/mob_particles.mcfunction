@@ -9,6 +9,8 @@ execute at @e[tag=gen.mist_apparition] run particle rain ~ ~1 ~ 0.3 0.5 0.3 0 5
 execute at @e[tag=gen.recluse] run particle block redstone_block ~ ~0.5 ~ 0.3 0.3 0.3 0 1
 execute at @e[tag=gen.snowy_recluse] run particle block redstone_block ~ ~0.5 ~ 0.3 0.3 0.3 0 1
 
+execute at @e[tag=gen.cultmonger] run particle sculk_soul ~ ~0.5 ~ 0.3 0.3 0.3 0 2
+
 execute at @e[tag=gen.nethercreep] run particle flame ~ ~0.5 ~ 0.3 0.3 0.3 0 1
 
 execute at @e[tag=gen.primal_abyss_roamer] run particle witch ~ ~1 ~ 0.3 0.3 0.3 0 1
@@ -23,5 +25,6 @@ execute at @e[tag=gen.possessed] run particle large_smoke ~ ~0.6 ~ 0.3 0.3 0.3 0
 #Charges
 execute at @e[tag=gen.charge.everfrost] run particle enchant ~ ~ ~ 0.1 0.1 0.1 0 5
 execute at @e[tag=gen.charge.everfrost] run particle block ice ~ ~ ~ 0.1 0.1 0.1 0 2
+execute at @e[tag=gen.charge.soul] run particle soul ~ ~ ~ 0.1 0.1 0.1 0 5
 
 schedule function gen:mobs/internal/mob_particles 5t replace
