@@ -37,6 +37,8 @@ execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Recluse Fang"}}}}] run a
 #Venomlash Fang
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Venomlash Fang"}}}}] run advancement grant @s only gen:passive venomous2
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Venomlash Fang"}}}}] run advancement grant @s only gen:passive frenzy
+#Overgrown Greatsword
+execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Overgrown Greatsword"}}}}] run advancement grant @s only gen:passive lifeline1
 #Frostfang
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"Frostfang"}}}}] run advancement grant @s only gen:passive frostbite
 #Harbinger of Winter
