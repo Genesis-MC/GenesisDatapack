@@ -117,6 +117,36 @@
                 }
               }
             ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:crops/seeds/violentil",
+            "weight": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biome": "minecraft:sunflower_plains"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:crops/seeds/desert_cattleya",
+            "weight": 1,
+            "conditions": [
+              {
+                "condition": "minecraft:weather_check",
+                "thundering": true
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biome": "minecraft:desert"
+                }
+              }
+            ]
           }
         ],
         "conditions": [
