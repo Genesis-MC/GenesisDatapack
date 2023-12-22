@@ -73,13 +73,13 @@
                 "score": "gen.mobs.level"
               },
               "range": {
-                "min": 30,
+                "min": 25,
                 "max": 49
               }
             },
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.15
+              "chance": 0.2
             }
           ]
         }
