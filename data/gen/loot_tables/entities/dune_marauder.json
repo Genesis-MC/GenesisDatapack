@@ -1,0 +1,45 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:gear/weapons/kopesh",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:ingredients/terraclod_pearl",
+            "conditions": [
+              {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": "this",
+                  "score": "gen.mobs.level"
+                },
+                "range": {
+                  "min": 30
+                }
+              },
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

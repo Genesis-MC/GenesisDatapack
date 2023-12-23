@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "minecraft:conduit"
+        }
+      }
+    },
+    "rewards": {
+      "function": "gen:player_events/increase_level"
+    }
+  }
+  
