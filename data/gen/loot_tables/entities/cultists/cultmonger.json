@@ -10,8 +10,8 @@
                 {
                   "function": "minecraft:set_count",
                   "count": {
-                    "min": 2,
-                    "max": 3
+                    "min": 3,
+                    "max": 5
                   }
                 }
               ]
@@ -35,10 +35,21 @@
                 "range": {
                   "min": 30
                 }
-              },
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:gear/weapons/helix_spear",
+            "conditions": [
               {
                 "condition": "minecraft:random_chance",
-                "chance": 0.7
+                "chance": 0.3
               }
             ]
           }

@@ -43,6 +43,21 @@
             ]
           }
         ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:gear/weapons/iron_dagger",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.07
+              }
+            ]
+          }
+        ]
       }
     ]
   }
