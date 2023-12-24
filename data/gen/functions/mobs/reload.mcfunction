@@ -18,6 +18,7 @@ scoreboard objectives add gen.mobs.charge.countdown dummy
 function gen:mobs/internal/registry/register
 execute in minecraft:overworld run summon minecraft:item_display ~ ~ ~ {UUID:[I;124125,51785,148051,0],view_range:0.0f,item:{id:"minecraft:dirt",Count:1b}}
 function gen:mobs/clock_20t
+function gen:mobs/clock_10t
 execute unless score mobs.name_display.type gen.config matches -2147483648..2147483647 run scoreboard players set mobs.name_display.type gen.config 0
 
 schedule function gen:mobs/internal/mob_particles 1s replace

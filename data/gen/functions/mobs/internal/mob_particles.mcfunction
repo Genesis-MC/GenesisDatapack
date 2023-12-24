@@ -20,11 +20,14 @@ execute at @e[tag=gen.frozen_colossus] run particle snowflake ~ ~2 ~ 0.2 0.25 0.
 
 execute at @e[tag=gen.livingwood_matryoshka] run particle spore_blossom_air ~ ~3 ~ 0 0 0 0 1
 
+execute at @e[tag=gen.flowing_magma] run particle lava ~ ~ ~ 0.3 0.3 0.3 0 3
+
 execute at @e[tag=gen.possessed] run particle large_smoke ~ ~0.6 ~ 0.3 0.3 0.3 0 3
 
 #Charges
 execute at @e[tag=gen.charge.everfrost] run particle enchant ~ ~ ~ 0.1 0.1 0.1 0 5
 execute at @e[tag=gen.charge.everfrost] run particle block ice ~ ~ ~ 0.1 0.1 0.1 0 2
 execute at @e[tag=gen.charge.soul] run particle soul ~ ~ ~ 0.1 0.1 0.1 0 5
+execute at @e[tag=gen.charge.molten] run particle lava ~ ~ ~ 0.1 0.1 0.1 0 2
 
 schedule function gen:mobs/internal/mob_particles 5t replace
