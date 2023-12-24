@@ -1,7 +1,10 @@
 
-##Basalt Drudge 
+## Basalt Drudge 
 #Slow AOE
 execute as @e[tag=gen.basalt_drudge] at @s if entity @p[distance=..4] unless entity @e[tag=gen.mob_ability.basalt_drudge,distance=..2] run summon area_effect_cloud ~ ~ ~ {Tags:["gen.mob_ability.basalt_drudge"],Particle:"block basalt",Radius:4f,Duration:100,effects:[{id:"minecraft:slowness",amplifier:2b,duration:60}]}
+
+## Snow and Tundra Sprite
+execute as @e[tag=gen.snow_sprite] run effect give @s invisibility 
 
 ## Frozen Colossus
 #Spawn everfrost charge
