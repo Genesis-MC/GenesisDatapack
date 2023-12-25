@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 4,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tropical_fish",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Prismatic Candy\",when_eaten_function:\"function gen:testing\"},display:{Name:'{\"translate\":\"Prismatic Candy\",\"color\":\"#403303\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Legendary Confectionary\",\"font\":\"minecraft:default\",\"color\":\"#3b2b06\",\"italic\":false}]','{\"translate\":\"L\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false}']},CustomModelData:982106,HideFlags:195}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

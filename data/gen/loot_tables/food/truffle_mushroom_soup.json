@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:mushroom_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Truffle Mushroom Soup\"},display:{Name:'{\"translate\":\"Truffle Mushroom Soup\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Epic Meal\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"KKK\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false}']},CustomModelData:982002,HideFlags:195}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

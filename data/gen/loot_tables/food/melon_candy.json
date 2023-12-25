@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 4,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tropical_fish",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Melon Candy\"},display:{Name:'{\"translate\":\"Melon Candy\",\"color\":\"green\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Confectionary\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"L\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false}']},CustomModelData:982104,HideFlags:195}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tropical_fish",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Violentil Salad\",on_eat:{saturation:3}},display:{Name:'{\"translate\":\"Violentil Salad\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Uncommon Snack\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"KL\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false}']},CustomModelData:982109,HideFlags:195}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tropical_fish",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"Prime Rib\",on_eat:{saturation:10}},display:{Name:'{\"translate\":\"Prime Rib\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Rare Meal\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"KKKKK\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false}']},CustomModelData:982108,HideFlags:195}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
