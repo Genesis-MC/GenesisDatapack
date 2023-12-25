@@ -7,6 +7,18 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 1,
+          "quality": 5,
+          "name": "minecraft:nether_star"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 5,
+          "name": "minecraft:elytra"
+        },
+	{
+          "type": "minecraft:item",
           "weight": 100,
           "quality": 10,
           "name": "minecraft:totem_of_undying"
