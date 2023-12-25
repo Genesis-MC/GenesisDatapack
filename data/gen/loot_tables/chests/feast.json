@@ -432,6 +432,21 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "gen:food/prime_rib"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "gen:food/salmon_stirfry"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "gen:food/caramelized_apple"
         }
       ]
     }

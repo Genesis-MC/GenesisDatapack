@@ -10,6 +10,11 @@
           "name": "minecraft:melon_seeds"
         },
         {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "gen:food/violentil_salad"
+        },
+        {
           "type": "minecraft:item",
           "weight": 2,
           "name": "minecraft:apple"

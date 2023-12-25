@@ -54,6 +54,10 @@
               "levels": 0
             }
           ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "gen:gear/weapons/jack_o_reaper"
         }
       ]
     }

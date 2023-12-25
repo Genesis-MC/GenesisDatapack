@@ -13,6 +13,11 @@
           "type": "minecraft:item",
           "weight": 2,
           "name": "minecraft:cooked_cod"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "gen:food/salt"
         }
       ]
     }

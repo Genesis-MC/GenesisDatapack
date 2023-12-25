@@ -40,6 +40,20 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:sniffer_egg"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "gen:gear/weapons/prismarine_scythe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "gen:gear/weapons/riptide",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
         }
       ]
     },

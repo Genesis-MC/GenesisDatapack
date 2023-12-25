@@ -10,6 +10,11 @@
           "name": "minecraft:cooked_rabbit"
         },
         {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "gen:food/truffle_mushroom_soup"
+        },
+        {
           "type": "minecraft:item",
           "weight": 2,
           "name": "minecraft:beetroot"
@@ -18,6 +23,11 @@
           "type": "minecraft:item",
           "weight": 3,
           "name": "minecraft:rabbit_stew"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "gen:food/borscht"
         },
         {
           "type": "minecraft:item",

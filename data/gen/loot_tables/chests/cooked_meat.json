@@ -10,6 +10,11 @@
           "name": "minecraft:cooked_chicken"
         },
         {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "gen:food/prime_rib"
+        },
+        {
           "type": "minecraft:item",
           "weight": 5,
           "name": "minecraft:cooked_porkchop"

@@ -6,11 +6,18 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 4,
           "name": "minecraft:red_mushroom"
         },
         {
           "type": "minecraft:item",
+          "weight": 4,
           "name": "minecraft:brown_mushroom"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "gen:ingredients/truffle"
         }
       ]
     }
