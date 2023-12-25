@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Sakura Candy\"},display:{Name:'{\"translate\":\"Sakura Candy\",\"color\":\"light_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Uncommon Confectionary\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"L\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false}']},CustomModelData:982105,HideFlags:195}"
+                "tag": "{gen:{name:\"Sakura Candy\",when_eaten_function:\"function gen:food/internal/effects/sakura_candy\"},display:{Name:'{\"translate\":\"Sakura Candy\",\"color\":\"light_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Uncommon Confectionary\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"L\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"Regeneration I (0:10)\",\"color\":\"blue\",\"italic\":false}','{\"translate\":\"Weakness II (0:10)\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:982105,HideFlags:195}"
               }
             ]
           }

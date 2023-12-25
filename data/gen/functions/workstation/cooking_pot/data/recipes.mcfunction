@@ -5,7 +5,7 @@ data modify storage gen:workstation cooking_pot.current_recipe set value "null"
 
 #Hashbrown
 execute if data storage gen:workstation recipe.output{ingredients:3,items:[{id:"minecraft:potato",Count:3}]} run data modify storage gen:workstation cooking_pot.current_recipe set value {loot_table:"gen:food/hashbrown",time:100}
-#Caramelized Apples
+#Caramelized Apple
 execute if data storage gen:workstation recipe.output{ingredients:3,items:[{id:"minecraft:apple",Count:1},{id:"minecraft:sugar",Count:1},{id:"minecraft:honey_bottle",Count:1}]} run data modify storage gen:workstation cooking_pot.current_recipe set value {loot_table:"gen:food/caramelized_apple",time:200}
 #Salmon Stir-fry
 execute if data storage gen:workstation recipe.output{ingredients:3,items:[{id:"minecraft:salmon",Count:1},{id:"minecraft:carrot",Count:1},{id:"minecraft:tropical_fish",Count:1,tag:{gen:{name:"Tomato"}}}]} run data modify storage gen:workstation cooking_pot.current_recipe set value {loot_table:"gen:food/salmon_stirfry",time:80}
