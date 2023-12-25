@@ -1,0 +1,1 @@
+$data modify storage gen:guidebook action set from storage gen:guidebook chapter.actions[$(i)]
