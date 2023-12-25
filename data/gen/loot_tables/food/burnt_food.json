@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Burnt Food\"},display:{Name:'{\"translate\":\"Burnt Food\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Food\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"Don\\'t worry, you\\'ll get it right next time!\",\"color\":\"gray\"}','{\"translate\":\"Make sure to properly compost this.\",\"color\":\"gray\"}']},CustomModelData:982003,HideFlags:195}"
+                "tag": "{gen:{name:\"Burnt Food\"},display:{Name:'{\"translate\":\"Burnt Food\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Meal\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"Don\\'t worry, you\\'ll get it right next time!\",\"color\":\"gray\"}','{\"translate\":\"Make sure to properly compost this.\",\"color\":\"gray\"}']},CustomModelData:982003,HideFlags:195}"
               }
             ]
           }
