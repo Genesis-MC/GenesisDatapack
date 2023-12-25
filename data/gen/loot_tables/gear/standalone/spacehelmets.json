@@ -1,0 +1,29 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:gear/standalone/red_spacehelmet"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:gear/standalone/blue_spacehelmet"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:gear/standalone/green_spacehelmet"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:gear/standalone/pink_spacehelmet"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "gen:gear/standalone/yellow_spacehelmet"
+          }
+        ]
+      }
+    ]
+  }

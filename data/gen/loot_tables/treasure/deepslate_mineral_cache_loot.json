@@ -21,6 +21,11 @@
             "name": "gen:professions/mineralogy/crystalarium/rare_minerals"
           },
           {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "name": "gen:gear/standalone/spacehelmets"
+          },
+          {
             "type": "minecraft:item",
             "weight": 92,
             "name": "minecraft:tuff"
