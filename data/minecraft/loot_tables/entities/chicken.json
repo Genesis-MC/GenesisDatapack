@@ -50,59 +50,6 @@
             ]
           }
         ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:loot_table",
-            "name": "gen:ingredients/drumstick",
-            "conditions": [
-              {
-                "condition": "minecraft:value_check",
-                "value": {
-                  "type": "minecraft:score",
-                  "target": "this",
-                  "score": "gen.mobs.level"
-                },
-                "range": {
-                  "min": 15,
-                  "max": 24
-                }
-              },
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.25
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:loot_table",
-            "name": "gen:ingredients/drumstick",
-            "conditions": [
-              {
-                "condition": "minecraft:value_check",
-                "value": {
-                  "type": "minecraft:score",
-                  "target": "this",
-                  "score": "gen.mobs.level"
-                },
-                "range": {
-                  "min": 25
-                }
-              },
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.8
-              }
-            ]
-          }
-        ]
       }
     ]
   }

@@ -88,32 +88,6 @@
             ]
           }
         ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:loot_table",
-            "name": "gen:ingredients/wizards_truffle",
-            "conditions": [
-              {
-                "condition": "minecraft:value_check",
-                "value": {
-                  "type": "minecraft:score",
-                  "target": "this",
-                  "score": "gen.mobs.level"
-                },
-                "range": {
-                  "min": 35
-                }
-              },
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.05
-              }
-            ]
-          }
-        ]
       }
     ]
   }
