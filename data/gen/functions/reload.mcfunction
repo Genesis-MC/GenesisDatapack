@@ -1,6 +1,3 @@
-# add scoreboards
-scoreboard objectives add load.status dummy
-#scoreboard players reset * load.status
 # t for temp only use for really temporary varaibles
 scoreboard objectives add t dummy
 
