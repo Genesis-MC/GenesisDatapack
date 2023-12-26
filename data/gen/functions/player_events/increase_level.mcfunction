@@ -2,6 +2,7 @@
 ## Function is called every Minecraft day by gen:increase_level; Checks conditions and increases player level
 execute if score @s gen.mobs.level matches 50.. run return 0
 execute if score @s gen.mobs.level matches ..15 run scoreboard players add @s gen.mobs.level 1
+execute if predicate gen:randomizer/random25 run scoreboard players add @s gen.mobs.level 1
 
 #Calc Playtime
 scoreboard players set #div gen.math 24000

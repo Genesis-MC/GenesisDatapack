@@ -72,3 +72,5 @@ schedule function gen:core/internal/delay 1s replace
 schedule function gen:increase_levels 1s replace
 # start ticking function
 function gen:tick
+
+gamerule sendCommandFeedback false
