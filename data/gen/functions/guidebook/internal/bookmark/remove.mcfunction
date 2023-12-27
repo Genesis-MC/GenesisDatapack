@@ -1,0 +1,1 @@
+$data remove storage gen:guidebook bookmarks[{chapter_id:"$(chapter_id)"}]

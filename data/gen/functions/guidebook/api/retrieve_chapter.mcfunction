@@ -13,6 +13,10 @@
 #   - chapter : chapter object or null
 #####################################################################
 
+execute store success score #blank_page gen.temp if data storage gen:guidebook {chapter_id:""}
+execute if score #blank_page gen.temp matches 1 run data modify storage gen:guidebook chapter set from storage gen:guidebook held_book.tag.genesis.guidebook.chapter
+execute if score #blank_page gen.temp matches 1 run return 0
+
 data modify storage gen:temp macro set value {}
 data modify storage gen:temp macro.id set from storage gen:guidebook chapter_id
 

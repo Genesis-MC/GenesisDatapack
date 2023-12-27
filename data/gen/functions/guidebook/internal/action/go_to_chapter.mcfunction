@@ -14,11 +14,14 @@ execute if data storage gen:guidebook chapter.requirement if score #guidebook.me
 
 ### modify book ###
 data modify storage gen:guidebook book_tag set from storage gen:guidebook held_book.tag
+data remove storage gen:guidebook book_tag.genesis.guidebook.chapter
 execute unless data storage gen:guidebook book_tag.genesis.guidebook{chapter_id:""} run data modify storage gen:guidebook book_tag.genesis.guidebook.history.backward append from storage gen:guidebook book_tag.genesis.guidebook.chapter_id
 data modify storage gen:guidebook book_tag.genesis.guidebook.chapter_id set from storage gen:guidebook chapter.id
 data modify storage gen:guidebook book_tag.genesis.guidebook.history.forward set value []
 data modify storage gen:guidebook macro.chapter_name set from storage gen:guidebook chapter.name
 data modify storage gen:guidebook history set from storage gen:guidebook book_tag.genesis.guidebook.history
+data modify storage gen:guidebook bookmarks set value []
+data modify storage gen:guidebook bookmarks set from storage gen:guidebook book_tag.genesis.guidebook.bookmarks
 
 function gen:guidebook/internal/player/make_navbar
 

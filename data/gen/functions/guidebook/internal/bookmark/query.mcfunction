@@ -1,0 +1,1 @@
+$execute if data storage gen:guidebook bookmarks[{chapter_id:"$(id)"}] run scoreboard players set #guidebook.is_bookmarked gen.temp 1

@@ -1,0 +1,1 @@
+data modify storage gen:guidebook compile_chapter.buffer set value '["",{"storage":"gen:guidebook","nbt":"macro.navbar","interpret":true}'

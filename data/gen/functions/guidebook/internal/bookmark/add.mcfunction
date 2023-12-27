@@ -1,0 +1,2 @@
+$execute unless data storage gen:guidebook bookmarks[{chapter_id:"$(chapter_id)"}] run data modify storage gen:guidebook bookmarks prepend value {chapter_id:"$(chapter_id)"}
+execute if data storage gen:guidebook bookmarks[10] run data remove storage gen:guidebook bookmarks[10]
