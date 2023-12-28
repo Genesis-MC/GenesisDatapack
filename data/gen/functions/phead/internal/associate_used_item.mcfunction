@@ -1,5 +1,5 @@
 data modify storage gen:phead scan_head.compare set from storage gen:phead scan_head.name
-execute store success score #different gen.temp run data modify storage gen:phead context_internal.itemstack_used.tag.SkullOwner.Name
+execute store success score #different gen.temp run data modify storage gen:phead scan_head.compare set from storage gen:phead context_internal.itemstack_used.tag.SkullOwner.Name
 
 execute if score #different gen.temp matches 1 run return 0
 
