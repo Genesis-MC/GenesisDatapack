@@ -14,3 +14,4 @@ execute if score Guidebook gen.modules matches 1 run function gen:guidebook/tick
 execute if score Ability gen.modules matches 1 run function gen:ability/tick
 execute if score Manabar gen.modules matches 1 run function gen:mana/tick
 execute if score Workstation gen.modules matches 1 run function gen:workstation/tick
+execute if score Structure gen.modules matches 1 run function gen:structure/tick

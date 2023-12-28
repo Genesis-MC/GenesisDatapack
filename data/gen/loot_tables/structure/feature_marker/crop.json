@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{gen:{id:\"gen:structure.feature_marker\"},EntityTag:{Tags:[\"gen.structure.feature_marker.new\",\"gen.structure.feature_marker.new.align_y\",\"gen.structure.feature_marker.crop\"]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Feature Marker (Crop)",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Dev Item",
+                  "italic": false,
+                  "color": "#403303"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

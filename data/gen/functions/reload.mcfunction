@@ -43,6 +43,7 @@ execute unless score Guidebook gen.modules matches 0..1 run scoreboard players s
 execute unless score Ability gen.modules matches 0..1 run scoreboard players set Ability gen.modules 1
 execute unless score Manabar gen.modules matches 0..1 run scoreboard players set Manabar gen.modules 1
 execute unless score Workstation gen.modules matches 0..1 run scoreboard players set Workstation gen.modules 1
+execute unless score Structure gen.modules matches 0..1 run scoreboard players set Structure gen.modules 1
 # reload modules
 tellraw @a {"text":"Genesis Reloaded Succesfully","color":"light_purple"}
 function gen:add_tags/reload

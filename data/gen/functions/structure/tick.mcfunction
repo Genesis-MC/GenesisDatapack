@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=gen.structure.feature_marker] unless score @s gen.temp matches 0.. at @s run function gen:structure/api/feature_marker_activate
