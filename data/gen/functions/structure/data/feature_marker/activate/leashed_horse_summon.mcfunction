@@ -1,0 +1,1 @@
+$summon minecraft:horse ^ ^ ^2 {Rotation:$(Rotation),Leash:{X:$(X),Y:$(Y),Z:$(Z)},Variant:$(Variant)}

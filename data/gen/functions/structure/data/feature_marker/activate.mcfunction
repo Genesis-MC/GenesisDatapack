@@ -1,1 +1,2 @@
 execute if entity @s[tag=gen.structure.feature_marker.crop] run function gen:structure/data/feature_marker/activate/crop
+execute if entity @s[tag=gen.structure.feature_marker.leashed_horse] run function gen:structure/data/feature_marker/activate/leashed_horse

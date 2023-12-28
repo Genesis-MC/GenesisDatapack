@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{gen:{id:\"gen:structure.feature_marker\"},EntityTag:{Tags:[\"gen.structure.feature_marker.new\",\"gen.structure.feature_marker.leashed_horse\"],ArmorItems:[{},{},{},{Count:1b,id:\"minecraft:player_head\",tag:{SkullOwner:{Id:[I;-1877749147,211960390,-1448088305,-1326980794],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjc5ZDBjZjA2MTVmZjgxYjFkNWQwYjc5MWFmODU0OTRhYjZiNWFmOTcxZGUxOGE0NmE4ZjkxMWIzYjU5NzM2ZSJ9fX0=\"}]}}}}]}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Feature Marker (Leashed Horse)",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Dev Item",
+                  "italic": false,
+                  "color": "#403303"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
