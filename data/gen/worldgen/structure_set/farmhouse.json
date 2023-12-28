@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "gen:farmhouse/farmhouse",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 38,
+    "separation": 31,
+    "salt": 48278319
+  }
+}
