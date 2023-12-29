@@ -1,0 +1,327 @@
+[
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "gen:enchant_toggle"
+      },
+      "ops": [
+        {
+          "source": "show_gen",
+          "target": "HideFlags",
+          "op": "replace"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "chest": {
+                "nbt": "{HideFlags:195}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "gen:enchant_toggle"
+      },
+      "ops": [
+        {
+          "source": "show",
+          "target": "HideFlags",
+          "op": "replace"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "chest": {
+                "nbt": "{HideFlags:1}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "gen:enchant_toggle"
+      },
+      "ops": [
+        {
+          "source": "hide_gen",
+          "target": "HideFlags",
+          "op": "replace"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "chest": {
+                "nbt": "{HideFlags:194}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "gen:enchant_toggle"
+      },
+      "ops": [
+        {
+          "source": "hide",
+          "target": "HideFlags",
+          "op": "replace"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "chest": {
+                "nbt": "{HideFlags:0}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "gen:enchant_toggle"
+      },
+      "ops": [
+        {
+          "source": "show_gen",
+          "target": "HideFlags",
+          "op": "replace"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "legs": {
+                "nbt": "{HideFlags:195}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "gen:enchant_toggle"
+      },
+      "ops": [
+        {
+          "source": "show",
+          "target": "HideFlags",
+          "op": "replace"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "legs": {
+                "nbt": "{HideFlags:1}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "gen:enchant_toggle"
+      },
+      "ops": [
+        {
+          "source": "hide_gen",
+          "target": "HideFlags",
+          "op": "replace"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "legs": {
+                "nbt": "{HideFlags:194}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "gen:enchant_toggle"
+      },
+      "ops": [
+        {
+          "source": "hide",
+          "target": "HideFlags",
+          "op": "replace"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "legs": {
+                "nbt": "{HideFlags:0}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "gen:enchant_toggle"
+      },
+      "ops": [
+        {
+          "source": "show_gen",
+          "target": "HideFlags",
+          "op": "replace"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "feet": {
+                "nbt": "{HideFlags:195}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "gen:enchant_toggle"
+      },
+      "ops": [
+        {
+          "source": "show",
+          "target": "HideFlags",
+          "op": "replace"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "feet": {
+                "nbt": "{HideFlags:1}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "gen:enchant_toggle"
+      },
+      "ops": [
+        {
+          "source": "hide_gen",
+          "target": "HideFlags",
+          "op": "replace"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "feet": {
+                "nbt": "{HideFlags:194}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "gen:enchant_toggle"
+      },
+      "ops": [
+        {
+          "source": "hide",
+          "target": "HideFlags",
+          "op": "replace"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "feet": {
+                "nbt": "{HideFlags:0}"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+  
