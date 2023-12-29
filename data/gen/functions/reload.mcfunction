@@ -71,4 +71,4 @@ schedule function gen:increase_levels 1s replace
 # start ticking function
 function gen:tick
 
-gamerule sendCommandFeedback false
+execute unless score .has_set_command_feedback gen.config matches 1 store success score .has_set_command_feedback gen.config run gamerule sendCommandFeedback false

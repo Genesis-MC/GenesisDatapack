@@ -2,12 +2,13 @@
   "type": "chest",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 2,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "loot_table",
-          "weight": 5,
-          "name": "gen:chests/crop_seeds",
+          "weight": 10,
+          "name": "gen:chests/food",
           "functions": [
             {
               "function": "set_count",
@@ -17,8 +18,8 @@
         },
         {
           "type": "loot_table",
-          "weight": 5,
-          "name": "gen:chests/curcubit_seeds",
+          "weight": 10,
+          "name": "gen:chests/misc",
           "functions": [
             {
               "function": "set_count",
@@ -28,8 +29,8 @@
         },
         {
           "type": "loot_table",
-          "weight": 5,
-          "name": "gen:chests/exotic_seeds",
+          "weight": 3,
+          "name": "gen:chests/rarities",
           "functions": [
             {
               "function": "set_count",
@@ -39,9 +40,18 @@
         },
         {
           "type": "loot_table",
-          "weight": 5,
-          "quality": 1,
-          "name": "gen:chests/genesis_seeds1",
+          "weight": 3,
+          "name": "gen:chests/enchanted_weapons",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },        {
+          "type": "loot_table",
+          "weight": 1,
+          "name": "gen:chests/disks",
           "functions": [
             {
               "function": "set_count",
@@ -51,25 +61,13 @@
         },
         {
           "type": "loot_table",
-          "weight": 5,
-          "quality": 1,
-          "name": "gen:chests/genesis_seeds2",
+          "weight": 1,
+          "name": "gen:chests/genesis_minerals",
           "functions": [
             {
               "function": "set_count",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "type": "loot_table",
-          "weight": 5,
-          "quality": 1,
-          "name": "gen:chests/genesis_seeds3",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
+              "count": 2
+
             }
           ]
         }
