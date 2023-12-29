@@ -1,0 +1,77 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 2,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 10,
+          "name": "gen:chests/food",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 10,
+          "name": "gen:chests/misc",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 3,
+          "name": "gen:chests/rarities",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 3,
+          "name": "gen:chests/enchanted_weapons",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },        {
+          "type": "loot_table",
+          "weight": 1,
+          "name": "gen:chests/disks",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "name": "gen:chests/genesis_minerals",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
