@@ -18,6 +18,10 @@ execute as @a[scores={gen.passive.fortitude_of_the_undying_cd=0},tag=gen.passive
 
 #Lifeline 1
 execute as @a[advancements={gen:passive={lifeline1=true}}] run effect give @s regeneration 3 0 true
+#Nightfall
+execute as @a[advancements={gen:passive={nightfall=true}},tag=!gen.passive.nightfall] if predicate gen:utils/is_night run function gen:gear/internal/passives/increase/nightfall
+execute as @a[tag=gen.passive.nightfall,advancements={gen:passive={nightfall=true}}] unless predicate gen:utils/is_night run function gen:gear/internal/passives/decrease/nightfall
+execute as @a[tag=gen.passive.nightfall,advancements={gen:passive={nightfall=false}}] run function gen:gear/internal/passives/decrease/nightfall
 #Heart of the Sea/Seaborn 2-Set Bonus
 execute as @a[advancements={gen:passive={seaborn2=true}}] at @s if block ~ ~ ~ water run effect give @s conduit_power 6 0 true
 #Sea Born/Seaborn 4-Set Bonus

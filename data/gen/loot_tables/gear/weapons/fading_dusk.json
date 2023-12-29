@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:warped_fungus_on_a_stick"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_nbt",
+            "tag": "{gen:{name:\"Fading Dusk\",type:\"Sword\",stat:{physical_power:80,attack_speed:85,armor:-10}},AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Name:\"tungsten.mainhand\",Amount:-0.000000000001,Operation:0,UUID:[I;12,42069,-0,10],Slot:\"mainhand\"}],display:{Name:'{\"translate\":\"Fading Dusk\",\"color\":\"dark_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Rare Sword\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"\",\"font\":\"genesis:stats\",\"color\":\"white\",\"italic\":false,\"extra\":[{\"translate\":\"genesis.stats.wrapper.physical_power.2\",\"with\":[80]},{\"translate\":\"genesis.stats.wrapper.attack_speed.2\",\"with\":[85]},{\"translate\":\"genesis.stats.wrapper.armor.3\",\"with\":[-10],\"color\":\"red\"}]}','{\"translate\":\"\"}','[{\"translate\":\"❂\",\"color\":\"#403303\",\"bold\":true,\"italic\":false},{\"translate\":\" Nightfall\",\"color\":\"gold\",\"bold\":false,\"italic\":false}]','{\"translate\":\"Passive Ability\",\"color\":\"dark_gray\"}','{\"translate\":\"Gain +30 Speed and +5 Attack\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"Speed during night.\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982039,HideFlags:195}"
+          }
+        ]
+      }
+    ]
+  }
+  
