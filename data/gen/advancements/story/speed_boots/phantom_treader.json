@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_boots",
+            "nbt": "{Trim:{material:\"amethyst\", pattern:\"minecraft:silence\"},display:{color:4604482}}"
+        },
+        "title": "Fleeting Illusuions",
+        "description": {
+            "translate": "Create Phantom-Treader Boots",
+            "color": "gray"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "gen:story/speed_boots/mountain_treader",
+    "criteria": {
+        "boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_boots"
+                        ],
+                        "nbt": "{gen:{name:\"Phantom-Treader Boots\"}}"
+                    }
+                ]
+            }
+        }
+    }
+}

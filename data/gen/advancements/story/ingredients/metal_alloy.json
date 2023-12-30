@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_nugget",
+            "nbt": "{CustomModelData:982035}"
+        },
+        "title": "Heavy Metal",
+        "description": {
+            "translate": "Create Metal Alloy",
+            "color": "gray"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "gen:story/armorsets/steel_andure",
+    "criteria": {
+        "boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:iron_nugget"
+                        ],
+                        "nbt": "{gen:{name:\"Metal Alloy\"}}"
+                    }
+                ]
+            }
+        }
+    }
+}
