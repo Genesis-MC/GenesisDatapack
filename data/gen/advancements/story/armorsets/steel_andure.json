@@ -1,0 +1,72 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_chestplate",
+            "nbt": "{Trim:{material:\"minecraft:iron\",pattern:\"minecraft:sentry\"}}"
+        },
+        "title": "Clad in layered Steel",
+        "description": {
+            "text": "Create a full set of Steel Andure armor",
+            "color": "gray"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "gen:story/iron_weapons/any",
+    "criteria": {
+        "head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:iron_helmet"
+                        ],
+                        "nbt": "{gen:{name:\"Steel Andure Helmet\"}}"
+                    }
+                ]
+            }
+        },
+        "chest": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:iron_chestplate"
+                        ],
+                        "nbt": "{gen:{name:\"Steel Andure Chestplate\"}}"
+                    }
+                ]
+            }
+        },
+        "legs": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:iron_leggings"
+                        ],
+                        "nbt": "{gen:{name:\"Steel Andure Leggings\"}}"
+                    }
+                ]
+            }
+        },
+        "feet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:iron_boots"
+                        ],
+                        "nbt": "{gen:{name:\"Steel Andure Boots\"}}"
+                    }
+                ]
+            }
+        }
+    }
+}

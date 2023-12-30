@@ -1,0 +1,72 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_chestplate",
+            "nbt": "{Trim:{material:\"minecraft:iron\",pattern:\"minecraft:rib\"}}"
+        },
+        "title": "Burden of Protection",
+        "description": {
+            "text": "Create a full set of Steel Andure armor",
+            "color": "gray"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "gen:story/ingredients/metal_alloy",
+    "criteria": {
+        "head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:iron_helmet"
+                        ],
+                        "nbt": "{gen:{name:\"Reinforced Steel Andure Helmet\"}}"
+                    }
+                ]
+            }
+        },
+        "chest": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:iron_chestplate"
+                        ],
+                        "nbt": "{gen:{name:\"Reinforced Steel Andure Chestplate\"}}"
+                    }
+                ]
+            }
+        },
+        "legs": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:iron_leggings"
+                        ],
+                        "nbt": "{gen:{name:\"Reinforced Steel Andure Leggings\"}}"
+                    }
+                ]
+            }
+        },
+        "feet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:iron_boots"
+                        ],
+                        "nbt": "{gen:{name:\"Reinforced Steel Andure Boots\"}}"
+                    }
+                ]
+            }
+        }
+    }
+}
