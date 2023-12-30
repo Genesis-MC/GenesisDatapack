@@ -1,0 +1,72 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:warped_fungus_on_a_stick",
+            "nbt": "{CustomModelData:982005}"
+        },
+        "title": "Armed to the Teeth",
+        "description": {
+            "translate": "Create all the new iron weapons",
+            "color": "gray"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "gen:story/iron_weapons/any",
+    "criteria": {
+        "greatsword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:warped_fungus_on_a_stick"
+                        ],
+                        "nbt": "{gen:{name:\"Iron Greatsword\"}}"
+                    }
+                ]
+            }
+        },
+        "dagger": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:warped_fungus_on_a_stick"
+                        ],
+                        "nbt": "{gen:{name:\"Iron Dagger\"}}"
+                    }
+                ]
+            }
+        },
+        "scythe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:warped_fungus_on_a_stick"
+                        ],
+                        "nbt": "{gen:{name:\"Iron Scythe\"}}"
+                    }
+                ]
+            }
+        },
+        "spear": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:warped_fungus_on_a_stick"
+                        ],
+                        "nbt": "{gen:{name:\"Iron Spear\"}}"
+                    }
+                ]
+            }
+        }
+    }
+}
