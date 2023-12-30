@@ -1,11 +1,20 @@
 {
-  "name": "bridge",
+  "name": "keep",
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 1,
+      "weight": 2,
       "element": {
-        "location": "gen:keep/bridge/horizontal_1",
+        "location": "gen:keep/towers/4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "gen:keep/towers/8",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -14,16 +23,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "gen:keep/bridge/horizontal_2",
-        "processors": "minecraft:empty",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },
-    {
-      "weight": 1,
-      "element": {
-        "location": "gen:keep/bridge/horizontal_trap_1",
+        "location": "gen:keep/towers/12",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
