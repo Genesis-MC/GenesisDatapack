@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_boots",
+            "nbt": "{Trim:{material:\"emerald\", pattern:\"minecraft:silence\"}}"
+        },
+        "title": "There's nothing holdin' me back",
+        "description": {
+            "translate": "Create Seven-League Boots",
+            "color": "gray"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "gen:story/speed_boots/terra_treader",
+    "criteria": {
+        "boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_boots"
+                        ],
+                        "nbt": "{gen:{name:\"7-League Boots\"}}"
+                    }
+                ]
+            }
+        }
+    }
+}

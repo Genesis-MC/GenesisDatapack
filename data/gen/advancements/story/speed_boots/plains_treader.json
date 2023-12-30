@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_boots",
+            "nbt": "{Trim:{material:\"emerald\", pattern:\"minecraft:silence\"},display:{color:8227926}}"
+        },
+        "title": "Wandering the Plains",
+        "description": {
+            "translate": "Create Plains-Treader Boots",
+            "color": "gray"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "gen:story/heavy_workbench",
+    "criteria": {
+        "boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_boots"
+                        ],
+                        "nbt": "{gen:{name:\"Plains-Treader Boots\"}}"
+                    }
+                ]
+            }
+        }
+    }
+}

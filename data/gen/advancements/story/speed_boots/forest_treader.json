@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:leather_boots",
+            "nbt": "{Trim:{material:\"emerald\", pattern:\"minecraft:silence\"},display:{color:6192150}}"
+        },
+        "title": "Run, Forest, Run!",
+        "description": {
+            "translate": "Create Forest-Treader Boots",
+            "color": "gray"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "gen:story/speed_boots/plains_treader",
+    "criteria": {
+        "boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:leather_boots"
+                        ],
+                        "nbt": "{gen:{name:\"Forest-Treader Boots\"}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chainmail_boots",
+            "nbt": "{Trim:{material:\"emerald\", pattern:\"minecraft:silence\"}}"
+        },
+        "title": "Through Highs and Lows",
+        "description": {
+            "translate": "Create Mountain-Treader Boots",
+            "color": "gray"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "gen:story/speed_boots/forest_treader",
+    "criteria": {
+        "boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:chainmail_boots"
+                        ],
+                        "nbt": "{gen:{name:\"Mountain-Treader Boots\"}}"
+                    }
+                ]
+            }
+        }
+    }
+}
