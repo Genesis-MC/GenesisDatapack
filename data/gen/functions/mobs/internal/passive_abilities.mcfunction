@@ -18,7 +18,7 @@ execute as @e[tag=gen.livingwood_matryoshka] at @s if entity @p[distance=..8] if
 #Livingwood Lazar
 execute as @e[tag=gen.livingwood_matryoshka] at @s positioned ~ ~3 ~ if entity @p[distance=..5] run function gen:mobs/internal/ability/livingwood_lazer
 #Regenerate
-execute as @e[tag=gen.livingwood_matryoshka] at @s if entity @p[distance=..8] if predicate gen:randomizer/random25 run function gen:mobs/internal/ability/regenerate
+execute as @e[tag=gen.livingwood_matryoshka] at @s if entity @p[distance=..8] if predicate gen:randomizer/random25 run function gen:mobs/internal/ability/instant_damage
 
 ## Cultmonger
 #Spawn soul charge
