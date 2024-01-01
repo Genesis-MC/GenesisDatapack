@@ -27,5 +27,8 @@
                 "recipe_id": "smithed.crafter:table"
             }
         }
+    },
+    "rewards": {
+      "function": "gen:player_events/increase_level"
     }
 }

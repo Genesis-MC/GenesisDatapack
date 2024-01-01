@@ -3,7 +3,7 @@
       "requirement": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
-          "recipe_id": "minecraft:conduit"
+          "recipe_id": "minecraft:enchanting_table"
         }
       }
     },

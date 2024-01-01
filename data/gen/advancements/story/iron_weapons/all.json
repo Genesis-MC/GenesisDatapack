@@ -68,5 +68,8 @@
                 ]
             }
         }
+    },
+    "rewards": {
+      "function": "gen:player_events/increase_level"
     }
 }
