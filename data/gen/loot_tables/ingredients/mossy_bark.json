@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Mossy Bark\"},display:{Name:'{\"translate\":\"Mossy Bark\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Ingredient\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A thin layer of vibrant moss covers the bark.\",\"color\":\"gray\"}']},CustomModelData:982011,HideFlags:195}"
+                "tag": "{gen:{name:\"mossy_bark\"},display:{Name:'{\"translate\":\"Mossy Bark\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Ingredient\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A thin layer of vibrant moss covers the bark.\",\"color\":\"gray\"}']},CustomModelData:982011,HideFlags:195}"
               }
             ]
           }

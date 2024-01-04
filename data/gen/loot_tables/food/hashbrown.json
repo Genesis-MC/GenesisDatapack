@@ -6,7 +6,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:982102,gen:{name:\"Hashbrown\",on_eat:{saturation:5}}}"
+              "tag": "{CustomModelData:982102,gen:{name:\"hashbrown\",on_eat:{saturation:5}}}"
             },
             {
               "function": "minecraft:set_name",

@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Vermillion Clay\"},display:{Name:'{\"translate\":\"Vermillion Clay\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Ingredient\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"The blood of the desert.\",\"color\":\"gray\"}']},CustomModelData:982016,HideFlags:131}"
+                "tag": "{gen:{name:\"vermillion_clay\"},display:{Name:'{\"translate\":\"Vermillion Clay\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Ingredient\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"The blood of the desert.\",\"color\":\"gray\"}']},CustomModelData:982016,HideFlags:131}"
               }
             ]
           }

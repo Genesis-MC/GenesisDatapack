@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Ancient Gold Coin\"},display:{Name:'{\"translate\":\"Ancient Gold Coin\",\"color\":\"gold\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Rare Ingredient\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A worn gold coin that looks like\",\"color\":\"gray\"}','{\"translate\":\"it belongs to an ancient treasure.\",\"color\":\"gray\"}']},CustomModelData:982001,HideFlags:131}"
+                "tag": "{gen:{name:\"ancient_gold_coin\"},display:{Name:'{\"translate\":\"Ancient Gold Coin\",\"color\":\"gold\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Rare Ingredient\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A worn gold coin that looks like\",\"color\":\"gray\"}','{\"translate\":\"it belongs to an ancient treasure.\",\"color\":\"gray\"}']},CustomModelData:982001,HideFlags:131}"
               }
             ]
           }

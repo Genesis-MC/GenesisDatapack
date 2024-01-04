@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Arcane Cloth\"},display:{Name:'{\"translate\":\"Arcane Cloth\",\"color\":\"dark_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Rare Ingredient\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"High-grade mana cloth. Every\",\"color\":\"gray\"}','{\"translate\":\"fiber seeps with arcane energy.\",\"color\":\"gray\"}']},CustomModelData:982033,Enchantments:[{}],HideFlags:195}"
+                "tag": "{gen:{name:\"arcane_cloth\"},display:{Name:'{\"translate\":\"Arcane Cloth\",\"color\":\"dark_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Rare Ingredient\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"High-grade mana cloth. Every\",\"color\":\"gray\"}','{\"translate\":\"fiber seeps with arcane energy.\",\"color\":\"gray\"}']},CustomModelData:982033,Enchantments:[{}],HideFlags:195}"
               }
             ]
           }

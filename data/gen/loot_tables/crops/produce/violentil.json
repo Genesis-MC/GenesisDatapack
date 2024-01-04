@@ -6,7 +6,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:982006,gen:{name:\"Violentil\"}}"
+              "tag": "{CustomModelData:982006,gen:{name:\"violentil\"}}"
             },
             {
               "function": "minecraft:set_name",

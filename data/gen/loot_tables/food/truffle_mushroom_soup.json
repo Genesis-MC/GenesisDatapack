@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Truffle Mushroom Soup\",when_eaten_function:\"function gen:food/internal/effects/truffle_mushroom_soup\"},display:{Name:'{\"translate\":\"Truffle Mushroom Soup\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Epic Meal\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"KKK\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"Saturation I (0:05)\",\"color\":\"blue\",\"italic\":false}','{\"translate\":\"Mushroomier than mushroom stew.\",\"color\":\"gray\"}']},CustomModelData:982002,HideFlags:195}"
+                "tag": "{gen:{name:\"truffle_mushroom_soup\",when_eaten_function:\"function gen:food/internal/effects/truffle_mushroom_soup\"},display:{Name:'{\"translate\":\"Truffle Mushroom Soup\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Epic Meal\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"KKK\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"Saturation I (0:05)\",\"color\":\"blue\",\"italic\":false}','{\"translate\":\"Mushroomier than mushroom stew.\",\"color\":\"gray\"}']},CustomModelData:982002,HideFlags:195}"
               }
             ]
           }

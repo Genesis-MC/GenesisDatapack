@@ -6,7 +6,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:982005,gen:{name:\"Tomato\"}}"
+              "tag": "{CustomModelData:982005,gen:{name:\"tomato\"}}"
             },
             {
               "function": "minecraft:set_name",

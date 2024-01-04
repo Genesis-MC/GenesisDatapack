@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Borscht\",when_eaten_function:\"function gen:food/internal/effects/borscht\"},display:{Name:'{\"translate\":\"Borscht\",\"color\":\"red\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Rare Meal\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"KKKKK\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"Instant Health II\",\"color\":\"blue\",\"italic\":false}','{\"translate\":\"A hearty vegetable stew\",\"color\":\"gray\"}','{\"translate\":\"featuring beetroots.\",\"color\":\"gray\"}']},CustomModelData:982001,HideFlags:195}"
+                "tag": "{gen:{name:\"borscht\",when_eaten_function:\"function gen:food/internal/effects/borscht\"},display:{Name:'{\"translate\":\"Borscht\",\"color\":\"red\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Rare Meal\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"KKKKK\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"Instant Health II\",\"color\":\"blue\",\"italic\":false}','{\"translate\":\"A hearty vegetable stew\",\"color\":\"gray\"}','{\"translate\":\"featuring beetroots.\",\"color\":\"gray\"}']},CustomModelData:982001,HideFlags:195}"
               }
             ]
           }

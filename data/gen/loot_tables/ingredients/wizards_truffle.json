@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Wizards Truffle\"},display:{Name:'{\"translate\":\"Wizards Truffle\",\"color\":\"blue\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Legendary Ingredient\",\"font\":\"minecraft:default\",\"color\":\"#3b2b06\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"An extremely rare truffle variant\",\"color\":\"gray\"}','{\"translate\":\"said to have mystical properties.\",\"color\":\"gray\"}']},CustomModelData:982002,Enchantments:[{}],HideFlags:131}"
+                "tag": "{gen:{name:\"wizards_truffle\"},display:{Name:'{\"translate\":\"Wizards Truffle\",\"color\":\"blue\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Legendary Ingredient\",\"font\":\"minecraft:default\",\"color\":\"#3b2b06\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"An extremely rare truffle variant\",\"color\":\"gray\"}','{\"translate\":\"said to have mystical properties.\",\"color\":\"gray\"}']},CustomModelData:982002,Enchantments:[{}],HideFlags:131}"
               }
             ]
           }

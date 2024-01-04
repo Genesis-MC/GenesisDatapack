@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Umbra Heart\",type:[\"Mythical\"],mineral:1b},display:{Name:'{\"text\":\"Umbra Heart\",\"color\":\"dark_purple\",\"italic\":false,\"bold\":true,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Mythical Mineral\",\"font\":\"minecraft:default\",\"color\":\"#211905\",\"italic\":false}]','{\"translate\":\"Fortune V\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982024,StoredEnchantments:[{id:\"minecraft:fortune\",lvl:5s}]}"
+                "tag": "{gen:{name:\"umbra_heart\",type:[\"Mythical\"],mineral:1b},display:{Name:'{\"text\":\"Umbra Heart\",\"color\":\"dark_purple\",\"italic\":false,\"bold\":true,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Mythical Mineral\",\"font\":\"minecraft:default\",\"color\":\"#211905\",\"italic\":false}]','{\"translate\":\"Fortune V\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982024,StoredEnchantments:[{id:\"minecraft:fortune\",lvl:5s}]}"
               }
             ]
           }

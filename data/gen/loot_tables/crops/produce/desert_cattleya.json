@@ -6,7 +6,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:982002,gen:{name:\"Desert Cattleya\"}}"
+              "tag": "{CustomModelData:982002,gen:{name:\"desert_cattleya\"}}"
             },
             {
               "function": "minecraft:set_name",

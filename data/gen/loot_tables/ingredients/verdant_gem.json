@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Verdant Gem\"},display:{Name:'{\"translate\":\"Verdant Gem\",\"color\":\"green\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Uncommon Ingredient\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A small beautiful gem decorated with\",\"color\":\"gray\"}','{\"translate\":\"twigs and bark sewn together\",\"color\":\"gray\"}']},CustomModelData:982034,HideFlags:195}"
+                "tag": "{gen:{name:\"verdant_gem\"},display:{Name:'{\"translate\":\"Verdant Gem\",\"color\":\"green\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Uncommon Ingredient\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A small beautiful gem decorated with\",\"color\":\"gray\"}','{\"translate\":\"twigs and bark sewn together\",\"color\":\"gray\"}']},CustomModelData:982034,HideFlags:195}"
               }
             ]
           }

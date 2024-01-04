@@ -6,7 +6,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:982004,gen:{name:\"Mana Bean\"}}"
+              "tag": "{CustomModelData:982004,gen:{name:\"mana_bean\"}}"
             },
             {
               "function": "minecraft:set_name",

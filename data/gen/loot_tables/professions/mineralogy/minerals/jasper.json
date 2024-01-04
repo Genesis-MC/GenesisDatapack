@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Jasper\",type:[\"Uncommon\"],mineral:1b},display:{Name:'{\"text\":\"Jasper\",\"color\":\"dark_red\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Uncommon Mineral\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"Sharpness II\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982007,StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:2s}]}"
+                "tag": "{gen:{name:\"jasper\",type:[\"Uncommon\"],mineral:1b},display:{Name:'{\"text\":\"Jasper\",\"color\":\"dark_red\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Uncommon Mineral\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"Sharpness II\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982007,StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:2s}]}"
               }
             ]
           }

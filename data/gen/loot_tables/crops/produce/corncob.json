@@ -6,7 +6,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:982003,gen:{name:\"Corncob\"}}"
+              "tag": "{CustomModelData:982003,gen:{name:\"corncob\"}}"
             },
             {
               "function": "minecraft:set_name",

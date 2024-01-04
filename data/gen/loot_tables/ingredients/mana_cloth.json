@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Mana Cloth\"},display:{Name:'{\"translate\":\"Mana Cloth\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Uncommon Ingredient\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A piece of cloth infused with mana.\",\"color\":\"gray\"}']},CustomModelData:982032,HideFlags:195}"
+                "tag": "{gen:{name:\"mana_cloth\"},display:{Name:'{\"translate\":\"Mana Cloth\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Uncommon Ingredient\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A piece of cloth infused with mana.\",\"color\":\"gray\"}']},CustomModelData:982032,HideFlags:195}"
               }
             ]
           }

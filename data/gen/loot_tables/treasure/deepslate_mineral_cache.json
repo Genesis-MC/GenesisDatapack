@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Deepslate Mineral Cache\"},display:{Name:'{\"translate\":\"Deepslate Mineral Cache\",\"color\":\"dark_gray\",\"italic\":false,\"bold\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Uncommon Treasure\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A geode filled with unique minerals!\",\"color\":\"gray\"}']},Enchantments:[{}],HideFlags:131,BlockEntityTag:{LootTable:\"gen:treasure/deepslate_mineral_cache_loot\"}}"
+                "tag": "{gen:{name:\"deepslate_mineral_cache\"},display:{Name:'{\"translate\":\"Deepslate Mineral Cache\",\"color\":\"dark_gray\",\"italic\":false,\"bold\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Uncommon Treasure\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A geode filled with unique minerals!\",\"color\":\"gray\"}']},Enchantments:[{}],HideFlags:131,BlockEntityTag:{LootTable:\"gen:treasure/deepslate_mineral_cache_loot\"}}"
               }
             ]
           }

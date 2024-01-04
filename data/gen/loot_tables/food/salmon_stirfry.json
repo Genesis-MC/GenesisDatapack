@@ -6,7 +6,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:982103,gen:{name:\"Salmon Stirfry\",on_eat:{saturation:6}}}"
+              "tag": "{CustomModelData:982103,gen:{name:\"salmon_stirfry\",on_eat:{saturation:6}}}"
             },
             {
               "function": "minecraft:set_name",

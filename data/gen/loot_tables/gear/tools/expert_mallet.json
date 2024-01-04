@@ -11,7 +11,7 @@
         "functions": [
           {
             "function": "minecraft:set_nbt",
-            "tag": "{gen:{name:\"Expert's Mallet\",type:\"Mallet\"},display:{Name:'{\"translate\":\"Expert\\'s Mallet\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Epic Tool\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"An expert mineralogist\\'s go-to\",\"color\":\"gray\"}','{\"translate\":\"tool for breaking minerals.\",\"color\":\"gray\"}']},CustomModelData:982004,HideFlags:199,Unbreakable:1b}"
+            "tag": "{gen:{name:\"experts_mallet\",type:\"Mallet\"},display:{Name:'{\"translate\":\"Expert\\'s Mallet\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Epic Tool\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"An expert mineralogist\\'s go-to\",\"color\":\"gray\"}','{\"translate\":\"tool for breaking minerals.\",\"color\":\"gray\"}']},CustomModelData:982004,HideFlags:199,Unbreakable:1b}"
           }
         ]
       }

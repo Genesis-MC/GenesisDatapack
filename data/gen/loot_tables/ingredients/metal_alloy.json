@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Metal Alloy\"},display:{Name:'{\"translate\":\"Metal Alloy\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Uncommon Ingredient\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A mixture of common metals,\",\"color\":\"white\"}','{\"translate\":\"forged into a single ingot.\",\"color\":\"white\"}']},HideFlags:195,CustomModelData:982035}"
+                "tag": "{gen:{name:\"metal_alloy\"},display:{Name:'{\"translate\":\"Metal Alloy\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Uncommon Ingredient\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"A mixture of common metals,\",\"color\":\"white\"}','{\"translate\":\"forged into a single ingot.\",\"color\":\"white\"}']},HideFlags:195,CustomModelData:982035}"
               }
             ]
           }

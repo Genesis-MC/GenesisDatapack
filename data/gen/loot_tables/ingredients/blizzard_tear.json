@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Blizzard Tear\"},display:{Name:'{\"translate\":\"Blizzard Tear\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Uncommon Ingredient\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"An exceptionally crystallized hailstone.\",\"color\":\"gray\"}']},CustomModelData:982008,HideFlags:131}"
+                "tag": "{gen:{name:\"blizzard_tear\"},display:{Name:'{\"translate\":\"Blizzard Tear\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Uncommon Ingredient\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"An exceptionally crystallized hailstone.\",\"color\":\"gray\"}']},CustomModelData:982008,HideFlags:131}"
               }
             ]
           }

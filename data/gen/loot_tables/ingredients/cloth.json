@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Cloth\"},display:{Name:'{\"translate\":\"Cloth\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Ingredient\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"The basis of all fabrics.\",\"color\":\"gray\"}']},CustomModelData:982031,HideFlags:195}"
+                "tag": "{gen:{name:\"cloth\"},display:{Name:'{\"translate\":\"Cloth\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Ingredient\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"The basis of all fabrics.\",\"color\":\"gray\"}']},CustomModelData:982031,HideFlags:195}"
               }
             ]
           }

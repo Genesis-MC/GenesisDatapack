@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Aquamarine\",type:[\"Epic\"],mineral:1b},display:{Name:'{\"text\":\"Aquamarine\",\"color\":\"aqua\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Epic Mineral\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"Depth Strider III\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982016,StoredEnchantments:[{id:\"minecraft:depth_strider\",lvl:3s}]}"
+                "tag": "{gen:{name:\"aquamarine\",type:[\"Epic\"],mineral:1b},display:{Name:'{\"text\":\"Aquamarine\",\"color\":\"aqua\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Epic Mineral\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"Depth Strider III\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982016,StoredEnchantments:[{id:\"minecraft:depth_strider\",lvl:3s}]}"
               }
             ]
           }

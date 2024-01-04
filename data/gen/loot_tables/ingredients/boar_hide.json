@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Boar Hide\"},display:{Name:'{\"translate\":\"Boar Hide\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Ingredient\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"It has a course and tough texture,\",\"color\":\"gray\"}','{\"translate\":\"great for navigating through rough terrain.\",\"color\":\"gray\"}']},CustomModelData:982001,HideFlags:195}"
+                "tag": "{gen:{name:\"boar_hide\"},display:{Name:'{\"translate\":\"Boar Hide\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Ingredient\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"It has a course and tough texture,\",\"color\":\"gray\"}','{\"translate\":\"great for navigating through rough terrain.\",\"color\":\"gray\"}']},CustomModelData:982001,HideFlags:195}"
               }
             ]
           }

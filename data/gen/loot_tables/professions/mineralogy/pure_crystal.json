@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"Pure Crystal\"},display:{Name:'{\"translate\":\"Pure Crystal\",\"color\":\"#403303\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Legendary Mineral\",\"font\":\"minecraft:default\",\"color\":\"#3b2b06\",\"italic\":false}]','{\"text\":\" \"}','{\"text\":\"A crystal so reflective you can view\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"an entire spectrum of colors from within.\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982028,HideFlags:195}"
+                "tag": "{gen:{name:\"pure_crystal\"},display:{Name:'{\"translate\":\"Pure Crystal\",\"color\":\"#403303\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Legendary Mineral\",\"font\":\"minecraft:default\",\"color\":\"#3b2b06\",\"italic\":false}]','{\"text\":\" \"}','{\"text\":\"A crystal so reflective you can view\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"an entire spectrum of colors from within.\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982028,HideFlags:195}"
               }
             ]
           }
