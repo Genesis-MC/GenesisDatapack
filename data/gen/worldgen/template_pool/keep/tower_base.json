@@ -6,7 +6,7 @@
       "weight": 2,
       "element": {
         "location": "gen:keep/towers/4",
-        "processors": "minecraft:empty",
+        "processors": "gen:keep/ruin_stone_bricks",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -15,7 +15,7 @@
       "weight": 5,
       "element": {
         "location": "gen:keep/towers/6",
-        "processors": "minecraft:empty",
+        "processors": "gen:keep/ruin_stone_bricks",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -24,7 +24,7 @@
       "weight": 4,
       "element": {
         "location": "gen:keep/towers/8",
-        "processors": "minecraft:empty",
+        "processors": "gen:keep/ruin_stone_bricks",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -33,7 +33,7 @@
       "weight": 2,
       "element": {
         "location": "gen:keep/towers/10",
-        "processors": "minecraft:empty",
+        "processors": "gen:keep/ruin_stone_bricks",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -42,7 +42,7 @@
       "weight": 1,
       "element": {
         "location": "gen:keep/towers/12",
-        "processors": "minecraft:empty",
+        "processors": "gen:keep/ruin_stone_bricks",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }

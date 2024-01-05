@@ -6,7 +6,7 @@
       "weight": 10,
       "element": {
         "location": "gen:keep/corner/simple_1",
-        "processors": "minecraft:empty",
+        "processors": "gen:keep/ruin_stone_bricks",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -15,7 +15,7 @@
       "weight": 10,
       "element": {
         "location": "gen:keep/corner/simple_2",
-        "processors": "minecraft:empty",
+        "processors": "gen:keep/ruin_stone_bricks",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -24,7 +24,7 @@
       "weight": 10,
       "element": {
         "location": "gen:keep/corner/simple_3",
-        "processors": "minecraft:empty",
+        "processors": "gen:keep/ruin_stone_bricks",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -33,7 +33,7 @@
       "weight": 10,
       "element": {
         "location": "gen:keep/corner/drip_parkour",
-        "processors": "minecraft:empty",
+        "processors": "gen:keep/ruin_stone_bricks",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -42,7 +42,7 @@
       "weight": 10,
       "element": {
         "location": "gen:keep/corner/hallway_1",
-        "processors": "minecraft:empty",
+        "processors": "gen:keep/ruin_stone_bricks",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -51,7 +51,7 @@
       "weight": 2,
       "element": {
         "location": "gen:keep/corner/sculk",
-        "processors": "minecraft:empty",
+        "processors": "gen:keep/ruin_stone_bricks",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }

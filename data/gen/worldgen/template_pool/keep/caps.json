@@ -6,7 +6,16 @@
       "weight": 1,
       "element": {
         "location": "gen:keep/cap/simple_1",
-        "processors": "minecraft:empty",
+        "processors": "gen:keep/ruin_stone_bricks",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "gen:keep/cap/tree",
+        "processors": "gen:keep/ruin_stone_bricks",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
