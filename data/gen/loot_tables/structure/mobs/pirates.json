@@ -1,0 +1,228 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{final_state:\"minecraft:air\",joint:\"rollable\",pool:\"gen:mobs/pirate/pirate\",target:\"minecraft:mob_connector\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Mob (pirate/pirate)",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Dev Item",
+                  "italic": false,
+                  "color": "#403303"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{final_state:\"minecraft:air\",joint:\"rollable\",pool:\"gen:mobs/pirate/corsair\",target:\"minecraft:mob_connector\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Mob (pirate/corsair)",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Dev Item",
+                  "italic": false,
+                  "color": "#403303"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{final_state:\"minecraft:air\",joint:\"rollable\",pool:\"gen:mobs/pirate/buccaneer\",target:\"minecraft:mob_connector\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Mob (pirate/buccaneer)",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Dev Item",
+                  "italic": false,
+                  "color": "#403303"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{final_state:\"minecraft:air\",joint:\"rollable\",pool:\"gen:mobs/pirate/captain\",target:\"minecraft:mob_connector\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Mob (pirate/captain)",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Dev Item",
+                  "italic": false,
+                  "color": "#403303"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{final_state:\"minecraft:air\",joint:\"rollable\",pool:\"gen:mobs/pirate/fleet_commander\",target:\"minecraft:mob_connector\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Mob (pirate/fleet_commander)",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Dev Item",
+                  "italic": false,
+                  "color": "#403303"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{final_state:\"minecraft:air\",joint:\"rollable\",pool:\"gen:mobs/pirate/undead\",target:\"minecraft:mob_connector\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Mob (pirate/undead)",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Dev Item",
+                  "italic": false,
+                  "color": "#403303"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{final_state:\"minecraft:air\",joint:\"rollable\",pool:\"gen:mobs/pirate/undead_captain\",target:\"minecraft:mob_connector\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Mob (pirate/undead_captain)",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Dev Item",
+                  "italic": false,
+                  "color": "#403303"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
