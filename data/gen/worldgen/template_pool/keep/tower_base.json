@@ -12,9 +12,27 @@
       }
     },
     {
-      "weight": 3,
+      "weight": 5,
+      "element": {
+        "location": "gen:keep/towers/6",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
       "element": {
         "location": "gen:keep/towers/8",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "gen:keep/towers/10",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
