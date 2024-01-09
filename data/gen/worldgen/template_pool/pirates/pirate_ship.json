@@ -14,7 +14,7 @@
       {
         "weight": 1,
         "element": {
-          "location": "gen:pirates/larger_pirate_ship",
+          "location": "gen:pirates/large_pirate_ship",
           "processors": "minecraft:empty",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
