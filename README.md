@@ -1,6 +1,6 @@
-# ProjectGenesis
+# Genesis
  
- Official GitHub Page for the Project Genesis MCRPG Datapack.
+ Official GitHub Page for the Genesis MCRPG Datapack.
  --Currently in Development--
 
 
