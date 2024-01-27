@@ -3,6 +3,15 @@
     "fallback": "minecraft:empty",
     "elements": [
       {
+        "weight": 1,
+        "element": {
+          "location": "gen:pirates/small_pirate_ship",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
         "weight": 2,
         "element": {
           "location": "gen:pirates/pirate_ship",

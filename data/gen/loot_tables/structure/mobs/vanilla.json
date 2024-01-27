@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{final_state:\"minecraft:air\",joint:\"rollable\",pool:\"gen:mobs/vanilla/villager\",target:\"minecraft:mob_connector\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Mob (vanilla/villager)",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Dev Item",
+                  "italic": false,
+                  "color": "#403303"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
