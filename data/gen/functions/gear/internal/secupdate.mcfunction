@@ -32,5 +32,7 @@ execute as @a[advancements={gen:passive={frostveil3=true}}] at @s as @e[distance
 execute as @a[advancements={gen:passive={suspicious_presence=true}}] if predicate gen:gear/only_helmet run effect give @s invisibility 2 0 true
 #Fortitude of the Undying
 execute as @a[advancements={gen:passive={dreadnaught4=true}},tag=!gen.passive.fortitude_of_the_undying] if score @s gen.passive.fortitude matches ..49 run scoreboard players add @s gen.passive.fortitude 1
+#Stance Swap Onslaught
+execute as @a[tag=gen.active.stance_swap_onslaught,advancements={gen:passive={active_stance_swap_onslaught=false}}] run function gen:gear/internal/passives/decrease/stance_swap_onslaught
 
 schedule function gen:gear/internal/secupdate 1s replace

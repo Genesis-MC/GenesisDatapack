@@ -52,8 +52,13 @@ execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"saber_warped"}}}}] run a
 #Vorpol
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"vorpol"}}}}] run advancement grant @s only gen:passive time_dilation
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"vorpol"}}}}] run function gen:gear/internal/passives/increase/time_dilation 
-#Frostfang
+#Fading Dusk
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"fading_dusk"}}}}] run advancement grant @s only gen:passive nightfall
+
+##Stance Swap
+execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"glaive"}}}}] run advancement grant @s only gen:passive active_stance_swap_onslaught
+execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"zweihander"}}}}] run advancement grant @s only gen:passive active_stance_swap_onslaught
+
 
 ##Armorsets
 execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"steel_andure_helmet"}}}]}] run function gen:gear/internal/set_bonus/steelandure
