@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tropical_fish",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"premium_steak_and_egg\",when_eaten_function:\"function gen:food/internal/effects/premium_steak_and_egg\",on_eat:{saturation:12}},display:{Name:'{\"translate\":\"Premium Steak and Egg\",\"color\":\"gold\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Epic Meal\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"KKKKKK\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"Resistance I (1:30)\",\"color\":\"blue\",\"italic\":false}','{\"translate\":\"A hearty meal fit for the wealthiest of adventurers.\",\"color\":\"gray\"}']},CustomModelData:982111,HideFlags:195}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
