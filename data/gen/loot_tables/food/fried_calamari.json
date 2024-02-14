@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"fried_calamari\",on_eat:{saturation:2}},display:{Name:'{\"translate\":\"Fried Calamari\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Snack\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"K\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false}']},CustomModelData:982107,HideFlags:195}"
+                "tag": "{gen:{name:\"fried_calamari\",on_eat:{saturation:2}},display:{Name:'{\"translate\":\"Fried Calamari\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Snack\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"genesis.lore.saturation.2\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false}']},CustomModelData:982107,HideFlags:195}"
               }
             ]
           }

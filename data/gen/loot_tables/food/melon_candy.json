@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"melon_candy\",when_eaten_function:\"function gen:food/internal/effects/melon_candy\"},display:{Name:'{\"translate\":\"Melon Candy\",\"color\":\"green\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Confectionary\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"L\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"Speed II (0:10)\",\"color\":\"blue\",\"italic\":false}','{\"translate\":\"Weakness II (0:10)\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:982104,HideFlags:195}"
+                "tag": "{gen:{name:\"melon_candy\",when_eaten_function:\"function gen:food/internal/effects/melon_candy\"},display:{Name:'{\"translate\":\"Melon Candy\",\"color\":\"green\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Confectionary\",\"font\":\"minecraft:default\",\"color\":\"white\",\"italic\":false}]','{\"translate\":\"genesis.lore.saturation.1\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"Speed II (0:10)\",\"color\":\"blue\",\"italic\":false}','{\"translate\":\"Weakness II (0:10)\",\"color\":\"blue\",\"italic\":false}']},CustomModelData:982104,HideFlags:195}"
               }
             ]
           }
