@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"steak_and_egg\",on_eat:{saturation:9}},display:{Name:'{\"translate\":\"Steak and Egg\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Meal\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"genesis.lore.saturation.9\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"A popular breakfast dish\",\"color\":\"gray\"}','{\"translate\":\"to get your day going!\",\"color\":\"gray\"}']},CustomModelData:982110,HideFlags:195}"
+                "tag": "{gen:{name:\"steak_and_egg\",on_eat:{saturation:9}},display:{Name:'{\"translate\":\"Steak and Egg\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Common Meal\",\"font\":\"minecraft:default\",\"color\":\"aqua\",\"italic\":false}]','{\"translate\":\"genesis.lore.saturation.9\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"A popular breakfast dish.\",\"color\":\"gray\"}','{\"translate\":\"to get your day going!\",\"color\":\"gray\"}']},CustomModelData:982110,HideFlags:195}"
               }
             ]
           }

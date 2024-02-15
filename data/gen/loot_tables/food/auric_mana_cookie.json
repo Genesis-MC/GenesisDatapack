@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cookie",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"auric_mana_cookie\",when_eaten_function:\"function gen:food/internal/effects/auric_mana_cookie\"},display:{Name:'{\"translate\":\"Auric Mana Cookie\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Rare Confectionary\",\"font\":\"minecraft:default\",\"color\":\"yellow\",\"italic\":false}]','{\"translate\":\"genesis.lore.saturation.2\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"Restores 35 mana.\",\"color\":\"white\",\"italic\":false}']},CustomModelData:982006,HideFlags:195}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
