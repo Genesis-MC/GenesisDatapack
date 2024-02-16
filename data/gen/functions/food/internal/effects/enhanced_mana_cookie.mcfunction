@@ -1,2 +1,2 @@
 
-scoreboard players add @s gen.mana.current 1500
+scoreboard players add @s gen.mana.current 2000
