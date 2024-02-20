@@ -1,7 +1,7 @@
 data modify storage gen:workstation cooking_pot.current_recipe set value "null"
 
 ## Template
-#execute if data storage gen:workstation recipe.output{ingredients:1,items:[{id:"minecraft:",Count:1}]} run data modify storage gen:workstation cooking_pot.current_recipe set value {output_item:{id:"minecraft:",Count:1b,tag:{},time:100}
+#execute if data storage gen:workstation recipe.output{ingredients:1,items:[{id:"minecraft:",Count:1}]} run data modify storage gen:workstation cooking_pot.current_recipe set value {loot_table:"gen:food/",time:100}
 
 #Hashbrown
 execute if data storage gen:workstation recipe.output{ingredients:3,items:[{id:"minecraft:potato",Count:3}]} run data modify storage gen:workstation cooking_pot.current_recipe set value {loot_table:"gen:food/hashbrown",time:100}
@@ -21,6 +21,10 @@ execute if data storage gen:workstation recipe.output{ingredients:6,items:[{id:"
 execute if data storage gen:workstation recipe.output{ingredients:4,items:[{id:"minecraft:bowl",Count:1},{id:"minecraft:red_mushroom",Count:1},{id:"minecraft:brown_mushroom",Count:1},{id:"minecraft:baked_potato",Count:1,tag:{gen:{name:"truffle"}}}]} run data modify storage gen:workstation cooking_pot.current_recipe set value {loot_table:"gen:food/truffle_mushroom_soup",time:200}
 #Violentil Salad
 execute if data storage gen:workstation recipe.output{ingredients:3,items:[{id:"minecraft:tropical_fish",Count:1,tag:{gen:{name:"violentil"}}},{id:"minecraft:azalea_leaves",Count:1},{id:"minecraft:tropical_fish",Count:1,tag:{gen:{name:"tomato"}}}]} run data modify storage gen:workstation cooking_pot.current_recipe set value {loot_table:"gen:food/violentil_salad",time:80}
+#Bundle of Drumsticks
+execute if data storage gen:workstation recipe.output{ingredients:3,items:[{id:"minecraft:tropical_fish",Count:3,tag:{gen:{name:"drumstick"}}}]} run data modify storage gen:workstation cooking_pot.current_recipe set value {loot_table:"gen:food/bundle_of_drumsticks",time:50}
+#Cattleya Crostini
+execute if data storage gen:workstation recipe.output{ingredients:2,items:[{id:"minecraft:bread",Count:1},{id:"minecraft:jigsaw",Count:1,tag:{gen:{name:"desert_cattleya"}}}]} run data modify storage gen:workstation cooking_pot.current_recipe set value {loot_table:"gen:food/cattleya_crostini",time:50}
 #Melon Candy
 execute if data storage gen:workstation recipe.output{ingredients:3,items:[{id:"minecraft:melon_slice",Count:1},{id:"minecraft:sugar",Count:1},{id:"minecraft:structure_block",Count:1,tag:{gen:{name:"cornstarch"}}}]} run data modify storage gen:workstation cooking_pot.current_recipe set value {loot_table:"gen:food/melon_candy",time:50}
 #Sakura Candy
