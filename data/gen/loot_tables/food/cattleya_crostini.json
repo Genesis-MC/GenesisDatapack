@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tropical_fish",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"cattleya_crostini\",when_eaten_function:\"function gen:food/internal/effects/cattleya_crostini\",on_eat:{saturation:6}},display:{Name:'{\"translate\":\"Cattleya Crostini\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Epic Snack\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"genesis.lore.saturation.6\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"Absorption 2 (0:20) - 50%\",\"color\":\"blue\",\"italic\":false}','{\"translate\":\"A beautifully decorated toasted bread.\",\"color\":\"gray\"}']},CustomModelData:982114,HideFlags:195}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
