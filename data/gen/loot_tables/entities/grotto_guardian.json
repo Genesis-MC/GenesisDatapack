@@ -5,7 +5,13 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "gen:professions/mineralogy/minerals/bedrock_mithril"
+            "name": "gen:professions/mineralogy/minerals/bedrock_mithril",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.5
+              }
+            ]
           }
         ]
       }

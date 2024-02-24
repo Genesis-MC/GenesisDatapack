@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:chest",
   "pools": [
     {
       "rolls": 12,
@@ -45,6 +44,19 @@
           ]
         },
         {
+          "type": "loot_table",
+          "weight": 30,
+          "quality": 1,
+          "name": "gen:treasure/salt_node",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+              }
+            
+          ]
+        },
+        {
           "type": "item",
           "weight": 40,
           "name": "minecraft:gold_block",
@@ -68,7 +80,7 @@
         },
         {
           "type": "item",
-          "weight": 60,
+          "weight": 55,
           "name": "minecraft:gold_ingot",
           "functions": [
             {
@@ -79,7 +91,7 @@
         },
         {
           "type": "loot_table",
-          "weight": 60,
+          "weight": 55,
           "name": "gen:ingredients/calimari",
           "functions": [
             {
@@ -90,7 +102,7 @@
         },
         {
           "type": "item",
-          "weight": 60,
+          "weight": 55,
           "name": "minecraft:gold_nugget",
           "functions": [
             {
