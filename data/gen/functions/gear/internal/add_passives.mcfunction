@@ -56,8 +56,8 @@ execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"vorpol"}}}}] run functio
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"fading_dusk"}}}}] run advancement grant @s only gen:passive nightfall
 
 ##Stance Swap
-execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"glaive"}}}}] run advancement grant @s only gen:passive active_stance_swap_onslaught
-execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"zweihander"}}}}] run advancement grant @s only gen:passive active_stance_swap_onslaught
+execute if entity @s[tag=gen.active.stance_swap_onslaught] run function gen:gear/internal/passives/decrease/stance_swap_onslaught
+
 
 
 ##Armorsets
