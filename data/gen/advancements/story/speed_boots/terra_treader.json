@@ -24,7 +24,7 @@
                         "items": [
                             "minecraft:diamond_boots"
                         ],
-                        "nbt": "{gen:{name:\"Terra-Treader Boots\"}}"
+                        "nbt": "{gen:{name:\"terratreader_boots\"}}"
                     }
                 ]
             }

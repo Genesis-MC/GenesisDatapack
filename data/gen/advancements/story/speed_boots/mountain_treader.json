@@ -24,7 +24,7 @@
                         "items": [
                             "minecraft:chainmail_boots"
                         ],
-                        "nbt": "{gen:{name:\"Mountain-Treader Boots\"}}"
+                        "nbt": "{gen:{name:\"mountaintreader_boots\"}}"
                     }
                 ]
             }

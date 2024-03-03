@@ -24,7 +24,7 @@
                         "items": [
                             "minecraft:netherite_boots"
                         ],
-                        "nbt": "{gen:{name:\"7-League Boots\"}}"
+                        "nbt": "{gen:{name:\"7league_boots\"}}"
                     }
                 ]
             }

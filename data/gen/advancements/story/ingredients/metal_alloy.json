@@ -6,7 +6,7 @@
         },
         "title": "Heavy Metal",
         "description": {
-            "translate": "Create Metal Alloy",
+            "translate": "Create a Metal Alloy",
             "color": "gray"
         },
         "frame": "task",
@@ -24,7 +24,7 @@
                         "items": [
                             "minecraft:iron_nugget"
                         ],
-                        "nbt": "{gen:{name:\"Metal Alloy\"}}"
+                        "nbt": "{gen:{name:\"metal_alloy\"}}"
                     }
                 ]
             }

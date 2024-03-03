@@ -6,7 +6,7 @@
         },
         "title": "Burden of Protection",
         "description": {
-            "text": "Create a full set of Steel Andure armor",
+            "text": "Create a full set of Reinforced Steel Andure Armor",
             "color": "gray"
         },
         "frame": "goal",
@@ -24,7 +24,7 @@
                         "items": [
                             "minecraft:iron_helmet"
                         ],
-                        "nbt": "{gen:{name:\"Reinforced Steel Andure Helmet\"}}"
+                        "nbt": "{gen:{name:\"reinforced_steel_andure_helmet\"}}"
                     }
                 ]
             }
@@ -37,7 +37,7 @@
                         "items": [
                             "minecraft:iron_chestplate"
                         ],
-                        "nbt": "{gen:{name:\"Reinforced Steel Andure Chestplate\"}}"
+                        "nbt": "{gen:{name:\"reinforced_steel_andure_chestplate\"}}"
                     }
                 ]
             }
@@ -50,7 +50,7 @@
                         "items": [
                             "minecraft:iron_leggings"
                         ],
-                        "nbt": "{gen:{name:\"Reinforced Steel Andure Leggings\"}}"
+                        "nbt": "{gen:{name:\"reinforced_steel_andure_leggings\"}}"
                     }
                 ]
             }
@@ -63,7 +63,7 @@
                         "items": [
                             "minecraft:iron_boots"
                         ],
-                        "nbt": "{gen:{name:\"Reinforced Steel Andure Boots\"}}"
+                        "nbt": "{gen:{name:\"reinforced_steel_andure_boots\"}}"
                     }
                 ]
             }

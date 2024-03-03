@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:structure_block",
+            "nbt": "{CustomModelData:982001}"
+        },
+      "title": "Is it alive?",
+      "description": {
+        "text": "Obtain Crystal Buds from breaking budding amethyst.",
+        "color": "gray"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gen:story/root",
+    "criteria": {
+        "boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:structure_block"
+                        ],
+                        "nbt": "{gen:{name:\"crystal_buds\"}}"
+                    }
+                ]
+            }
+        }
+    }
+  }
