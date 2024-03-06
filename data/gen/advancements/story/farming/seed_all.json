@@ -1,0 +1,121 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:player_head",
+        "nbt": "{CustomModelData:982007}"
+    },
+      "title": "A Seedier World",
+      "description": {
+        "text": "Obtain all custom Genesis seeds",
+        "color": "gray"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gen:story/farming/seed_any",
+    "criteria": {
+      "mana_bean_seed": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:player_head"
+              ],
+              "nbt": "{gen:{name:\"mana_bean_seed\"}}"
+            }
+          ]
+        }
+      },
+      "tomato_seed": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:player_head"
+              ],
+              "nbt": "{gen:{name:\"tomato_seed\"}}"
+            }
+          ]
+        }
+      },
+      "heartbeet_seed": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:player_head"
+              ],
+              "nbt": "{gen:{name:\"heartbeet_seed\"}}"
+            }
+          ]
+        }
+      },
+      "violentil_seed": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:player_head"
+              ],
+              "nbt": "{gen:{name:\"violentil_seed\"}}"
+            }
+          ]
+        }
+      },
+      "corn_seed": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:player_head"
+              ],
+              "nbt": "{gen:{name:\"corn_seed\"}}"
+            }
+          ]
+        }
+      },
+      "desert_cattleya_seed": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:player_head"
+              ],
+              "nbt": "{gen:{name:\"desert_cattleya_seed\"}}"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "mana_bean_seed"
+      ],
+      [
+        "tomato_seed"
+      ],
+      [
+        "heartbeet_seed"
+      ],
+      [
+        "violentil_seed"
+      ],
+      [
+        "corn_seed"
+      ],
+      [
+        "desert_cattleya_seed"
+      ]
+    ],
+    "rewards": {
+      "function": "gen:player_events/increase_level"
+    }
+  }

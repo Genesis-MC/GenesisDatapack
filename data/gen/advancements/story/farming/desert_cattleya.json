@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:jigsaw",
+        "nbt": "{CustomModelData:982002}"
+    },
+      "title": "Flower of the Oasis",
+      "description": {
+        "text": "Obtain a Desert Cattleya",
+        "color": "gray"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gen:story/farming/mana_bean",
+    "criteria": {
+      "desert_cattleya": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:jigsaw"
+              ],
+              "nbt": "{gen:{name:\"desert_cattleya\"}}"
+            }
+          ]
+        }
+      }
+    }
+  }

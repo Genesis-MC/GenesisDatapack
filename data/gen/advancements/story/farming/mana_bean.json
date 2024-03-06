@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:tropical_fish",
+        "nbt": "{CustomModelData:982004}"
+    },
+      "title": "Not quite a Magic Beanstalk",
+      "description": {
+        "text": "Obtain a Mana Bean",
+        "color": "gray"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gen:story/farming/seed_any",
+    "criteria": {
+      "desert_cattleya": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:tropical_fish"
+              ],
+              "nbt": "{gen:{name:\"mana_bean\"}}"
+            }
+          ]
+        }
+      }
+    }
+  }

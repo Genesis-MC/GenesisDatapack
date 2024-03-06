@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_nugget",
+            "item": "minecraft:structure_block",
             "nbt": "{CustomModelData:982035}"
         },
         "title": "Heavy Metal",
@@ -22,7 +22,7 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:iron_nugget"
+                            "minecraft:structure_block"
                         ],
                         "nbt": "{gen:{name:\"metal_alloy\"}}"
                     }
