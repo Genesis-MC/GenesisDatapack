@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:amethyst_shard",
+        "nbt": "{CustomModelData:982020}"
+    },
+      "title": "Mineral Connoisseur",
+      "description": {
+        "text": "Obtain a Legendary Mineral",
+        "color": "gray"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gen:story/mineralogy/mineral_rare",
+    "criteria": {
+      "mineral": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:amethyst_shard"
+              ],
+              "nbt": "{gen:{type:[\"Legendary\"]}}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "gen:player_events/increase_level"
+    }
+  }

@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:amethyst_shard",
+        "nbt": "{CustomModelData:982023}"
+    },
+      "title": "My Precious..",
+      "description": {
+        "text": "Obtain a Mythical Mineral",
+        "color": "gray"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gen:story/mineralogy/mineral_legendary",
+    "criteria": {
+      "mineral": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:amethyst_shard"
+              ],
+              "nbt": "{gen:{type:[\"Mythical\"]}}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "gen:player_events/increase_level"
+    }
+  }

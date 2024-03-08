@@ -16,7 +16,7 @@
     },
     "parent": "gen:story/root",
     "criteria": {
-        "boots": {
+        "crystal_buds": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

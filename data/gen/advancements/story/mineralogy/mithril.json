@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:amethyst_shard",
+        "nbt": "{CustomModelData:982010}"
+    },
+      "title": "True Silver",
+      "description": {
+        "text": "Obtain a Mithril",
+        "color": "gray"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gen:story/mineralogy/crystal_buds",
+    "criteria": {
+      "mithril": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:amethyst_shard"
+              ],
+              "nbt": "{gen:{name:\"mithril\"}}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "gen:player_events/increase_level"
+    }
+  }

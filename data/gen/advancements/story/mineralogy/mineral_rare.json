@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:amethyst_shard",
+        "nbt": "{CustomModelData:982014}"
+    },
+      "title": "Mineral Enthusiast",
+      "description": {
+        "text": "Obtain a Rare Mineral",
+        "color": "gray"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gen:story/mineralogy/mineral_any",
+    "criteria": {
+      "mineral": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:amethyst_shard"
+              ],
+              "nbt": "{gen:{type:[\"Rare\"]}}"
+            }
+          ]
+        }
+      }
+    }
+  }
