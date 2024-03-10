@@ -2,7 +2,7 @@
     "display": {
       "icon": {
         "item": "minecraft:amethyst_shard",
-        "nbt": "{CustomModelData:982020}"
+        "nbt": "{CustomModelData:982021}"
     },
       "title": "Mineral Connoisseur",
       "description": {

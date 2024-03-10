@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:structure_block",
+            "nbt": "{CustomModelData:982012}"
+        },
+      "title": "Is it alive?",
+      "description": {
+        "text": "Create a Pink Enhancement Crystal to upgrade your Crystalarium to Tier 3",
+        "color": "gray"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gen:story/mineralogy/yellow_enhancement_crystal",
+    "criteria": {
+        "crystal_buds": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:structure_block"
+                        ],
+                        "nbt": "{gen:{name:\"pink_enhancement_crystal\"}}"
+                    }
+                ]
+            }
+        }
+    }
+  }

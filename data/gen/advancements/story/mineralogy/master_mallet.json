@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_axe",
+            "nbt": "{CustomModelData:982005}"
+        },
+      "title": "Mineralogy Mastery",
+      "description": {
+        "text": "Upgrade your mallet all the way to a Master's Mallet",
+        "color": "gray"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gen:story/mineralogy/crystal_dust",
+    "criteria": {
+        "crystal_buds": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:stone_axe"
+                        ],
+                        "nbt": "{gen:{name:\"masters_mallet\"}}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+      "function": "gen:player_events/increase_level"
+    }
+  }

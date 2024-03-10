@@ -9,7 +9,7 @@
         "text": "Obtain a Mythical Mineral",
         "color": "gray"
       },
-      "frame": "goal",
+      "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false

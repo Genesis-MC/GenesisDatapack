@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glowstone_dust",
+            "nbt": "{CustomModelData:982001}"
+        },
+      "title": "From Jewels to Dust",
+      "description": {
+        "text": "Obtain Crystal Dust by grinding down a mineral using a mallet",
+        "color": "gray"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gen:story/mineralogy/crystal_buds",
+    "criteria": {
+        "crystal_buds": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:glowstone_dust"
+                        ],
+                        "nbt": "{gen:{name:\"crystal_dust\"}}"
+                    }
+                ]
+            }
+        }
+    }
+  }

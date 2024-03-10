@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:structure_block",
+            "nbt": "{CustomModelData:982015}"
+        },
+      "title": "Is it alive?",
+      "description": {
+        "text": "Create a Cerulean Enhancement Crystal to upgrade your Crystalarium to Tier 5",
+        "color": "gray"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gen:story/mineralogy/crimson_enhancement_crystal",
+    "criteria": {
+        "crystal_buds": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:structure_block"
+                        ],
+                        "nbt": "{gen:{name:\"cerulean_enhancement_crystal\"}}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+      "function": "gen:player_events/increase_level"
+    }
+  }

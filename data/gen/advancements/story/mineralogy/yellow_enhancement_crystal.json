@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:structure_block",
+            "nbt": "{CustomModelData:982013}"
+        },
+      "title": "Is it alive?",
+      "description": {
+        "text": "Create a Yellow Enhancement Crystal to upgrade your Crystalarium to Tier 2",
+        "color": "gray"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "gen:story/mineralogy/crystal_node",
+    "criteria": {
+        "crystal_buds": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:structure_block"
+                        ],
+                        "nbt": "{gen:{name:\"yellow_enhancement_crystal\"}}"
+                    }
+                ]
+            }
+        }
+    }
+  }
