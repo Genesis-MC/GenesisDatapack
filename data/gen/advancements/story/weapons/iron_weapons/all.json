@@ -1,12 +1,12 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_chestplate",
-            "nbt": "{Trim:{material:\"minecraft:iron\",pattern:\"minecraft:sentry\"}}"
+            "item": "minecraft:warped_fungus_on_a_stick",
+            "nbt": "{CustomModelData:982005}"
         },
-        "title": "Clad in layered Steel",
+        "title": "Armed to the Teeth",
         "description": {
-            "text": "Create a full set of Steel Andure Armor",
+            "translate": "Create all the new iron weapons",
             "color": "gray"
         },
         "frame": "goal",
@@ -16,54 +16,54 @@
     },
     "parent": "gen:story/weapons/iron_weapons/any",
     "criteria": {
-        "head": {
+        "greatsword": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "minecraft:iron_helmet"
+                            "minecraft:warped_fungus_on_a_stick"
                         ],
-                        "nbt": "{gen:{name:\"steel_andure_helmet\"}}"
+                        "nbt": "{gen:{name:\"iron_greatsword\"}}"
                     }
                 ]
             }
         },
-        "chest": {
+        "dagger": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "minecraft:iron_chestplate"
+                            "minecraft:warped_fungus_on_a_stick"
                         ],
-                        "nbt": "{gen:{name:\"steel_andure_chestplate\"}}"
+                        "nbt": "{gen:{name:\"iron_dagger\"}}"
                     }
                 ]
             }
         },
-        "legs": {
+        "scythe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "minecraft:iron_leggings"
+                            "minecraft:warped_fungus_on_a_stick"
                         ],
-                        "nbt": "{gen:{name:\"steel_andure_leggings\"}}"
+                        "nbt": "{gen:{name:\"iron_scythe\"}}"
                     }
                 ]
             }
         },
-        "feet": {
+        "spear": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "minecraft:iron_boots"
+                            "minecraft:warped_fungus_on_a_stick"
                         ],
-                        "nbt": "{gen:{name:\"steel_andure_boots\"}}"
+                        "nbt": "{gen:{name:\"iron_spear\"}}"
                     }
                 ]
             }

@@ -1,12 +1,12 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_chestplate",
-            "nbt": "{Trim:{material:\"minecraft:iron\",pattern:\"minecraft:sentry\"}}"
+            "item": "minecraft:netherite_chestplate",
+            "nbt": "{Trim:{material:\"minecraft:redstone\",pattern:\"minecraft:coast\"}}"
         },
-        "title": "Clad in layered Steel",
+        "title": "Immovable Titan",
         "description": {
-            "text": "Create a full set of Steel Andure Armor",
+            "text": "Create a full set of Dreadnaught Armor",
             "color": "gray"
         },
         "frame": "goal",
@@ -14,7 +14,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "gen:story/weapons/iron_weapons/any",
+    "parent": "gen:story/armorsets/reinforced_steel_andure",
     "criteria": {
         "head": {
             "trigger": "minecraft:inventory_changed",
@@ -22,9 +22,9 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:iron_helmet"
+                            "minecraft:netherite_helmet"
                         ],
-                        "nbt": "{gen:{name:\"steel_andure_helmet\"}}"
+                        "nbt": "{gen:{name:\"dreadnaught_helmet\"}}"
                     }
                 ]
             }
@@ -35,9 +35,9 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:iron_chestplate"
+                            "minecraft:netherite_chestplate"
                         ],
-                        "nbt": "{gen:{name:\"steel_andure_chestplate\"}}"
+                        "nbt": "{gen:{name:\"dreadnaught_chestplate\"}}"
                     }
                 ]
             }
@@ -48,9 +48,9 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:iron_leggings"
+                            "minecraft:netherite_leggings"
                         ],
-                        "nbt": "{gen:{name:\"steel_andure_leggings\"}}"
+                        "nbt": "{gen:{name:\"dreadnaught_leggings\"}}"
                     }
                 ]
             }
@@ -61,9 +61,9 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:iron_boots"
+                            "minecraft:netherite_boots"
                         ],
-                        "nbt": "{gen:{name:\"steel_andure_boots\"}}"
+                        "nbt": "{gen:{name:\"dreadnaught_boots\"}}"
                     }
                 ]
             }

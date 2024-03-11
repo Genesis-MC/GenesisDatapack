@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:warped_fungus_on_a_stick",
+            "nbt": "{CustomModelData:982030}"
+        },
+        "title": "Ice Age",
+        "description": {
+            "translate": "Create an Everfrost Titanblade",
+            "color": "gray"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "gen:story/weapons/harbinger_of_winter",
+    "criteria": {
+        "weapon": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:warped_fungus_on_a_stick"
+                        ],
+                        "nbt": "{gen:{name:\"everfrost_titanblade\"}}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+      "function": "gen:player_events/increase_level"
+    }
+}

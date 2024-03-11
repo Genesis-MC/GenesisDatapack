@@ -1,0 +1,47 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:structure_block",
+            "nbt": "{CustomModelData:982021}"
+        },
+        "title": "Superalloy",
+        "description": {
+            "translate": "Create either a Crimson Alloy or a Warped Alloy",
+            "color": "gray"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "gen:story/ingredients/metal_alloy",
+    "criteria": {
+        "crimson_alloy": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:structure_block"
+                        ],
+                        "nbt": "{gen:{name:\"crimson_alloy\"}}"
+                    }
+                ]
+            }
+        },
+        "warped_alloy": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:structure_block"
+                        ],
+                        "nbt": "{gen:{name:\"warped_alloy\"}}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [[ "crimson_alloy", "warped_alloy"]]
+}

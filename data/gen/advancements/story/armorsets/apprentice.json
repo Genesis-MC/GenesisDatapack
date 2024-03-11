@@ -1,12 +1,12 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:warped_fungus_on_a_stick",
-            "nbt": "{CustomModelData:982005}"
+            "item": "minecraft:leather_chestplate",
+            "nbt": "{display:{color:6323083},Trim:{material:\"minecraft:diamond\",pattern:\"minecraft:vex\"}}"
         },
-        "title": "Armed to the Teeth",
+        "title": "Student of Magic",
         "description": {
-            "translate": "Create all the new iron weapons",
+            "text": "Create a full set of Apprentice Armor",
             "color": "gray"
         },
         "frame": "goal",
@@ -14,56 +14,56 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "gen:story/iron_weapons/any",
+    "parent": "gen:story/heavy_workbench",
     "criteria": {
-        "greatsword": {
+        "head": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "minecraft:warped_fungus_on_a_stick"
+                            "minecraft:leather_helmet"
                         ],
-                        "nbt": "{gen:{name:\"iron_greatsword\"}}"
+                        "nbt": "{gen:{name:\"apprentice_hat\"}}"
                     }
                 ]
             }
         },
-        "dagger": {
+        "chest": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "minecraft:warped_fungus_on_a_stick"
+                            "minecraft:leather_chestplate"
                         ],
-                        "nbt": "{gen:{name:\"iron_dagger\"}}"
+                        "nbt": "{gen:{name:\"apprentice_robe\"}}"
                     }
                 ]
             }
         },
-        "scythe": {
+        "legs": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "minecraft:warped_fungus_on_a_stick"
+                            "minecraft:leather_leggings"
                         ],
-                        "nbt": "{gen:{name:\"iron_scythe\"}}"
+                        "nbt": "{gen:{name:\"apprentice_trousers\"}}"
                     }
                 ]
             }
         },
-        "spear": {
+        "feet": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "minecraft:warped_fungus_on_a_stick"
+                            "minecraft:leather_boots"
                         ],
-                        "nbt": "{gen:{name:\"iron_spear\"}}"
+                        "nbt": "{gen:{name:\"apprentice_boots\"}}"
                     }
                 ]
             }

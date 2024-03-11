@@ -16,7 +16,7 @@
               "function": "minecraft:set_name",
               "name": {
                 "translate": "block.gen.workstation.cooking_pot",
-                "italic": "false"
+                "italic": false
               }
             },
             {
@@ -24,7 +24,7 @@
               "lore": [
                 {
                   "translate": "genesis.lore.rarity.0",
-                  "italic": "false",
+                  "italic": false,
                   "color": "white",
                   "with": [
                     {
@@ -39,7 +39,7 @@
                 },
                 {
                   "translate": "block.gen.workstation.cooking_pot.lore",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gray"
                 }
               ]

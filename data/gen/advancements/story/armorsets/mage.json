@@ -1,12 +1,12 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_chestplate",
-            "nbt": "{Trim:{material:\"minecraft:iron\",pattern:\"minecraft:sentry\"}}"
+            "item": "minecraft:leather_chestplate",
+            "nbt": "{display:{color:36095},Trim:{material:\"minecraft:diamond\",pattern:\"minecraft:vex\"}}"
         },
-        "title": "Clad in layered Steel",
+        "title": "Magic Adept",
         "description": {
-            "text": "Create a full set of Steel Andure Armor",
+            "text": "Create a full set of Mage Armor",
             "color": "gray"
         },
         "frame": "goal",
@@ -14,7 +14,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "gen:story/weapons/iron_weapons/any",
+    "parent": "gen:story/armorsets/apprentice",
     "criteria": {
         "head": {
             "trigger": "minecraft:inventory_changed",
@@ -22,9 +22,9 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:iron_helmet"
+                            "minecraft:leather_helmet"
                         ],
-                        "nbt": "{gen:{name:\"steel_andure_helmet\"}}"
+                        "nbt": "{gen:{name:\"mage_hat\"}}"
                     }
                 ]
             }
@@ -35,9 +35,9 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:iron_chestplate"
+                            "minecraft:leather_chestplate"
                         ],
-                        "nbt": "{gen:{name:\"steel_andure_chestplate\"}}"
+                        "nbt": "{gen:{name:\"mage_robe\"}}"
                     }
                 ]
             }
@@ -48,9 +48,9 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:iron_leggings"
+                            "minecraft:leather_leggings"
                         ],
-                        "nbt": "{gen:{name:\"steel_andure_leggings\"}}"
+                        "nbt": "{gen:{name:\"mage_trousers\"}}"
                     }
                 ]
             }
@@ -61,9 +61,9 @@
                 "items": [
                     {
                         "items": [
-                            "minecraft:iron_boots"
+                            "minecraft:leather_boots"
                         ],
-                        "nbt": "{gen:{name:\"steel_andure_boots\"}}"
+                        "nbt": "{gen:{name:\"mage_boots\"}}"
                     }
                 ]
             }

@@ -4,7 +4,7 @@
             "item": "minecraft:structure_block",
             "nbt": "{CustomModelData:982013}"
         },
-      "title": "Is it alive?",
+      "title": "Artificial Cultivation II",
       "description": {
         "text": "Create a Yellow Enhancement Crystal to upgrade your Crystalarium to Tier 2",
         "color": "gray"
@@ -16,7 +16,7 @@
     },
     "parent": "gen:story/mineralogy/crystal_node",
     "criteria": {
-        "crystal_buds": {
+        "enhancement_crystal": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:warped_fungus_on_a_stick",
+            "nbt": "{CustomModelData:982008}"
+        },
+        "title": "Forging with shadows",
+        "description": {
+            "translate": "Create a Shaded Dagger",
+            "color": "gray"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "gen:story/heavy_workbench",
+    "criteria": {
+        "weapon": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:warped_fungus_on_a_stick"
+                        ],
+                        "nbt": "{gen:{name:\"shaded_dagger\"}}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -4,7 +4,7 @@
             "item": "minecraft:structure_block",
             "nbt": "{CustomModelData:982012}"
         },
-      "title": "Is it alive?",
+      "title": "Artificial Cultivation III",
       "description": {
         "text": "Create a Pink Enhancement Crystal to upgrade your Crystalarium to Tier 3",
         "color": "gray"
@@ -16,7 +16,7 @@
     },
     "parent": "gen:story/mineralogy/yellow_enhancement_crystal",
     "criteria": {
-        "crystal_buds": {
+        "enhancement_crystal": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
