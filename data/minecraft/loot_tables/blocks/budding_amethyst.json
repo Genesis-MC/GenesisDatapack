@@ -22,7 +22,7 @@
             {
               "condition": "minecraft:match_tool",
               "predicate": {
-                "nbt": "{gen:{name:\"Prismatic Pickaxe\"}}"
+                "nbt": "{gen:{name:\"prismatic_pickaxe\"}}"
               }
             }
           ]
