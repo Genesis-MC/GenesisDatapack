@@ -112,5 +112,7 @@ execute as @a[advancements={gen:passive={mage3=true}},tag=!gen.passive.arcanist_
 execute as @a[tag=gen.passive.arcanist_mage,advancements={gen:passive={mage3=false}}] run function gen:gear/internal/passives/decrease/arcanist_mage
 execute as @a[advancements={gen:passive={archmage2=true}},tag=!gen.passive.arcanist_archmage] run function gen:gear/internal/passives/increase/arcanist_archmage
 execute as @a[tag=gen.passive.arcanist_archmage,advancements={gen:passive={archmage2=false}}] run function gen:gear/internal/passives/decrease/arcanist_archmage
-#Riptide
+
+##Gear Classes
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"riptide"}}}}] run scoreboard players add @s gen.class.elemental 1
+execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{gen:{name:"dunestride"}}}]}] run scoreboard players add @s gen.class.elemental 1
