@@ -3,11 +3,11 @@
 ####################
 
 ## Genesis specific features for keeping the mallet in the crafting grid for mineralogy profesion
-execute if data storage smithed.crafter:input {recipe:[{tag:{gen:{name:"Novice's Mallet"}}}]} run scoreboard players set @s gen.temp 1
-execute if data storage smithed.crafter:input {recipe:[{tag:{gen:{name:"Apprentice's Mallet"}}}]} run scoreboard players set @s gen.temp 2
-execute if data storage smithed.crafter:input {recipe:[{tag:{gen:{name:"Journeyman's Mallet"}}}]} run scoreboard players set @s gen.temp 3
-execute if data storage smithed.crafter:input {recipe:[{tag:{gen:{name:"Expert's Mallet"}}}]} run scoreboard players set @s gen.temp 4
-execute if data storage smithed.crafter:input {recipe:[{tag:{gen:{name:"Master's Mallet"}}}]} run scoreboard players set @s gen.temp 5
+execute if data storage smithed.crafter:input {recipe:[{tag:{gen:{name:"novices_mallet"}}}]} run scoreboard players set @s gen.temp 1
+execute if data storage smithed.crafter:input {recipe:[{tag:{gen:{name:"apprentices_mallet"}}}]} run scoreboard players set @s gen.temp 2
+execute if data storage smithed.crafter:input {recipe:[{tag:{gen:{name:"journeymans_mallet"}}}]} run scoreboard players set @s gen.temp 3
+execute if data storage smithed.crafter:input {recipe:[{tag:{gen:{name:"experts_mallet"}}}]} run scoreboard players set @s gen.temp 4
+execute if data storage smithed.crafter:input {recipe:[{tag:{gen:{name:"masters_mallet"}}}]} run scoreboard players set @s gen.temp 5
 
 tag @s remove smithed.crafter.assembled_output
 execute as @a[distance=..12, sort=nearest, tag=smithed.inside_crafter] run function smithed.crafter:v0.2.0/block/table/crafting/output/cursor_check/main
