@@ -1,8 +1,8 @@
 
 execute if entity @s[nbt=!{SelectedItem:{}}] run return 0
 scoreboard players set #temp_for_toggling gen.temp 0
-execute if entity @s[nbt={SelectedItem:{tag:{HideFlags:195}}}] run scoreboard players set #temp_for_toggling gen.temp 1
-execute if entity @s[nbt={SelectedItem:{tag:{HideFlags:194}}}] run scoreboard players set #temp_for_toggling gen.temp 2
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",tag:{HideFlags:195}}}] run scoreboard players set #temp_for_toggling gen.temp 1
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",tag:{HideFlags:194}}}] run scoreboard players set #temp_for_toggling gen.temp 2
 
 #if genesis item & enchanting mode is off
 execute if score #temp_for_toggling gen.temp matches 1 run data modify storage gen:enchant_toggle item_nbt set from entity @s SelectedItem.tag
