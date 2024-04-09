@@ -1,180 +1,151 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:wheat_seeds",
-            "weight": 9,
-            "functions": [
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 3
-                },
-                "conditions": [
-                  {
-                    "condition": "minecraft:match_tool",
-                    "predicate": {
-                      "enchantments": [
-                        {
-                          "enchantment": "minecraft:fortune",
-                          "levels": 1
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 5
-                },
-                "conditions": [
-                  {
-                    "condition": "minecraft:match_tool",
-                    "predicate": {
-                      "enchantments": [
-                        {
-                          "enchantment": "minecraft:fortune",
-                          "levels": 2
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "function": "minecraft:set_count",
-                "count": {
-                  "min": 1,
-                  "max": 7
-                },
-                "conditions": [
-                  {
-                    "condition": "minecraft:match_tool",
-                    "predicate": {
-                      "enchantments": [
-                        {
-                          "enchantment": "minecraft:fortune",
-                          "levels": 3
-                        }
-                      ]
-                    }
-                  }
-                ]
-              },
-              {
-                "function": "minecraft:set_count",
-                "count": 0,
-                "conditions": [
-                  {
-                    "condition": "minecraft:match_tool",
-                    "predicate": {
-                      "items": [
-                        "minecraft:shears"
-                      ]
-                    }
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "minecraft:loot_table",
-            "name": "gen:crops/seeds/corn",
-            "weight": 1
-          },
-          {
-            "type": "minecraft:loot_table",
-            "name": "gen:crops/seeds/tomato",
-            "weight": 1
-          },
-          {
-            "type": "minecraft:loot_table",
-            "name": "gen:crops/seeds/manabean",
-            "weight": 1,
-            "conditions": [
-              {
-                "condition": "minecraft:weather_check",
-                "raining": true
-              }
-            ]
-          },
-          {
-            "type": "minecraft:loot_table",
-            "name": "gen:crops/seeds/heartbeet",
-            "weight": 1,
-            "conditions": [
-              {
-                "condition": "minecraft:location_check",
-                "predicate": {
-                  "biome": "minecraft:cherry_grove"
-                }
-              }
-            ]
-          },
-          {
-            "type": "minecraft:loot_table",
-            "name": "gen:crops/seeds/violentil",
-            "weight": 1,
-            "conditions": [
-              {
-                "condition": "minecraft:location_check",
-                "predicate": {
-                  "biome": "minecraft:sunflower_plains"
-                }
-              }
-            ]
-          },
-          {
-            "type": "minecraft:loot_table",
-            "name": "gen:crops/seeds/desert_cattleya",
-            "weight": 1,
-            "conditions": [
-              {
-                "condition": "minecraft:weather_check",
-                "thundering": true
-              },
-              {
-                "condition": "minecraft:location_check",
-                "predicate": {
-                  "biome": "minecraft:desert"
-                }
-              }
-            ]
-          }
-        ],
-        "conditions": [
-          {
-            "condition": "minecraft:random_chance",
-            "chance": 0.125
-          }
-        ]
-      },
-      {
-        "rolls": 1,
+  "pools": [
+    {
+      "rolls": 1,
       "entries": [
         {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat_seeds",
+          "weight": 9,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:fortune",
+                        "levels": 1
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:fortune",
+                        "levels": 2
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 7
+              },
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:fortune",
+                        "levels": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
           "type": "minecraft:loot_table",
-            "name": "gen:core/item/grass"
+          "name": "gen:crops/seeds/corn",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "gen:crops/seeds/tomato",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "gen:crops/seeds/mana_bean",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "raining": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "gen:crops/seeds/heartbeet",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "minecraft:cherry_grove"
+              }
+            }
+          ]
         }
       ],
       "conditions": [
         {
-          "condition": "minecraft:match_tool",
-          "predicate": {
-            "items": [
-              "minecraft:shears"
-            ]
-          }
+          "condition": "minecraft:random_chance",
+          "chance": 0.125
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 0,
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "items": [
+                  "minecraft:shears"
+                ]
+              }
+            }
+          ]
         }
       ]
-    }
-  ]
+    },
+    {
+    "rolls": 1,
+    "entries": [
+      {
+        "type": "minecraft:item",
+        "name": "minecraft:grass"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": [
+            "minecraft:shears"
+          ]
+        }
+      }
+    ]
+  }
+]
 }
-  
