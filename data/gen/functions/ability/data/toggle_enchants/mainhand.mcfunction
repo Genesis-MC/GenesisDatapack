@@ -6,7 +6,7 @@ execute if entity @s[nbt={SelectedItem:{id:"minecraft:stone_sword",tag:{HideFlag
 
 #if genesis item & enchanting mode is off
 execute if score #temp_for_toggling gen.temp matches 1 run data modify storage gen:enchant_toggle item_nbt set from entity @s SelectedItem.tag
-execute if score #temp_for_toggling gen.temp matches 1 run item replace entity @s weapon.mainhand with stone_sword
+execute if score #temp_for_toggling gen.temp matches 1 run item replace entity @s weapon.mainhand with stone_sword{Unbreakable:1b}
 execute if score #temp_for_toggling gen.temp matches 1 run item modify entity @s weapon.mainhand gen:toggle_enchants/show_gen
 execute if score #temp_for_toggling gen.temp matches 1 run return 0
 #if genesis item & enchanting mode is on
