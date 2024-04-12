@@ -9,4 +9,4 @@ execute if score @s gen.profession.mineralogy.growth_level matches 4 unless bloc
 execute if score @s gen.profession.mineralogy.growth_level matches 4 unless block ~ ~1 ~ #amethyst_cluster_variant if entity @s[tag=Tier5] positioned ~ ~1 ~ run loot spawn ~ ~ ~ loot gen:professions/mineralogy/crystalarium/tier5
 
 #Reset growth level
-execute if score @s gen.profession.mineralogy.growth_level matches 4 unless block ~ ~1 ~ #amethyst_cluster_variant run scoreboard players set @s gen.profession.mineralogy.growth_level 0
+execute unless block ~ ~1 ~ #amethyst_cluster_variant run scoreboard players set @s gen.profession.mineralogy.growth_level 0
