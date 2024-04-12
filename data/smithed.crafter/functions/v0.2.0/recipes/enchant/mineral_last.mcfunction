@@ -4,6 +4,7 @@ data modify entity @s HandItems[0] set from block ~ ~ ~ Items[0]
 #Offhand is set to mineral
 data modify entity @s HandItems[1] set from block ~ ~ ~ Items[1]
 
+item replace block ~ ~ ~ container.16 with air
 #Apply enchants
 data modify entity @s HandItems[1].tag.Enchantments append from entity @s HandItems[1].tag.StoredEnchantments[]
 item modify entity @s weapon.mainhand gen:enchant_mineral/fix_duplicate_enchants
