@@ -29,7 +29,10 @@ execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"red_spacehelmet"
 execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"green_spacehelmet"}}}]}] run advancement grant @s only gen:passive suspicious_presence
 execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"yellow_spacehelmet"}}}]}] run advancement grant @s only gen:passive suspicious_presence
 execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"pink_spacehelmet"}}}]}] run advancement grant @s only gen:passive suspicious_presence
-
+#Ghastly Chestplate
+execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gen:{name:"ghastly_chestplate"}}}]}] run advancement grant @s only gen:passive steadfast
+#Ethereal Chestplate
+execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gen:{name:"ethereal_chestplate"}}}]}] run advancement grant @s only gen:passive steadfast
 
 ##Mainhand Items
 #Recluse Fang
