@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_chestplate"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_nbt",
+            "tag": "{gen:{name:\"ethereal_chestplate\",type:\"Chestplate\",stat:{armor:80,armor_toughness:10,relic_power:5}},AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Name:\"tungsten.chest\",Amount:-0.000000000001,Operation:0,UUID:[I;12,42069,-0,13],Slot:\"chest\"}],display:{color:6992089,Name:'{\"translate\":\"Ethereal Chestplate\",\"color\":\"dark_aqua\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Epic Chestplate\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"\",\"font\":\"genesis:stats\",\"color\":\"white\",\"italic\":false,\"extra\":[{\"translate\":\"genesis.stats.wrapper.armor.2\",\"with\":[80]},{\"translate\":\"genesis.stats.wrapper.armor_toughness.2\",\"with\":[10]},{\"translate\":\"genesis.stats.wrapper.relic_power.1\",\"with\":[5]}]}','{\"translate\":\"\"}','[{\"translate\":\"❂\",\"color\":\"#403303\",\"bold\":true,\"italic\":false},{\"translate\":\" Steadfast\",\"color\":\"gold\",\"bold\":false,\"italic\":false}]','{\"translate\":\"Passive Ability\",\"color\":\"dark_gray\"}','{\"translate\":\"Every 12 seconds, after taking damage, gain\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"+100 Knockback Resistance for 5 seconds.\",\"color\":\"gray\",\"italic\":false}']},Unbreakable:1b,HideFlags:195,Trim:{material:\"minecraft:quartz\",pattern:\"minecraft:eye\"}}"
+          }
+        ]
+      }
+    ]
+  }
