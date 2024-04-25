@@ -32,5 +32,11 @@ execute as @a[advancements={gen:passive={frostveil3=true}}] at @s as @e[distance
 execute as @a[advancements={gen:passive={suspicious_presence=true}}] if predicate gen:gear/only_helmet run effect give @s invisibility 2 0 true
 #Fortitude of the Undying
 execute as @a[advancements={gen:passive={dreadnaught4=true}},tag=!gen.passive.fortitude_of_the_undying] if score @s gen.passive.fortitude matches ..49 run scoreboard players add @s gen.passive.fortitude 1
+#steadfast
+execute as @a[tag=gen.passive.steadfast,advancements={gen:passive={steadfast=true}}] if score @s gen.passive.steadfast_cd matches 7 run function gen:gear/internal/passives/decrease/steadfast
+execute as @a[tag=gen.passive.steadfast,advancements={gen:passive={steadfast=false}}] run function gen:gear/internal/passives/decrease/steadfast
+execute as @a if score @s gen.passive.steadfast_cd matches 1.. run scoreboard players remove @s gen.passive.steadfast_cd 1
+
+execute as @e[tag=gen.ability.firebird] at @s run function gen:ability/data/helper_functions/firebird
 
 schedule function gen:gear/internal/secupdate 1s replace

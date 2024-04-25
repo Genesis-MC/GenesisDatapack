@@ -144,6 +144,9 @@
         },
         "nightfall": {
             "trigger": "minecraft:impossible"
+        },
+        "steadfast": {
+            "trigger": "minecraft:impossible"
         }
     },
     "requirements": 
@@ -196,7 +199,8 @@
             "dreadnaught3",
             "dreadnaught4",
             "lifeline1",
-            "nightfall"
+            "nightfall",
+            "steadfast"
         ]
     ]
 }
