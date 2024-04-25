@@ -120,5 +120,3 @@ execute as @a[tag=gen.passive.arcanist_archmage,advancements={gen:passive={archm
 
 ##Gear Classes
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"riptide"}}}}] run scoreboard players add @s gen.class.elemental 1
-execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{gen:{name:"dunestride"}}}]}] run scoreboard players add @s gen.class.elemental 1
-execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"atmosphere"}}}]}] run scoreboard players add @s gen.class.elemental 1
