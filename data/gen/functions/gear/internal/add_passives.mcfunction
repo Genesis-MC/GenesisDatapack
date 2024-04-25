@@ -54,7 +54,8 @@ execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"saber_crimson"}}}}] run 
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"saber_warped"}}}}] run advancement grant @s only gen:passive warped_pact
 #Vorpol
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"vorpol"}}}}] run advancement grant @s only gen:passive time_dilation
-execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"vorpol"}}}}] run function gen:gear/internal/passives/increase/time_dilation 
+execute if entity @s[tag=!gen.passive.time_dilation,advancements={gen:passive={time_dilation=true}}] run function gen:gear/internal/passives/increase/time_dilation 
+execute if entity @s[tag=gen.passive.time_dilation,advancements={gen:passive={time_dilation=false}}] run function gen:gear/internal/passives/decrease/time_dilation
 #Fading Dusk
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"fading_dusk"}}}}] run advancement grant @s only gen:passive nightfall
 
@@ -107,6 +108,7 @@ execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"dreadnaught_helm
 execute if entity @s[nbt={Inventory:[{Slot:102b,tag:{gen:{name:"dreadnaught_chestplate"}}}]}] run function gen:gear/internal/set_bonus/dreadnaught
 execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{gen:{name:"dreadnaught_leggings"}}}]}] run function gen:gear/internal/set_bonus/dreadnaught
 execute if entity @s[nbt={Inventory:[{Slot:100b,tag:{gen:{name:"dreadnaught_boots"}}}]}] run function gen:gear/internal/set_bonus/dreadnaught
+execute if entity @s[tag=gen.passive.heavy_metal,advancements={gen:passive={dreadnaught2=false}}] run function gen:gear/internal/passives/decrease/heavy_metal
 
 #Arcanist
 execute as @a[advancements={gen:passive={apprentice4=true}},tag=!gen.passive.arcanist_apprentice] run function gen:gear/internal/passives/increase/arcanist_apprentice
@@ -119,3 +121,4 @@ execute as @a[tag=gen.passive.arcanist_archmage,advancements={gen:passive={archm
 ##Gear Classes
 execute if entity @s[nbt={SelectedItem:{tag:{gen:{name:"riptide"}}}}] run scoreboard players add @s gen.class.elemental 1
 execute if entity @s[nbt={Inventory:[{Slot:101b,tag:{gen:{name:"dunestride"}}}]}] run scoreboard players add @s gen.class.elemental 1
+execute if entity @s[nbt={Inventory:[{Slot:103b,tag:{gen:{name:"atmosphere"}}}]}] run scoreboard players add @s gen.class.elemental 1
