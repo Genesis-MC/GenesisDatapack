@@ -14,8 +14,8 @@ execute if score @s gen.biome_difficulty matches 2 run scoreboard players set #b
 execute if score @s gen.biome_difficulty matches 3 run scoreboard players set #biome_diff_percentage gen.temp 10
 execute if score @s gen.biome_difficulty matches 4 run scoreboard players set #biome_diff_percentage gen.temp 5
 execute if score @s gen.biome_difficulty matches 5 run scoreboard players set #biome_diff_percentage gen.temp 0
-execute if score @s gen.biome_difficulty matches 6 run scoreboard players set #biome_diff_percentage gen.temp 5
-execute if score @s gen.biome_difficulty matches 7 run scoreboard players set #biome_diff_percentage gen.temp 10
-execute if score @s gen.biome_difficulty matches 8 run scoreboard players set #biome_diff_percentage gen.temp 15
-execute if score @s gen.biome_difficulty matches 9 run scoreboard players set #biome_diff_percentage gen.temp 20
-execute if score @s gen.biome_difficulty matches 10 run scoreboard players set #biome_diff_percentage gen.temp 25
+execute if score @s gen.biome_difficulty matches 6 run scoreboard players set #biome_diff_percentage gen.temp 3
+execute if score @s gen.biome_difficulty matches 7 run scoreboard players set #biome_diff_percentage gen.temp 5
+execute if score @s gen.biome_difficulty matches 8 run scoreboard players set #biome_diff_percentage gen.temp 10
+execute if score @s gen.biome_difficulty matches 9 run scoreboard players set #biome_diff_percentage gen.temp 14
+execute if score @s gen.biome_difficulty matches 10 run scoreboard players set #biome_diff_percentage gen.temp 18

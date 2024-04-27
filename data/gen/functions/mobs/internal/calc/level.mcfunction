@@ -15,11 +15,11 @@ tag @s remove this
 #3 : -2 -10%
 #4 : -1 -5%
 #5 : 0
-#6 : +3 +5%
-#7 : +5 +10%
-#8 : +7 +15%
-#9 : +9 +20%
-#10 : +10 +25%
+#6 : +3 +3%
+#7 : +5 +5%
+#8 : +7 +10%
+#9 : +9 +14%
+#10 : +10 +18%
 #(Ex: Lets say I have a Player Level of 5 and the current World Level is 3, which is the default. A #mob spawns next to me in a plains biome, which is a difficulty 1 biome. The mob's base level would #be 5+3=8. Since we are in a difficulty 1 biome, the level would be skewed by -5 and -20%, which is 8-(0.2 x 8)-5 = 1.4 ~ 1) 
 # calls a function so we can return early and more readable
 function gen:mobs/internal/calc/biome_difficulty_scaling/root_number
