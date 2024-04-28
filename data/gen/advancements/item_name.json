@@ -185,7 +185,7 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "requirements":
+    "requirements": 
     [
         [
             "mountaintreader_boots",
@@ -247,7 +247,8 @@
             "archmage_boots",
             "dreadnaught_helmet",
             "dreadnaught_chestplate",
-            "dreadnaught_leggings"
+            "dreadnaught_leggings",
+            "dreadnaught_boots"
         ]
     ]
 }

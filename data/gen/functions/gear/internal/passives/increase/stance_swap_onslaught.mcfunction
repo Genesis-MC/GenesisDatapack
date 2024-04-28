@@ -1,4 +1,4 @@
-say increase
+
 scoreboard players set #div gen.math 10
 scoreboard players operation @s gen.active.stance_swap_onslaught_statboost = @s gen.stat.attack_speed
 scoreboard players operation @s gen.active.stance_swap_onslaught_statboost /= #div gen.math
