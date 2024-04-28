@@ -22,7 +22,6 @@ data modify storage gen:passive gear.item_name set from entity @s Inventory[{Slo
 function gen:gear/internal/apply_passive with storage gen:passive gear
 
 ## Weapons + Standalone Armor
-advancement grant @s only gen:item_name 
 execute if entity @s[advancements={gen:item_name={mountaintreader_boots=true}}] run advancement grant @s only gen:passive unfetteredI
 execute if entity @s[advancements={gen:item_name={phantomtreader_boots=true}}] run advancement grant @s only gen:passive unfetteredI
 execute if entity @s[advancements={gen:item_name={cloudtreader_boots=true}}] run advancement grant @s only gen:passive unfetteredI
@@ -99,8 +98,8 @@ execute if entity @s[tag=gen.active.stance_swap_onslaught] run function gen:gear
 execute if entity @s[tag=gen.passive.heavy_metal,advancements={gen:passive={dreadnaught2=false}}] run function gen:gear/internal/passives/decrease/heavy_metal
 
 #Time Dilation
-execute if entity @s[tag=!gen.passive.time_dilation,advancements={gen:passive={time_dilation=true}}] run function gen:gear/internal/passives/increase/time_dilation 
-execute if entity @s[tag=gen.passive.time_dilation,advancements={gen:passive={time_dilation=false}}] run function gen:gear/internal/passives/decrease/time_dilation
+execute if entity @s[advancements={gen:passive={time_dilation=true}}] run function gen:gear/internal/passives/increase/time_dilation 
+execute if entity @s[advancements={gen:passive={time_dilation=false}}] run function gen:gear/internal/passives/decrease/time_dilation
 
 #Arcanist
 execute as @a[advancements={gen:passive={apprentice4=true}},tag=!gen.passive.arcanist_apprentice] run function gen:gear/internal/passives/increase/arcanist_apprentice
