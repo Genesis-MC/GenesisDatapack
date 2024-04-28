@@ -38,7 +38,7 @@
               },
               {
                 "condition": "minecraft:random_chance",
-                "chance": 0.6
+                "chance": 0.4
               }
             ]
           }
@@ -59,12 +59,12 @@
                   "score": "gen.mobs.level"
                 },
                 "range": {
-                  "min": 15
+                  "min": 20
                 }
               },
               {
                 "condition": "minecraft:random_chance",
-                "chance": 0.8
+                "chance": 0.7
               }
             ]
           }

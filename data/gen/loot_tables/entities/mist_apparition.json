@@ -1,5 +1,19 @@
 {
-    "pools": [
-      
-    ]
-  }
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gen:ingredients/crystal_scale"
+        }
+      ],
+      "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.5
+          }
+        ]
+    }
+  ]
+}
