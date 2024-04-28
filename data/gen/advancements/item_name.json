@@ -1,0 +1,253 @@
+{
+    "criteria": 
+    {
+        "mountaintreader_boots": {
+            "trigger": "minecraft:impossible"
+        },
+        "phantomtreader_boots": {
+            "trigger": "minecraft:impossible"
+        },
+        "cloudtreader_boots": {
+            "trigger": "minecraft:impossible"
+        },
+        "terratreader_boots": {
+            "trigger": "minecraft:impossible"
+        },
+        "7league_boots": {
+            "trigger": "minecraft:impossible"
+        },
+        "hunters_vest": {
+            "trigger": "minecraft:impossible"
+        },
+        "rangers_vest": {
+            "trigger": "minecraft:impossible"
+        },
+        "blue_spacehelmet": {
+            "trigger": "minecraft:impossible"
+        },
+        "red_spacehelmet": {
+            "trigger": "minecraft:impossible"
+        },
+        "green_spacehelmet": {
+            "trigger": "minecraft:impossible"
+        },
+        "yellow_spacehelmet": {
+            "trigger": "minecraft:impossible"
+        },
+        "pink_spacehelmet": {
+            "trigger": "minecraft:impossible"
+        },
+        "ghastly_chestplate": {
+            "trigger": "minecraft:impossible"
+        },
+        "ethereal_chestplate": {
+            "trigger": "minecraft:impossible"
+        },
+        "recluse_fang": {
+            "trigger": "minecraft:impossible"
+        },
+        "venomlash_fang": {
+            "trigger": "minecraft:impossible"
+        },
+        "overgrown_greatsword": {
+            "trigger": "minecraft:impossible"
+        },
+        "frostfang": {
+            "trigger": "minecraft:impossible"
+        },
+        "harbinger_of_winter": {
+            "trigger": "minecraft:impossible"
+        },
+        "hailstone_blade": {
+            "trigger": "minecraft:impossible"
+        },
+        "saber_crimson": {
+            "trigger": "minecraft:impossible"
+        },
+        "saber_warped": {
+            "trigger": "minecraft:impossible"
+        },
+        "vorpol": {
+            "trigger": "minecraft:impossible"
+        },
+        "fading_dusk": {
+            "trigger": "minecraft:impossible"
+        },
+        "riptide": {
+            "trigger": "minecraft:impossible"
+        },
+        "steel_andure_helmet": {
+            "trigger": "minecraft:impossible"
+        },
+        "steel_andure_chestplate": {
+            "trigger": "minecraft:impossible"
+        },
+        "steel_andure_leggings": {
+            "trigger": "minecraft:impossible"
+        },
+        "steel_andure_boots": {
+            "trigger": "minecraft:impossible"
+        },
+        "reinforced_steel_andure_helmet": {
+            "trigger": "minecraft:impossible"
+        },
+        "reinforced_steel_andure_chestplate": {
+            "trigger": "minecraft:impossible"
+        },
+        "reinforced_steel_andure_leggings": {
+            "trigger": "minecraft:impossible"
+        },
+        "reinforced_steel_andure_boots": {
+            "trigger": "minecraft:impossible"
+        },
+        "shaded_helmet": {
+            "trigger": "minecraft:impossible"
+        },
+        "shaded_chestplate": {
+            "trigger": "minecraft:impossible"
+        },
+        "shaded_leggings": {
+            "trigger": "minecraft:impossible"
+        },
+        "shaded_boots": {
+            "trigger": "minecraft:impossible"
+        },
+        "voidbreach_helmet": {
+            "trigger": "minecraft:impossible"
+        },
+        "voidbreach_chestplate": {
+            "trigger": "minecraft:impossible"
+        },
+        "voidbreach_leggings": {
+            "trigger": "minecraft:impossible"
+        },
+        "voidbreach_boots": {
+            "trigger": "minecraft:impossible"
+        },
+        "frostveil_helmet": {
+            "trigger": "minecraft:impossible"
+        },
+        "frostveil_chestplate": {
+            "trigger": "minecraft:impossible"
+        },
+        "frostveil_leggings": {
+            "trigger": "minecraft:impossible"
+        },
+        "frostveil_boots": {
+            "trigger": "minecraft:impossible"
+        },
+        "apprentice_hat": {
+            "trigger": "minecraft:impossible"
+        },
+        "apprentice_robe": {
+            "trigger": "minecraft:impossible"
+        },
+        "apprentice_trousers": {
+            "trigger": "minecraft:impossible"
+        },
+        "apprentice_boots": {
+            "trigger": "minecraft:impossible"
+        },
+        "mage_hat": {
+            "trigger": "minecraft:impossible"
+        },
+        "mage_robe": {
+            "trigger": "minecraft:impossible"
+        },
+        "mage_trousers": {
+            "trigger": "minecraft:impossible"
+        },
+        "mage_boots": {
+            "trigger": "minecraft:impossible"
+        },
+        "archmage_hat": {
+            "trigger": "minecraft:impossible"
+        },
+        "archmage_robe": {
+            "trigger": "minecraft:impossible"
+        },
+        "archmage_trousers": {
+            "trigger": "minecraft:impossible"
+        },
+        "archmage_boots": {
+            "trigger": "minecraft:impossible"
+        },
+        "dreadnaught_helmet": {
+            "trigger": "minecraft:impossible"
+        },
+        "dreadnaught_chestplate": {
+            "trigger": "minecraft:impossible"
+        },
+        "dreadnaught_leggings": {
+            "trigger": "minecraft:impossible"
+        },
+        "dreadnaught_boots": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements":
+    [
+        [
+            "mountaintreader_boots",
+            "phantomtreader_boots",
+            "cloudtreader_boots",
+            "terratreader_boots",
+            "7league_boots",
+            "hunters_vest",
+            "rangers_vest",
+            "blue_spacehelmet",
+            "red_spacehelmet",
+            "green_spacehelmet",
+            "yellow_spacehelmet",
+            "pink_spacehelmet",
+            "ghastly_chestplate",
+            "ethereal_chestplate",
+            "recluse_fang",
+            "venomlash_fang",
+            "overgrown_greatsword",
+            "frostfang",
+            "harbinger_of_winter",
+            "hailstone_blade",
+            "saber_crimson",
+            "saber_warped",
+            "vorpol",
+            "fading_dusk",
+            "riptide",
+            "steel_andure_helmet",
+            "steel_andure_chestplate",
+            "steel_andure_leggings",
+            "steel_andure_boots",
+            "reinforced_steel_andure_helmet",
+            "reinforced_steel_andure_chestplate",
+            "reinforced_steel_andure_leggings",
+            "reinforced_steel_andure_boots",
+            "shaded_helmet",
+            "shaded_chestplate",
+            "shaded_leggings",
+            "shaded_boots",
+            "voidbreach_helmet",
+            "voidbreach_chestplate",
+            "voidbreach_leggings",
+            "voidbreach_boots",
+            "frostveil_helmet",
+            "frostveil_chestplate",
+            "frostveil_leggings",
+            "frostveil_boots",
+            "apprentice_hat",
+            "apprentice_robe",
+            "apprentice_trousers",
+            "apprentice_boots",
+            "mage_hat",
+            "mage_robe",
+            "mage_trousers",
+            "mage_boots",
+            "archmage_hat",
+            "archmage_robe",
+            "archmage_trousers",
+            "archmage_boots",
+            "dreadnaught_helmet",
+            "dreadnaught_chestplate",
+            "dreadnaught_leggings"
+        ]
+    ]
+}
