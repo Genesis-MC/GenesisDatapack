@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_chestplate"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_nbt",
+            "tag": "{gen:{name:\"Perfect Strategy\",type:\"Chestplate\",stat:{health:200,armor:-500}},AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Name:\"tungsten.chest\",Amount:-0.000000000001,Operation:0,UUID:[I;12,42069,-0,13],Slot:\"chest\"}],display:{color:2883378,Name:'{\"translate\":\"Perfect Strategy\",\"color\":\"white\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Epic Chestplate\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"\",\"font\":\"genesis:stats\",\"color\":\"white\",\"italic\":false,\"extra\":[{\"translate\":\"genesis.stats.wrapper.health.3\",\"with\":[200]},{\"translate\":\"genesis.stats.wrapper.armor.4\",\"with\":[-500],\"color\":\"red\"}]}','{\"translate\":\"\"}']},Unbreakable:1b,HideFlags:195,Trim:{material:\"minecraft:redstone\",pattern:\"minecraft:silence\"}}"
+          }
+        ]
+      }
+    ]
+  }
