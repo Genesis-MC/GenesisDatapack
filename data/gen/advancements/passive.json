@@ -147,6 +147,12 @@
         },
         "steadfast": {
             "trigger": "minecraft:impossible"
+        },
+        "peerless_arcana": {
+            "trigger": "minecraft:impossible"
+        },
+        "overgrowth": {
+            "trigger": "minecraft:impossible"
         }
     },
     "requirements": 
@@ -200,7 +206,9 @@
             "dreadnaught4",
             "lifeline1",
             "nightfall",
-            "steadfast"
+            "steadfast",
+            "peerless_arcana",
+            "overgrowth"
         ]
     ]
 }

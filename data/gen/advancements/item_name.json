@@ -183,6 +183,12 @@
         },
         "dreadnaught_boots": {
             "trigger": "minecraft:impossible"
+        },
+        "treant_trousers": {
+            "trigger": "minecraft:impossible"
+        },
+        "cowl_of_the_overseer": {
+            "trigger": "minecraft:impossible"
         }
     },
     "requirements": 
@@ -248,7 +254,9 @@
             "dreadnaught_helmet",
             "dreadnaught_chestplate",
             "dreadnaught_leggings",
-            "dreadnaught_boots"
+            "dreadnaught_boots",
+            "treant_trousers",
+            "cowl_of_the_overseer"
         ]
     ]
 }

@@ -51,6 +51,7 @@ execute if entity @s[advancements={gen:item_name={saber_crimson=true}}] run adva
 execute if entity @s[advancements={gen:item_name={saber_warped=true}}] run advancement grant @s only gen:passive warped_pact
 execute if entity @s[advancements={gen:item_name={vorpol=true}}] run advancement grant @s only gen:passive time_dilation
 execute if entity @s[advancements={gen:item_name={fading_dusk=true}}] run advancement grant @s only gen:passive nightfall
+execute if entity @s[advancements={gen:item_name={treant_trousers=true}}] run advancement grant @s only gen:passive overgrowth
 
 ## Armorsets
 execute if entity @s[advancements={gen:item_name={steel_andure_helmet=true}}] run function gen:gear/internal/set_bonus/steelandure
@@ -100,6 +101,10 @@ execute if entity @s[tag=gen.passive.heavy_metal,advancements={gen:passive={drea
 #Time Dilation
 execute if entity @s[advancements={gen:passive={time_dilation=true}}] run function gen:gear/internal/passives/increase/time_dilation 
 execute if entity @s[advancements={gen:passive={time_dilation=false}}] run function gen:gear/internal/passives/decrease/time_dilation
+
+#Overgrowth
+execute if entity @s[advancements={gen:passive={overgrowth=true}}] run function gen:gear/internal/passives/increase/overgrowth
+execute if entity @s[advancements={gen:passive={overgrowth=false}}] run function gen:gear/internal/passives/decrease/overgrowth
 
 #Arcanist
 execute as @a[advancements={gen:passive={apprentice4=true}},tag=!gen.passive.arcanist_apprentice] run function gen:gear/internal/passives/increase/arcanist_apprentice
