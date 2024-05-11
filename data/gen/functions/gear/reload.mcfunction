@@ -14,6 +14,7 @@ scoreboard objectives add gen.passive.fortitude dummy
 scoreboard players set @a gen.passive.fortitude 0
 scoreboard objectives add gen.passive.steadfast_cd dummy
 scoreboard players set @a gen.passive.steadfast_cd 0
+scoreboard objectives add gen.passive.overgrowth_statboost dummy
 
 #Activated Abilities
 scoreboard objectives add gen.active.polar_vortex_timer dummy
