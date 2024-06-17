@@ -5,22 +5,13 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "gen:treasure/pirates_bounty"
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:loot_table",
             "name": "gen:ingredients/ancient_gold_coin",
             "functions": [
               {
                 "function": "minecraft:set_count",
                 "count": {
-                  "min": 3,
-                  "max": 6
+                  "min": 4,
+                  "max": 7
                 }
               }
             ]
