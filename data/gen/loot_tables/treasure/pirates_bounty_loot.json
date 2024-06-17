@@ -5,10 +5,10 @@
       "bonus_rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "weight": 6,
+          "type": "minecraft:loot_table",
+          "weight": 1,
           "quality": 1,
-          "name": "gen:gear/standalone/heartguard",
+          "name": "gen:gear/weapons/lady_luck",
           "functions": [
             {
               "function": "set_count",
@@ -18,16 +18,13 @@
         },
         {
           "type": "loot_table",
-          "weight": 10,
+          "weight": 6,
           "quality": 1,
-          "name": "gen:ingredients/ancient_gold_coin",
+          "name": "gen:gear/standalone/heartguard",
           "functions": [
             {
               "function": "set_count",
-              "count": {
-                "min": 2,
-                "max": 5
-              }
+              "count": 1
             }
           ]
         },
