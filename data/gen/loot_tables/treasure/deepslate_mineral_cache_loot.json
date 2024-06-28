@@ -26,8 +26,13 @@
           },
           {
             "type": "minecraft:item",
-            "weight": 92,
+            "weight": 82,
             "name": "minecraft:tuff"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 7,
+            "name": "gen:ingredients/shard_of_the_depths"
           }
         ]
       }
