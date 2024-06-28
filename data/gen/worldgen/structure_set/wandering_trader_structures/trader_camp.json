@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "gen:wandering_trader_structures/trader_camp",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 42,
+      "separation": 35,
+      "salt": 1140592612
+    }
+  }
+  
