@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 8,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "name": "gen:food/bewitched_mana_cookie"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "name": "gen:food/enhanced_mana_cookie"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 3,
+            "name": "gen:food/caramelized_apple"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 2,
+            "name": "gen:food/sakura_candy"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 2,
+            "name": "gen:food/melon_candy"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 3,
+            "name": "gen:food/mana_cookie"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,47 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 10,
+        "bonus_rolls": 0.5,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "name": "gen:gear/standalone/atmosphere"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "name": "gen:gear/weapons/cloud_sail"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:spyglass"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 3,
+            "name": "gen:food/truffle_mushroom_soup"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:coal_block"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:phantom_membrane"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "minecraft:book"
+          }
+        ]
+      }
+    ]
+  }
+  
