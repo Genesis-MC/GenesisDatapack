@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": 
+    [
+  "minecraft:meadow",
+  "minecraft:cherry_grove",
+  "minecraft:grove",
+  "minecraft:snowy_slopes",
+  "minecraft:frozen_peaks",
+  "minecraft:jagged_peaks",
+  "minecraft:stony_peaks"
+    ],
+    "spawn_overrides": {},
+    "start_pool": "gen:airballoons/airship_tower",
+    "size": 6,
+    "step": "surface_structures",
+    "start_height": {
+      "absolute": 0
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "max_distance_from_center": 80,
+    "use_expansion_hack": false
+  }
+  

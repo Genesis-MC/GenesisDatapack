@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "gen:airballoons/airship_tower",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 52,
+      "separation": 22,
+      "salt": 1140592612
+    }
+  }
+  
