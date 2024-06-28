@@ -39,17 +39,6 @@
                 "chance": 0.002
               }
             ]
-          },
-          {
-            "type": "minecraft:loot_table",
-            "name": "gen:treasure/heart_of_the_depths",
-            "weight": 1,
-            "conditions": [
-              {
-                "condition": "minecraft:random_chance",
-                "chance": 0.0005
-              }
-            ]
           }
         ]
     }
