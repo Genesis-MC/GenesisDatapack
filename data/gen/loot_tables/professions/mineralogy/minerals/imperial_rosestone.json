@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:amethyst_shard",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"imperial_rosestone\",type:[\"Epic\"],mineral:1b},display:{Name:'{\"text\":\"Imperial Rosestone\",\"color\":\"#FF9EF2\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Epic Mineral\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"Mending I\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982026,StoredEnchantments:[{id:\"minecraft:mending\",lvl:1s}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

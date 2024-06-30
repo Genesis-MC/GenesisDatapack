@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:amethyst_shard",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"seraphinite\",type:[\"Legendary\"],mineral:1b},display:{Name:'{\"text\":\"Seraphinite\",\"color\":\"dark_aqua\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Legendary Mineral\",\"font\":\"minecraft:default\",\"color\":\"#3b2b06\",\"italic\":false}]','{\"translate\":\"Feather Falling VI\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982028,StoredEnchantments:[{id:\"minecraft:feather_falling\",lvl:6s}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
