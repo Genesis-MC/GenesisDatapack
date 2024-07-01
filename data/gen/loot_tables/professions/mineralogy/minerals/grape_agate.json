@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{gen:{name:\"grape_agate\",type:[\"Mythical\"],mineral:1b},display:{Name:'{\"text\":\"Grape Agate\",\"color\":\"light_purple\",\"italic\":false,\"bold\":false,\"underlined\":false}',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Mythical Mineral\",\"font\":\"minecraft:default\",\"color\":\"#211905\",\"italic\":false}]','{\"translate\":\"Sweeping Edge IV\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982027,StoredEnchantments:[{id:\"minecraft:sweeping\",lvl:4s}]}"
+                "tag": "{gen:{name:\"grape_agate\",type:[\"Mythical\"],mineral:1b},display:{Name:'[{\"text\":\"G\",\"color\":\"#CFF9FF\",\"bold\":false,\"italic\":false,\"underlined\":false},{\"text\":\"r\",\"color\":\"#F3B8FF\"},{\"text\":\"a\",\"color\":\"#CFF9FF\"},{\"text\":\"p\",\"color\":\"#F3B8FF\"},{\"text\":\"e \",\"color\":\"#CFF9FF\"},{\"text\":\"A\",\"color\":\"#F3B8FF\"},{\"text\":\"g\",\"color\":\"#CFF9FF\"},{\"text\":\"a\",\"color\":\"#F3B8FF\"},{\"text\":\"t\",\"color\":\"#CFF9FF\"},{\"text\":\"e\",\"color\":\"#F3B8FF\"}]',Lore:['[{\"text\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"text\":\"Mythical Mineral\",\"font\":\"minecraft:default\",\"color\":\"#211905\",\"italic\":false}]','{\"translate\":\"Sweeping Edge IV\",\"color\":\"gray\",\"italic\":false}']},CustomModelData:982027,StoredEnchantments:[{id:\"minecraft:sweeping\",lvl:4s}]}"
               }
             ]
           }

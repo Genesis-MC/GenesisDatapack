@@ -1,0 +1,45 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:player_head",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{gen:{name:\"mineral_cluster\"},display:{Name:'{\"translate\":\"Mineral Cluster\",\"color\":\"white\",\"italic\":false,\"bold\":false}',Lore:['[{\"translate\":\"A\",\"font\":\"genesis:icon\",\"color\":\"white\",\"italic\":false},{\"translate\":\"Epic Treasure\",\"font\":\"minecraft:default\",\"color\":\"light_purple\",\"italic\":false}]','{\"translate\":\"\"}','{\"translate\":\"The higher the purity, the better the loot!\",\"color\":\"gray\"}']},HideFlags:131,genesis:{phead:{detect:1b}},SkullOwner:{Name:\"genesis.block.mrlcluster.9\",Id:[I;-455737959,-860729457,-1258616045,-406608575],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWMyY2NkMjliMzJkNDkxZWIxYjE4MzY5M2EyZjM1NjVmY2Y2MmVmMTI3N2Q4Njc3NGM0ODJiNzU3NzY1YmY5NSJ9fX0=\"}]}}}"
+              },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Purity: ",
+                  "color": "white",
+                  "italic": false,
+                  "extra": [
+                    {
+                      "score": {
+                        "name": "#mineral_cluster_purity",
+                        "objective": "gen.temp"
+                      },
+                      "extra": [
+                        {
+                          "text": "%"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "mode": "append"
+            }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

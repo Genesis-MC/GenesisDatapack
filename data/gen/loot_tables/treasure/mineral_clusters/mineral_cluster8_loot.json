@@ -1,0 +1,54 @@
+{
+    "pools": [
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 6,
+            "name": "gen:professions/mineralogy/crystalarium/rare_minerals"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 3,
+            "name": "gen:professions/mineralogy/crystalarium/epic_minerals"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "name": "gen:professions/mineralogy/crystalarium/legendary_minerals"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "name": "gen:professions/mineralogy/crystalarium/mythical_minerals"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 3,
+            "name": "gen:professions/mineralogy/minerals/imperial_rosestone"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 3,
+            "name": "gen:professions/mineralogy/minerals/azurite"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 3,
+            "name": "gen:professions/mineralogy/minerals/seraphinite"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "name": "gen:professions/mineralogy/minerals/grape_agate"
+          }
+        ]
+      }
+    ]
+  }
